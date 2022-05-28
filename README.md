@@ -1,58 +1,34 @@
-# Adv-Knowledge-Reasoning 
-**(TO BE COMPLETE)** So far, this repository could:
-- construct a cykersecurity knowledge graph
-- run the constructed KG with [GQE](https://arxiv.org/abs/1806.01445) and [Query2Box](https://arxiv.org/abs/2002.05969) models
-
-## Sources
-
-**Data Source**
-
-We construct Cybersecurity KG with recorded CVEs ([link](https://www.cvedetails.com/browse-by-date.php)), from which we crawled vulnerability-related information such as affected vendor, product, version, vulnerability types, descriptions, relevant CWE, etc. One can refer to `./data/cyberkg/crawler.ipynb` to check the information we crawled. We construct a Cybersecurity KG with queries/answers in `gen_cyberkg.py`.
-
-**Model Source**
-
-Here are currently used models:
-
-- [x] [BetaE](https://arxiv.org/abs/2010.11465)
-- [x] [Query2box](https://arxiv.org/abs/2002.05969)
-- [x] [GQE](https://arxiv.org/abs/1806.01445)
-
-We use the released codes from [this repository](https://github.com/snap-stanford/KGReasoning).
+# IBM - Sysflow - CyberKG 
+This repository contains packages and running demo using sysflow + CyberKG. The sysflow data and a constructed KG are provided.
 
 ## Guide
 
 We organize the structure of our files as follows:
 ```latex
 .
-├──  data/
-│   └──  cyberkg/              # constructed KG may also saved in this dir by default
-│       ├──  cve_url/          # collected CVE web links from 1999 to 2019
-│       └──  crawler.ipynb     # crawling scripts that takes cve_url/ as inputs
-├──  genkg/
-│   ├──  cyberkg_backbone.py   # parse crawled data and construct a cyberkg
-│   ├──  cyberkg_query.py      # generate queries and answers
-│   └──  cyberkg_utils.py      # utility functions specific to generate cyberkg and QA
-├──  dataloader.py              
-├──  gen_cyberkg.py            # run this file to generate a cyberkg and QA, see details below
-├──  main.py                   # main file for reasoning
-├──  models.py                  
-├──  READEME.md
-└──  util.py                    
+└──  cyberkg_sysflow/
+    ├──  pkg/                    # packages called by notebook demo
+    │   ├──  cwe_miti.py         # CWE-mitigation related codes, used to synthesize mitigation phases
+    │   ├──  sim_cve_tech.py     # calculating tf-idf similarity between CVE and TTP descriptions
+    │   ├──  sim_mitre.py        # calculating tf-idf similarity between MITRE projects (e.g., TTP mitigation and defence)
+    │   └──  sysflow.py          # sysflow-related functions
+    │
+    ├──  save/                   # temporary save dir for different demo
+    │   ├──  cwe_miti/           # temporary save dir for CWE-related data
+    │   ├──  mitre-attack/       # temporary save dir for MITRE ATT&CK data
+    │   └──  mitre-defend        # temporary save dir for MITRE D3FEND data
+    │
+    ├──  sysflow_data/           # parsed and raw sysflow instances
+    │
+    ├──  crawler - mitre attack.ipynb/             # crawling codes for MITRE ATT&CK data
+    ├──  crawler - mitre defend.ipynb/             # crawling codes for MITRE D3FEND data
+    ├──  crawler - nvd.ipynb/                      # crawling codes for NVD data
+    ├──  demo - prioritize ttp.ipynb/              # find the prioritized TTPs within a TTP set
+    ├──  demo - summariatize mitigation.ipynb/     # explore potential mitigations/defences for a given TTP
+    ├──  demo - sysflow.ipynb/                     # linking demo about TTP/sysflow -> CVE -> CWE
+    ├──  demo - ttp cluster.ipynb/                 # cluster TTPs with a given TTP set (tentative codes)
+    ├──  demo - wordcloud.ipynb/                   # wordcloud codes
+    ├──  ttp_comb.py                               # formal codes of clustering TTPs
+    └──  ttp_prediction.py                         # predict TTPs by GCN, using sysflow graphs
+      
 
-```
-
-**Run the Code**
-
-To run the code, one needs to first construct a CyberKG and its QA, then feed them to a model for downstream reasoning task.
-
-- **Step1** : You may need the crawled CVE files from [link](https://github.com/HarrialX/knowledge-base), where you need to first download the `./data/cyberkg-raw/` into you local disk recorded as `<raw path>`.
-
-- **Step2** : To construct a CyberKG with corresponding QA, one can directly run `python gen_cyberkg.py --raw_path <raw path>`, where the `<raw path>` are the load path of your saved raw CVE information. Instead of using all crawled CVE-IDs, our codes filter them with specific vendors and products: if a vendor has number of products within a threshold, and when a product has number of versions within another threshold, we will keep them and keep their related CVE-IDs. We then remove the graph edges (konwledge facts) that contains removed entities. You can adjust those two thresholds by `python gen_cyberkg.py --raw_path <raw path> --pd_num_thre <low int boundary> <high int boundary> --ver_num_thre <low int boundary> <high int boundary>`.
-
-- **Step3** : After generating train/test queries and answers, you can use the exampled commands presented in the [original repository](https://github.com/snap-stanford/KGReasoning).
-
-We also provide a runnable demo in `demo.sh` for an easily use, but you have to download the crawled CVE files from [link](https://github.com/HarrialX/knowledge-base) and change argparser `raw_path` in `gen_cyberkg.py`.
-
-
-
-# IBM-sysflow-KG

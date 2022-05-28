@@ -15,8 +15,8 @@ from sklearn.metrics.pairwise import cosine_similarity
 from sklearn.cluster import KMeans
 from scipy.spatial.distance import cdist
 
-import data.cyberkg_IBM.pkg.sysflow as sf
-from data.cyberkg_IBM.pkg.sim_cve_tech import tokenize
+import pkg.sysflow as sf
+from pkg.sim_cve_tech import tokenize
 
 
 TTPS = ['T1082', 'T1083', 'T1222.002', 'T1105', 'T1552.003', 'T1087.001', 'T1033', 'T1059.004', 'T1106', 'T1574', 'T1087', 'T1020']

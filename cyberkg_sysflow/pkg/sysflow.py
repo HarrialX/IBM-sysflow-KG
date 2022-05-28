@@ -10,7 +10,55 @@ import pickle
 import numpy as np
 from tqdm import tqdm
 from collections import defaultdict
-import genkg.cyberkg_utils as cyber
+
+
+ent_prefix = { # also serves as abbrevation
+    'vendor': 'VD',
+    'product': 'PD',
+    'version': 'VER',
+    'campaign': 'CAMP',
+    # 'threat-actor': 'ACTOR',
+    # 'incident': 'INCID',
+    # 'TTP': 'TTP',
+    'tactic': 'TA',
+    'technique': 'TECH',
+    'attack-pattern': 'AP',
+    'weakness': 'CWE',
+    'mitigation': 'MITI',
+}
+ent_prefix_delimiter = ':'
+rel_dict = {
+    'cve-id:vendor':      'CVE:affects:%s' %  ent_prefix['vendor'],
+    'cve-id:product':     'CVE:affects:%s' % ent_prefix['product'],
+    'cve-id:version':     'CVE:affects:%s' % ent_prefix['version'],
+    'vendor:product':     '%s:has:%s' % (ent_prefix['vendor'], ent_prefix['product']),
+    'product:version':    '%s:has:%s' % (ent_prefix['product'], ent_prefix['version']),
+    'cve-id:cve-id':      'CVE:is:related:to:CVE',           
+    
+    'cve-id:campaign':       'CVE:has:propose:%s' % ent_prefix['campaign'],
+    # 'cve-id:threat-actor': 'CVE:has:threat:actor:%s' % ent_prefix['threat-actor'],
+    # 'cve-id:incident':     'CVE:causes:incident:%s' % ent_prefix['incident'],
+    # 'cve-id:TTP':          'CVE:has:technique:%s' % ent_prefix['TTP'],
+
+    # 'threat-actor:incident': '%s:carries:out:%s' % (ent_prefix['threat-actor'], ent_prefix['incident']),
+    # 'threat-actor:TTP':      '%s:uses:%s' % (ent_prefix['threat-actor'], ent_prefix['TTP']),
+    # 'threat-actor:campaign': '%s:causes:%s' % (ent_prefix['threat-actor'], ent_prefix['campaign']),
+    # 'incident:TTP':          '%s:uses:%s' % (ent_prefix['incident'], ent_prefix['TTP']),
+    # 'incident:campaign':     '%s:causes:%s' % (ent_prefix['incident'], ent_prefix['campaign']),
+    # 'TTP:campaign':          '%s:causes:%s' % (ent_prefix['TTP'], ent_prefix['campaign']),
+    
+    'tactic:technique':         '%s:includes:%s' % (ent_prefix['tactic'], ent_prefix['technique']),
+    'technique:attack-pattern': '%s:leverages:%s' % (ent_prefix['technique'], ent_prefix['attack-pattern']),
+    'attack-pattern:weakness':  '%s:is:related:to:%s' % (ent_prefix['attack-pattern'], ent_prefix['weakness']),
+    'weakness:cve-id':          '%s:includes:CVE' % ent_prefix['weakness'],
+
+    'mitigation:cve-id':        '%s:mitigates:CVE' % ent_prefix['mitigation'],
+
+    'sysflow:technique':        'SF:leverages:%s' % ent_prefix['technique'],
+}
+ver_delimiter = ':ver:'
+rev_rel_prefix = 'reverse:'
+
 
 #------ load computed cosine similarity ------#
 
@@ -46,7 +94,7 @@ sysflow_graphs = pickle.load(open(os.path.join(kg_path, 'sysflow_graphs.pkl'), '
 
 cve2cwe = defaultdict(str)
 cwe2cve = defaultdict(set)
-for h, r, t in factset[cyber.rel_dict['weakness:cve-id']]:
+for h, r, t in factset[rel_dict['weakness:cve-id']]:
     assert h in entset['weakness']
     assert t in entset['cve-id']
     cve2cwe[t] = h
@@ -54,9 +102,9 @@ for h, r, t in factset[cyber.rel_dict['weakness:cve-id']]:
     
 tech2capec = defaultdict(set)
 capec2cwe = defaultdict(set)
-for h, r, t in factset[cyber.rel_dict['technique:attack-pattern']]:
+for h, r, t in factset[rel_dict['technique:attack-pattern']]:
     tech2capec[h].add(t)
-for h, r, t in factset[cyber.rel_dict['attack-pattern:weakness']]:
+for h, r, t in factset[rel_dict['attack-pattern:weakness']]:
     capec2cwe[h].add(t)
     
 tech2cwe = defaultdict(set)
@@ -78,14 +126,14 @@ cve_scores = defaultdict(dict)  # cve-tech sim
 for row in tqdm(csvreader): # contents starts with 2nd row
     for i, t_code in enumerate(header[1:]):
         # t_code: without prefix
-        t_code = cyber.ent_prefix['technique'] + cyber.ent_prefix_delimiter + t_code
+        t_code = ent_prefix['technique'] + ent_prefix_delimiter + t_code
         cve_scores[row[0]][t_code] = float(row[i+1]) 
 
 file.close()
 
 tech2ta = defaultdict(set)
 ta2tech = defaultdict(set)
-for h, r, t in tqdm(factset[cyber.rev_rel_prefix + cyber.rel_dict['tactic:technique']]):
+for h, r, t in tqdm(factset[rev_rel_prefix + rel_dict['tactic:technique']]):
     assert h in entset['technique']
     assert t in entset['tactic']
     tech2ta[h].add(t)
@@ -104,7 +152,7 @@ for cve in tqdm(cve_scores):
 tech_scores_mv = {}
 for tech, scores in tqdm(tech_scores.items()):
     tech_scores_mv[tech] = [0] * len(scores)
-    for ta in tech2ta[cyber.ent_prefix['technique'] + cyber.ent_prefix_delimiter + tech]:
+    for ta in tech2ta[ent_prefix['technique'] + ent_prefix_delimiter + tech]:
         tech_scores_mv[tech] = [tech_scores_mv[tech][i] + s * cve_ta_scores[cve_codes[i]][ta] for i, s in enumerate(scores)]
 
 
@@ -121,7 +169,7 @@ def link_BRON(gid: int = None, ttp: int or list = None):
         
     capecs = set()
 #     print(sysflow_graphs[gid]['ttpnodes'])
-    for h, r, t in factset[cyber.rel_dict['technique:attack-pattern']]:
+    for h, r, t in factset[rel_dict['technique:attack-pattern']]:
         assert h in entset['technique']
         assert t in entset['attack-pattern']
         for tech in ttps:
@@ -130,7 +178,7 @@ def link_BRON(gid: int = None, ttp: int or list = None):
                 capecs.add(t)
 
     cwes = set()
-    for h, r, t in factset[cyber.rel_dict['attack-pattern:weakness']]:
+    for h, r, t in factset[rel_dict['attack-pattern:weakness']]:
         assert h in entset['attack-pattern']
         assert t in entset['weakness']
         if h in capecs:
@@ -142,7 +190,7 @@ def cdd_cve_by_kw(cate, keyword):
     assert cate in entset, 'please specify the cate in entset.keys()'
     kw_cve_dict = defaultdict(set)
 
-    for h, r, t in factset[cyber.rev_rel_prefix + cyber.rel_dict['cve-id:'+cate]]:
+    for h, r, t in factset[rev_rel_prefix + rel_dict['cve-id:'+cate]]:
         # cate to cve
         assert h in entset[cate] and t in entset['cve-id']
         kw_cve_dict[h].add(t)
