@@ -1,0 +1,45 @@
+105337614666955925036584247068112968500	('/snap/amazon-ssm-agent/4046/amazon-ssm-agent', '')	None
+327867969869831915191934110595062499350	('/snap/amazon-ssm-agent/4046/amazon-ssm-agent', '')	None
+139124548033336773787321116882599357312	('/bin/ps', '-e -o pid,ppid,state,command')	None
+331266435681907867594682088954840864026	('/bin/ps', '-e -o pid,ppid,state,command', 'FF')	None
+334565776516558573631534134952863647346	('/snap/amazon-ssm-agent/4046/amazon-ssm-agent', '', 'FF')	None
+36958845862574059613261867648852584	('/usr/bin/socat', 'tcp-l:6666,reuseaddr,fork exec:../ro/backup', 'NF')	None
+263126912460907614612765555214196516630	('/usr/bin/socat', 'tcp-l:6666,reuseaddr,fork exec:../ro/backup')	None
+176829451142225454248820432718706391166	('/usr/bin/socat', 'tcp-l:6666,reuseaddr,fork exec:../ro/backup')	None
+310180436028980874489540243639022857618	('/usr/bin/socat', 'tcp-l:6666,reuseaddr,fork exec:../ro/backup', 'FF')	None
+138874927913249846215070028677981914815	('/home/chall/service/ro/backup', '')	None
+73747317692145724847844627293180516758	('/home/chall/service/ro/backup', '', 'FF')	None
+203046543664069702495774304824401494194	('/usr/sbin/irqbalance', '--foreground', 'FF')	None
+264072776791094588057200014465327940943	('/usr/sbin/irqbalance', '--foreground')	None
+320578513721543421412201504123195220061	('/usr/sbin/rsyslogd', '-n', 'FF')	None
+163832685540553784151272820905686468500	('/usr/sbin/rsyslogd', '-n')	None
+164032422607533106840303254473568259920	('/usr/sbin/openvpn', '--daemon ovpn-client --status /run/openvpn/client.status 10 --cd /etc/openvpn --script-security 2 --config /etc/openvpn/client.conf --writepid /run/openvpn/client.pid', 'FF')	None
+40503314233991184311583421659681684940	('/usr/sbin/openvpn', '--daemon ovpn-client --status /run/openvpn/client.status 10 --cd /etc/openvpn --script-security 2 --config /etc/openvpn/client.conf --writepid /run/openvpn/client.pid')	None
+12751352799540237224514627656429439075	('/usr/sbin/openvpn', '--daemon ovpn-client --status /run/openvpn/client.status 10 --cd /etc/openvpn --script-security 2 --config /etc/openvpn/client.conf --writepid /run/openvpn/client.pid', 'NF')	None
+141714468030420618795043395101774151869	('/lib/systemd/systemd', '', 'FF')	None
+122393967074279006578614696426244910108	('/lib/systemd/systemd', '')	None
+27149117594094404081767163466229792802	('/usr/bin/containerd-shim-runc-v2', '-namespace moby -id db46104f9e6634af53ccafc36ce4b109908cae4e0c75f66a8c7be329b7a4a61e -address /run/containerd/containerd.sock', 'FF')	None
+3588190477909194014426195321113145228	('/usr/bin/containerd-shim-runc-v2', '-namespace moby -id db46104f9e6634af53ccafc36ce4b109908cae4e0c75f66a8c7be329b7a4a61e -address /run/containerd/containerd.sock')	None
+93762949540555119844034065645818967613	('/usr/bin/dockerd', '-H fd:// --containerd=/run/containerd/containerd.sock', 'FF')	None
+288807639575301899814947492087725363578	('/usr/bin/dockerd', '-H fd:// --containerd=/run/containerd/containerd.sock')	None
+219386352128382132247166184558091788837	('/snap/amazon-ssm-agent/4046/ssm-agent-worker', '', 'FF')	None
+41391823795123643114531800462972537127	('/snap/amazon-ssm-agent/4046/ssm-agent-worker', '')	None
+331634140358273006774442821948616413455	('/usr/bin/socat', 'tcp-l:6666,reuseaddr,fork exec:../ro/backup', 'FF')	None
+46878096646714678154753521286861419911	('/usr/bin/bindfs', '/opt/ictf/services/backup/append /opt/ictf/services/backup/append -o rw,force-user=root,perms=u=rwD:g=r:dg=rwx:o=D,dev,suid', 'FF')	None
+145081173473993061962182489291256926896	('/usr/bin/bindfs', '/opt/ictf/services/backup/append /opt/ictf/services/backup/append -o rw,force-user=root,perms=u=rwD:g=r:dg=rwx:o=D,dev,suid')	None
+287221787114467583255154341047107817649	('/usr/bin/containerd-shim-runc-v2', '-namespace moby -id c24de6934c7630c93fa34d39d41013a89f9a683d727b8378f66a979f44affc6e -address /run/containerd/containerd.sock', 'FF')	None
+306179908917053895669247298324679159764	('/usr/bin/containerd-shim-runc-v2', '-namespace moby -id c24de6934c7630c93fa34d39d41013a89f9a683d727b8378f66a979f44affc6e -address /run/containerd/containerd.sock')	None
+194432887247740805908617213050053635534	('/usr/bin/dockerd', '-H fd:// --containerd=/run/containerd/containerd.sock', 'NF')	None
+279299646822054054065641608757879344215	('/usr/sbin/rsyslogd', '-n', 'NF')	None
+336311525845192339242437126565828393561	('/snap/snapd/14066/usr/lib/snapd/snapd', '', 'FF')	None
+151453303293572584763529660445038733800	('/snap/snapd/14066/usr/lib/snapd/snapd', '')	None
+200766740694419863402856807762899901763	('/lib/systemd/systemd-logind', '', 'FF')	{'mitre:T1059'}
+162080216875236340427850132498319249012	('/lib/systemd/systemd-logind', '')	None
+43682476363686411314617674624969395532	('/lib/systemd/systemd-udevd', '', 'FF')	None
+118302433445152229673665413752597590740	('/lib/systemd/systemd-udevd', '')	None
+315043596357812939269125269065338682202	('/lib/systemd/systemd-networkd', '', 'FF')	None
+100190260029730279243848685335914080113	('/lib/systemd/systemd-networkd', '')	None
+266572669418346864841336136945587822435	('/lib/systemd/systemd-resolved', '', 'FF')	None
+6321668754902351713207960749171740970	('/lib/systemd/systemd-resolved', '')	None
+76120867213803524383498286210744626842	('/lib/systemd/systemd-timesyncd', '', 'FF')	None
+311245530955340239460782411969205611624	('/lib/systemd/systemd-timesyncd', '')	None

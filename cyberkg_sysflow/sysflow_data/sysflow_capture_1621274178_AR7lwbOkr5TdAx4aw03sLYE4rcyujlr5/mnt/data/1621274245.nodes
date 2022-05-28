@@ -1,0 +1,21 @@
+149879858748585854993103202458090010471	('/usr/sbin/xinetd', '-filelog /dev/stderr -dontfork -f /service.conf', 'NF')	None
+118040255047280791989554671415548804317	('/usr/sbin/xinetd', '-filelog /dev/stderr -dontfork -f /service.conf')	None
+212613514516228522457708602619781564972	('/usr/sbin/xinetd', '-filelog /dev/stderr -dontfork -f /service.conf')	None
+233885143682393732519264065553165435770	('/usr/sbin/xinetd', '-filelog /dev/stderr -dontfork -f /service.conf', 'FF')	None
+248344850019974939037975972512707743735	('/wrapper', '/wrapper')	None
+160223988526374206997411003906483908932	('/wrapper', '/wrapper', 'FF')	None
+181804828473323254158869610862137201310	('/wrapper', '/wrapper')	None
+199958350667925935604330471471639326020	('/usr/bin/timeout', '-k1 240 stdbuf -i0 -o0 -e0 /service')	None
+167863026781299050438689083702487285693	('/usr/bin/timeout', '-k1 240 stdbuf -i0 -o0 -e0 /service', 'FF')	None
+148962587108588072534945384484486115419	('/usr/bin/timeout', '-k1 240 stdbuf -i0 -o0 -e0 /service')	None
+257334853354350364784345239857980969404	('/usr/bin/stdbuf', '-i0 -o0 -e0 /service')	{'mitre:T1106', 'mitre:T1574'}
+300528443527215990176945176814636104165	('/usr/bin/stdbuf', '-i0 -o0 -e0 /service', 'FF')	None
+300517057213543906972350397840911465838	('/service', 'python3 /service')	None
+57982728455473739790858567689557297292	('/service', 'python3 /service', 'FF')	None
+327436542306339685508270915740147013673	('/usr/bin/python3', '/service')	None
+83471494521982878197574087232238083766	('/usr/bin/python3', '/service', 'FF')	None
+254280042116013704120202839835261785289	('/usr/bin/python3', '/service')	None
+152250225645583574230396427858477606523	('/usr/bin/python3', '/service', 'FF')	None
+37988535469978733109507986040736523020	('/home/dummies/tmp/dir_3309530/trivia', '')	None
+87905986254313251179685763984421308678	('/home/dummies/tmp/dir_3309530/trivia', '', 'FF')	None
+135310986730879177281833467031713901895	('/usr/sbin/xinetd', '-filelog /dev/stderr -dontfork -f /service.conf', 'FF')	None

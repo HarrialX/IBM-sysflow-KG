@@ -1,0 +1,25 @@
+217280120804639886761935860970951416919	('/bin/bash', '/root/grading_worker.sh /jobs')	None
+81075853438831022167225342174281839449	('/bin/bash', '/root/grading_worker.sh /jobs')	None
+159254796959293759879792223206054371325	('/bin/bash', '/root/grading_worker.sh /jobs', 'FF')	None
+21264668982149898735649160005423349343	('/bin/sleep', '1')	None
+52520788169582659579732822271282899970	('/bin/sleep', '1', 'FF')	None
+265981789215492451633907520512215411595	('/bin/ls', '-A /jobs')	None
+50889485966553021577046815824908914508	('/bin/ls', '-A /jobs', 'FF')	None
+58243700410906437836170482480387348930	('/bin/bash', '/root/grading_worker.sh /jobs', 'FF')	None
+190522002094099211622749600830405956518	('/usr/lib/postgresql/10/bin/postgres', '                                                                       ', 'NF')	None
+26000891776332754288608291639842725467	('/usr/lib/postgresql/10/bin/postgres', '                                                                       ')	None
+238923200438283861860522008943217488756	('/usr/lib/postgresql/10/bin/postgres', '                                                                           ', 'NF')	None
+304045638046933158890694766927684958080	('/usr/lib/postgresql/10/bin/postgres', '                                                                           ')	None
+187231657609824343413350138271420572717	('/usr/lib/postgresql/10/bin/postgres', '                                                                       ', 'FF')	None
+279912923785385980629674517629157300770	('/usr/lib/postgresql/10/bin/postgres', '                                                                           ', 'FF')	None
+181125958416447015500953963634557993511	('/usr/lib/postgresql/10/bin/postgres', '-D /var/lib/postgresql/10/main -c config_file=/etc/postgresql/10/main/postgresql.conf')	None
+180577883405330483305889217201374994509	('/usr/lib/postgresql/10/bin/postgres', '-D /var/lib/postgresql/10/main -c config_file=/etc/postgresql/10/main/postgresql.conf')	None
+276195959507791599105213030588286390681	('/usr/lib/postgresql/10/bin/postgres', '-D /var/lib/postgresql/10/main -c config_file=/etc/postgresql/10/main/postgresql.conf', 'FF')	None
+48302539301189893044732569451738738037	('/usr/lib/postgresql/10/bin/postgres', '                                                                           ', 'FF')	None
+187771764453767303080905238558893480062	('/usr/lib/postgresql/10/bin/postgres', '-D /var/lib/postgresql/10/main -c config_file=/etc/postgresql/10/main/postgresql.conf', 'NF')	None
+152281995540113643245430255348496703793	('/usr/lib/postgresql/10/bin/postgres', '                                                                              ', 'NF')	None
+316535852606322663982429811382633096981	('/usr/lib/postgresql/10/bin/postgres', '                                                                              ')	None
+306380234978981137830227545084891430214	('/usr/lib/postgresql/10/bin/postgres', '                                                                       ', 'NF')	None
+177702067321246377337730469106195605644	('/usr/lib/postgresql/10/bin/postgres', '                                                                           ', 'NF')	None
+230222942517520886965142310144513021234	('/usr/lib/postgresql/10/bin/postgres', '                                                                       ', 'FF')	None
+224826584473638508506629811665590112872	('/usr/lib/postgresql/10/bin/postgres', '-D /var/lib/postgresql/10/main -c config_file=/etc/postgresql/10/main/postgresql.conf', 'FF')	None

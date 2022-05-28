@@ -1,0 +1,4 @@
+335949069207373534890044711235068859234	('/usr/sbin/xinetd', '-syslog local0 -dontfork -f /service.conf', 'FF')	None
+250497813537497901308630611892698618956	('/usr/sbin/xinetd', '-syslog local0 -dontfork -f /service.conf')	None
+165085209097205217154979248511070572507	('/usr/bin/python3', '-u /server.py', 'FF')	None
+250915627226901866729532121703074573759	('/usr/bin/python3', '-u /server.py')	None

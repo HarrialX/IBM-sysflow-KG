@@ -1,0 +1,287 @@
+222158728017696721663346153727592184889	('/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/node', '/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/bootstrap-fork --type=ptyHost', 'FF')	None
+277653781754968995423090682796407822372	('/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/node', '/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/bootstrap-fork --type=ptyHost')	None
+245539605275059595710766067768501346685	('/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/node', '/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/bootstrap-fork --type=extensionHost --uriTransformerPath=/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/server/uriTransformer.js', 'FF')	None
+298045819285875192291049670461339395847	('/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/node', '/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/bootstrap-fork --type=extensionHost --uriTransformerPath=/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/server/uriTransformer.js')	None
+203046543664069702495774304824401494194	('/usr/sbin/irqbalance', '--foreground', 'FF')	None
+264072776791094588057200014465327940943	('/usr/sbin/irqbalance', '--foreground')	None
+164032422607533106840303254473568259920	('/usr/sbin/openvpn', '--daemon ovpn-client --status /run/openvpn/client.status 10 --cd /etc/openvpn --script-security 2 --config /etc/openvpn/client.conf --writepid /run/openvpn/client.pid', 'FF')	None
+40503314233991184311583421659681684940	('/usr/sbin/openvpn', '--daemon ovpn-client --status /run/openvpn/client.status 10 --cd /etc/openvpn --script-security 2 --config /etc/openvpn/client.conf --writepid /run/openvpn/client.pid')	None
+169926672028291552580473225232828373204	('/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/node', '/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/server/main.js --start-server --host=127.0.0.1 --enable-remote-auto-shutdown --port=0 --connection-secret /home/hacker/.vscode-server/.6cba118ac49a1b88332f312a8f67186f7f3c1643.token', 'FF')	None
+194288007235376906963392693866432275871	('/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/node', '/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/server/main.js --start-server --host=127.0.0.1 --enable-remote-auto-shutdown --port=0 --connection-secret /home/hacker/.vscode-server/.6cba118ac49a1b88332f312a8f67186f7f3c1643.token')	None
+105337614666955925036584247068112968500	('/snap/amazon-ssm-agent/4046/amazon-ssm-agent', '')	None
+327867969869831915191934110595062499350	('/snap/amazon-ssm-agent/4046/amazon-ssm-agent', '')	None
+334565776516558573631534134952863647346	('/snap/amazon-ssm-agent/4046/amazon-ssm-agent', '', 'FF')	None
+139124548033336773787321116882599357312	('/bin/ps', '-e -o pid,ppid,state,command')	None
+331266435681907867594682088954840864026	('/bin/ps', '-e -o pid,ppid,state,command', 'FF')	None
+12751352799540237224514627656429439075	('/usr/sbin/openvpn', '--daemon ovpn-client --status /run/openvpn/client.status 10 --cd /etc/openvpn --script-security 2 --config /etc/openvpn/client.conf --writepid /run/openvpn/client.pid', 'NF')	None
+87651552382069646829488501805773508950	('/snap/snapd/13640/usr/lib/snapd/snapd', '', 'FF')	None
+162998247982791726801726442496766200837	('/snap/snapd/13640/usr/lib/snapd/snapd', '')	None
+141714468030420618795043395101774151869	('/lib/systemd/systemd', '', 'FF')	None
+122393967074279006578614696426244910108	('/lib/systemd/systemd', '')	None
+3671871033016261923928076892604953230	('/usr/sbin/sshd', '', 'NF')	None
+283745491673961166205964330915292717189	('/usr/sbin/sshd', '')	None
+307995266761985665548078122841009267040	('/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/node', '/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/server/main.js --start-server --host=127.0.0.1 --enable-remote-auto-shutdown --port=0 --connection-secret /home/hacker/.vscode-server/.6cba118ac49a1b88332f312a8f67186f7f3c1643.token', 'NF')	None
+239411685160119344234202792900750822741	('/usr/bin/containerd-shim-runc-v2', '-namespace moby -id d07182c16ebbc1e2cfa4b4cd51d71b3e27aed012effac45c5c91e4698a3de893 -address /run/containerd/containerd.sock', 'FF')	None
+240528805234897570585619987794054759006	('/usr/bin/containerd-shim-runc-v2', '-namespace moby -id d07182c16ebbc1e2cfa4b4cd51d71b3e27aed012effac45c5c91e4698a3de893 -address /run/containerd/containerd.sock')	None
+93762949540555119844034065645818967613	('/usr/bin/dockerd', '-H fd:// --containerd=/run/containerd/containerd.sock', 'FF')	None
+288807639575301899814947492087725363578	('/usr/bin/dockerd', '-H fd:// --containerd=/run/containerd/containerd.sock')	None
+219386352128382132247166184558091788837	('/snap/amazon-ssm-agent/4046/ssm-agent-worker', '', 'FF')	None
+41391823795123643114531800462972537127	('/snap/amazon-ssm-agent/4046/ssm-agent-worker', '')	None
+15111894306614273799965039484569152870	('/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/node', '/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/bootstrap-fork --type=ptyHost')	None
+256145741337103260942185657951735189529	('/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/node', '/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/bootstrap-fork --type=ptyHost', 'FF')	None
+175603372643164335525083510550471386872	('/bin/sh', '-c which ps')	{'mitre:T1106', 'mitre:T1574'}
+147548801269181594571990931479526355409	('/bin/sh', '-c which ps', 'FF')	None
+232592088307199332734583106002372845856	('/bin/sh', '-c which ps')	None
+106535386036603676452893253232052679095	('/usr/bin/which', '/usr/bin/which ps')	None
+291651575636645163245335925737851293621	('/usr/bin/which', '/usr/bin/which ps', 'FF')	None
+137627646704748249139422857797640620558	('/bin/sh', '-c /bin/ps -ax -o pid=,ppid=,pcpu=,pmem=,command=')	{'mitre:T1106', 'mitre:T1574'}
+77267404936360688782219439522335388942	('/bin/sh', '-c /bin/ps -ax -o pid=,ppid=,pcpu=,pmem=,command=', 'FF')	None
+121969528772486158529021643103694251199	('/bin/sh', '-c /bin/ps -ax -o pid=,ppid=,pcpu=,pmem=,command=')	None
+65877888219770169111240578612717995840	('/bin/ps', '-ax -o pid=,ppid=,pcpu=,pmem=,command=')	None
+10664661673367594530133948384366182357	('/bin/ps', '-ax -o pid=,ppid=,pcpu=,pmem=,command=', 'FF')	None
+121845316927143821169038999303808585897	('/bin/sh', '-c "/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/base/node/cpuUsage.sh" 5754 17794')	{'mitre:T1106', 'mitre:T1574'}
+215914388771742342306951157047403030374	('/bin/sh', '-c "/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/base/node/cpuUsage.sh" 5754 17794', 'FF')	None
+116258764176134921722558300027417777546	('/bin/sh', '-c "/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/base/node/cpuUsage.sh" 5754 17794')	None
+147200761512412246094171780557157547422	('/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/base/node/cpuUsage.sh', '/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/base/node/cpuUsage.sh 5754 17794')	None
+137942778101521822412924021708200639346	('/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/base/node/cpuUsage.sh', '/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/base/node/cpuUsage.sh 5754 17794', 'FF')	None
+82764674159525707549999526163976672317	('/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/base/node/cpuUsage.sh', '/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/base/node/cpuUsage.sh 5754 17794')	None
+332967238643033251269965571897789767583	('/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/base/node/cpuUsage.sh', '/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/base/node/cpuUsage.sh 5754 17794', 'FF')	None
+336111266714553405458402508708001784397	('/bin/sed', '-n s/^cpu\\s//p /proc/stat')	None
+40349898370587375113854307302947390104	('/bin/sed', '-n s/^cpu\\s//p /proc/stat', 'FF')	None
+144757881580984497487403682626337699993	('/bin/cat', '/proc/5754/stat')	None
+77738579298513335450485958495313824060	('/bin/cat', '/proc/5754/stat', 'FF')	None
+3946152775527057360348876485137697949	('/bin/cat', '/proc/17794/stat')	None
+187436853962309859122796071428190643291	('/bin/cat', '/proc/17794/stat', 'FF')	None
+6871270289484214994561455068909733852	('/bin/sleep', '1')	None
+188274163448247157262078309928920958958	('/bin/sleep', '1', 'FF')	None
+200766740694419863402856807762899901763	('/lib/systemd/systemd-logind', '', 'FF')	{'mitre:T1059'}
+162080216875236340427850132498319249012	('/lib/systemd/systemd-logind', '')	None
+315043596357812939269125269065338682202	('/lib/systemd/systemd-networkd', '', 'FF')	None
+100190260029730279243848685335914080113	('/lib/systemd/systemd-networkd', '')	None
+266572669418346864841336136945587822435	('/lib/systemd/systemd-resolved', '', 'FF')	None
+6321668754902351713207960749171740970	('/lib/systemd/systemd-resolved', '')	None
+43682476363686411314617674624969395532	('/lib/systemd/systemd-udevd', '', 'FF')	None
+118302433445152229673665413752597590740	('/lib/systemd/systemd-udevd', '')	None
+76120867213803524383498286210744626842	('/lib/systemd/systemd-timesyncd', '', 'FF')	None
+311245530955340239460782411969205611624	('/lib/systemd/systemd-timesyncd', '')	None
+190189985002540059285742600153359781178	('/usr/bin/python3', 'ex.py', 'FF')	None
+293602163633661270723422601896858421997	('/usr/bin/python3', 'ex.py')	None
+293766326577066170567052943036623680322	('/usr/bin/python3', 'ex.py', 'NF')	None
+340040225714650367306108085579499071447	('/usr/sbin/cron', '-f')	None
+215801663253290373735485786177898275706	('/usr/sbin/cron', '-f')	None
+247422900767316504112614888303077139980	('/usr/sbin/cron', '-f', 'FF')	None
+56137923281703366806412482512672911468	('/lib/systemd/systemd-journald', '', 'FF')	None
+163424344929093476444125798498813580862	('/lib/systemd/systemd-journald', '')	None
+85938147268034552911215178629134296976	('/bin/sh', '-c    cd / && run-parts --report /etc/cron.hourly')	{'mitre:T1106', 'mitre:T1574'}
+11570105167034764044870687000923178389	('/bin/sh', '-c    cd / && run-parts --report /etc/cron.hourly', 'FF')	None
+124316838770915008124959911054808948701	('/bin/sh', '-c    cd / && run-parts --report /etc/cron.hourly')	None
+197153531288087685864009916433308608475	('/bin/run-parts', '--report /etc/cron.hourly')	None
+174980371292589178364133244774576019015	('/bin/run-parts', '--report /etc/cron.hourly', 'FF')	None
+51736320699288731913875949282696768234	('/bin/sleep', '180', 'FF')	None
+277101906773038373075474526575929535499	('/bin/sleep', '180')	None
+8873456655721871794558128431728957697	('/bin/bash', '')	None
+12426742092179054422281979315602287574	('/bin/bash', '')	None
+281396081045939441367044609440936272458	('/usr/sbin/rsyslogd', '-n', 'FF')	None
+325315728461863798026426382239100872546	('/usr/sbin/rsyslogd', '-n')	None
+161464676451390701288225207911373642045	('/bin/bash', '', 'FF')	None
+45164747890417099624325607203352247727	('/usr/sbin/sshd', '', 'FF')	None
+253836999393041885872770917193222185981	('/bin/bash', '')	None
+192939538751724867925021601111967800340	('/bin/bash', '', 'FF')	None
+202005745661822371896922458333579787385	('/bin/bash', '', 'FF')	None
+211098307605048832400720173745366050503	('/usr/lib/command-not-found', '/usr/lib/command-not-found -- nasm')	None
+232624819699115740506078859794138780334	('/usr/lib/command-not-found', '/usr/lib/command-not-found -- nasm', 'FF')	None
+265732251447186597551486727771668074212	('/usr/lib/command-not-found', '/usr/lib/command-not-found -- nasm')	None
+138877354151800777099212592926490542366	('/usr/lib/command-not-found', '/usr/lib/command-not-found -- nasm', 'FF')	None
+338518424868188130588411948698810441525	('/usr/bin/snap', 'advise-snap --format=json --command nasm')	None
+24457927042751019221073214445025420792	('/usr/bin/snap', 'advise-snap --format=json --command nasm', 'FF')	None
+86123127305336448281762698823153978967	('/snap/snapd/current/usr/bin/snap', 'advise-snap --format=json --command nasm')	None
+167805912232402781958133070024591528305	('/snap/snapd/current/usr/bin/snap', 'advise-snap --format=json --command nasm', 'FF')	None
+285043751067652716234336576103983360739	('/usr/bin/sudo', 'apt install nasm')	{'mitre:T1068'}
+77293112191368465377162609577642145290	('/usr/bin/sudo', 'apt install nasm', 'FF')	{'mitre:T1068'}
+131871905883576535818514292370565650233	('/usr/bin/sudo', 'apt install nasm')	None
+83006394774182127141830362716856271320	('/usr/bin/sudo', 'apt install nasm', 'FF')	None
+180278445365265385117188715694880172497	('/usr/bin/apt', 'install nasm')	{'mitre:T1072'}
+52917267135851458929286206255466339779	('/usr/bin/apt', 'install nasm', 'FF')	None
+141756319540808769341313451078848085565	('/usr/bin/apt', 'install nasm')	None
+99693854460999570676104542533392730164	('/usr/bin/apt', 'install nasm', 'FF')	None
+257699904190260617630884801597611112530	('/usr/bin/dpkg', '--print-foreign-architectures')	{'mitre:T1072'}
+327708197959867616743477167758701293761	('/usr/bin/dpkg', '--print-foreign-architectures', 'FF')	None
+126400720934707119374103544878747304971	('/bin/sh', '-c [ ! -f /usr/bin/snap ] || /usr/bin/snap advise-snap --from-apt 2>/dev/null || true')	{'mitre:T1106', 'mitre:T1574'}
+219742244287892869410715852083989354476	('/bin/sh', '-c [ ! -f /usr/bin/snap ] || /usr/bin/snap advise-snap --from-apt 2>/dev/null || true', 'FF')	None
+91919136830436142532645831153520926371	('/bin/sh', '-c [ ! -f /usr/bin/snap ] || /usr/bin/snap advise-snap --from-apt 2>/dev/null || true')	None
+222586230865598069360261052320537676706	('/usr/bin/snap', 'advise-snap --from-apt')	None
+304387145773123035643167461969201379257	('/usr/bin/snap', 'advise-snap --from-apt', 'FF')	None
+45391683350998251714403070014280161226	('/snap/snapd/current/usr/bin/snap', 'advise-snap --from-apt')	None
+133775766438269269484174009183488305511	('/snap/snapd/current/usr/bin/snap', 'advise-snap --from-apt', 'FF')	None
+11792108101112194599173681583998754709	('<NA>', '-c [ ! -f /usr/lib/ubuntu-advantage/apt-esm-hook ] || /usr/lib/ubuntu-advantage/apt-esm-hook pre-invoke || true')	None
+258278065769754317530367799797240693816	('<NA>', '-c [ ! -f /usr/lib/ubuntu-advantage/apt-esm-hook ] || /usr/lib/ubuntu-advantage/apt-esm-hook pre-invoke || true', 'FF')	None
+156264630100235389872951679000230940417	('<NA>', '-c [ ! -f /usr/lib/ubuntu-advantage/apt-esm-hook ] || /usr/lib/ubuntu-advantage/apt-esm-hook pre-invoke || true')	None
+263104355563098204474964545771474321114	('/usr/lib/ubuntu-advantage/apt-esm-hook', 'pre-invoke')	{'mitre:T1072'}
+77232183145937904515422329361535238242	('/usr/lib/ubuntu-advantage/apt-esm-hook', 'pre-invoke', 'FF')	None
+243345584901035650549558470628240363961	('/usr/lib/apt/methods/http', '')	None
+4411615112710500693251468966107904899	('/usr/lib/apt/methods/http', '', 'FF')	None
+270825846440600460181635603377624912812	('/lib/systemd/systemd-resolved', '', 'NF')	None
+307489732076382878916589033562747457639	('/usr/lib/apt/methods/http', '', 'NF')	None
+287777389662377898705591778039716191985	('/bin/sh', '-c /usr/sbin/dpkg-preconfigure --apt || true')	{'mitre:T1106', 'mitre:T1574'}
+144055794167095181426035405782540470966	('/bin/sh', '-c /usr/sbin/dpkg-preconfigure --apt || true', 'FF')	None
+285940298761803325152203819183668749023	('/bin/sh', '-c /usr/sbin/dpkg-preconfigure --apt || true')	None
+38373218760946950942031134650575533830	('/usr/sbin/dpkg-preconfigure', '-w /usr/sbin/dpkg-preconfigure --apt')	None
+127026418779163459387295064491715195132	('/usr/sbin/dpkg-preconfigure', '-w /usr/sbin/dpkg-preconfigure --apt', 'FF')	None
+322113271646865227306470485555760214147	('/usr/sbin/dpkg-preconfigure', '-w /usr/sbin/dpkg-preconfigure --apt')	None
+196697459129125887784325501492051834429	('/usr/sbin/dpkg-preconfigure', '-w /usr/sbin/dpkg-preconfigure --apt', 'FF')	None
+289370104989099848323740180788124520503	('/usr/bin/locale', 'charmap')	None
+202570941562291480420416231474841416303	('/usr/bin/locale', 'charmap', 'FF')	None
+182782230259674125641516990837448090546	('/bin/sh', '-c stty -a 2>/dev/null')	{'mitre:T1106', 'mitre:T1574'}
+3699899167353141018023958080259790095	('/bin/sh', '-c stty -a 2>/dev/null', 'FF')	None
+4150833101421817682386595893626774786	('/bin/sh', '-c stty -a 2>/dev/null')	None
+16057411103609759785888463239086943360	('/bin/stty', '-a')	None
+13270482520783561813576151171663760352	('/bin/stty', '-a', 'FF')	None
+286133545008529633902652249405578253480	('/usr/bin/apt-extracttemplates', '/var/cache/apt/archives/nasm_2.13.02-0.1_amd64.deb')	{'mitre:T1072'}
+297611278179949491452079209790316088463	('/usr/bin/apt-extracttemplates', '/var/cache/apt/archives/nasm_2.13.02-0.1_amd64.deb', 'FF')	None
+229129515409544820010065513314579528005	('/usr/bin/apt-extracttemplates', '/var/cache/apt/archives/nasm_2.13.02-0.1_amd64.deb')	None
+58457229516280394655799317342452727590	('/usr/bin/apt-extracttemplates', '/var/cache/apt/archives/nasm_2.13.02-0.1_amd64.deb', 'FF')	None
+234972193724091950849638223240613180575	('/usr/bin/dpkg', '--print-foreign-architectures')	{'mitre:T1072'}
+119992270556651444433007586866798424621	('/usr/bin/dpkg', '--print-foreign-architectures', 'FF')	None
+146806393456338856401181589036784397978	('/bin/sh', '-c "/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/base/node/cpuUsage.sh" 5754')	{'mitre:T1106', 'mitre:T1574'}
+48322386102788123128281377923102457243	('/bin/sh', '-c "/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/base/node/cpuUsage.sh" 5754', 'FF')	None
+274985425472150437370599340960889154053	('/bin/sh', '-c "/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/base/node/cpuUsage.sh" 5754')	None
+17184423201099593741175321389020073222	('/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/base/node/cpuUsage.sh', '/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/base/node/cpuUsage.sh 5754')	None
+227481681636011706108289844516870583103	('/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/base/node/cpuUsage.sh', '/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/base/node/cpuUsage.sh 5754', 'FF')	None
+236450130996317766307598761585755504963	('/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/base/node/cpuUsage.sh', '/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/base/node/cpuUsage.sh 5754')	None
+16210989548167223083526408567028235685	('/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/base/node/cpuUsage.sh', '/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/base/node/cpuUsage.sh 5754', 'FF')	None
+18517315599785967091964525405694791571	('/bin/sed', '-n s/^cpu\\s//p /proc/stat')	None
+124761290369957630195941397900312805532	('/bin/sed', '-n s/^cpu\\s//p /proc/stat', 'FF')	None
+58400272010117762684836856836923853395	('/bin/cat', '/proc/5754/stat')	None
+224881631854789060914241320789461778632	('/bin/cat', '/proc/5754/stat', 'FF')	None
+106205820943627035655234926314175156515	('/bin/sleep', '1')	None
+332910155685699861489937924258597457988	('/bin/sleep', '1', 'FF')	None
+35809946773970609427768448682556289062	('/usr/bin/dpkg', '--assert-multi-arch')	{'mitre:T1072'}
+36338467196953215722341974198441821364	('/usr/bin/dpkg', '--assert-multi-arch', 'FF')	None
+11420693593784262625557980263930743746	('/usr/bin/dpkg', '--status-fd 44 --no-triggers --unpack --auto-deconfigure /var/cache/apt/archives/nasm_2.13.02-0.1_amd64.deb')	None
+3009651858226902278897410282086156821	('/usr/bin/dpkg', '--status-fd 44 --no-triggers --unpack --auto-deconfigure /var/cache/apt/archives/nasm_2.13.02-0.1_amd64.deb', 'FF')	None
+134077413517980002846485683390017097530	('/usr/bin/dpkg', '--status-fd 44 --no-triggers --unpack --auto-deconfigure /var/cache/apt/archives/nasm_2.13.02-0.1_amd64.deb')	{'mitre:T1072'}
+131582443151420310887278618341540460182	('/usr/bin/dpkg-split', '-Qao /var/lib/dpkg/reassemble.deb /var/cache/apt/archives/nasm_2.13.02-0.1_amd64.deb')	{'mitre:T1072'}
+39109805412147527354320760047685124172	('/usr/bin/dpkg-split', '-Qao /var/lib/dpkg/reassemble.deb /var/cache/apt/archives/nasm_2.13.02-0.1_amd64.deb', 'FF')	None
+119777523279562408590756250997083909243	('/usr/bin/dpkg-deb', '--control /var/cache/apt/archives/nasm_2.13.02-0.1_amd64.deb /var/lib/dpkg/tmp.ci')	None
+228057064921571052432345488529364396067	('/usr/bin/dpkg-deb', '--control /var/cache/apt/archives/nasm_2.13.02-0.1_amd64.deb /var/lib/dpkg/tmp.ci', 'FF')	None
+86788978512871648998697429534621912265	('/usr/bin/dpkg-deb', '--control /var/cache/apt/archives/nasm_2.13.02-0.1_amd64.deb /var/lib/dpkg/tmp.ci')	{'mitre:T1072'}
+225880157980259052741137521986496494797	('/usr/bin/dpkg-deb', '--control /var/cache/apt/archives/nasm_2.13.02-0.1_amd64.deb /var/lib/dpkg/tmp.ci', 'FF')	None
+123363832519108726796807862448993485529	('/bin/tar', '-x -f - --warning=no-timestamp')	None
+132038951041390230812351903634510480397	('/bin/tar', '-x -f - --warning=no-timestamp', 'FF')	None
+275286661303791855040979100954802415023	('/usr/bin/dpkg', '--status-fd 44 --no-triggers --unpack --auto-deconfigure /var/cache/apt/archives/nasm_2.13.02-0.1_amd64.deb', 'FF')	None
+338778505869581532112579966463595308046	('/usr/bin/dpkg-deb', '--fsys-tarfile /var/cache/apt/archives/nasm_2.13.02-0.1_amd64.deb')	{'mitre:T1072'}
+104510889952718670086221922026988496861	('/usr/bin/dpkg-deb', '--fsys-tarfile /var/cache/apt/archives/nasm_2.13.02-0.1_amd64.deb', 'FF')	None
+127170317571027842602827519401463395673	('/usr/bin/dpkg-deb', '--fsys-tarfile /var/cache/apt/archives/nasm_2.13.02-0.1_amd64.deb')	None
+308166750070637794419474057994645271642	('/usr/bin/dpkg-deb', '--fsys-tarfile /var/cache/apt/archives/nasm_2.13.02-0.1_amd64.deb', 'FF')	None
+175948568733676531673619120548046361095	('/bin/rm', '-rf -- /var/lib/dpkg/tmp.ci')	{'mitre:T1106', 'mitre:T1574'}
+144235157076048235565632982084671978604	('/bin/rm', '-rf -- /var/lib/dpkg/tmp.ci', 'FF')	None
+143107405663863119963802648295864702796	('<NA>', '-c if { test "$DPKG_HOOK_ACTION" = add-architecture || test "$DPKG_HOOK_ACTION" = remove-architecture; } && test -x /usr/share/pkg-config-dpkghook; then /usr/share/pkg-config-dpkghook update; fi')	None
+197364829045369099504983119254108349604	('<NA>', '-c if { test "$DPKG_HOOK_ACTION" = add-architecture || test "$DPKG_HOOK_ACTION" = remove-architecture; } && test -x /usr/share/pkg-config-dpkghook; then /usr/share/pkg-config-dpkghook update; fi', 'FF')	None
+266172913287704177093192738344654172323	('/usr/bin/dpkg', '--status-fd 44 --configure --pending')	{'mitre:T1072'}
+299655376015863654479577584852868360462	('/usr/bin/dpkg', '--status-fd 44 --configure --pending', 'FF')	None
+139665106098528198837353800958730203602	('/usr/bin/dpkg', '--status-fd 44 --configure --pending')	None
+28931182895419247700926909411870654677	('/var/lib/dpkg/info/man-db.postinst', '/var/lib/dpkg/info/man-db.postinst triggered /usr/share/man')	None
+94538137822715313416454950866267952547	('/var/lib/dpkg/info/man-db.postinst', '/var/lib/dpkg/info/man-db.postinst triggered /usr/share/man', 'FF')	None
+92024125700530695242432986130347445388	('/var/lib/dpkg/info/man-db.postinst', '/var/lib/dpkg/info/man-db.postinst triggered /usr/share/man')	None
+40585090978668829854336783364437654462	('/usr/bin/perl', '-e @pwd = getpwnam("man"); $) = $( = $pwd[3]; $> = $< = $pwd[2];\n\t     exec "/usr/bin/mandb", @ARGV -- -pq')	None
+32023008886454672383813556552609592833	('/usr/bin/perl', '-e @pwd = getpwnam("man"); $) = $( = $pwd[3]; $> = $< = $pwd[2];\n\t     exec "/usr/bin/mandb", @ARGV -- -pq', 'FF')	None
+48192376426112801979251036865773306970	('/usr/bin/mandb', '-pq')	None
+293143375262431124658175474021673028663	('/usr/bin/mandb', '-pq', 'FF')	None
+219560071820118910627451597699572075987	('/usr/bin/mandb', '-pq')	None
+174905692648885051851767564696611323990	('/usr/bin/mandb', '-pq', 'FF')	None
+329818859408687317127843455120007641100	('<NA>', '-c if { test "$DPKG_HOOK_ACTION" = add-architecture || test "$DPKG_HOOK_ACTION" = remove-architecture; } && test -x /usr/share/pkg-config-dpkghook; then /usr/share/pkg-config-dpkghook update; fi')	None
+8951388423515914841633512253587140946	('<NA>', '-c if { test "$DPKG_HOOK_ACTION" = add-architecture || test "$DPKG_HOOK_ACTION" = remove-architecture; } && test -x /usr/share/pkg-config-dpkghook; then /usr/share/pkg-config-dpkghook update; fi', 'FF')	None
+172308644755426164087280238963831237644	('<NA>', '-c if [ -d /var/lib/update-notifier ]; then touch /var/lib/update-notifier/dpkg-run-stamp; fi; /usr/lib/update-notifier/update-motd-updates-available 2>/dev/null || true')	None
+137647615044567363614749236599846157756	('<NA>', '-c if [ -d /var/lib/update-notifier ]; then touch /var/lib/update-notifier/dpkg-run-stamp; fi; /usr/lib/update-notifier/update-motd-updates-available 2>/dev/null || true', 'FF')	None
+336850646411611052945348519655025054363	('<NA>', '-c if [ -d /var/lib/update-notifier ]; then touch /var/lib/update-notifier/dpkg-run-stamp; fi; /usr/lib/update-notifier/update-motd-updates-available 2>/dev/null || true')	None
+245484002566495736264425377722325662508	('/usr/bin/touch', '/var/lib/update-notifier/dpkg-run-stamp')	{'mitre:T1106', 'mitre:T1574'}
+181294633279999860940401127253038009512	('/usr/bin/touch', '/var/lib/update-notifier/dpkg-run-stamp', 'FF')	None
+117938413514014574573609831943573876641	('/usr/lib/update-notifier/update-motd-updates-available', '-e /usr/lib/update-notifier/update-motd-updates-available')	None
+133976013328273706911977832783358506983	('/usr/lib/update-notifier/update-motd-updates-available', '-e /usr/lib/update-notifier/update-motd-updates-available', 'FF')	None
+18321052399011243255237267825549148530	('/usr/lib/update-notifier/update-motd-updates-available', '-e /usr/lib/update-notifier/update-motd-updates-available')	None
+124425549483487015495949746321709029261	('/usr/lib/update-notifier/update-motd-updates-available', '-e /usr/lib/update-notifier/update-motd-updates-available', 'FF')	None
+11457623998924190239852581334698372708	('/usr/bin/apt-config', 'shell StateDir Dir::State')	{'mitre:T1072'}
+276621251894058804875649689966115230763	('/usr/bin/apt-config', 'shell StateDir Dir::State', 'FF')	None
+232511640774457137960835031386961635697	('/usr/bin/apt-config', 'shell StateDir Dir::State')	None
+182638542212561308967438813226013267037	('/usr/bin/apt-config', 'shell StateDir Dir::State', 'FF')	None
+17919494995335262024909147690376427716	('/usr/bin/dpkg', '--print-foreign-architectures')	{'mitre:T1072'}
+200462073930024727598237000736281395422	('/usr/bin/dpkg', '--print-foreign-architectures', 'FF')	None
+8050830003292541809935852940253240899	('/usr/bin/apt-config', 'shell ListDir Dir::State::Lists')	{'mitre:T1072'}
+95164129059831633665532558462867030876	('/usr/bin/apt-config', 'shell ListDir Dir::State::Lists', 'FF')	None
+33405312345361481211277425960703324160	('/usr/bin/apt-config', 'shell ListDir Dir::State::Lists')	None
+160728222652434113142501912292644133283	('/usr/bin/apt-config', 'shell ListDir Dir::State::Lists', 'FF')	None
+56373690515284772950046883188623156301	('/usr/bin/dpkg', '--print-foreign-architectures')	{'mitre:T1072'}
+319925052973080697711601516398854867081	('/usr/bin/dpkg', '--print-foreign-architectures', 'FF')	None
+134852779082248231157481070648121556665	('/usr/bin/apt-config', 'shell DpkgStatus Dir::State::status')	{'mitre:T1072'}
+115704162601139558866102017927872748832	('/usr/bin/apt-config', 'shell DpkgStatus Dir::State::status', 'FF')	None
+161915554657163051360548988936302400926	('/usr/bin/apt-config', 'shell DpkgStatus Dir::State::status')	None
+285873811949430932240774836701253153900	('/usr/bin/apt-config', 'shell DpkgStatus Dir::State::status', 'FF')	None
+230608836344947651427521024698236427470	('/usr/bin/dpkg', '--print-foreign-architectures')	{'mitre:T1072'}
+263474749613512845483378492914219633044	('/usr/bin/dpkg', '--print-foreign-architectures', 'FF')	None
+323200566379410334442337029328097883522	('/usr/bin/apt-config', 'shell EtcDir Dir::Etc')	{'mitre:T1072'}
+154450164046422204090023351341247746224	('/usr/bin/apt-config', 'shell EtcDir Dir::Etc', 'FF')	None
+195246474381998830556623260570174893887	('/usr/bin/apt-config', 'shell EtcDir Dir::Etc')	None
+30935799608228958002903472560379539188	('/usr/bin/apt-config', 'shell EtcDir Dir::Etc', 'FF')	None
+44448709844824102120626270389569818341	('/usr/bin/dpkg', '--print-foreign-architectures')	{'mitre:T1072'}
+23016148084935538646799846226623386324	('/usr/bin/dpkg', '--print-foreign-architectures', 'FF')	None
+137128381072990241852294616186964191940	('/usr/bin/apt-config', 'shell SourceList Dir::Etc::sourcelist')	{'mitre:T1072'}
+275234546524137375424406884509154724976	('/usr/bin/apt-config', 'shell SourceList Dir::Etc::sourcelist', 'FF')	None
+304972565643585057276648099720118567452	('/usr/bin/apt-config', 'shell SourceList Dir::Etc::sourcelist')	None
+339816607066936516185759532839864557353	('/usr/bin/apt-config', 'shell SourceList Dir::Etc::sourcelist', 'FF')	None
+241518165708652216199470485683301719662	('/usr/bin/dpkg', '--print-foreign-architectures')	{'mitre:T1072'}
+193314817364290183288694551549257596025	('/usr/bin/dpkg', '--print-foreign-architectures', 'FF')	None
+80312467302224676128098666183056906138	('/usr/bin/find', '/var/lib/apt/lists/ /etc/apt/sources.list //var/lib/dpkg/status -type f -newer /var/lib/update-notifier/updates-available -print -quit')	None
+246115235535542105581367181400487393679	('/usr/bin/find', '/var/lib/apt/lists/ /etc/apt/sources.list //var/lib/dpkg/status -type f -newer /var/lib/update-notifier/updates-available -print -quit', 'FF')	None
+132048722308992557256124313839678337414	('/usr/bin/dirname', '/var/lib/update-notifier/updates-available')	None
+73264278796816288992309386980981054582	('/usr/bin/dirname', '/var/lib/update-notifier/updates-available', 'FF')	None
+4389033104631188940302415908204213240	('/bin/mktemp', '-p /var/lib/update-notifier')	{'mitre:T1106', 'mitre:T1574'}
+33569317934152335177386985837726586611	('/bin/mktemp', '-p /var/lib/update-notifier', 'FF')	None
+177146397834463837250871864108077181474	('/usr/lib/update-notifier/apt-check', '/usr/lib/update-notifier/apt-check --human-readable')	{'mitre:T1072'}
+127762237298288742538470812130609199809	('/usr/lib/update-notifier/apt-check', '/usr/lib/update-notifier/apt-check --human-readable', 'FF')	None
+300618895915981029003389296304238060696	('/usr/lib/update-notifier/apt-check', '/usr/lib/update-notifier/apt-check --human-readable')	None
+81469997776787416853060741332324586875	('/usr/lib/update-notifier/apt-check', '/usr/lib/update-notifier/apt-check --human-readable', 'FF')	None
+193837924013466747624856730450754224409	('/usr/bin/dpkg', '--print-foreign-architectures')	{'mitre:T1072'}
+306845859172209191953544065561524796634	('/usr/bin/dpkg', '--print-foreign-architectures', 'FF')	None
+30834758198941098075860591384044159627	('/bin/mv', '/var/lib/update-notifier/tmp.JQ8PQuaejJ /var/lib/update-notifier/updates-available')	{'mitre:T1106', 'mitre:T1574'}
+124190136718960508828696469488073423243	('/bin/mv', '/var/lib/update-notifier/tmp.JQ8PQuaejJ /var/lib/update-notifier/updates-available', 'FF')	None
+118821524045093307971694786353831838134	('/bin/rm', '-f /var/lib/update-notifier/tmp.JQ8PQuaejJ')	{'mitre:T1106', 'mitre:T1574'}
+232696949801422537274644709743195372535	('/bin/rm', '-f /var/lib/update-notifier/tmp.JQ8PQuaejJ', 'FF')	None
+19859439534089179810484437781278471795	('<NA>', '-c [ ! -f /usr/lib/ubuntu-advantage/apt-esm-hook ] || /usr/lib/ubuntu-advantage/apt-esm-hook post-invoke-success || true')	None
+39369104445010111522887253372900654629	('<NA>', '-c [ ! -f /usr/lib/ubuntu-advantage/apt-esm-hook ] || /usr/lib/ubuntu-advantage/apt-esm-hook post-invoke-success || true', 'FF')	None
+35379362248997630141759375393448721514	('<NA>', '-c [ ! -f /usr/lib/ubuntu-advantage/apt-esm-hook ] || /usr/lib/ubuntu-advantage/apt-esm-hook post-invoke-success || true')	None
+217321163511075403537787839270691755446	('/usr/lib/ubuntu-advantage/apt-esm-hook', 'post-invoke-success')	{'mitre:T1072'}
+48020249441855112052724850569707024972	('/usr/lib/ubuntu-advantage/apt-esm-hook', 'post-invoke-success', 'FF')	None
+137871098449217528146887267741514656734	('/usr/bin/dbus-daemon', '--system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only', 'FF')	None
+321267887862702818606616863940352674204	('/usr/bin/dbus-daemon', '--system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only')	None
+224540606568911377251171397125682447057	('/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/node', '/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/bootstrap-fork --type=watcherService', 'FF')	None
+235240194854731768187194855266078645621	('/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/node', '/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/bootstrap-fork --type=watcherService')	None
+75669446460249273529610890599980844752	('/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/node', '/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/bootstrap-fork --type=extensionHost --uriTransformerPath=/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/server/uriTransformer.js')	None
+228399291734385204416320418452950119873	('/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/node', '/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/bootstrap-fork --type=extensionHost --uriTransformerPath=/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/server/uriTransformer.js', 'FF')	None
+140377439475445876876205394326952714109	('/usr/bin/git', 'rev-parse --show-toplevel')	None
+150907266658823387419128470385671580493	('/usr/bin/git', 'rev-parse --show-toplevel', 'FF')	None
+118067468755897240869866754085001196879	('/usr/lib/policykit-1/polkitd', '--no-debug', 'FF')	None
+269761650270537830726055195069310830988	('/usr/lib/policykit-1/polkitd', '--no-debug')	None
+36186043521372951403832237359348583601	('/usr/bin/python3', 'ex.py')	None
+111751369371483559506266174233201970555	('/usr/bin/python3', 'ex.py', 'FF')	None
+197251197091489988060200701089705864944	('/usr/bin/file', '/usr/bin/python3.6')	None
+85291045258982835601366640757389970361	('/usr/bin/file', '/usr/bin/python3.6', 'FF')	None
+161876540469817019661330613589176341496	('/bin/sh', '-c uname -p 2> /dev/null')	{'mitre:T1106', 'mitre:T1574'}
+88422433491285484200312540607819341806	('/bin/sh', '-c uname -p 2> /dev/null', 'FF')	None
+309635949870898958439645770229495637035	('/bin/sh', '-c uname -p 2> /dev/null')	None
+3433332649682502378374103210767677071	('/bin/uname', '-p')	None
+163612355205353468126816598614265208480	('/bin/uname', '-p', 'FF')	None
+337357772166403171529726285041355384784	('/bin/sh', '-c "/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/base/node/cpuUsage.sh" 5754 18299')	{'mitre:T1106', 'mitre:T1574'}
+229617056299369469391470501956168309896	('/bin/sh', '-c "/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/base/node/cpuUsage.sh" 5754 18299', 'FF')	None
+143685501974245340112170625684161628467	('/bin/sh', '-c "/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/base/node/cpuUsage.sh" 5754 18299')	None
+201115155750543068633296933219108139369	('/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/base/node/cpuUsage.sh', '/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/base/node/cpuUsage.sh 5754 18299')	None
+247998867869301552260856993196779904125	('/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/base/node/cpuUsage.sh', '/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/base/node/cpuUsage.sh 5754 18299', 'FF')	None
+143616076154524155800160737338298924988	('/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/base/node/cpuUsage.sh', '/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/base/node/cpuUsage.sh 5754 18299')	None
+284647791065965244417818908944793896886	('/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/base/node/cpuUsage.sh', '/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/base/node/cpuUsage.sh 5754 18299', 'FF')	None
+19689662740474200475133576179398027180	('/bin/sed', '-n s/^cpu\\s//p /proc/stat')	None
+151442176123445587129170787879196630741	('/bin/sed', '-n s/^cpu\\s//p /proc/stat', 'FF')	None
+193875813584430069853354279617769199991	('/bin/cat', '/proc/5754/stat')	None
+125465501135575244620829719170086566908	('/bin/cat', '/proc/5754/stat', 'FF')	None
+106134865282121975491022972921499200458	('/bin/cat', '/proc/18299/stat')	None
+330693746309852097233706953693423748950	('/bin/cat', '/proc/18299/stat', 'FF')	None
+119660254098808083463177442830688398017	('/bin/sleep', '1')	None
+295759765003957427643966497288535277488	('/bin/sleep', '1', 'FF')	None

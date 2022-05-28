@@ -1,0 +1,30 @@
+109276219877463462757776110772247006264	('/usr/bin/python2.7', '/usr/bin/supervisord', 'FF')	None
+106846843280940174207252472853379372539	('/usr/bin/python2.7', '/usr/bin/supervisord')	None
+298511361662583717190234641877905143314	('/usr/bin/python2.7', '/usr/bin/supervisord')	None
+164224453150475585830570145745336367284	('/usr/bin/python2.7', '/usr/bin/supervisord', 'FF')	None
+76917056208936804005120203398429349962	('/usr/sbin/nginx', '-g daemon off;')	None
+150917337196712761480886818729204456617	('/usr/sbin/nginx', '-g daemon off;', 'FF')	None
+173722022382843017994261420090757981248	('/root/grading_worker.sh', '/root/grading_worker.sh /jobs')	None
+200884749318262924169310923996889967704	('/root/grading_worker.sh', '/root/grading_worker.sh /jobs', 'FF')	None
+151983854219557994345645136151226733326	('/root/grading_worker.sh', '/root/grading_worker.sh /jobs')	None
+26162126558518481847494866169370187548	('/root/grading_worker.sh', '/root/grading_worker.sh /jobs', 'FF')	None
+120474881895819418337812628617497407529	('/bin/ls', '-A /jobs')	None
+201528939958679504655211501905503415974	('/bin/ls', '-A /jobs', 'FF')	None
+246993148416224552939995413339151601331	('/bin/sleep', '1')	None
+292066528111953883955987452237464628666	('/bin/sleep', '1', 'FF')	None
+221558465105911963072047411143268403065	('/usr/sbin/nginx', '', 'FF')	None
+257353663075611354363870900989447493888	('/usr/sbin/nginx', '')	None
+40323933939774407385591999899185020812	('/usr/local/bin/uwsgi', '--ini /etc/uwsgi.ini --die-on-term')	None
+71137753815170539644447799870122105047	('/usr/local/bin/uwsgi', '--ini /etc/uwsgi.ini --die-on-term', 'FF')	None
+180577883405330483305889217201374994509	('/usr/lib/postgresql/10/bin/postgres', '-D /var/lib/postgresql/10/main -c config_file=/etc/postgresql/10/main/postgresql.conf')	None
+224826584473638508506629811665590112872	('/usr/lib/postgresql/10/bin/postgres', '-D /var/lib/postgresql/10/main -c config_file=/etc/postgresql/10/main/postgresql.conf', 'FF')	None
+116740200369879108970645599406180422855	('/usr/lib/postgresql/10/bin/postgres', '-D /var/lib/postgresql/10/main -c config_file=/etc/postgresql/10/main/postgresql.conf', 'NF')	None
+181125958416447015500953963634557993511	('/usr/lib/postgresql/10/bin/postgres', '-D /var/lib/postgresql/10/main -c config_file=/etc/postgresql/10/main/postgresql.conf')	None
+276195959507791599105213030588286390681	('/usr/lib/postgresql/10/bin/postgres', '-D /var/lib/postgresql/10/main -c config_file=/etc/postgresql/10/main/postgresql.conf', 'FF')	None
+143113715647245628502239968741340096670	('/usr/local/bin/uwsgi', '--ini /etc/uwsgi.ini --die-on-term')	None
+221568030208321653367719201218318037946	('/usr/local/bin/uwsgi', '--ini /etc/uwsgi.ini --die-on-term', 'FF')	None
+295025070424149563316313529738000426544	('/sbin/ldconfig', '/sbin/ldconfig -p')	None
+17292220729770310662951149736744815339	('/sbin/ldconfig', '/sbin/ldconfig -p', 'FF')	None
+158329615374102004276795287159239358730	('/sbin/ldconfig.real', '-p')	None
+110342086679108272011108303659242256022	('/sbin/ldconfig.real', '-p', 'FF')	None
+187771764453767303080905238558893480062	('/usr/lib/postgresql/10/bin/postgres', '-D /var/lib/postgresql/10/main -c config_file=/etc/postgresql/10/main/postgresql.conf', 'NF')	None

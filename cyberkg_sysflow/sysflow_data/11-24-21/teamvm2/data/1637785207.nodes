@@ -1,0 +1,218 @@
+203046543664069702495774304824401494194	('/usr/sbin/irqbalance', '--foreground', 'FF')	None
+264072776791094588057200014465327940943	('/usr/sbin/irqbalance', '--foreground')	None
+164032422607533106840303254473568259920	('/usr/sbin/openvpn', '--daemon ovpn-client --status /run/openvpn/client.status 10 --cd /etc/openvpn --script-security 2 --config /etc/openvpn/client.conf --writepid /run/openvpn/client.pid', 'FF')	None
+40503314233991184311583421659681684940	('/usr/sbin/openvpn', '--daemon ovpn-client --status /run/openvpn/client.status 10 --cd /etc/openvpn --script-security 2 --config /etc/openvpn/client.conf --writepid /run/openvpn/client.pid')	None
+105337614666955925036584247068112968500	('/snap/amazon-ssm-agent/4046/amazon-ssm-agent', '')	None
+327867969869831915191934110595062499350	('/snap/amazon-ssm-agent/4046/amazon-ssm-agent', '')	None
+334565776516558573631534134952863647346	('/snap/amazon-ssm-agent/4046/amazon-ssm-agent', '', 'FF')	None
+139124548033336773787321116882599357312	('/bin/ps', '-e -o pid,ppid,state,command')	None
+331266435681907867594682088954840864026	('/bin/ps', '-e -o pid,ppid,state,command', 'FF')	None
+12751352799540237224514627656429439075	('/usr/sbin/openvpn', '--daemon ovpn-client --status /run/openvpn/client.status 10 --cd /etc/openvpn --script-security 2 --config /etc/openvpn/client.conf --writepid /run/openvpn/client.pid', 'NF')	None
+141714468030420618795043395101774151869	('/lib/systemd/systemd', '', 'FF')	None
+122393967074279006578614696426244910108	('/lib/systemd/systemd', '')	None
+27149117594094404081767163466229792802	('/usr/bin/containerd-shim-runc-v2', '-namespace moby -id db46104f9e6634af53ccafc36ce4b109908cae4e0c75f66a8c7be329b7a4a61e -address /run/containerd/containerd.sock', 'FF')	None
+3588190477909194014426195321113145228	('/usr/bin/containerd-shim-runc-v2', '-namespace moby -id db46104f9e6634af53ccafc36ce4b109908cae4e0c75f66a8c7be329b7a4a61e -address /run/containerd/containerd.sock')	None
+93762949540555119844034065645818967613	('/usr/bin/dockerd', '-H fd:// --containerd=/run/containerd/containerd.sock', 'FF')	{'mitre:T1055', 'mitre:T1574'}
+288807639575301899814947492087725363578	('/usr/bin/dockerd', '-H fd:// --containerd=/run/containerd/containerd.sock')	None
+336311525845192339242437126565828393561	('/snap/snapd/14066/usr/lib/snapd/snapd', '', 'FF')	None
+151453303293572584763529660445038733800	('/snap/snapd/14066/usr/lib/snapd/snapd', '')	None
+219386352128382132247166184558091788837	('/snap/amazon-ssm-agent/4046/ssm-agent-worker', '', 'FF')	None
+41391823795123643114531800462972537127	('/snap/amazon-ssm-agent/4046/ssm-agent-worker', '')	None
+36958845862574059613261867648852584	('/usr/bin/socat', 'tcp-l:6666,reuseaddr,fork exec:../ro/backup', 'NF')	None
+263126912460907614612765555214196516630	('/usr/bin/socat', 'tcp-l:6666,reuseaddr,fork exec:../ro/backup')	None
+176829451142225454248820432718706391166	('/usr/bin/socat', 'tcp-l:6666,reuseaddr,fork exec:../ro/backup')	None
+310180436028980874489540243639022857618	('/usr/bin/socat', 'tcp-l:6666,reuseaddr,fork exec:../ro/backup', 'FF')	None
+138874927913249846215070028677981914815	('/home/chall/service/ro/backup', '')	None
+73747317692145724847844627293180516758	('/home/chall/service/ro/backup', '', 'FF')	None
+43682476363686411314617674624969395532	('/lib/systemd/systemd-udevd', '', 'FF')	None
+118302433445152229673665413752597590740	('/lib/systemd/systemd-udevd', '')	None
+315043596357812939269125269065338682202	('/lib/systemd/systemd-networkd', '', 'FF')	None
+100190260029730279243848685335914080113	('/lib/systemd/systemd-networkd', '')	None
+31075985157730363324049613599790006860	('/home/chall/service/ro/backup', '')	{'mitre:T1068'}
+82263460287809395463401059384971521553	('<NA>', '-c cat /flag;_ok.secure.bak')	{'mitre:T1068'}
+139945953912428211766365899713308377205	('<NA>', '-c cat /flag;_ok.secure.bak', 'FF')	{'mitre:T1068'}
+228848756297225436487327244555499061183	('<NA>', '-c cat /flag;_ok.secure.bak')	None
+196419630749577181154797730624749392610	('/bin/cat', '/flag')	None
+50278975409409460251192796433680735045	('/bin/cat', '/flag', 'FF')	None
+331634140358273006774442821948616413455	('/usr/bin/socat', 'tcp-l:6666,reuseaddr,fork exec:../ro/backup', 'FF')	None
+46878096646714678154753521286861419911	('/usr/bin/bindfs', '/opt/ictf/services/backup/append /opt/ictf/services/backup/append -o rw,force-user=root,perms=u=rwD:g=r:dg=rwx:o=D,dev,suid', 'FF')	None
+145081173473993061962182489291256926896	('/usr/bin/bindfs', '/opt/ictf/services/backup/append /opt/ictf/services/backup/append -o rw,force-user=root,perms=u=rwD:g=r:dg=rwx:o=D,dev,suid')	None
+235958685568631141759805302185440190297	('<NA>', '-c cat ~/flag;_a.secure.bak')	{'mitre:T1068'}
+274878668743011940715578869873755595718	('<NA>', '-c cat ~/flag;_a.secure.bak', 'FF')	{'mitre:T1068'}
+274282739910739973421895384882929202203	('<NA>', '-c cat ~/flag;_a.secure.bak')	None
+273207953030981910657823111390380203944	('/bin/cat', '/home/chall/flag')	None
+257833645132759325243950275775714982473	('/bin/cat', '/home/chall/flag', 'FF')	None
+287221787114467583255154341047107817649	('/usr/bin/containerd-shim-runc-v2', '-namespace moby -id c24de6934c7630c93fa34d39d41013a89f9a683d727b8378f66a979f44affc6e -address /run/containerd/containerd.sock', 'FF')	None
+306179908917053895669247298324679159764	('/usr/bin/containerd-shim-runc-v2', '-namespace moby -id c24de6934c7630c93fa34d39d41013a89f9a683d727b8378f66a979f44affc6e -address /run/containerd/containerd.sock')	None
+194432887247740805908617213050053635534	('/usr/bin/dockerd', '-H fd:// --containerd=/run/containerd/containerd.sock', 'NF')	None
+279299646822054054065641608757879344215	('/usr/sbin/rsyslogd', '-n', 'NF')	None
+163832685540553784151272820905686468500	('/usr/sbin/rsyslogd', '-n')	None
+320578513721543421412201504123195220061	('/usr/sbin/rsyslogd', '-n', 'FF')	None
+200766740694419863402856807762899901763	('/lib/systemd/systemd-logind', '', 'FF')	{'mitre:T1059'}
+162080216875236340427850132498319249012	('/lib/systemd/systemd-logind', '')	None
+76120867213803524383498286210744626842	('/lib/systemd/systemd-timesyncd', '', 'FF')	None
+311245530955340239460782411969205611624	('/lib/systemd/systemd-timesyncd', '')	None
+266572669418346864841336136945587822435	('/lib/systemd/systemd-resolved', '', 'FF')	None
+6321668754902351713207960749171740970	('/lib/systemd/systemd-resolved', '')	None
+4773476042035766726178782751405663782	('<NA>', '-c cat ;/bin/sh;_.secure.bak')	{'mitre:T1068'}
+33851725907179407015663307194019999351	('<NA>', '-c cat ;/bin/sh;_.secure.bak', 'FF')	{'mitre:T1068'}
+85942170651034607064334976360506949576	('<NA>', '-c cat ;/bin/sh;_.secure.bak')	None
+63888212772054565893515782701308369936	('/bin/cat', '')	None
+308542367842451202623160203945945163116	('/bin/cat', '', 'FF')	None
+158742097062746045132263766530974683396	('/bin/sh', '')	{'mitre:T1106', 'mitre:T1574'}
+198193049073185641326204064739122768954	('/bin/sh', '', 'FF')	None
+332863890138909921023347810611304894043	('/bin/dash', '-c cd service/rw && socat tcp-l:6666,reuseaddr,fork exec:"../ro/backup"')	None
+168644197241064086615749447853128763922	('/usr/bin/containerd-shim-runc-v2', '-namespace moby -id c24de6934c7630c93fa34d39d41013a89f9a683d727b8378f66a979f44affc6e -address /run/containerd/containerd.sock')	None
+49417235575388408453457757342313466681	('/usr/sbin/runc', '--root /var/run/docker/runtime-runc/moby --log /run/containerd/io.containerd.runtime.v2.task/moby/c24de6934c7630c93fa34d39d41013a89f9a683d727b8378f66a979f44affc6e/log.json --log-format json delete c24de6934c7630c93fa34d39d41013a89f9a683d727b8378f66a979f44affc6e')	None
+218198631395511123992384341401783294843	('/usr/sbin/runc', '--root /var/run/docker/runtime-runc/moby --log /run/containerd/io.containerd.runtime.v2.task/moby/c24de6934c7630c93fa34d39d41013a89f9a683d727b8378f66a979f44affc6e/log.json --log-format json delete c24de6934c7630c93fa34d39d41013a89f9a683d727b8378f66a979f44affc6e', 'FF')	None
+56137923281703366806412482512672911468	('/lib/systemd/systemd-journald', '', 'FF')	None
+163424344929093476444125798498813580862	('/lib/systemd/systemd-journald', '')	None
+155253161381686223154911293782529012714	('/usr/bin/containerd', '', 'FF')	None
+194173035853007412243067221996084179887	('/usr/bin/containerd', '')	None
+184685058152090964995635254814651371010	('/usr/bin/containerd', '')	None
+242704560813672082562450580970114239514	('/usr/bin/containerd-shim-runc-v2', '-namespace moby -address /run/containerd/containerd.sock -publish-binary /usr/bin/containerd -id c24de6934c7630c93fa34d39d41013a89f9a683d727b8378f66a979f44affc6e -bundle /run/containerd/io.containerd.runtime.v2.task/moby/c24de6934c7630c93fa34d39d41013a89f9a683d727b8378f66a979f44affc6e delete')	None
+214815163355409352524243041675391219722	('/usr/bin/containerd-shim-runc-v2', '-namespace moby -address /run/containerd/containerd.sock -publish-binary /usr/bin/containerd -id c24de6934c7630c93fa34d39d41013a89f9a683d727b8378f66a979f44affc6e -bundle /run/containerd/io.containerd.runtime.v2.task/moby/c24de6934c7630c93fa34d39d41013a89f9a683d727b8378f66a979f44affc6e delete', 'FF')	None
+194768171505053126094112641124579518698	('/usr/bin/containerd-shim-runc-v2', '-namespace moby -address /run/containerd/containerd.sock -publish-binary /usr/bin/containerd -id c24de6934c7630c93fa34d39d41013a89f9a683d727b8378f66a979f44affc6e -bundle /run/containerd/io.containerd.runtime.v2.task/moby/c24de6934c7630c93fa34d39d41013a89f9a683d727b8378f66a979f44affc6e delete')	None
+270719394621120321143439602693913756175	('/usr/sbin/runc', '--root /var/run/docker/runtime-runc/moby --log /run/containerd/io.containerd.runtime.v2.task/moby/c24de6934c7630c93fa34d39d41013a89f9a683d727b8378f66a979f44affc6e/log.json --log-format json delete --force c24de6934c7630c93fa34d39d41013a89f9a683d727b8378f66a979f44affc6e')	None
+81779796605946883943778871017752103497	('/usr/sbin/runc', '--root /var/run/docker/runtime-runc/moby --log /run/containerd/io.containerd.runtime.v2.task/moby/c24de6934c7630c93fa34d39d41013a89f9a683d727b8378f66a979f44affc6e/log.json --log-format json delete --force c24de6934c7630c93fa34d39d41013a89f9a683d727b8378f66a979f44affc6e', 'FF')	None
+272290036289514227139083030347523034307	('/usr/bin/docker-proxy', '-proto tcp -host-ip 0.0.0.0 -host-port 10001 -container-ip 172.19.0.3 -container-port 6666')	None
+46547326654409162215905116095274854787	('/usr/bin/dockerd', '-H fd:// --containerd=/run/containerd/containerd.sock')	None
+139371638292688533354458789541610196562	('/sbin/iptables', '--wait -t nat -C DOCKER -p tcp -d 0/0 --dport 10001 -j DNAT --to-destination 172.19.0.3:6666 ! -i br-08a0309ee78a')	None
+82462856861935664150716804331942389371	('/sbin/iptables', '--wait -t nat -C DOCKER -p tcp -d 0/0 --dport 10001 -j DNAT --to-destination 172.19.0.3:6666 ! -i br-08a0309ee78a', 'FF')	None
+191726479490022180617198836358369103124	('/sbin/iptables', '--wait -t nat -C DOCKER -p tcp -d 0/0 --dport 10001 -j DNAT --to-destination 172.19.0.3:6666 ! -i br-08a0309ee78a', 'NF')	None
+169786356361088344114458890868876551379	('/sbin/iptables', '--wait -t nat -D DOCKER -p tcp -d 0/0 --dport 10001 -j DNAT --to-destination 172.19.0.3:6666 ! -i br-08a0309ee78a')	None
+219769306305006867011988602377140472364	('/sbin/iptables', '--wait -t nat -D DOCKER -p tcp -d 0/0 --dport 10001 -j DNAT --to-destination 172.19.0.3:6666 ! -i br-08a0309ee78a', 'FF')	None
+64749804629805663116728527055736325504	('/sbin/iptables', '--wait -t nat -D DOCKER -p tcp -d 0/0 --dport 10001 -j DNAT --to-destination 172.19.0.3:6666 ! -i br-08a0309ee78a', 'NF')	None
+118049793272056248612918117161914464452	('/sbin/iptables', '--wait -t filter -C DOCKER ! -i br-08a0309ee78a -o br-08a0309ee78a -p tcp -d 172.19.0.3 --dport 6666 -j ACCEPT')	None
+10016836462273265601324497684736117329	('/sbin/iptables', '--wait -t filter -C DOCKER ! -i br-08a0309ee78a -o br-08a0309ee78a -p tcp -d 172.19.0.3 --dport 6666 -j ACCEPT', 'FF')	None
+143166459719630803178458732723745985486	('/sbin/iptables', '--wait -t filter -C DOCKER ! -i br-08a0309ee78a -o br-08a0309ee78a -p tcp -d 172.19.0.3 --dport 6666 -j ACCEPT', 'NF')	None
+184230835375838676037439966642426821921	('/sbin/iptables', '--wait -t filter -D DOCKER ! -i br-08a0309ee78a -o br-08a0309ee78a -p tcp -d 172.19.0.3 --dport 6666 -j ACCEPT')	None
+168349296930862562058726819454969344764	('/sbin/iptables', '--wait -t filter -D DOCKER ! -i br-08a0309ee78a -o br-08a0309ee78a -p tcp -d 172.19.0.3 --dport 6666 -j ACCEPT', 'FF')	None
+296575953826844522766642126544241115898	('/sbin/iptables', '--wait -t filter -D DOCKER ! -i br-08a0309ee78a -o br-08a0309ee78a -p tcp -d 172.19.0.3 --dport 6666 -j ACCEPT', 'NF')	None
+230322035826016466780475830806790887029	('/sbin/iptables', '--wait -t nat -C POSTROUTING -p tcp -s 172.19.0.3 -d 172.19.0.3 --dport 6666 -j MASQUERADE')	None
+143771447443862722806409577174356050987	('/sbin/iptables', '--wait -t nat -C POSTROUTING -p tcp -s 172.19.0.3 -d 172.19.0.3 --dport 6666 -j MASQUERADE', 'FF')	None
+274402767350688436498268878492891220375	('/sbin/iptables', '--wait -t nat -C POSTROUTING -p tcp -s 172.19.0.3 -d 172.19.0.3 --dport 6666 -j MASQUERADE', 'NF')	None
+290082925434083182265721700058458386629	('/sbin/iptables', '--wait -t nat -D POSTROUTING -p tcp -s 172.19.0.3 -d 172.19.0.3 --dport 6666 -j MASQUERADE')	None
+177815349464688744105709804728200609477	('/sbin/iptables', '--wait -t nat -D POSTROUTING -p tcp -s 172.19.0.3 -d 172.19.0.3 --dport 6666 -j MASQUERADE', 'FF')	None
+234183723433598734003650204881952827903	('/sbin/iptables', '--wait -t nat -D POSTROUTING -p tcp -s 172.19.0.3 -d 172.19.0.3 --dport 6666 -j MASQUERADE', 'NF')	None
+178094978275561876246326366549546965851	('/usr/bin/docker-proxy', '-proto tcp -host-ip :: -host-port 10001 -container-ip 172.19.0.3 -container-port 6666', 'FF')	None
+188441321509294351923452344374098530059	('/usr/bin/docker-proxy', '-proto tcp -host-ip :: -host-port 10001 -container-ip 172.19.0.3 -container-port 6666')	None
+292261686910936577420513162047334810495	('/usr/bin/python3.6', '/usr/bin/networkd-dispatcher --run-startup-triggers', 'FF')	None
+179624520659576318004434356946928346531	('/usr/bin/python3.6', '/usr/bin/networkd-dispatcher --run-startup-triggers')	None
+100989998588486746462002575235658760109	('/lib/systemd/systemd-udevd', '', 'FF')	None
+286861380941970427175271768013418192191	('/lib/systemd/systemd-udevd', '')	None
+178394265240153166210759257895900223677	('/lib/systemd/systemd-timesyncd', '', 'NF')	None
+192650253348484167558823996483323320110	('/lib/systemd/systemd-networkd', '', 'NF')	None
+261557856757875728898939517502641287342	('/lib/udev/bridge-network-interface', '/lib/udev/bridge-network-interface')	None
+288582408389091327338828807691698595811	('/lib/udev/bridge-network-interface', '/lib/udev/bridge-network-interface', 'FF')	None
+159985735875153106993087062349456431862	('/lib/udev/bridge-network-interface', '/lib/udev/bridge-network-interface')	None
+202204861661156744412032560900342902866	('/lib/udev/bridge-network-interface', '/lib/udev/bridge-network-interface', 'FF')	None
+86451270428265085600528412850796174243	('/lib/open-iscsi/net-interface-handler', '-e /lib/open-iscsi/net-interface-handler start')	None
+30308939165969725461681458671529347358	('/lib/open-iscsi/net-interface-handler', '-e /lib/open-iscsi/net-interface-handler start', 'FF')	None
+133653905418669003602694079714153214552	('/usr/bin/python3.6', '/usr/bin/networkd-dispatcher --run-startup-triggers')	None
+72826757180171867683845021109033380085	('/usr/bin/python3.6', '/usr/bin/networkd-dispatcher --run-startup-triggers', 'FF')	None
+292277072153336722436143287338692038949	('/bin/networkctl', 'list --no-pager --no-legend')	None
+251865121524406473519657824497967215641	('/bin/networkctl', 'list --no-pager --no-legend', 'FF')	None
+206459952519516998749434460981280979003	('/lib/systemd/systemd-sysctl', '--prefix=/net/ipv4/conf/veth1dedf92 --prefix=/net/ipv4/neigh/veth1dedf92 --prefix=/net/ipv6/conf/veth1dedf92 --prefix=/net/ipv6/neigh/veth1dedf92')	None
+337736048096293346037522811365862503073	('/lib/systemd/systemd-sysctl', '--prefix=/net/ipv4/conf/veth1dedf92 --prefix=/net/ipv4/neigh/veth1dedf92 --prefix=/net/ipv6/conf/veth1dedf92 --prefix=/net/ipv6/neigh/veth1dedf92', 'FF')	None
+332692029323684829943438790640414009747	('/bin/networkctl', 'list --no-pager --no-legend', 'NF')	None
+182427984974033607737636464773182686112	('/lib/open-iscsi/net-interface-handler', '-e /lib/open-iscsi/net-interface-handler stop')	None
+155884996217961542646861392178756406532	('/lib/open-iscsi/net-interface-handler', '-e /lib/open-iscsi/net-interface-handler stop', 'FF')	None
+88192354983033136578833513291282743745	('/lib/systemd/systemd-udevd', '', 'NF')	None
+192033609915674115509013481192099560304	('/lib/systemd/systemd-sysctl', '--prefix=/net/ipv4/conf/vethebb5271 --prefix=/net/ipv4/neigh/vethebb5271 --prefix=/net/ipv6/conf/vethebb5271 --prefix=/net/ipv6/neigh/vethebb5271')	None
+35159472427789562311975321039134178693	('/lib/systemd/systemd-sysctl', '--prefix=/net/ipv4/conf/vethebb5271 --prefix=/net/ipv4/neigh/vethebb5271 --prefix=/net/ipv6/conf/vethebb5271 --prefix=/net/ipv6/neigh/vethebb5271', 'FF')	None
+126728935349556243211967044360885529427	('/lib/systemd/systemd-sysctl', '--prefix=/net/ipv4/conf/veth46ea200 --prefix=/net/ipv4/neigh/veth46ea200 --prefix=/net/ipv6/conf/veth46ea200 --prefix=/net/ipv6/neigh/veth46ea200')	None
+205273367630262910392121592649632627681	('/lib/systemd/systemd-sysctl', '--prefix=/net/ipv4/conf/veth46ea200 --prefix=/net/ipv4/neigh/veth46ea200 --prefix=/net/ipv6/conf/veth46ea200 --prefix=/net/ipv6/neigh/veth46ea200', 'FF')	None
+281548389909563638863248426931478033452	('/sbin/iptables', '--wait -t nat -A DOCKER -p tcp -d 0/0 --dport 10001 -j DNAT --to-destination 172.19.0.3:6666 ! -i br-08a0309ee78a')	None
+58934440496803620518899585970832026250	('/sbin/iptables', '--wait -t nat -A DOCKER -p tcp -d 0/0 --dport 10001 -j DNAT --to-destination 172.19.0.3:6666 ! -i br-08a0309ee78a', 'FF')	None
+53984190092568439257248294600616309885	('/sbin/iptables', '--wait -t nat -A DOCKER -p tcp -d 0/0 --dport 10001 -j DNAT --to-destination 172.19.0.3:6666 ! -i br-08a0309ee78a', 'NF')	None
+212059650302093506990214826972584043023	('/sbin/iptables', '--wait -t filter -A DOCKER ! -i br-08a0309ee78a -o br-08a0309ee78a -p tcp -d 172.19.0.3 --dport 6666 -j ACCEPT')	None
+233064124583357930940463653479357228239	('/sbin/iptables', '--wait -t filter -A DOCKER ! -i br-08a0309ee78a -o br-08a0309ee78a -p tcp -d 172.19.0.3 --dport 6666 -j ACCEPT', 'FF')	None
+301290226215835392461994626943455501344	('/sbin/iptables', '--wait -t filter -A DOCKER ! -i br-08a0309ee78a -o br-08a0309ee78a -p tcp -d 172.19.0.3 --dport 6666 -j ACCEPT', 'NF')	None
+281567628489825342996465932115992282197	('/sbin/iptables', '--wait -t nat -A POSTROUTING -p tcp -s 172.19.0.3 -d 172.19.0.3 --dport 6666 -j MASQUERADE')	None
+2934771811843995536989971033943677674	('/sbin/iptables', '--wait -t nat -A POSTROUTING -p tcp -s 172.19.0.3 -d 172.19.0.3 --dport 6666 -j MASQUERADE', 'FF')	None
+25946549486271596416968285587932328249	('/sbin/iptables', '--wait -t nat -A POSTROUTING -p tcp -s 172.19.0.3 -d 172.19.0.3 --dport 6666 -j MASQUERADE', 'NF')	None
+64142944105290001888269732242784535926	('/usr/bin/docker-proxy', '-proto tcp -host-ip 0.0.0.0 -host-port 10001 -container-ip 172.19.0.3 -container-port 6666', 'FF')	None
+337043304148837126325695054128179012911	('/usr/bin/containerd-shim-runc-v2', '-namespace moby -address /run/containerd/containerd.sock -publish-binary /usr/bin/containerd -id c24de6934c7630c93fa34d39d41013a89f9a683d727b8378f66a979f44affc6e start')	None
+73416318900254158349479994637838598230	('/usr/bin/containerd-shim-runc-v2', '-namespace moby -address /run/containerd/containerd.sock -publish-binary /usr/bin/containerd -id c24de6934c7630c93fa34d39d41013a89f9a683d727b8378f66a979f44affc6e start', 'FF')	None
+238427154857148552515197939746945032920	('/usr/bin/containerd-shim-runc-v2', '-namespace moby -address /run/containerd/containerd.sock -publish-binary /usr/bin/containerd -id c24de6934c7630c93fa34d39d41013a89f9a683d727b8378f66a979f44affc6e start')	None
+294285227805295250737178211301547285569	('/usr/bin/containerd-shim-runc-v2', '-namespace moby -id c24de6934c7630c93fa34d39d41013a89f9a683d727b8378f66a979f44affc6e -address /run/containerd/containerd.sock')	None
+231590975767483555140176853110365396619	('/usr/bin/containerd-shim-runc-v2', '-namespace moby -id c24de6934c7630c93fa34d39d41013a89f9a683d727b8378f66a979f44affc6e -address /run/containerd/containerd.sock', 'FF')	None
+290683857854548915944960745881700538422	('/usr/sbin/runc', '--root /var/run/docker/runtime-runc/moby --log /run/containerd/io.containerd.runtime.v2.task/moby/c24de6934c7630c93fa34d39d41013a89f9a683d727b8378f66a979f44affc6e/log.json --log-format json create --bundle /run/containerd/io.containerd.runtime.v2.task/moby/c24de6934c7630c93fa34d39d41013a89f9a683d727b8378f66a979f44affc6e --pid-file /run/containerd/io.containerd.runtime.v2.task/moby/c24de6934c7630c93fa34d39d41013a89f9a683d727b8378f66a979f44affc6e/init.pid c24de6934c7630c93fa34d39d41013a89f9a683d727b8378f66a979f44affc6e')	None
+287406503656368478426437149168105007389	('/usr/sbin/runc', '--root /var/run/docker/runtime-runc/moby --log /run/containerd/io.containerd.runtime.v2.task/moby/c24de6934c7630c93fa34d39d41013a89f9a683d727b8378f66a979f44affc6e/log.json --log-format json create --bundle /run/containerd/io.containerd.runtime.v2.task/moby/c24de6934c7630c93fa34d39d41013a89f9a683d727b8378f66a979f44affc6e --pid-file /run/containerd/io.containerd.runtime.v2.task/moby/c24de6934c7630c93fa34d39d41013a89f9a683d727b8378f66a979f44affc6e/init.pid c24de6934c7630c93fa34d39d41013a89f9a683d727b8378f66a979f44affc6e', 'FF')	None
+331914528953658449639239587123657693289	('/usr/sbin/runc', '--root /var/run/docker/runtime-runc/moby --log /run/containerd/io.containerd.runtime.v2.task/moby/c24de6934c7630c93fa34d39d41013a89f9a683d727b8378f66a979f44affc6e/log.json --log-format json create --bundle /run/containerd/io.containerd.runtime.v2.task/moby/c24de6934c7630c93fa34d39d41013a89f9a683d727b8378f66a979f44affc6e --pid-file /run/containerd/io.containerd.runtime.v2.task/moby/c24de6934c7630c93fa34d39d41013a89f9a683d727b8378f66a979f44affc6e/init.pid c24de6934c7630c93fa34d39d41013a89f9a683d727b8378f66a979f44affc6e')	None
+103705058146169624000501108011571546921	('/proc/self/exe', 'init')	None
+67598310742249448505885099195790000964	('/proc/self/exe', 'init', 'FF')	None
+278535921087345132870444050823574306049	('/proc/self/exe', 'init')	None
+163269865706070852337281237722020799757	('/proc/self/exe', 'init', 'FF')	None
+34626556890065215832860432591375582292	('/usr/sbin/runc', 'init', 'FF')	None
+20982921862896274737168335198514501903	('/usr/sbin/runc', 'init')	None
+34822321290893287104088449105066989474	('/proc/2121/exe', '-exec-root=/var/run/docker c24de6934c7630c93fa34d39d41013a89f9a683d727b8378f66a979f44affc6e 127fc0414d71')	None
+205827907444258818230451179870629383464	('/proc/2121/exe', '-exec-root=/var/run/docker c24de6934c7630c93fa34d39d41013a89f9a683d727b8378f66a979f44affc6e 127fc0414d71', 'FF')	None
+137871098449217528146887267741514656734	('/usr/bin/dbus-daemon', '--system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only', 'FF')	None
+321267887862702818606616863940352674204	('/usr/bin/dbus-daemon', '--system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only')	None
+52298533286379652095035987911259976396	('/proc/self/exe', '/var/run/docker/netns/c2af2a36b09f all false')	None
+213615411295287915176091834349509559600	('/proc/self/exe', '/var/run/docker/netns/c2af2a36b09f all false', 'FF')	{'mitre:T1055', 'mitre:T1574'}
+23667965119738066299466365584020834907	('/proc/self/exe', '/var/run/docker/netns/c2af2a36b09f 127.0.0.11:43261 127.0.0.11:37711')	None
+197646066486223581625510173540539358676	('/proc/self/exe', '/var/run/docker/netns/c2af2a36b09f 127.0.0.11:43261 127.0.0.11:37711', 'FF')	{'mitre:T1055', 'mitre:T1574'}
+154983306912118829471032388270989883497	('/proc/self/exe', '/var/run/docker/netns/c2af2a36b09f 127.0.0.11:43261 127.0.0.11:37711')	None
+156570972195026339224224750196092522467	('/sbin/iptables', '--wait -t nat -L -n')	None
+308089943233406620249834324616742339614	('/sbin/iptables', '--wait -t nat -L -n', 'FF')	None
+14065484939565335119425240102132659638	('/sbin/iptables', '--wait -t nat -L -n', 'NF')	None
+26168224659158367385443639333703154114	('/sbin/iptables', '--wait -L -n')	None
+47095715575360053024292573626899039020	('/sbin/iptables', '--wait -L -n', 'FF')	None
+44305721806425814074788510864300351060	('/sbin/iptables', '--wait -L -n', 'NF')	None
+306159139516069646764806943739626646515	('/sbin/iptables', '--version')	None
+39429096295353749331411799119368205294	('/sbin/iptables', '--version', 'FF')	None
+202546738445245237406806320119270312251	('/sbin/iptables', '--wait -t nat -C OUTPUT -d 127.0.0.11 -j DOCKER_OUTPUT')	None
+141771010139332686160483596626888960492	('/sbin/iptables', '--wait -t nat -C OUTPUT -d 127.0.0.11 -j DOCKER_OUTPUT', 'FF')	None
+293034558829182780260222207529136879863	('/sbin/iptables', '--wait -t nat -N DOCKER_OUTPUT')	None
+260238670480838234878621350314533359566	('/sbin/iptables', '--wait -t nat -N DOCKER_OUTPUT', 'FF')	None
+252690986552792102782715202662048413548	('/sbin/iptables', '--wait -t nat -N DOCKER_OUTPUT', 'NF')	None
+312250209694626154916871191699714868524	('/sbin/iptables', '--wait -t nat -I OUTPUT -d 127.0.0.11 -j DOCKER_OUTPUT')	None
+183011219272884296875624844078997202249	('/sbin/iptables', '--wait -t nat -I OUTPUT -d 127.0.0.11 -j DOCKER_OUTPUT', 'FF')	None
+184046709355471056097774257369586408533	('/sbin/iptables', '--wait -t nat -I OUTPUT -d 127.0.0.11 -j DOCKER_OUTPUT', 'NF')	None
+69270074371477332716220873967371382153	('/sbin/iptables', '--wait -t nat -C POSTROUTING -d 127.0.0.11 -j DOCKER_POSTROUTING')	None
+192937085526567281689310965952011402031	('/sbin/iptables', '--wait -t nat -C POSTROUTING -d 127.0.0.11 -j DOCKER_POSTROUTING', 'FF')	None
+154846007242636072572579540217846417734	('/sbin/iptables', '--wait -t nat -N DOCKER_POSTROUTING')	None
+270165331353339800738883644078130589621	('/sbin/iptables', '--wait -t nat -N DOCKER_POSTROUTING', 'FF')	None
+305543310237270335490546216879154347630	('/sbin/iptables', '--wait -t nat -N DOCKER_POSTROUTING', 'NF')	None
+13427704332354361111247140996639623790	('/sbin/iptables', '--wait -t nat -I POSTROUTING -d 127.0.0.11 -j DOCKER_POSTROUTING')	None
+175705981036908549797990067878349187922	('/sbin/iptables', '--wait -t nat -I POSTROUTING -d 127.0.0.11 -j DOCKER_POSTROUTING', 'FF')	None
+89836213934115538083256720738458809944	('/sbin/iptables', '--wait -t nat -I POSTROUTING -d 127.0.0.11 -j DOCKER_POSTROUTING', 'NF')	None
+219901744852134343374465315190073585398	('/sbin/iptables', '--wait -t nat -I DOCKER_OUTPUT -d 127.0.0.11 -p udp --dport 53 -j DNAT --to-destination 127.0.0.11:43261')	None
+88496297699597301892128944878650265215	('/sbin/iptables', '--wait -t nat -I DOCKER_OUTPUT -d 127.0.0.11 -p udp --dport 53 -j DNAT --to-destination 127.0.0.11:43261', 'FF')	None
+308966346228494805135063686160712535805	('/sbin/iptables', '--wait -t nat -I DOCKER_OUTPUT -d 127.0.0.11 -p udp --dport 53 -j DNAT --to-destination 127.0.0.11:43261', 'NF')	None
+180442584970846872040263209093546416047	('/sbin/iptables', '--wait -t nat -I DOCKER_POSTROUTING -s 127.0.0.11 -p udp --sport 43261 -j SNAT --to-source :53')	None
+34984237892843207125311949903489884133	('/sbin/iptables', '--wait -t nat -I DOCKER_POSTROUTING -s 127.0.0.11 -p udp --sport 43261 -j SNAT --to-source :53', 'FF')	None
+99401676702378801837587271938868418295	('/sbin/iptables', '--wait -t nat -I DOCKER_POSTROUTING -s 127.0.0.11 -p udp --sport 43261 -j SNAT --to-source :53', 'NF')	None
+164191540604555687016609488469351516087	('/sbin/iptables', '--wait -t nat -I DOCKER_OUTPUT -d 127.0.0.11 -p tcp --dport 53 -j DNAT --to-destination 127.0.0.11:37711')	None
+285471684891434677906486174013292097178	('/sbin/iptables', '--wait -t nat -I DOCKER_OUTPUT -d 127.0.0.11 -p tcp --dport 53 -j DNAT --to-destination 127.0.0.11:37711', 'FF')	None
+254593200974758077653405599221767774259	('/sbin/iptables', '--wait -t nat -I DOCKER_OUTPUT -d 127.0.0.11 -p tcp --dport 53 -j DNAT --to-destination 127.0.0.11:37711', 'NF')	None
+194200331726953818947963939564410824303	('/sbin/iptables', '--wait -t nat -I DOCKER_POSTROUTING -s 127.0.0.11 -p tcp --sport 37711 -j SNAT --to-source :53')	None
+212743085423853606810327761524809061239	('/sbin/iptables', '--wait -t nat -I DOCKER_POSTROUTING -s 127.0.0.11 -p tcp --sport 37711 -j SNAT --to-source :53', 'FF')	None
+28798179707249432475833216616213263354	('/sbin/iptables', '--wait -t nat -I DOCKER_POSTROUTING -s 127.0.0.11 -p tcp --sport 37711 -j SNAT --to-source :53', 'NF')	None
+256648833323735487912408256187813200129	('/usr/sbin/runc', '--root /var/run/docker/runtime-runc/moby --log /run/containerd/io.containerd.runtime.v2.task/moby/c24de6934c7630c93fa34d39d41013a89f9a683d727b8378f66a979f44affc6e/log.json --log-format json start c24de6934c7630c93fa34d39d41013a89f9a683d727b8378f66a979f44affc6e')	None
+73523134456854902388574706742791853396	('/usr/sbin/runc', '--root /var/run/docker/runtime-runc/moby --log /run/containerd/io.containerd.runtime.v2.task/moby/c24de6934c7630c93fa34d39d41013a89f9a683d727b8378f66a979f44affc6e/log.json --log-format json start c24de6934c7630c93fa34d39d41013a89f9a683d727b8378f66a979f44affc6e', 'FF')	None
+331091007357052708247061925565997780601	('/bin/sh', '-c cd service/rw && socat tcp-l:6666,reuseaddr,fork exec:"../ro/backup"')	{'mitre:T1106', 'mitre:T1574'}
+145736642607911781958254070953354580140	('/bin/sh', '-c cd service/rw && socat tcp-l:6666,reuseaddr,fork exec:"../ro/backup"', 'FF')	None
+43081917779469808338933582390631427557	('/bin/sh', '-c cd service/rw && socat tcp-l:6666,reuseaddr,fork exec:"../ro/backup"')	None
+144003463816325479811692835219499196489	('/usr/bin/socat', 'tcp-l:6666,reuseaddr,fork exec:../ro/backup')	None
+42675422308231509549271646694306600914	('/usr/bin/socat', 'tcp-l:6666,reuseaddr,fork exec:../ro/backup', 'FF')	None
+78953475531146546076963553606933894254	('/usr/bin/socat', 'tcp-l:6666,reuseaddr,fork exec:../ro/backup', 'NF')	None
+149514083748405232838537502607511982870	('/ (deleted)', '', 'FF')	None
+10817253132593859987774299590948575462	('/ (deleted)', '')	None
+281396081045939441367044609440936272458	('/usr/sbin/rsyslogd', '-n', 'FF')	None
+325315728461863798026426382239100872546	('/usr/sbin/rsyslogd', '-n')	None
+118067468755897240869866754085001196879	('/usr/lib/policykit-1/polkitd', '--no-debug', 'FF')	None
+269761650270537830726055195069310830988	('/usr/lib/policykit-1/polkitd', '--no-debug')	None
+937082707799268705885939352068246249	('<NA>', "-c cat /flag;/bin/sh -c 'cat /flag';_.secure.bak")	{'mitre:T1068'}
+309520728498142559170078611955630569193	('<NA>', "-c cat /flag;/bin/sh -c 'cat /flag';_.secure.bak", 'FF')	{'mitre:T1068'}
+201338934766530143572998822196867129546	('<NA>', "-c cat /flag;/bin/sh -c 'cat /flag';_.secure.bak")	None
+325922805813038895723312349654780328290	('/bin/cat', '/flag')	None
+301466413438681570653704787181002358417	('/bin/cat', '/flag', 'FF')	None
+330953836668968361476380742665748392769	('/bin/sh', '-c cat /flag')	{'mitre:T1106', 'mitre:T1574'}
+41471582384147786581350692165058716762	('/bin/sh', '-c cat /flag', 'FF')	None
+6919818541262756358892091879416708733	('/bin/sh', '-c cat /flag')	None
+43207639679944871252322439052362589032	('/bin/cat', '/flag')	None
+8565721419612999113651102398885677354	('/bin/cat', '/flag', 'FF')	None

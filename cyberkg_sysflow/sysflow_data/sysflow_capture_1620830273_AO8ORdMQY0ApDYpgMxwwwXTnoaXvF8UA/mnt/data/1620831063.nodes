@@ -1,0 +1,2 @@
+331634905444823486738042773608932751847	('/usr/sbin/xinetd', '-syslog local0 -dontfork -f /etc/xinetd.d/rick.conf', 'FF')	None
+283964640848712881776424961992641321067	('/usr/sbin/xinetd', '-syslog local0 -dontfork -f /etc/xinetd.d/rick.conf')	None

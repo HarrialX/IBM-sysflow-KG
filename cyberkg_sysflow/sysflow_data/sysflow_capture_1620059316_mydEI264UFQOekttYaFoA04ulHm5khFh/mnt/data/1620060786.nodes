@@ -1,0 +1,2 @@
+75759981323470417762117531815996832094	('/usr/sbin/xinetd', '-filelog /dev/stderr -dontfork -f /service.conf', 'FF')	None
+47883505299730660450207661655551967704	('/usr/sbin/xinetd', '-filelog /dev/stderr -dontfork -f /service.conf')	None

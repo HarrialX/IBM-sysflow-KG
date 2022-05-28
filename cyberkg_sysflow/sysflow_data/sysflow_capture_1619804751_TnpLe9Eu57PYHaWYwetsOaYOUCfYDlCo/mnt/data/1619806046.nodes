@@ -1,0 +1,10 @@
+102166678441740873720286070861098482595	('/usr/bin/redis-check-rdb', '', 'FF')	None
+59650263254192376149375711559481407389	('/usr/bin/redis-check-rdb', '')	None
+225600284408532091476294404427952611943	('/usr/sbin/xinetd', '-dontfork', 'FF')	None
+295387477610547183680716530663449300781	('/usr/sbin/xinetd', '-dontfork')	None
+153363685909744338343406338866176756780	('/usr/bin/redis-check-rdb', '', 'NF')	None
+101982451528408796219723499585600083001	('/usr/bin/python3.8', 'workers.py', 'NF')	None
+108226374972417304364290728697997693757	('/usr/bin/python3.8', 'workers.py')	None
+137427532322638927454169005343032875115	('/usr/bin/python3.8', 'workers.py', 'FF')	None
+22869268001712581016086752987527253852	('/usr/bin/python2.7', '/usr/bin/supervisord -c /etc/supervisord.conf', 'FF')	None
+136218913989893931077640919043804477577	('/usr/bin/python2.7', '/usr/bin/supervisord -c /etc/supervisord.conf')	None

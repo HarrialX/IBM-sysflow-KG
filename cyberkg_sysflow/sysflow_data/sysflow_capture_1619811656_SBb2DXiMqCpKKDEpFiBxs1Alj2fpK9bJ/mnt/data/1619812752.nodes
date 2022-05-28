@@ -1,0 +1,55 @@
+292066528111953883955987452237464628666	('/bin/sleep', '1', 'FF')	None
+246993148416224552939995413339151601331	('/bin/sleep', '1')	None
+200884749318262924169310923996889967704	('/root/grading_worker.sh', '/root/grading_worker.sh /jobs', 'FF')	None
+173722022382843017994261420090757981248	('/root/grading_worker.sh', '/root/grading_worker.sh /jobs')	None
+151983854219557994345645136151226733326	('/root/grading_worker.sh', '/root/grading_worker.sh /jobs')	None
+26162126558518481847494866169370187548	('/root/grading_worker.sh', '/root/grading_worker.sh /jobs', 'FF')	None
+120474881895819418337812628617497407529	('/bin/ls', '-A /jobs')	None
+201528939958679504655211501905503415974	('/bin/ls', '-A /jobs', 'FF')	None
+221568030208321653367719201218318037946	('/usr/local/bin/uwsgi', '--ini /etc/uwsgi.ini --die-on-term', 'FF')	None
+143113715647245628502239968741340096670	('/usr/local/bin/uwsgi', '--ini /etc/uwsgi.ini --die-on-term')	None
+221558465105911963072047411143268403065	('/usr/sbin/nginx', '', 'FF')	None
+257353663075611354363870900989447493888	('/usr/sbin/nginx', '')	None
+187771764453767303080905238558893480062	('/usr/lib/postgresql/10/bin/postgres', '-D /var/lib/postgresql/10/main -c config_file=/etc/postgresql/10/main/postgresql.conf', 'NF')	None
+181125958416447015500953963634557993511	('/usr/lib/postgresql/10/bin/postgres', '-D /var/lib/postgresql/10/main -c config_file=/etc/postgresql/10/main/postgresql.conf')	None
+276195959507791599105213030588286390681	('/usr/lib/postgresql/10/bin/postgres', '-D /var/lib/postgresql/10/main -c config_file=/etc/postgresql/10/main/postgresql.conf', 'FF')	None
+224826584473638508506629811665590112872	('/usr/lib/postgresql/10/bin/postgres', '-D /var/lib/postgresql/10/main -c config_file=/etc/postgresql/10/main/postgresql.conf', 'FF')	None
+180577883405330483305889217201374994509	('/usr/lib/postgresql/10/bin/postgres', '-D /var/lib/postgresql/10/main -c config_file=/etc/postgresql/10/main/postgresql.conf')	None
+46684833742971789302161057028370794428	('/bin/ls', '-tr /jobs/2')	None
+280887092274045901249323712120148124291	('/bin/ls', '-tr /jobs/2', 'FF')	None
+241297243636155868555751684314294890991	('/usr/bin/basename', '/jobs/2')	None
+181574778445754030673425082400030028058	('/usr/bin/basename', '/jobs/2', 'FF')	None
+186504946946494204875804746815879877871	('/usr/bin/flock', '-n 100')	None
+212349424804675462479233032557706183724	('/usr/bin/flock', '-n 100', 'FF')	None
+22145735798534160120100880498033553122	('/usr/bin/python3', '-m ooonline.grade --submission-id 2')	None
+90004756766356278987456487682200999608	('/usr/bin/python3', '-m ooonline.grade --submission-id 2', 'FF')	None
+26688071832765283544841505561926773412	('/usr/bin/python3', '-m ooonline.grade --submission-id 2')	None
+269453739174692541842570057739975238848	('/usr/bin/python3', '-m ooonline.grade --submission-id 2', 'FF')	None
+187012036472941407541684333575226010553	('/sbin/ldconfig', '/sbin/ldconfig -p')	None
+136032524913518873880336082526708170533	('/sbin/ldconfig', '/sbin/ldconfig -p', 'FF')	None
+283846934999219057702105648646699836389	('/sbin/ldconfig.real', '-p')	None
+65288650050041012941571276306239516626	('/sbin/ldconfig.real', '-p', 'FF')	None
+116740200369879108970645599406180422855	('/usr/lib/postgresql/10/bin/postgres', '-D /var/lib/postgresql/10/main -c config_file=/etc/postgresql/10/main/postgresql.conf', 'NF')	None
+96444626218541123085134178862434887919	('/usr/bin/python3', '-m ooonline.grade --submission-id 2', 'NF')	None
+255642017759911138796006137920304735804	('/usr/bin/sudo', '-u user_2550 ./grading ./submission.c')	None
+128240155591652209021297207639240650746	('/usr/bin/sudo', '-u user_2550 ./grading ./submission.c', 'FF')	None
+242511261106493233234623136908171883627	('/usr/bin/sudo', '-u user_2550 ./grading ./submission.c')	None
+293034890862773901439499633859929161492	('/usr/bin/sudo', '-u user_2550 ./grading ./submission.c', 'FF')	None
+57420443434753720891465276632982588723	('/tmp/tmpn4ufndbv/grading', './submission.c')	None
+148064327343816446700257164711539188342	('/tmp/tmpn4ufndbv/grading', './submission.c', 'FF')	None
+1122408554072181325410477874580077754	('/tmp/tmpn4ufndbv/grading', './submission.c')	None
+221256943574115006464393529239987120147	('<NA>', '-c /usr/bin/gcc -static -o ./submission ./submission.c')	None
+306514376782203224653620137378148989850	('<NA>', '-c /usr/bin/gcc -static -o ./submission ./submission.c', 'FF')	None
+92159276486783891083387813692880387305	('<NA>', '-c /usr/bin/gcc -static -o ./submission ./submission.c')	None
+148159357488633555761976924177528912173	('/usr/bin/gcc', '-static -o ./submission ./submission.c')	{'mitre:T1106', 'mitre:T1574'}
+113062078064934571334221556754206401620	('/usr/bin/gcc', '-static -o ./submission ./submission.c', 'FF')	None
+334277496142184037871161403022562410014	('/usr/bin/gcc', '-static -o ./submission ./submission.c')	None
+325707288725666240275596675253689957603	('/usr/lib/gcc/x86_64-linux-gnu/7/cc1', '-quiet -imultiarch x86_64-linux-gnu ./submission.c -quiet -dumpbase submission.c -mtune=generic -march=x86-64 -auxbase submission -fstack-protector-strong -Wformat -Wformat-security -o /tmp/cc6WrmT3.s')	None
+11023478114076769962377791211359820196	('/usr/lib/gcc/x86_64-linux-gnu/7/cc1', '-quiet -imultiarch x86_64-linux-gnu ./submission.c -quiet -dumpbase submission.c -mtune=generic -march=x86-64 -auxbase submission -fstack-protector-strong -Wformat -Wformat-security -o /tmp/cc6WrmT3.s', 'FF')	None
+135767238015055076811163201080291367100	('/usr/bin/python3', '-m ooonline.grade --submission-id 2', 'NF')	None
+151307470302972125825073272013479748164	('/bin/rm', '/jobs/2')	{'mitre:T1106', 'mitre:T1574'}
+267687129890106207449348180857269907946	('/bin/rm', '/jobs/2', 'FF')	None
+223456747985374801795973425063705710106	('/usr/sbin/nginx', '', 'NF')	None
+286415619288519970377531539161355326610	('/usr/local/bin/uwsgi', '--ini /etc/uwsgi.ini --die-on-term', 'NF')	None
+109276219877463462757776110772247006264	('/usr/bin/python2.7', '/usr/bin/supervisord', 'FF')	None
+106846843280940174207252472853379372539	('/usr/bin/python2.7', '/usr/bin/supervisord')	None

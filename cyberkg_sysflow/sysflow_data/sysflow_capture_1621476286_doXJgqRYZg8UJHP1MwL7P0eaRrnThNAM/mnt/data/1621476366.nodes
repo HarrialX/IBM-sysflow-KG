@@ -1,0 +1,20 @@
+208359104330627783951780347677420984067	('/usr/sbin/xinetd', '-syslog local0 -dontfork -f /etc/xinetd.d/rick.conf', 'NF')	None
+295313912126576234118945627575913814680	('/usr/sbin/xinetd', '-syslog local0 -dontfork -f /etc/xinetd.d/rick.conf')	None
+316293644566920097548541533607921460353	('/usr/sbin/xinetd', '-syslog local0 -dontfork -f /etc/xinetd.d/rick.conf')	None
+141460189789542018696297057347895849659	('/usr/sbin/xinetd', '-syslog local0 -dontfork -f /etc/xinetd.d/rick.conf', 'FF')	None
+212238013819957586699116567132325173410	('/opt/wrapper', '/opt/wrapper')	None
+208221062795208214472005852932041218917	('/opt/wrapper', '/opt/wrapper', 'FF')	None
+327994812410922233426591280566079220801	('/opt/wrapper', '/opt/wrapper')	None
+322253798999537112829320776485710811711	('/usr/bin/timeout', '-k1 120 stdbuf -i0 -o0 -e0 /rick/backend.py doit')	None
+107596011671832140156777389126183501626	('/usr/bin/timeout', '-k1 120 stdbuf -i0 -o0 -e0 /rick/backend.py doit', 'FF')	None
+312268942973346040425998273661554954407	('/usr/bin/timeout', '-k1 120 stdbuf -i0 -o0 -e0 /rick/backend.py doit')	None
+173568740936594814692028957295245883674	('/usr/bin/stdbuf', '-i0 -o0 -e0 /rick/backend.py doit')	{'mitre:T1106', 'mitre:T1574'}
+270503679487371483232729955350924729862	('/usr/bin/stdbuf', '-i0 -o0 -e0 /rick/backend.py doit', 'FF')	None
+67385384324994237065628537668944971825	('/rick/backend.py', 'python3 /rick/backend.py doit')	None
+208260264753302821286142135987295134862	('/rick/backend.py', 'python3 /rick/backend.py doit', 'FF')	None
+263917622232600238186351559280632291458	('/usr/bin/python3', '/rick/backend.py doit')	None
+32878302033304204740820426386190566637	('/usr/bin/python3', '/rick/backend.py doit', 'FF')	None
+98438495290995042050557897510741728666	('/usr/sbin/xinetd', '-syslog local0 -dontfork -f /etc/xinetd.d/rick.conf', 'NF')	None
+42760895728115467444413638172730653381	('/opt/wrapper', '/opt/wrapper', 'NF')	None
+259513654544980551028316204462997146742	('/usr/bin/python3', '/rick/backend.py doit', 'NF')	None
+322297861777159498070486453112614403075	('/usr/sbin/xinetd', '-syslog local0 -dontfork -f /etc/xinetd.d/rick.conf', 'FF')	None

@@ -1,0 +1,25 @@
+94084168279108874798190591312936684217	('/usr/sbin/xinetd', '-filelog - -dontfork -f /service.conf')	None
+46234722850671629845969318024798138710	('/usr/sbin/xinetd', '-filelog - -dontfork -f /service.conf')	None
+116797576154838871140820221278623629636	('/usr/sbin/xinetd', '-filelog - -dontfork -f /service.conf', 'NF')	None
+244901607866055308639121095394776948147	('/usr/sbin/xinetd', '-filelog - -dontfork -f /service.conf', 'FF')	None
+241696257670201143347128488418371440658	('/usr/sbin/xinetd', '-filelog - -dontfork -f /service.conf', 'NF')	None
+122344225894295294728440414473108682116	('/wrapper', '/wrapper')	None
+299209742949827292234427797418837836286	('/wrapper', '/wrapper', 'FF')	None
+322875374443617022165337460832029514910	('/wrapper', '/wrapper', 'NF')	None
+181804828473323254158869610862137201310	('/wrapper', '/wrapper')	None
+336959355894491701264467448861388272715	('/usr/bin/timeout', '--foreground -k 300 240 stdbuf -i0 -o0 -e0 /speedrun-004')	None
+1361317876160328118873974373844561525	('/usr/bin/timeout', '--foreground -k 300 240 stdbuf -i0 -o0 -e0 /speedrun-004', 'FF')	None
+132162563743936166869234299211399423384	('/usr/bin/timeout', '--foreground -k 300 240 stdbuf -i0 -o0 -e0 /speedrun-004')	None
+159587434793362180808303703689283289367	('/usr/bin/stdbuf', '-i0 -o0 -e0 /speedrun-004')	{'mitre:T1106', 'mitre:T1574'}
+37548696448165753420863927653116459784	('/usr/bin/stdbuf', '-i0 -o0 -e0 /speedrun-004', 'FF')	None
+317934058254779867126358063768798816304	('/speedrun-004', '')	None
+316007185520805828652588968104213770082	('/speedrun-004', '', 'NF')	None
+115857866513516677864577484664206748288	('/usr/bin/timeout', '--foreground -k 300 240 stdbuf -i0 -o0 -e0 /speedrun-004', 'NF')	None
+293862860752481037792245146049147176161	('/bin/sh', '')	{'mitre:T1106', 'mitre:T1574'}
+57927025743473343814199083203029772079	('/bin/sh', '', 'FF')	None
+204807932276949177105215147163817457998	('/bin/sh', '')	None
+295344289670588141345488910138113716796	('/bin/cat', 'flag')	None
+126910815319154668226064229181726152763	('/bin/cat', 'flag', 'FF')	None
+79235573082770585727225040720207863045	('/bin/cat', 'flag', 'NF')	None
+288681193066064678404395418475055747445	('/bin/sh', '', 'NF')	None
+110917181144911961272200915265376006328	('/usr/sbin/xinetd', '-filelog - -dontfork -f /service.conf', 'FF')	None

@@ -1,0 +1,95 @@
+203046543664069702495774304824401494194	('/usr/sbin/irqbalance', '--foreground', 'FF')	None
+264072776791094588057200014465327940943	('/usr/sbin/irqbalance', '--foreground')	None
+164032422607533106840303254473568259920	('/usr/sbin/openvpn', '--daemon ovpn-client --status /run/openvpn/client.status 10 --cd /etc/openvpn --script-security 2 --config /etc/openvpn/client.conf --writepid /run/openvpn/client.pid', 'FF')	None
+40503314233991184311583421659681684940	('/usr/sbin/openvpn', '--daemon ovpn-client --status /run/openvpn/client.status 10 --cd /etc/openvpn --script-security 2 --config /etc/openvpn/client.conf --writepid /run/openvpn/client.pid')	None
+105337614666955925036584247068112968500	('/snap/amazon-ssm-agent/4046/amazon-ssm-agent', '')	None
+327867969869831915191934110595062499350	('/snap/amazon-ssm-agent/4046/amazon-ssm-agent', '')	None
+334565776516558573631534134952863647346	('/snap/amazon-ssm-agent/4046/amazon-ssm-agent', '', 'FF')	None
+139124548033336773787321116882599357312	('/bin/ps', '-e -o pid,ppid,state,command')	None
+331266435681907867594682088954840864026	('/bin/ps', '-e -o pid,ppid,state,command', 'FF')	None
+12751352799540237224514627656429439075	('/usr/sbin/openvpn', '--daemon ovpn-client --status /run/openvpn/client.status 10 --cd /etc/openvpn --script-security 2 --config /etc/openvpn/client.conf --writepid /run/openvpn/client.pid', 'NF')	None
+141569440973093537648103419280585121237	('/snap/snapd/13170/usr/lib/snapd/snapd', '', 'FF')	None
+190425002445025916559475863475280949826	('/snap/snapd/13170/usr/lib/snapd/snapd', '')	None
+141714468030420618795043395101774151869	('/lib/systemd/systemd', '', 'FF')	None
+122393967074279006578614696426244910108	('/lib/systemd/systemd', '')	None
+164087104210569753967443967606653436878	('/usr/bin/containerd-shim-runc-v2', '-namespace moby -id 413e77fc27bebf7467d5f587c3b86bb5c466b63dcc9fda220cf235a0a9bf26ce -address /run/containerd/containerd.sock', 'FF')	None
+249150702524573050632846848913583372895	('/usr/bin/containerd-shim-runc-v2', '-namespace moby -id 413e77fc27bebf7467d5f587c3b86bb5c466b63dcc9fda220cf235a0a9bf26ce -address /run/containerd/containerd.sock')	None
+93762949540555119844034065645818967613	('/usr/bin/dockerd', '-H fd:// --containerd=/run/containerd/containerd.sock', 'FF')	None
+288807639575301899814947492087725363578	('/usr/bin/dockerd', '-H fd:// --containerd=/run/containerd/containerd.sock')	None
+219386352128382132247166184558091788837	('/snap/amazon-ssm-agent/4046/ssm-agent-worker', '', 'FF')	None
+41391823795123643114531800462972537127	('/snap/amazon-ssm-agent/4046/ssm-agent-worker', '')	None
+200766740694419863402856807762899901763	('/lib/systemd/systemd-logind', '', 'FF')	{'mitre:T1059'}
+162080216875236340427850132498319249012	('/lib/systemd/systemd-logind', '')	None
+315043596357812939269125269065338682202	('/lib/systemd/systemd-networkd', '', 'FF')	None
+100190260029730279243848685335914080113	('/lib/systemd/systemd-networkd', '')	None
+43682476363686411314617674624969395532	('/lib/systemd/systemd-udevd', '', 'FF')	None
+118302433445152229673665413752597590740	('/lib/systemd/systemd-udevd', '')	None
+266572669418346864841336136945587822435	('/lib/systemd/systemd-resolved', '', 'FF')	None
+6321668754902351713207960749171740970	('/lib/systemd/systemd-resolved', '')	None
+76120867213803524383498286210744626842	('/lib/systemd/systemd-timesyncd', '', 'FF')	None
+311245530955340239460782411969205611624	('/lib/systemd/systemd-timesyncd', '')	None
+154012968327346300593332845969883190465	('/lib/systemd/systemd', '')	None
+310922599503049994590450838058483816010	('/lib/systemd/systemd', '', 'FF')	None
+56137923281703366806412482512672911468	('/lib/systemd/systemd-journald', '', 'FF')	None
+163424344929093476444125798498813580862	('/lib/systemd/systemd-journald', '')	None
+165303895152243595472270960691393452019	('/etc/update-motd.d/50-motd-news', '/etc/update-motd.d/50-motd-news --force')	None
+277087893645718927113288275615545586810	('/etc/update-motd.d/50-motd-news', '/etc/update-motd.d/50-motd-news --force', 'FF')	None
+286861380941970427175271768013418192191	('/lib/systemd/systemd-udevd', '')	None
+100989998588486746462002575235658760109	('/lib/systemd/systemd-udevd', '', 'FF')	None
+339258029477288813356622950208936418588	('/etc/update-motd.d/50-motd-news', '/etc/update-motd.d/50-motd-news --force')	None
+60654364503500512491606444108522370653	('/etc/update-motd.d/50-motd-news', '/etc/update-motd.d/50-motd-news --force', 'FF')	None
+69136749284635345794451340019543760177	('/bin/mktemp', '')	{'mitre:T1106', 'mitre:T1574'}
+274232520392746000214203459388427398263	('/bin/mktemp', '', 'FF')	None
+177150944611117698836078427596571686966	('/usr/bin/dpkg', '-l wget')	{'mitre:T1072'}
+198633876133332376598235357717103292213	('/usr/bin/dpkg', '-l wget', 'FF')	None
+233097476801249702270526673631862589820	('/usr/bin/dpkg-query', '--list -- wget')	{'mitre:T1072'}
+339939014024391178026053013577117384902	('/usr/bin/dpkg-query', '--list -- wget', 'FF')	None
+241796455010602123297220097422396965923	('/usr/bin/awk', '$1 == "ii" { print($3); exit(0); }')	{'mitre:T1106', 'mitre:T1574'}
+173914408660039317860810976904391194444	('/usr/bin/awk', '$1 == "ii" { print($3); exit(0); }', 'FF')	None
+197105129608706045463606096672367272999	('/bin/sed', '-e s/ /\\//g')	None
+147009068806635329271225825413742591575	('/bin/sed', '-e s/ /\\//g', 'FF')	None
+300874494565179837469941940705436214001	('/bin/uname', '-o')	None
+144010686663056556884713538585039936258	('/bin/uname', '-o', 'FF')	None
+100379719380062136791540583836724014635	('/bin/uname', '-r')	None
+312205320207894855935751841648186253853	('/bin/uname', '-r', 'FF')	None
+111221215495962773991877637959907840928	('/bin/uname', '-m')	None
+274839910873252727602499542891254679174	('/bin/uname', '-m', 'FF')	None
+37089782053860222737741684770344867125	('/bin/grep', '-m1 ^model name /proc/cpuinfo')	None
+205881446171170317469531863064528165744	('/bin/grep', '-m1 ^model name /proc/cpuinfo', 'FF')	None
+318336220948901740189764380574246609075	('/bin/sed', '-e s/.*: // -e s:\\s\\+:/:g')	None
+252025293754839317497754111966054845725	('/bin/sed', '-e s/.*: // -e s:\\s\\+:/:g', 'FF')	None
+12200903407515302443166805010985300758	('/usr/bin/cloud-id', '/usr/bin/cloud-id')	None
+273363559926982593853740574556614944188	('/usr/bin/cloud-id', '/usr/bin/cloud-id', 'FF')	None
+18382957616536846476088813885674689140	('/usr/bin/cloud-id', '/usr/bin/cloud-id')	None
+294038876055178028992377545318207338504	('/usr/bin/cloud-id', '/usr/bin/cloud-id', 'FF')	None
+34126010528898885458317162242033254922	('/sbin/ldconfig', '/sbin/ldconfig -p')	None
+18700067400919772729793376656814849240	('/sbin/ldconfig', '/sbin/ldconfig -p', 'FF')	None
+198989581889524221149781904042473794606	('/sbin/ldconfig.real', '-p')	None
+192342965897623632965857896934907263652	('/sbin/ldconfig.real', '-p', 'FF')	None
+56882552134055887287581152538013481416	('/bin/sh', '-c uname -p 2> /dev/null')	{'mitre:T1106', 'mitre:T1574'}
+212337826830682262047479148382106074332	('/bin/sh', '-c uname -p 2> /dev/null', 'FF')	None
+309635949870898958439645770229495637035	('/bin/sh', '-c uname -p 2> /dev/null')	None
+3433332649682502378374103210767677071	('/bin/uname', '-p')	None
+163612355205353468126816598614265208480	('/bin/uname', '-p', 'FF')	None
+330189381873973908652001648768847477948	('/usr/bin/cut', '-c -40 /tmp/tmp.zVzehQHcjF')	None
+57111086910522606988894572720095299991	('/usr/bin/cut', '-c -40 /tmp/tmp.zVzehQHcjF', 'FF')	None
+282664332756087606838248831639024883935	('/usr/bin/tr', '-c -d [:alnum:]')	None
+289241219463402812287183304267253131378	('/usr/bin/tr', '-c -d [:alnum:]', 'FF')	None
+87659137078078275868118774472145914139	('/usr/bin/wget', '--timeout 60 -U wget/1.19.4-1ubuntu2.2 Ubuntu/18.04.5/LTS GNU/Linux/5.4.0-1056-aws/x86_64 Intel(R)/Xeon(R)/CPU/E5-2676/v3/@/2.40GHz cloud_id/aws -O- --content-on-error https://motd.ubuntu.com')	{'ttp', 'downloader-detected'}
+53219991961188883881286844778179245277	('/usr/bin/wget', '--timeout 60 -U wget/1.19.4-1ubuntu2.2 Ubuntu/18.04.5/LTS GNU/Linux/5.4.0-1056-aws/x86_64 Intel(R)/Xeon(R)/CPU/E5-2676/v3/@/2.40GHz cloud_id/aws -O- --content-on-error https://motd.ubuntu.com', 'FF')	None
+270825846440600460181635603377624912812	('/lib/systemd/systemd-resolved', '', 'NF')	None
+180068815261023748667241936398095184689	('/usr/bin/wget', '--timeout 60 -U wget/1.19.4-1ubuntu2.2 Ubuntu/18.04.5/LTS GNU/Linux/5.4.0-1056-aws/x86_64 Intel(R)/Xeon(R)/CPU/E5-2676/v3/@/2.40GHz cloud_id/aws -O- --content-on-error https://motd.ubuntu.com', 'NF')	None
+147061796151998253872074895015719288029	('/usr/bin/tr', '-d \\000-\\011\\013\\014\\016-\\037')	None
+78677726392051191720677409076363775237	('/usr/bin/tr', '-d \\000-\\011\\013\\014\\016-\\037', 'FF')	None
+224843104688590610886852123349985622711	('/bin/cat', '/tmp/tmp.CRpJGIhDuI')	None
+194093064385265056834765163740220205565	('/bin/cat', '/tmp/tmp.CRpJGIhDuI', 'FF')	None
+140676125740925253720636537685356745605	('/usr/bin/cut', '-c -80')	None
+318447297853590763795748820028574208797	('/usr/bin/cut', '-c -80', 'FF')	None
+65429844562339907748388436401555550059	('/usr/bin/head', '-n 10')	None
+17607387801501885938327463113506815896	('/usr/bin/head', '-n 10', 'FF')	None
+30474645474077274086687629174630036978	('/bin/rm', '-f /tmp/tmp.CRpJGIhDuI /tmp/tmp.htAaJfIeYV /tmp/tmp.zVzehQHcjF')	{'mitre:T1106', 'mitre:T1574'}
+61103359303791255468825882352869778830	('/bin/rm', '-f /tmp/tmp.CRpJGIhDuI /tmp/tmp.htAaJfIeYV /tmp/tmp.zVzehQHcjF', 'FF')	None
+137871098449217528146887267741514656734	('/usr/bin/dbus-daemon', '--system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only', 'FF')	None
+321267887862702818606616863940352674204	('/usr/bin/dbus-daemon', '--system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only')	None
+281396081045939441367044609440936272458	('/usr/sbin/rsyslogd', '-n', 'FF')	None
+325315728461863798026426382239100872546	('/usr/sbin/rsyslogd', '-n')	None

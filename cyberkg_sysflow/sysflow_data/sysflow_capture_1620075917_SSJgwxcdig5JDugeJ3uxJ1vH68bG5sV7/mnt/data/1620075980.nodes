@@ -1,0 +1,49 @@
+107628043216156549571030932366938319847	('/minimodem', '-r 1200 --float-samples -R 48000 -q -f -', 'FF')	None
+161570891371453667339787519415108855808	('/minimodem', '-r 1200 --float-samples -R 48000 -q -f -')	None
+94918008662247163494971314126922605224	('/minimodem', '-r 1200 --float-samples -R 48000 -q -f -', 'NF')	None
+278865238618305923510094501931229813472	('/killondisconnect', '/usr/bin/qemu-system-i386 -M isapc -drive index=0,if=floppy,format=raw,file=BBS.IMG -nographic -monitor none -no-reboot -nodefaults -snapshot -chardev stdio,id=char0,mux=off,signal=off -serial chardev:char0 -sandbox on,obsolete=deny,elevateprivileges=deny,spawn=deny,resourcecontrol=deny -m 32M', 'FF')	None
+261730374846837612573509061012974410232	('/killondisconnect', '/usr/bin/qemu-system-i386 -M isapc -drive index=0,if=floppy,format=raw,file=BBS.IMG -nographic -monitor none -no-reboot -nodefaults -snapshot -chardev stdio,id=char0,mux=off,signal=off -serial chardev:char0 -sandbox on,obsolete=deny,elevateprivileges=deny,spawn=deny,resourcecontrol=deny -m 32M')	None
+9315797161463570969326462430995581584	('/usr/bin/timeout', '-k1 1200 stdbuf -i0 -o0 -e0 /killondisconnect /usr/bin/qemu-system-i386 -M isapc -drive index=0,if=floppy,format=raw,file=BBS.IMG -nographic -monitor none -no-reboot -nodefaults -snapshot -chardev stdio,id=char0,mux=off,signal=off -serial chardev:char0 -sandbox on,obsolete=deny,elevateprivileges=deny,spawn=deny,resourcecontrol=deny -m 32M', 'FF')	None
+76562756470484021151834940603532808838	('/usr/bin/timeout', '-k1 1200 stdbuf -i0 -o0 -e0 /killondisconnect /usr/bin/qemu-system-i386 -M isapc -drive index=0,if=floppy,format=raw,file=BBS.IMG -nographic -monitor none -no-reboot -nodefaults -snapshot -chardev stdio,id=char0,mux=off,signal=off -serial chardev:char0 -sandbox on,obsolete=deny,elevateprivileges=deny,spawn=deny,resourcecontrol=deny -m 32M')	None
+92828489696078316019292750449198954430	('/bin/dash', './wrapper_qemu BBS.IMG', 'FF')	None
+298751977986200330061053330420610478593	('/bin/dash', './wrapper_qemu BBS.IMG')	None
+59835983234052171382242033815711031956	('/usr/bin/qemu-system-i386', '-M isapc -drive index=0,if=floppy,format=raw,file=BBS.IMG -nographic -monitor none -no-reboot -nodefaults -snapshot -chardev stdio,id=char0,mux=off,signal=off -serial chardev:char0 -sandbox on,obsolete=deny,elevateprivileges=deny,spawn=deny,resourcecontrol=deny -m 32M', 'FF')	None
+91503956537066494877749277163103305658	('/usr/bin/qemu-system-i386', '-M isapc -drive index=0,if=floppy,format=raw,file=BBS.IMG -nographic -monitor none -no-reboot -nodefaults -snapshot -chardev stdio,id=char0,mux=off,signal=off -serial chardev:char0 -sandbox on,obsolete=deny,elevateprivileges=deny,spawn=deny,resourcecontrol=deny -m 32M')	None
+194174588909763400728044414854308117706	('/minimodem', '-t 1200 --float-samples -R 48000 -f -', 'FF')	None
+147461367770173749241593377603142034172	('/minimodem', '-t 1200 --float-samples -R 48000 -f -')	None
+319446758090929912416595136715752395915	('/usr/bin/pv', '-L 2M', 'FF')	None
+43214717969209466075475092179277583626	('/usr/bin/pv', '-L 2M')	None
+232163536204177921949275853487048083979	('/bin/dash', './wrapper_modem ./wrapper_qemu BBS.IMG', 'FF')	None
+122066432369077116358508454040316568562	('/bin/dash', './wrapper_modem ./wrapper_qemu BBS.IMG')	None
+75467457798561566392212681870582631595	('/bin/dash', '/wrapper', 'FF')	None
+271155410009664812499529324480250946549	('/bin/dash', '/wrapper')	None
+204563985413440748460299439014409054577	('/usr/sbin/xinetd', '-syslog local0 -dontfork -f /service.conf', 'FF')	None
+258202052689190764700533499755558934856	('/usr/sbin/xinetd', '-syslog local0 -dontfork -f /service.conf')	None
+59990135794115964767282679588688087327	('/usr/sbin/xinetd', '-syslog local0 -dontfork -f /service.conf', 'NF')	None
+13550939606205633301632709425160252497	('/usr/sbin/xinetd', '-syslog local0 -dontfork -f /service.conf')	None
+274248015481623173577195552560466167441	('/usr/sbin/xinetd', '-syslog local0 -dontfork -f /service.conf', 'FF')	None
+64883230806240888822575097773152554241	('/wrapper', '/wrapper')	None
+289641673579773030678092346137521056787	('/wrapper', '/wrapper', 'FF')	None
+181804828473323254158869610862137201310	('/wrapper', '/wrapper')	None
+128985695997823014799690956350415697126	('/wrapper_modem', './wrapper_modem ./wrapper_qemu BBS.IMG')	None
+181826972908811445492673988921336059471	('/wrapper_modem', './wrapper_modem ./wrapper_qemu BBS.IMG', 'FF')	None
+41838384038501807896710325919892787114	('/wrapper_modem', './wrapper_modem ./wrapper_qemu BBS.IMG')	None
+301667492854400881105615534763103287344	('/wrapper_modem', './wrapper_modem ./wrapper_qemu BBS.IMG', 'FF')	None
+247974952681807853658955261559340129677	('/usr/bin/stdbuf', '-i0 -o0 -e0 ./minimodem -r 1200 --float-samples -R 48000 -q -f -')	{'mitre:T1106', 'mitre:T1574'}
+40320847760395235771832761687640958168	('/usr/bin/stdbuf', '-i0 -o0 -e0 ./minimodem -r 1200 --float-samples -R 48000 -q -f -', 'FF')	None
+240554189491630297824867274475056909848	('/usr/bin/pv', '-L 2M')	None
+142097926670991503291359644874784042820	('/usr/bin/pv', '-L 2M', 'FF')	None
+132079756860908664852176813270203168031	('/minimodem', '-r 1200 --float-samples -R 48000 -q -f -')	None
+76905335622491576099470229306485520108	('/minimodem', '-r 1200 --float-samples -R 48000 -q -f -', 'FF')	None
+139171737595913060879226370747918884248	('/wrapper_qemu', './wrapper_qemu BBS.IMG')	None
+78862690655137289082032895697727168854	('/wrapper_qemu', './wrapper_qemu BBS.IMG', 'FF')	None
+302551167073730440082046282635624196098	('/minimodem', '-t 1200 --float-samples -R 48000 -f -')	None
+221046899384739574949196733499578900285	('/minimodem', '-t 1200 --float-samples -R 48000 -f -', 'FF')	None
+181074210573133164366657307447425685602	('/wrapper_qemu', './wrapper_qemu BBS.IMG')	None
+192378395539654012799147318637209365522	('/usr/bin/timeout', '-k1 1200 stdbuf -i0 -o0 -e0 /killondisconnect /usr/bin/qemu-system-i386 -M isapc -drive index=0,if=floppy,format=raw,file=BBS.IMG -nographic -monitor none -no-reboot -nodefaults -snapshot -chardev stdio,id=char0,mux=off,signal=off -serial chardev:char0 -sandbox on,obsolete=deny,elevateprivileges=deny,spawn=deny,resourcecontrol=deny -m 32M')	None
+265945333537705032815441639208604964753	('/usr/bin/timeout', '-k1 1200 stdbuf -i0 -o0 -e0 /killondisconnect /usr/bin/qemu-system-i386 -M isapc -drive index=0,if=floppy,format=raw,file=BBS.IMG -nographic -monitor none -no-reboot -nodefaults -snapshot -chardev stdio,id=char0,mux=off,signal=off -serial chardev:char0 -sandbox on,obsolete=deny,elevateprivileges=deny,spawn=deny,resourcecontrol=deny -m 32M', 'FF')	None
+107294930786758036501474590889713827619	('/usr/bin/timeout', '-k1 1200 stdbuf -i0 -o0 -e0 /killondisconnect /usr/bin/qemu-system-i386 -M isapc -drive index=0,if=floppy,format=raw,file=BBS.IMG -nographic -monitor none -no-reboot -nodefaults -snapshot -chardev stdio,id=char0,mux=off,signal=off -serial chardev:char0 -sandbox on,obsolete=deny,elevateprivileges=deny,spawn=deny,resourcecontrol=deny -m 32M')	None
+286375731166617043471923393307061662794	('/usr/bin/stdbuf', '-i0 -o0 -e0 /killondisconnect /usr/bin/qemu-system-i386 -M isapc -drive index=0,if=floppy,format=raw,file=BBS.IMG -nographic -monitor none -no-reboot -nodefaults -snapshot -chardev stdio,id=char0,mux=off,signal=off -serial chardev:char0 -sandbox on,obsolete=deny,elevateprivileges=deny,spawn=deny,resourcecontrol=deny -m 32M')	{'mitre:T1106', 'mitre:T1574'}
+240056697869212427763341066636191096682	('/usr/bin/stdbuf', '-i0 -o0 -e0 /killondisconnect /usr/bin/qemu-system-i386 -M isapc -drive index=0,if=floppy,format=raw,file=BBS.IMG -nographic -monitor none -no-reboot -nodefaults -snapshot -chardev stdio,id=char0,mux=off,signal=off -serial chardev:char0 -sandbox on,obsolete=deny,elevateprivileges=deny,spawn=deny,resourcecontrol=deny -m 32M', 'FF')	None
+158647194361268412301973715018889456655	('/killondisconnect', '/usr/bin/qemu-system-i386 -M isapc -drive index=0,if=floppy,format=raw,file=BBS.IMG -nographic -monitor none -no-reboot -nodefaults -snapshot -chardev stdio,id=char0,mux=off,signal=off -serial chardev:char0 -sandbox on,obsolete=deny,elevateprivileges=deny,spawn=deny,resourcecontrol=deny -m 32M')	None
+218191534616346475110667344447298020793	('/killondisconnect', '/usr/bin/qemu-system-i386 -M isapc -drive index=0,if=floppy,format=raw,file=BBS.IMG -nographic -monitor none -no-reboot -nodefaults -snapshot -chardev stdio,id=char0,mux=off,signal=off -serial chardev:char0 -sandbox on,obsolete=deny,elevateprivileges=deny,spawn=deny,resourcecontrol=deny -m 32M', 'FF')	None

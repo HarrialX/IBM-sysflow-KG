@@ -1,0 +1,7 @@
+53400705061184023889003972997222094539	('/usr/sbin/xinetd', '-filelog /dev/stderr -dontfork -f /service.conf', 'FF')	None
+165607620418772764426330560313180230707	('/usr/sbin/xinetd', '-filelog /dev/stderr -dontfork -f /service.conf')	None
+291732875396968869633740959351188612232	('/service', '', 'FF')	None
+78621596806901206476729155446794034099	('/service', '')	None
+199958350667925935604330471471639326020	('/usr/bin/timeout', '-k1 240 stdbuf -i0 -o0 -e0 /service')	None
+160223988526374206997411003906483908932	('/wrapper', '/wrapper', 'FF')	None
+248344850019974939037975972512707743735	('/wrapper', '/wrapper')	None

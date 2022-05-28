@@ -1,0 +1,2 @@
+Encrypt the code with a reliable encryption scheme before transmitting.
+This will only be a partial solution, since it will not detect DNS spoofing and it will not prevent your code from being modified on the hosting site.

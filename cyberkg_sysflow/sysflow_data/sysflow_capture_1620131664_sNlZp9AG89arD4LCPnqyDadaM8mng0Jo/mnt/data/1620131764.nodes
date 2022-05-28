@@ -1,0 +1,2 @@
+63976079098937665000160234391912814683	('/usr/sbin/xinetd', '-syslog local0 -dontfork -f /xinetd.conf', 'FF')	None
+298229456980365358868363735473781781771	('/usr/sbin/xinetd', '-syslog local0 -dontfork -f /xinetd.conf')	None

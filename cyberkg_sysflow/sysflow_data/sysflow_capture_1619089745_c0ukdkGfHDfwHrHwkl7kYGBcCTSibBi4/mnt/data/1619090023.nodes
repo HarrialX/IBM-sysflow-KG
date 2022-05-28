@@ -1,0 +1,15 @@
+262791048258939653172413111062611728427	('/usr/sbin/xinetd', '-syslog local0 -dontfork -f /service.conf', 'NF')	None
+193815981022916287726893833713176332156	('/usr/sbin/xinetd', '-syslog local0 -dontfork -f /service.conf')	None
+13550939606205633301632709425160252497	('/usr/sbin/xinetd', '-syslog local0 -dontfork -f /service.conf')	None
+274248015481623173577195552560466167441	('/usr/sbin/xinetd', '-syslog local0 -dontfork -f /service.conf', 'FF')	None
+64883230806240888822575097773152554241	('/wrapper', '/wrapper')	None
+289641673579773030678092346137521056787	('/wrapper', '/wrapper', 'FF')	None
+181804828473323254158869610862137201310	('/wrapper', '/wrapper')	None
+210308041551671870143018276597179096271	('/usr/bin/timeout', '-k1 150 stdbuf -i0 -o0 -e0 python3 -u /server.py')	None
+52642765967632470792755058376680640777	('/usr/bin/timeout', '-k1 150 stdbuf -i0 -o0 -e0 python3 -u /server.py', 'FF')	None
+41772353142493949737667948060387847473	('/usr/bin/timeout', '-k1 150 stdbuf -i0 -o0 -e0 python3 -u /server.py')	None
+295575958906721185658992531892898452980	('/usr/bin/stdbuf', '-i0 -o0 -e0 python3 -u /server.py')	{'mitre:T1106', 'mitre:T1574'}
+192555705790868360222284690244974762459	('/usr/bin/stdbuf', '-i0 -o0 -e0 python3 -u /server.py', 'FF')	None
+696039682958642823458768567380821002	('/usr/bin/python3', '-u /server.py')	None
+28677838654093711405815026493668579842	('/usr/bin/python3', '-u /server.py', 'FF')	None
+92464616477428509187449173008487522482	('/usr/sbin/xinetd', '-syslog local0 -dontfork -f /service.conf', 'FF')	None

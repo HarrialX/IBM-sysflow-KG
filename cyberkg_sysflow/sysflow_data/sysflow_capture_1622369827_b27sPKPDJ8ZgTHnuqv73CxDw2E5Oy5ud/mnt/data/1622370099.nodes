@@ -1,0 +1,15 @@
+200254087958248468628431189764802780189	('/usr/sbin/xinetd', '-filelog /dev/stderr -dontfork -f /service.conf', 'NF')	None
+36467803289441377059142467399039950620	('/usr/sbin/xinetd', '-filelog /dev/stderr -dontfork -f /service.conf')	None
+212613514516228522457708602619781564972	('/usr/sbin/xinetd', '-filelog /dev/stderr -dontfork -f /service.conf')	None
+233885143682393732519264065553165435770	('/usr/sbin/xinetd', '-filelog /dev/stderr -dontfork -f /service.conf', 'FF')	None
+248344850019974939037975972512707743735	('/wrapper', '/wrapper')	None
+160223988526374206997411003906483908932	('/wrapper', '/wrapper', 'FF')	None
+181804828473323254158869610862137201310	('/wrapper', '/wrapper')	None
+205748444416821442020421883038083819227	('/usr/bin/timeout', '-k1 240 stdbuf -i0 -o0 -e0 qemu-aarch64 /mra')	None
+62968415304703895519122310217527933118	('/usr/bin/timeout', '-k1 240 stdbuf -i0 -o0 -e0 qemu-aarch64 /mra', 'FF')	None
+286794083189964420050475300200420816182	('/usr/bin/timeout', '-k1 240 stdbuf -i0 -o0 -e0 qemu-aarch64 /mra')	None
+163033862101957157492145981932709457215	('/usr/bin/stdbuf', '-i0 -o0 -e0 qemu-aarch64 /mra')	{'mitre:T1106', 'mitre:T1574'}
+164492598024820007637857974936570904186	('/usr/bin/stdbuf', '-i0 -o0 -e0 qemu-aarch64 /mra', 'FF')	None
+132139442835424377053095224218604070091	('/usr/bin/qemu-aarch64', '/mra')	None
+61267988769671455619562980535761349823	('/usr/bin/qemu-aarch64', '/mra', 'FF')	None
+144768199519895812918846979383099279154	('/usr/sbin/xinetd', '-filelog /dev/stderr -dontfork -f /service.conf', 'FF')	None

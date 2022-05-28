@@ -1,0 +1,173 @@
+169764089428704243493355085472799009818	('/usr/bin/tmux', '', 'FF')	None
+97350723095196965274701773493060282249	('/usr/bin/tmux', '')	None
+8873456655721871794558128431728957697	('/bin/bash', '')	None
+151346859689925002530860070952070563542	('/bin/bash', '')	None
+7373353175954316576148865230326800809	('/bin/bash', '', 'FF')	None
+192939538751724867925021601111967800340	('/bin/bash', '', 'FF')	None
+175633084995631617940499098733120881037	('/usr/bin/python3', '')	None
+48434025741990481856341940106890213316	('/usr/bin/python3', '', 'FF')	None
+141714468030420618795043395101774151869	('/lib/systemd/systemd', '', 'FF')	None
+122393967074279006578614696426244910108	('/lib/systemd/systemd', '')	None
+165434632750442395649428536696518765018	('/usr/bin/gdb', '-q /opt/ictf/services/exploit-market/ro/exploit-market -x /tmp/pwndsqygg3z.gdb', 'NF')	None
+232058202662016812566405286226183022300	('/usr/bin/gdb', '-q /opt/ictf/services/exploit-market/ro/exploit-market -x /tmp/pwndsqygg3z.gdb')	None
+250165212369283810252203000688355801842	('/usr/bin/gdbserver', '--multi --no-disable-randomization localhost:0 /opt/ictf/services/exploit-market/ro/exploit-market', 'NF')	None
+183764171255962928076797323884593185609	('/usr/bin/gdbserver', '--multi --no-disable-randomization localhost:0 /opt/ictf/services/exploit-market/ro/exploit-market')	None
+271059618903946137543678303972798108103	('/usr/bin/gdb', '-q /opt/ictf/services/exploit-market/ro/exploit-market -x /tmp/pwndsqygg3z.gdb', 'FF')	None
+168287056137457456078822948106775123509	('/usr/bin/python3', '')	None
+208295097092707221483178012844780952779	('/usr/bin/python3', '', 'FF')	None
+158901656344029086229847872149957126730	('/sbin/ldconfig', '/sbin/ldconfig -p')	None
+261053542784835440230345723979355873267	('/sbin/ldconfig', '/sbin/ldconfig -p', 'FF')	None
+251260265149414816187448633387267198013	('/sbin/ldconfig.real', '-p')	None
+270727345805345483530930591783192923523	('/sbin/ldconfig.real', '-p', 'FF')	None
+47410870000908856478644435071082848967	('/bin/sh', '-c uname -p 2> /dev/null')	{'mitre:T1106', 'mitre:T1574'}
+301861590333289893502726365078137105466	('/bin/sh', '-c uname -p 2> /dev/null', 'FF')	None
+309635949870898958439645770229495637035	('/bin/sh', '-c uname -p 2> /dev/null')	None
+3433332649682502378374103210767677071	('/bin/uname', '-p')	None
+163612355205353468126816598614265208480	('/bin/uname', '-p', 'FF')	None
+93396830109512777768295348047607763396	('/usr/bin/file', '/usr/bin/python3.6')	None
+196043658708766672690200050502614263553	('/usr/bin/file', '/usr/bin/python3.6', 'FF')	None
+164032422607533106840303254473568259920	('/usr/sbin/openvpn', '--daemon ovpn-client --status /run/openvpn/client.status 10 --cd /etc/openvpn --script-security 2 --config /etc/openvpn/client.conf --writepid /run/openvpn/client.pid', 'FF')	None
+40503314233991184311583421659681684940	('/usr/sbin/openvpn', '--daemon ovpn-client --status /run/openvpn/client.status 10 --cd /etc/openvpn --script-security 2 --config /etc/openvpn/client.conf --writepid /run/openvpn/client.pid')	None
+203046543664069702495774304824401494194	('/usr/sbin/irqbalance', '--foreground', 'FF')	None
+264072776791094588057200014465327940943	('/usr/sbin/irqbalance', '--foreground')	None
+213613556078350287312490721572943194948	('/usr/bin/x86_64-linux-gnu-as', '--version /dev/null')	None
+68960556954901599385532827890192507709	('/usr/bin/x86_64-linux-gnu-as', '--version /dev/null', 'FF')	None
+325955859314652713908869519824363473688	('/usr/bin/cpp', '-C -nostdinc -undef -P -I/usr/local/lib/python3.6/dist-packages/pwnlib/data/includes /dev/stdin')	None
+204597367985275424604978345630130181990	('/usr/bin/cpp', '-C -nostdinc -undef -P -I/usr/local/lib/python3.6/dist-packages/pwnlib/data/includes /dev/stdin', 'FF')	None
+45105474242462371004389570577617643044	('/usr/bin/cpp', '-C -nostdinc -undef -P -I/usr/local/lib/python3.6/dist-packages/pwnlib/data/includes /dev/stdin')	None
+103527415439014655140277692417259251472	('/usr/lib/gcc/x86_64-linux-gnu/7/cc1', '-E -quiet -nostdinc -C -I /usr/local/lib/python3.6/dist-packages/pwnlib/data/includes -P -imultiarch x86_64-linux-gnu /dev/stdin -mtune=generic -march=x86-64 -undef -fstack-protector-strong -Wformat -Wformat-security')	None
+261789748643022391813116378978276724676	('/usr/lib/gcc/x86_64-linux-gnu/7/cc1', '-E -quiet -nostdinc -C -I /usr/local/lib/python3.6/dist-packages/pwnlib/data/includes -P -imultiarch x86_64-linux-gnu /dev/stdin -mtune=generic -march=x86-64 -undef -fstack-protector-strong -Wformat -Wformat-security', 'FF')	None
+254823363073171142335997086149958492572	('/usr/bin/x86_64-linux-gnu-as', '-64 -o /tmp/pwn-asm-nz_92fd8/step2 /tmp/pwn-asm-nz_92fd8/step1')	None
+1177834145600149787904187121441948594	('/usr/bin/x86_64-linux-gnu-as', '-64 -o /tmp/pwn-asm-nz_92fd8/step2 /tmp/pwn-asm-nz_92fd8/step1', 'FF')	None
+154154490884661460004303503718221342178	('/usr/bin/x86_64-linux-gnu-readelf', '-r /tmp/pwn-asm-nz_92fd8/step2')	None
+97362379616803894769589544215998409476	('/usr/bin/x86_64-linux-gnu-readelf', '-r /tmp/pwn-asm-nz_92fd8/step2', 'FF')	None
+56820733717575145833594785310067745614	('/usr/bin/x86_64-linux-gnu-objcopy', '-j .shellcode -Obinary /tmp/pwn-asm-nz_92fd8/step3 /tmp/pwn-asm-nz_92fd8/step4')	None
+148867225669393772906127118063754814204	('/usr/bin/x86_64-linux-gnu-objcopy', '-j .shellcode -Obinary /tmp/pwn-asm-nz_92fd8/step3 /tmp/pwn-asm-nz_92fd8/step4', 'FF')	None
+3671871033016261923928076892604953230	('/usr/sbin/sshd', '', 'NF')	None
+283745491673961166205964330915292717189	('/usr/sbin/sshd', '')	None
+12751352799540237224514627656429439075	('/usr/sbin/openvpn', '--daemon ovpn-client --status /run/openvpn/client.status 10 --cd /etc/openvpn --script-security 2 --config /etc/openvpn/client.conf --writepid /run/openvpn/client.pid', 'NF')	None
+141569440973093537648103419280585121237	('/snap/snapd/13170/usr/lib/snapd/snapd', '', 'FF')	None
+190425002445025916559475863475280949826	('/snap/snapd/13170/usr/lib/snapd/snapd', '')	None
+167719749431104842668194897154606578840	('/usr/lib/accountsservice/accounts-daemon', '', 'FF')	None
+297647820019394187629708462506656007250	('/usr/lib/accountsservice/accounts-daemon', '')	None
+137871098449217528146887267741514656734	('/usr/bin/dbus-daemon', '--system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only', 'FF')	None
+321267887862702818606616863940352674204	('/usr/bin/dbus-daemon', '--system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only')	None
+105337614666955925036584247068112968500	('/snap/amazon-ssm-agent/4046/amazon-ssm-agent', '')	None
+327867969869831915191934110595062499350	('/snap/amazon-ssm-agent/4046/amazon-ssm-agent', '')	None
+334565776516558573631534134952863647346	('/snap/amazon-ssm-agent/4046/amazon-ssm-agent', '', 'FF')	None
+139124548033336773787321116882599357312	('/bin/ps', '-e -o pid,ppid,state,command')	None
+331266435681907867594682088954840864026	('/bin/ps', '-e -o pid,ppid,state,command', 'FF')	None
+191098789957741754000121396757416151824	('/usr/bin/containerd-shim-runc-v2', '-namespace moby -id ef8bdf0768779e3c5796d116e43dfd969c8d88878ebd23e59dfa8989984dd3a7 -address /run/containerd/containerd.sock', 'FF')	None
+69362813039555524735405132137654188978	('/usr/bin/containerd-shim-runc-v2', '-namespace moby -id ef8bdf0768779e3c5796d116e43dfd969c8d88878ebd23e59dfa8989984dd3a7 -address /run/containerd/containerd.sock')	None
+93762949540555119844034065645818967613	('/usr/bin/dockerd', '-H fd:// --containerd=/run/containerd/containerd.sock', 'FF')	None
+288807639575301899814947492087725363578	('/usr/bin/dockerd', '-H fd:// --containerd=/run/containerd/containerd.sock')	None
+219386352128382132247166184558091788837	('/snap/amazon-ssm-agent/4046/ssm-agent-worker', '', 'FF')	None
+41391823795123643114531800462972537127	('/snap/amazon-ssm-agent/4046/ssm-agent-worker', '')	None
+264868636576627928928576368190882908406	('/usr/bin/tmux', '')	None
+200204394178241609167535667496561995242	('/usr/lib/x86_64-linux-gnu/utempter/utempter', 'del')	None
+41271548534934600138155716191109057783	('/usr/lib/x86_64-linux-gnu/utempter/utempter', 'del', 'FF')	None
+183080503930397832445097552410243585873	('/usr/bin/gdbserver', '--multi --no-disable-randomization localhost:0 /opt/ictf/services/exploit-market/ro/exploit-market', 'FF')	None
+17428468798939290177962857035227285044	('/usr/bin/gdb', '-q /opt/ictf/services/exploit-market/ro/exploit-market -x /tmp/pwndsqygg3z.gdb')	None
+260016198046164189577329866737920155556	('/usr/bin/gdb', '-q /opt/ictf/services/exploit-market/ro/exploit-market -x /tmp/pwndsqygg3z.gdb', 'FF')	None
+211364789624925461179070601021407048595	('/usr/bin/gdb', '-q /opt/ictf/services/exploit-market/ro/exploit-market -x /tmp/pwndsqygg3z.gdb', 'NF')	None
+260442679909759444386792215559147293840	('/bin/bash', '-c clear -x')	{'mitre:T1106', 'mitre:T1574'}
+69991269728578358153822324556675578609	('/bin/bash', '-c clear -x', 'FF')	None
+312355521543614788520690958160817697900	('/usr/bin/clear', '-x')	None
+43521620955705101484243382286942491508	('/usr/bin/clear', '-x', 'FF')	None
+309903766228143376655934984738104590209	('/usr/bin/python3.6', '/usr/share/apport/apport 7724 11 18446744073709551615 1 7724 !opt!ictf!services!exploit-market!ro!exploit-market', 'FF')	None
+279259605698607290263534721719808067082	('/usr/bin/python3.6', '/usr/share/apport/apport 7724 11 18446744073709551615 1 7724 !opt!ictf!services!exploit-market!ro!exploit-market')	None
+37225689606144676962747190342985983571	('/usr/bin/python3.6', '/usr/share/apport/apport 7724 11 18446744073709551615 1 7724 !opt!ictf!services!exploit-market!ro!exploit-market')	None
+72990604416007972011510502536686529682	('/usr/bin/python3.6', '/usr/share/apport/apport 7724 11 18446744073709551615 1 7724 !opt!ictf!services!exploit-market!ro!exploit-market', 'FF')	None
+258733159940611284580961155186746413670	('/usr/bin/dpkg', '--print-architecture')	{'mitre:T1072'}
+85349723861593419945593020312002585284	('/usr/bin/dpkg', '--print-architecture', 'FF')	None
+220001433177928700391018705055488515773	('/opt/ictf/services/exploit-market/ro/exploit-market', '')	None
+332942589959008100505605177832391760548	('/usr/bin/gdbserver', '--multi --no-disable-randomization localhost:0 /opt/ictf/services/exploit-market/ro/exploit-market', 'NF')	None
+9382807518359818108324574139957535457	('/usr/bin/gdbserver', '--multi --no-disable-randomization localhost:0 /opt/ictf/services/exploit-market/ro/exploit-market', 'FF')	None
+192003197746467124516819620560072930185	('/usr/bin/gdbserver', '--multi --no-disable-randomization localhost:0 /opt/ictf/services/exploit-market/ro/exploit-market')	None
+266572669418346864841336136945587822435	('/lib/systemd/systemd-resolved', '', 'FF')	None
+6321668754902351713207960749171740970	('/lib/systemd/systemd-resolved', '')	None
+76120867213803524383498286210744626842	('/lib/systemd/systemd-timesyncd', '', 'FF')	None
+311245530955340239460782411969205611624	('/lib/systemd/systemd-timesyncd', '')	None
+200766740694419863402856807762899901763	('/lib/systemd/systemd-logind', '', 'FF')	{'mitre:T1059'}
+162080216875236340427850132498319249012	('/lib/systemd/systemd-logind', '')	None
+315043596357812939269125269065338682202	('/lib/systemd/systemd-networkd', '', 'FF')	None
+100190260029730279243848685335914080113	('/lib/systemd/systemd-networkd', '')	None
+43682476363686411314617674624969395532	('/lib/systemd/systemd-udevd', '', 'FF')	None
+118302433445152229673665413752597590740	('/lib/systemd/systemd-udevd', '')	None
+118067468755897240869866754085001196879	('/usr/lib/policykit-1/polkitd', '--no-debug', 'FF')	None
+269761650270537830726055195069310830988	('/usr/lib/policykit-1/polkitd', '--no-debug')	None
+161464676451390701288225207911373642045	('/bin/bash', '', 'FF')	None
+12426742092179054422281979315602287574	('/bin/bash', '')	None
+263617659638094267973183106637725917771	('/bin/nano', 'exploit-market.c', 'FF')	None
+106091147866179193108301862600634637947	('/bin/nano', 'exploit-market.c')	None
+328012930738013572333328235201113255905	('/bin/cat', '/opt/ictf/services/exploit-market/ro/exploit-market.c')	None
+176287756015582648891151312366788025254	('/bin/cat', '/opt/ictf/services/exploit-market/ro/exploit-market.c', 'FF')	None
+237860359573841708760423798028213102201	('/usr/bin/gdbserver', '--multi --no-disable-randomization localhost:0 /opt/ictf/services/exploit-market/ro/exploit-market')	None
+26082194809303234633078088849902774332	('/usr/bin/gdbserver', '--multi --no-disable-randomization localhost:0 /opt/ictf/services/exploit-market/ro/exploit-market', 'NF')	None
+162671160195566814111444505256302737439	('/usr/bin/gdbserver', '--multi --no-disable-randomization localhost:0 /opt/ictf/services/exploit-market/ro/exploit-market', 'FF')	None
+142355335895685800155619275364055446301	('/bin/bash', '-c exec /opt/ictf/services/exploit-market/ro/exploit-market ')	{'mitre:T1106', 'mitre:T1574'}
+298284947758696382232757298911646539704	('/bin/bash', '-c exec /opt/ictf/services/exploit-market/ro/exploit-market ', 'FF')	None
+209409569141055894083643208965578405800	('/usr/bin/tmux', 'splitw -F#{pane_pid} -P /tmp/tmpv_mx1044')	None
+112062744667509535020153044945988431089	('/usr/bin/tmux', 'splitw -F#{pane_pid} -P /tmp/tmpv_mx1044', 'FF')	None
+166764645520192243278583993661277592559	('/usr/bin/tmux', '', 'FF')	None
+213151609708746472786896201712123114325	('/usr/lib/x86_64-linux-gnu/utempter/utempter', 'add tmux(6116).%15')	None
+159964616614676337147729160064180892382	('/usr/lib/x86_64-linux-gnu/utempter/utempter', 'add tmux(6116).%15', 'FF')	None
+20805536284706870766449521973146430425	('/bin/bash', '-c /tmp/tmpv_mx1044')	{'mitre:T1106', 'mitre:T1574'}
+57712171131152906973449349650986250660	('/bin/bash', '-c /tmp/tmpv_mx1044', 'FF')	None
+262986331325271105656816889211527428320	('/tmp/tmpv_mx1044', '/tmp/tmpv_mx1044')	None
+293731681544188056520504873045107725656	('/tmp/tmpv_mx1044', '/tmp/tmpv_mx1044', 'FF')	None
+273350467706653627591969540294646083769	('/usr/bin/gdb', '-q /opt/ictf/services/exploit-market/ro/exploit-market -x /tmp/pwnk2rsyunf.gdb')	None
+77278277051013070797714016241211763614	('/usr/bin/gdb', '-q /opt/ictf/services/exploit-market/ro/exploit-market -x /tmp/pwnk2rsyunf.gdb', 'FF')	None
+310394401583353175671758477533416978468	('/usr/bin/gdb', '-q /opt/ictf/services/exploit-market/ro/exploit-market -x /tmp/pwnk2rsyunf.gdb')	None
+81467288069319711417811243156104410084	('/usr/bin/gdb', '-q /opt/ictf/services/exploit-market/ro/exploit-market -x /tmp/pwnk2rsyunf.gdb', 'FF')	None
+82387989345108222236570099073546165605	('/usr/bin/iconv', '-l')	None
+69736075502561204683388734875689616162	('/usr/bin/iconv', '-l', 'FF')	None
+305201147494761896755912991770723914653	('/usr/bin/python3', '-c import os, sys;print((sys.prefix))')	None
+120172090557644021742646251363652002163	('/usr/bin/python3', '-c import os, sys;print((sys.prefix))', 'FF')	None
+111672224716450974709494060956067696967	('/bin/sh', '-c uname -p 2> /dev/null')	{'mitre:T1106', 'mitre:T1574'}
+8871850785992962553404114082155658722	('/bin/sh', '-c uname -p 2> /dev/null', 'FF')	None
+66728270763636899881290495475301555341	('/bin/bash', '-c rm /tmp/pwnk2rsyunf.gdb')	{'mitre:T1106', 'mitre:T1574'}
+157611388121209539676188409680421481052	('/bin/bash', '-c rm /tmp/pwnk2rsyunf.gdb', 'FF')	None
+281730280906902830395648932873798492183	('/bin/rm', '/tmp/pwnk2rsyunf.gdb')	{'mitre:T1106', 'mitre:T1574'}
+266639009953122814646711575577328420751	('/bin/rm', '/tmp/pwnk2rsyunf.gdb', 'FF')	None
+64308077281257717465921537105408577868	('/usr/bin/gdb', '-q /opt/ictf/services/exploit-market/ro/exploit-market -x /tmp/pwnk2rsyunf.gdb', 'NF')	None
+272040782738673588796797376338405429861	('/bin/bash', '-c clear -x')	{'mitre:T1106', 'mitre:T1574'}
+44186618699519604067219272178983530688	('/bin/bash', '-c clear -x', 'FF')	None
+169474119635454550423463867277586635808	('/usr/bin/clear', '-x')	None
+127200209769822135185968713673295919333	('/usr/bin/clear', '-x', 'FF')	None
+187012901736954035311694522185788794154	('/opt/ictf/services/exploit-market/ro/exploit-market', '', 'FF')	None
+232923567399687700358101190069440383556	('/usr/bin/gdb', '-q /opt/ictf/services/exploit-market/ro/exploit-market -x /tmp/pwnk2rsyunf.gdb', 'NF')	None
+67130500498263643734166307968540964444	('/usr/bin/tmux', 'splitw -F#{pane_pid} -P /tmp/tmpt1_vzjn5')	None
+91074669718689726379116769563475812669	('/usr/bin/tmux', 'splitw -F#{pane_pid} -P /tmp/tmpt1_vzjn5', 'FF')	None
+258919125324524314213620672716453792067	('/usr/lib/x86_64-linux-gnu/utempter/utempter', 'add tmux(6116).%16')	None
+131519281389671429113428593246962996574	('/usr/lib/x86_64-linux-gnu/utempter/utempter', 'add tmux(6116).%16', 'FF')	None
+227505168154545493432516881553299291611	('/bin/bash', '-c /tmp/tmpt1_vzjn5')	{'mitre:T1106', 'mitre:T1574'}
+130150862089451530366170460636625343178	('/bin/bash', '-c /tmp/tmpt1_vzjn5', 'FF')	None
+264765013938500760835697088615819213078	('/tmp/tmpt1_vzjn5', '/tmp/tmpt1_vzjn5')	None
+302035221156956043112333137066722007098	('/tmp/tmpt1_vzjn5', '/tmp/tmpt1_vzjn5', 'FF')	None
+93614699215502341573808386926078765824	('/usr/bin/gdb', '-q /opt/ictf/services/exploit-market/ro/exploit-market -x /tmp/pwnmzbbho1r.gdb')	None
+23215245824163090985033246746434186266	('/usr/bin/gdb', '-q /opt/ictf/services/exploit-market/ro/exploit-market -x /tmp/pwnmzbbho1r.gdb', 'FF')	None
+58657121457371881074655490832491821231	('/usr/bin/gdb', '-q /opt/ictf/services/exploit-market/ro/exploit-market -x /tmp/pwnmzbbho1r.gdb')	None
+247663784805574023363703917414677698359	('/usr/bin/gdb', '-q /opt/ictf/services/exploit-market/ro/exploit-market -x /tmp/pwnmzbbho1r.gdb', 'FF')	None
+227866470284213606511182807810576991027	('/usr/bin/iconv', '-l')	None
+230214545970006696212167812268736281560	('/usr/bin/iconv', '-l', 'FF')	None
+49917169180387283309886889049688751853	('/usr/bin/python3', '-c import os, sys;print((sys.prefix))')	None
+3386652887127799726143221984193851327	('/usr/bin/python3', '-c import os, sys;print((sys.prefix))', 'FF')	None
+189879476410783714014391380093146957758	('/bin/sh', '-c uname -p 2> /dev/null')	{'mitre:T1106', 'mitre:T1574'}
+234330151080401238197311187940088653260	('/bin/sh', '-c uname -p 2> /dev/null', 'FF')	None
+227824379819410984660030795491808328064	('/bin/bash', '-c rm /tmp/pwnmzbbho1r.gdb')	{'mitre:T1106', 'mitre:T1574'}
+50791204822854963182911403092271625546	('/bin/bash', '-c rm /tmp/pwnmzbbho1r.gdb', 'FF')	None
+131123719161180109282337257327354275471	('/bin/rm', '/tmp/pwnmzbbho1r.gdb')	{'mitre:T1106', 'mitre:T1574'}
+313242271435542386303430483754285627908	('/bin/rm', '/tmp/pwnmzbbho1r.gdb', 'FF')	None
+313874180222831290902592547528451010141	('/usr/bin/gdb', '-q /opt/ictf/services/exploit-market/ro/exploit-market -x /tmp/pwnmzbbho1r.gdb', 'NF')	None
+307533604933149322635848367419287059962	('/bin/bash', '-c clear -x')	{'mitre:T1106', 'mitre:T1574'}
+78435492772119535140112412239273382607	('/bin/bash', '-c clear -x', 'FF')	None
+100000522081096460460442292540497710324	('/usr/bin/clear', '-x')	None
+96854514865684608207368146438115239488	('/usr/bin/clear', '-x', 'FF')	None
+79664944952631057480747228020744256073	('/usr/bin/x86_64-linux-gnu-as', '-64 -o /tmp/pwn-asm-ld502gtf/step2 /tmp/pwn-asm-ld502gtf/step1')	None
+199224228011341866450588143172201802829	('/usr/bin/x86_64-linux-gnu-as', '-64 -o /tmp/pwn-asm-ld502gtf/step2 /tmp/pwn-asm-ld502gtf/step1', 'FF')	None
+280737807351792207317873822914734665150	('/usr/bin/x86_64-linux-gnu-readelf', '-r /tmp/pwn-asm-ld502gtf/step2')	None
+134916972363857628476562158063110417308	('/usr/bin/x86_64-linux-gnu-readelf', '-r /tmp/pwn-asm-ld502gtf/step2', 'FF')	None
+197315258158485606022443711563867696544	('/usr/bin/x86_64-linux-gnu-objcopy', '-j .shellcode -Obinary /tmp/pwn-asm-ld502gtf/step3 /tmp/pwn-asm-ld502gtf/step4')	None
+38237093860043430230245314665518437593	('/usr/bin/x86_64-linux-gnu-objcopy', '-j .shellcode -Obinary /tmp/pwn-asm-ld502gtf/step3 /tmp/pwn-asm-ld502gtf/step4', 'FF')	None
+132610569937452631797408548699111724669	('/usr/bin/gdb', '-q /opt/ictf/services/exploit-market/ro/exploit-market -x /tmp/pwnmzbbho1r.gdb', 'NF')	None

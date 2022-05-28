@@ -1,0 +1,73 @@
+334565776516558573631534134952863647346	('/snap/amazon-ssm-agent/4046/amazon-ssm-agent', '', 'FF')	None
+327867969869831915191934110595062499350	('/snap/amazon-ssm-agent/4046/amazon-ssm-agent', '')	None
+219386352128382132247166184558091788837	('/snap/amazon-ssm-agent/4046/ssm-agent-worker', '', 'FF')	None
+41391823795123643114531800462972537127	('/snap/amazon-ssm-agent/4046/ssm-agent-worker', '')	None
+164032422607533106840303254473568259920	('/usr/sbin/openvpn', '--daemon ovpn-client --status /run/openvpn/client.status 10 --cd /etc/openvpn --script-security 2 --config /etc/openvpn/client.conf --writepid /run/openvpn/client.pid', 'FF')	None
+40503314233991184311583421659681684940	('/usr/sbin/openvpn', '--daemon ovpn-client --status /run/openvpn/client.status 10 --cd /etc/openvpn --script-security 2 --config /etc/openvpn/client.conf --writepid /run/openvpn/client.pid')	None
+203046543664069702495774304824401494194	('/usr/sbin/irqbalance', '--foreground', 'FF')	None
+264072776791094588057200014465327940943	('/usr/sbin/irqbalance', '--foreground')	None
+12751352799540237224514627656429439075	('/usr/sbin/openvpn', '--daemon ovpn-client --status /run/openvpn/client.status 10 --cd /etc/openvpn --script-security 2 --config /etc/openvpn/client.conf --writepid /run/openvpn/client.pid', 'NF')	None
+141569440973093537648103419280585121237	('/snap/snapd/13170/usr/lib/snapd/snapd', '', 'FF')	None
+190425002445025916559475863475280949826	('/snap/snapd/13170/usr/lib/snapd/snapd', '')	None
+141714468030420618795043395101774151869	('/lib/systemd/systemd', '', 'FF')	None
+122393967074279006578614696426244910108	('/lib/systemd/systemd', '')	None
+191098789957741754000121396757416151824	('/usr/bin/containerd-shim-runc-v2', '-namespace moby -id ef8bdf0768779e3c5796d116e43dfd969c8d88878ebd23e59dfa8989984dd3a7 -address /run/containerd/containerd.sock', 'FF')	None
+69362813039555524735405132137654188978	('/usr/bin/containerd-shim-runc-v2', '-namespace moby -id ef8bdf0768779e3c5796d116e43dfd969c8d88878ebd23e59dfa8989984dd3a7 -address /run/containerd/containerd.sock')	None
+93762949540555119844034065645818967613	('/usr/bin/dockerd', '-H fd:// --containerd=/run/containerd/containerd.sock', 'FF')	None
+288807639575301899814947492087725363578	('/usr/bin/dockerd', '-H fd:// --containerd=/run/containerd/containerd.sock')	None
+76120867213803524383498286210744626842	('/lib/systemd/systemd-timesyncd', '', 'FF')	None
+311245530955340239460782411969205611624	('/lib/systemd/systemd-timesyncd', '')	None
+200766740694419863402856807762899901763	('/lib/systemd/systemd-logind', '', 'FF')	{'mitre:T1059'}
+162080216875236340427850132498319249012	('/lib/systemd/systemd-logind', '')	None
+43682476363686411314617674624969395532	('/lib/systemd/systemd-udevd', '', 'FF')	None
+118302433445152229673665413752597590740	('/lib/systemd/systemd-udevd', '')	None
+315043596357812939269125269065338682202	('/lib/systemd/systemd-networkd', '', 'FF')	None
+100190260029730279243848685335914080113	('/lib/systemd/systemd-networkd', '')	None
+266572669418346864841336136945587822435	('/lib/systemd/systemd-resolved', '', 'FF')	None
+6321668754902351713207960749171740970	('/lib/systemd/systemd-resolved', '')	None
+105337614666955925036584247068112968500	('/snap/amazon-ssm-agent/4046/amazon-ssm-agent', '')	None
+139124548033336773787321116882599357312	('/bin/ps', '-e -o pid,ppid,state,command')	None
+331266435681907867594682088954840864026	('/bin/ps', '-e -o pid,ppid,state,command', 'FF')	None
+3671871033016261923928076892604953230	('/usr/sbin/sshd', '', 'NF')	None
+283745491673961166205964330915292717189	('/usr/sbin/sshd', '')	None
+263617659638094267973183106637725917771	('/bin/nano', 'exploit-market.c', 'FF')	None
+106091147866179193108301862600634637947	('/bin/nano', 'exploit-market.c')	None
+161464676451390701288225207911373642045	('/bin/bash', '', 'FF')	None
+12426742092179054422281979315602287574	('/bin/bash', '')	None
+8873456655721871794558128431728957697	('/bin/bash', '')	None
+192939538751724867925021601111967800340	('/bin/bash', '', 'FF')	None
+300292549282705537430570975702937891616	('/usr/bin/tmux', '')	None
+197928567065009495287451633838903841280	('/usr/bin/tmux', '', 'FF')	None
+169764089428704243493355085472799009818	('/usr/bin/tmux', '', 'FF')	None
+97350723095196965274701773493060282249	('/usr/bin/tmux', '')	None
+264868636576627928928576368190882908406	('/usr/bin/tmux', '')	None
+166764645520192243278583993661277592559	('/usr/bin/tmux', '', 'FF')	None
+21418812677238740269338059949393323005	('/usr/lib/x86_64-linux-gnu/utempter/utempter', 'add tmux(6116).%4')	None
+5189528690242758145566848409901402982	('/usr/lib/x86_64-linux-gnu/utempter/utempter', 'add tmux(6116).%4', 'FF')	None
+151346859689925002530860070952070563542	('/bin/bash', '')	{'mitre:T1106', 'mitre:T1574'}
+7373353175954316576148865230326800809	('/bin/bash', '', 'FF')	{'mitre:T1041', 'mitre:T1059'}
+247234573991736433193110770595905101816	('/usr/bin/locale-check', 'C.UTF-8')	None
+68933699913209924799865213588448085253	('/usr/bin/locale-check', 'C.UTF-8', 'FF')	None
+1330109196861353287338766116957242574	('/usr/bin/locale', '')	None
+230055374342801965799999809606180138309	('/usr/bin/locale', '', 'FF')	None
+74824805897808015158890905274374632452	('/usr/bin/lesspipe', '/usr/bin/lesspipe')	{'mitre:T1072'}
+1637480222338070682869853785072823328	('/usr/bin/lesspipe', '/usr/bin/lesspipe', 'FF')	None
+149956982135064047665468315708005460168	('/usr/bin/lesspipe', '/usr/bin/lesspipe')	None
+96788262216765928818919497823065500370	('/usr/bin/lesspipe', '/usr/bin/lesspipe', 'FF')	None
+137173537307454917870553547282394441862	('/usr/bin/basename', '/usr/bin/lesspipe')	None
+287936924605224669784103031097177380122	('/usr/bin/basename', '/usr/bin/lesspipe', 'FF')	None
+27362880417027840602704810564981430982	('/usr/bin/dirname', '/usr/bin/lesspipe')	None
+148324062849874191547183223261157288902	('/usr/bin/dirname', '/usr/bin/lesspipe', 'FF')	None
+258578190591468891566960231918921233433	('/usr/bin/dircolors', '-b')	None
+163014152779881447656966591785514626518	('/usr/bin/dircolors', '-b', 'FF')	None
+167719749431104842668194897154606578840	('/usr/lib/accountsservice/accounts-daemon', '', 'FF')	None
+297647820019394187629708462506656007250	('/usr/lib/accountsservice/accounts-daemon', '')	None
+62253363112024580646269171710744099971	('/usr/lib/x86_64-linux-gnu/utempter/utempter', 'add tmux(6116).%5')	None
+87205571615995958087156170874928001061	('/usr/lib/x86_64-linux-gnu/utempter/utempter', 'add tmux(6116).%5', 'FF')	None
+116594058190616728675717066074401198415	('/bin/ls', '--color=auto')	None
+241675278304494620923974684770935511299	('/bin/ls', '--color=auto', 'FF')	None
+84025676068081676524003966609208727438	('/bin/nc', '10.9.4.3 10003')	None
+133864338356771214370590774344838560666	('/bin/nc', '10.9.4.3 10003', 'FF')	None
+137871098449217528146887267741514656734	('/usr/bin/dbus-daemon', '--system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only', 'FF')	None
+321267887862702818606616863940352674204	('/usr/bin/dbus-daemon', '--system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only')	None
+330778998986841072835258109041480451915	('/bin/nc', '10.9.4.3 10003', 'NF')	None

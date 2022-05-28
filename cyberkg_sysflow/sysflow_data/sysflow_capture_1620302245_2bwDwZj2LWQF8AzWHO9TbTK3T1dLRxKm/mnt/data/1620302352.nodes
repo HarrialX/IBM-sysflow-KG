@@ -1,0 +1,55 @@
+111763875823280511358965688431995841370	('/usr/local/bin/docker-entrypoint.sh', '/usr/local/bin/docker-entrypoint.sh /bin/sh -c ./start.sh', 'FF')	None
+15883380855905799139972635871641514305	('/usr/local/bin/docker-entrypoint.sh', '/usr/local/bin/docker-entrypoint.sh /bin/sh -c ./start.sh')	None
+190424445066667757809423008040079255440	('/usr/local/bin/docker-entrypoint.sh', '/usr/local/bin/docker-entrypoint.sh /bin/sh -c ./start.sh')	None
+163133837275068745965544363628543541879	('/usr/local/bin/docker-entrypoint.sh', '/usr/local/bin/docker-entrypoint.sh /bin/sh -c ./start.sh', 'FF')	None
+303960776481221232221285681459735081548	('/bin/sh', '-c ./start.sh', 'FF')	None
+63477859801483266663476588054797056061	('/bin/sh', '-c ./start.sh')	None
+172284883004677416353272905127693089447	('/bin/sh', '-c ./start.sh')	None
+162981242841899197357100640676771619723	('/tester/start.sh', './start.sh')	None
+250154601870055793654139633557307612354	('/tester/start.sh', './start.sh', 'FF')	None
+133270996444142907284106433739466176811	('/tester/start.sh', './start.sh')	None
+138965906700052363199847626045304994666	('/tester/start.sh', './start.sh', 'FF')	None
+10670395471591128351590320189048090411	('/usr/bin/Xvfb', ':99 -ac -screen 0 1280x720x16 -nolisten tcp')	None
+167791516088444724341375506323566337099	('/usr/bin/Xvfb', ':99 -ac -screen 0 1280x720x16 -nolisten tcp', 'FF')	None
+37431133186026692723573081788604275109	('/usr/sbin/service', '/usr/sbin/service redis-server start')	None
+93268658219401534708952488372057867827	('/usr/sbin/service', '/usr/sbin/service redis-server start', 'FF')	None
+94100373152424813961793088659095753650	('/usr/sbin/service', '/usr/sbin/service redis-server start')	None
+129035509864281638653395203760870795873	('/usr/sbin/service', '/usr/sbin/service redis-server start', 'FF')	None
+113064123490839307272283218581211843233	('/usr/bin/basename', '/usr/sbin/service')	None
+50219237505209828067814497190300075288	('/usr/bin/basename', '/usr/sbin/service', 'FF')	None
+291115037059344187012976571542865859628	('/usr/bin/env', '-i LANG=en_US.UTF-8 LANGUAGE=en_US.UTF-8 LC_CTYPE= LC_NUMERIC= LC_TIME= LC_COLLATE= LC_MONETARY= LC_MESSAGES= LC_PAPER= LC_NAME= LC_ADDRESS= LC_TELEPHONE= LC_MEASUREMENT= LC_IDENTIFICATION= LC_ALL=en_US.UTF-8 PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin TERM= /etc/init.d/redis-server start')	{'mitre:T1106', 'mitre:T1574'}
+144139006184451321857592624036217302261	('/usr/bin/env', '-i LANG=en_US.UTF-8 LANGUAGE=en_US.UTF-8 LC_CTYPE= LC_NUMERIC= LC_TIME= LC_COLLATE= LC_MONETARY= LC_MESSAGES= LC_PAPER= LC_NAME= LC_ADDRESS= LC_TELEPHONE= LC_MEASUREMENT= LC_IDENTIFICATION= LC_ALL=en_US.UTF-8 PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin TERM= /etc/init.d/redis-server start', 'FF')	None
+302150144275046193430732263413208709559	('/etc/init.d/redis-server', '/etc/init.d/redis-server start')	None
+54865806897885724737835202112544949340	('/etc/init.d/redis-server', '/etc/init.d/redis-server start', 'FF')	None
+296944672177066308880992201129566446783	('/etc/init.d/redis-server', '/etc/init.d/redis-server start')	None
+253367855401385082470804638993704666325	('/etc/init.d/redis-server', '/etc/init.d/redis-server start', 'FF')	None
+181200071055405128913771641876738279980	('/bin/run-parts', '--lsbsysinit --list /lib/lsb/init-functions.d')	None
+117098667318126652837727925827758175733	('/bin/run-parts', '--lsbsysinit --list /lib/lsb/init-functions.d', 'FF')	None
+163150181675927805492221796497818595197	('/usr/bin/id', '-u')	{'mitre:T1106', 'mitre:T1574'}
+102629455207579943683593045039783924141	('/usr/bin/id', '-u', 'FF')	None
+157384745398388965247677183907669076940	('/bin/mkdir', '-p /var/run/redis')	None
+177347888319920209866083870059152979761	('/bin/mkdir', '-p /var/run/redis', 'FF')	None
+11405424384881666839278915471013803903	('/bin/touch', '/var/run/redis/redis-server.pid')	{'mitre:T1106', 'mitre:T1574'}
+21945291488539768840221228704632175626	('/bin/touch', '/var/run/redis/redis-server.pid', 'FF')	None
+331061263459004903616252596614155291155	('/bin/chown', 'redis:redis /var/run/redis /var/run/redis/redis-server.pid')	{'mitre:T1106', 'mitre:T1574'}
+243100197942514816851221320357823612255	('/bin/chown', 'redis:redis /var/run/redis /var/run/redis/redis-server.pid', 'FF')	{'mitre:T1543', 'mitre:T1041'}
+264825493873721443006456265261620647520	('/bin/chmod', '755 /var/run/redis')	{'mitre:T1106', 'mitre:T1574'}
+139641608951215891278688084538493815003	('/bin/chmod', '755 /var/run/redis', 'FF')	None
+321945068530206173089029461040287374574	('/sbin/start-stop-daemon', '--start --quiet --oknodo --umask 007 --pidfile /var/run/redis/redis-server.pid --chuid redis:redis --exec /usr/bin/redis-server -- /etc/redis/redis.conf')	None
+62490550245484502009621419807797927256	('/sbin/start-stop-daemon', '--start --quiet --oknodo --umask 007 --pidfile /var/run/redis/redis-server.pid --chuid redis:redis --exec /usr/bin/redis-server -- /etc/redis/redis.conf', 'FF')	None
+233985903184538559997905661463246449562	('/usr/bin/redis-server', '/etc/redis/redis.conf')	None
+313754196696159197844058008422249183416	('/usr/bin/redis-server', '/etc/redis/redis.conf', 'FF')	None
+114692968365789709903786133522549723518	('/usr/bin/redis-server', '/etc/redis/redis.conf')	None
+25539346622819092751963305526456937446	('/usr/bin/redis-server', '/etc/redis/redis.conf', 'FF')	None
+1897818993022533321103432939366390479	('/usr/local/bin/rq', '/usr/local/bin/rq worker --url redis://localhost:6379 my_queue')	None
+68171445189919765048469293118555707621	('/usr/local/bin/rq', '/usr/local/bin/rq worker --url redis://localhost:6379 my_queue', 'FF')	None
+95935454131516442106449408762732031522	('/usr/local/bin/uvicorn', '/usr/local/bin/uvicorn api:app --host 0.0.0.0 --port 4017')	None
+127653290158324094449852984435305347888	('/usr/local/bin/uvicorn', '/usr/local/bin/uvicorn api:app --host 0.0.0.0 --port 4017', 'FF')	None
+136221427034027969748993077933112165268	('/usr/bin/Xvfb', ':99 -ac -screen 0 1280x720x16 -nolisten tcp')	None
+294364510621026055417928033630728785529	('<NA>', '-c "xkbcomp" -w 1 "-R/usr/share/X11/xkb" -xkm "-" -em1 "The XKEYBOARD keymap compiler (xkbcomp) reports:" -emp "> " -eml "Errors from xkbcomp are not fatal to the X server" "/var/lib/xkb/server-99.xkm"')	None
+127366534332724388933028909658918960519	('<NA>', '-c "xkbcomp" -w 1 "-R/usr/share/X11/xkb" -xkm "-" -em1 "The XKEYBOARD keymap compiler (xkbcomp) reports:" -emp "> " -eml "Errors from xkbcomp are not fatal to the X server" "/var/lib/xkb/server-99.xkm"', 'FF')	None
+335587419869910549291540415765687459195	('<NA>', '-c "xkbcomp" -w 1 "-R/usr/share/X11/xkb" -xkm "-" -em1 "The XKEYBOARD keymap compiler (xkbcomp) reports:" -emp "> " -eml "Errors from xkbcomp are not fatal to the X server" "/var/lib/xkb/server-99.xkm"')	None
+156122695448430629191508768359815964280	('/usr/bin/xkbcomp', '-w 1 -R/usr/share/X11/xkb -xkm - -em1 The XKEYBOARD keymap compiler (xkbcomp) reports: -emp >  -eml Errors from xkbcomp are not fatal to the X server /var/lib/xkb/server-99.xkm')	None
+207084067950908751715305473471636699073	('/usr/bin/xkbcomp', '-w 1 -R/usr/share/X11/xkb -xkm - -em1 The XKEYBOARD keymap compiler (xkbcomp) reports: -emp >  -eml Errors from xkbcomp are not fatal to the X server /var/lib/xkb/server-99.xkm', 'FF')	None
+174148204199179429563338432594711264671	('/usr/local/bin/rq', '/usr/local/bin/rq worker --url redis://localhost:6379 my_queue', 'NF')	None
+197313407959874112879443186808556042642	('/usr/bin/redis-server', '/etc/redis/redis.conf', 'NF')	None

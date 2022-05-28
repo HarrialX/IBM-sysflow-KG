@@ -1,0 +1,6 @@
+327436542306339685508270915740147013673	('/usr/bin/python3', '/service')	None
+167863026781299050438689083702487285693	('/usr/bin/timeout', '-k1 240 stdbuf -i0 -o0 -e0 /service', 'FF')	None
+199958350667925935604330471471639326020	('/usr/bin/timeout', '-k1 240 stdbuf -i0 -o0 -e0 /service')	None
+248344850019974939037975972512707743735	('/wrapper', '/wrapper')	None
+115323834758247995893617280105893616210	('/usr/sbin/xinetd', '-filelog /dev/stderr -dontfork -f /service.conf', 'FF')	None
+289386595999580396828745576402616741751	('/usr/sbin/xinetd', '-filelog /dev/stderr -dontfork -f /service.conf')	None

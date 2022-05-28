@@ -1,0 +1,22 @@
+13550939606205633301632709425160252497	('/usr/sbin/xinetd', '-syslog local0 -dontfork -f /service.conf')	None
+69783249365503501846535247735782680823	('/usr/sbin/xinetd', '-syslog local0 -dontfork -f /service.conf')	None
+224713306515650430108426260638289744472	('/usr/sbin/xinetd', '-syslog local0 -dontfork -f /service.conf', 'NF')	None
+274248015481623173577195552560466167441	('/usr/sbin/xinetd', '-syslog local0 -dontfork -f /service.conf', 'FF')	None
+313213837391574688856982070254811430526	('/usr/sbin/xinetd', '-syslog local0 -dontfork -f /service.conf', 'NF')	None
+64883230806240888822575097773152554241	('/wrapper', '/wrapper')	None
+289641673579773030678092346137521056787	('/wrapper', '/wrapper', 'FF')	None
+236505045732591779187099711883382432770	('/wrapper', '/wrapper', 'NF')	None
+181804828473323254158869610862137201310	('/wrapper', '/wrapper')	None
+224376954837464650658649100887380274019	('/usr/bin/timeout', '-k1 50 stdbuf -i0 -o0 -e0 /stub')	None
+302662172932261708927217819376302208654	('/usr/bin/timeout', '-k1 50 stdbuf -i0 -o0 -e0 /stub', 'FF')	None
+102818130013029289203762181985177829723	('/usr/bin/timeout', '-k1 50 stdbuf -i0 -o0 -e0 /stub')	None
+252048746232920668958479771016772042289	('/usr/bin/stdbuf', '-i0 -o0 -e0 /stub')	{'mitre:T1106', 'mitre:T1574'}
+254831790667554195433176948042746233926	('/usr/bin/stdbuf', '-i0 -o0 -e0 /stub', 'FF')	None
+302080866893100660494242469898350092563	('/stub', '')	None
+187523819322826730122014792797924503396	('/stub', '', 'FF')	None
+156569002053272655269121679555695421857	('/stub', '', 'NF')	None
+220300190257611680505722790309893971545	('/usr/bin/timeout', '-k1 50 stdbuf -i0 -o0 -e0 /stub', 'NF')	None
+149330669259221611775995710942675864565	('/bin/sleep', '1')	None
+23831044991382519290176747294613820338	('/bin/sleep', '1', 'FF')	None
+9611234822074362176985798208235047274	('/bin/sleep', '1', 'NF')	None
+194950952136984989609578676012540337983	('/usr/sbin/xinetd', '-syslog local0 -dontfork -f /service.conf', 'FF')	None

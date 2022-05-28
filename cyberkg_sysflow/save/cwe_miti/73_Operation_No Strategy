@@ -1,0 +1,6 @@
+Run your code in a "jail" or similar sandbox environment that enforces strict boundaries between the process and the operating system. This may effectively restrict all access to files within a particular directory.
+Examples include the Unix chroot jail and AppArmor. In general, managed code may provide some protection.
+This may not be a feasible solution, and it only limits the impact to the operating system; the rest of your application may still be subject to compromise.
+Be careful to avoid CWE-243 and other weaknesses related to jails.
+Use OS-level permissions and run as a low-privileged user to limit the scope of any successful attack.
+If you are using PHP, configure your application so that it does not use register_globals. During implementation, develop your application so that it does not rely on this feature, but be wary of implementing a register_globals emulation that is subject to weaknesses such as CWE-95, CWE-621, and similar issues.

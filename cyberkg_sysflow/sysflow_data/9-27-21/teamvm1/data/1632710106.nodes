@@ -1,0 +1,149 @@
+141714468030420618795043395101774151869	('/lib/systemd/systemd', '', 'FF')	None
+122393967074279006578614696426244910108	('/lib/systemd/systemd', '')	None
+164032422607533106840303254473568259920	('/usr/sbin/openvpn', '--daemon ovpn-client --status /run/openvpn/client.status 10 --cd /etc/openvpn --script-security 2 --config /etc/openvpn/client.conf --writepid /run/openvpn/client.pid', 'FF')	None
+40503314233991184311583421659681684940	('/usr/sbin/openvpn', '--daemon ovpn-client --status /run/openvpn/client.status 10 --cd /etc/openvpn --script-security 2 --config /etc/openvpn/client.conf --writepid /run/openvpn/client.pid')	None
+203046543664069702495774304824401494194	('/usr/sbin/irqbalance', '--foreground', 'FF')	None
+264072776791094588057200014465327940943	('/usr/sbin/irqbalance', '--foreground')	None
+105337614666955925036584247068112968500	('/snap/amazon-ssm-agent/4046/amazon-ssm-agent', '')	None
+327867969869831915191934110595062499350	('/snap/amazon-ssm-agent/4046/amazon-ssm-agent', '')	None
+334565776516558573631534134952863647346	('/snap/amazon-ssm-agent/4046/amazon-ssm-agent', '', 'FF')	None
+139124548033336773787321116882599357312	('/bin/ps', '-e -o pid,ppid,state,command')	None
+331266435681907867594682088954840864026	('/bin/ps', '-e -o pid,ppid,state,command', 'FF')	None
+223694099008144483362712265521686785402	('/usr/sbin/sshd', '', 'NF')	None
+143544405695377280131099402569326944509	('/usr/sbin/sshd', '')	None
+12751352799540237224514627656429439075	('/usr/sbin/openvpn', '--daemon ovpn-client --status /run/openvpn/client.status 10 --cd /etc/openvpn --script-security 2 --config /etc/openvpn/client.conf --writepid /run/openvpn/client.pid', 'NF')	None
+141569440973093537648103419280585121237	('/snap/snapd/13170/usr/lib/snapd/snapd', '', 'FF')	None
+190425002445025916559475863475280949826	('/snap/snapd/13170/usr/lib/snapd/snapd', '')	None
+214449763833412675686719951160289363209	('/usr/sbin/sshd', '-D')	None
+267942343699436598004123322791080536762	('/usr/sbin/sshd', '-D')	None
+236777347082984229975202690910384811105	('/usr/sbin/sshd', '-D', 'FF')	None
+280605575614704174216035038568713977413	('/usr/sbin/sshd', '-D', 'NF')	None
+279768885263247803471955410458704570130	('/usr/sbin/sshd', '-D', 'FF')	None
+250776787095591502214870014972926298274	('/usr/sbin/sshd', '-D -R')	None
+204768801975092365905772019818694203087	('/usr/sbin/sshd', '-D -R', 'FF')	None
+56137923281703366806412482512672911468	('/lib/systemd/systemd-journald', '', 'FF')	None
+163424344929093476444125798498813580862	('/lib/systemd/systemd-journald', '')	None
+321184870575467573927298094282386787149	('/usr/sbin/sshd', '-D -R', 'NF')	None
+191098789957741754000121396757416151824	('/usr/bin/containerd-shim-runc-v2', '-namespace moby -id ef8bdf0768779e3c5796d116e43dfd969c8d88878ebd23e59dfa8989984dd3a7 -address /run/containerd/containerd.sock', 'FF')	None
+69362813039555524735405132137654188978	('/usr/bin/containerd-shim-runc-v2', '-namespace moby -id ef8bdf0768779e3c5796d116e43dfd969c8d88878ebd23e59dfa8989984dd3a7 -address /run/containerd/containerd.sock')	None
+93762949540555119844034065645818967613	('/usr/bin/dockerd', '-H fd:// --containerd=/run/containerd/containerd.sock', 'FF')	None
+288807639575301899814947492087725363578	('/usr/bin/dockerd', '-H fd:// --containerd=/run/containerd/containerd.sock')	None
+315043596357812939269125269065338682202	('/lib/systemd/systemd-networkd', '', 'FF')	None
+100190260029730279243848685335914080113	('/lib/systemd/systemd-networkd', '')	None
+219386352128382132247166184558091788837	('/snap/amazon-ssm-agent/4046/ssm-agent-worker', '', 'FF')	None
+41391823795123643114531800462972537127	('/snap/amazon-ssm-agent/4046/ssm-agent-worker', '')	None
+215617902056850867090254569758307794597	('/usr/sbin/sshd', '   ', 'FF')	None
+159871626075177183891088141963757811953	('/usr/sbin/sshd', '   ')	None
+137871098449217528146887267741514656734	('/usr/bin/dbus-daemon', '--system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only', 'FF')	None
+321267887862702818606616863940352674204	('/usr/bin/dbus-daemon', '--system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only')	None
+130879875965077524547697239810120063701	('/usr/sbin/sshd', '   ', 'NF')	None
+281396081045939441367044609440936272458	('/usr/sbin/rsyslogd', '-n', 'FF')	None
+325315728461863798026426382239100872546	('/usr/sbin/rsyslogd', '-n')	None
+169764089428704243493355085472799009818	('/usr/bin/tmux', '', 'FF')	None
+97350723095196965274701773493060282249	('/usr/bin/tmux', '')	None
+323869960005274718611748642550703888443	('/opt/ictf/services/exploit-market/ro/exploit-market', '', 'FF')	None
+217559658287688258321041750111905405318	('/opt/ictf/services/exploit-market/ro/exploit-market', '')	None
+173107532377406620446302177680805381909	('/usr/bin/gdb', 'exploit-market', 'FF')	None
+254810627900218688979069053986027789496	('/usr/bin/gdb', 'exploit-market')	None
+264868636576627928928576368190882908406	('/usr/bin/tmux', '')	None
+166764645520192243278583993661277592559	('/usr/bin/tmux', '', 'FF')	None
+285942087828491853119766676991248776912	('/usr/lib/x86_64-linux-gnu/utempter/utempter', 'add tmux(6116).%6')	None
+221359186961964434379833281418567002442	('/usr/lib/x86_64-linux-gnu/utempter/utempter', 'add tmux(6116).%6', 'FF')	None
+151346859689925002530860070952070563542	('/bin/bash', '')	{'mitre:T1106', 'mitre:T1574'}
+7373353175954316576148865230326800809	('/bin/bash', '', 'FF')	{'mitre:T1041', 'mitre:T1059'}
+8873456655721871794558128431728957697	('/bin/bash', '')	None
+192939538751724867925021601111967800340	('/bin/bash', '', 'FF')	None
+247234573991736433193110770595905101816	('/usr/bin/locale-check', 'C.UTF-8')	None
+68933699913209924799865213588448085253	('/usr/bin/locale-check', 'C.UTF-8', 'FF')	None
+1330109196861353287338766116957242574	('/usr/bin/locale', '')	None
+230055374342801965799999809606180138309	('/usr/bin/locale', '', 'FF')	None
+74824805897808015158890905274374632452	('/usr/bin/lesspipe', '/usr/bin/lesspipe')	{'mitre:T1072'}
+1637480222338070682869853785072823328	('/usr/bin/lesspipe', '/usr/bin/lesspipe', 'FF')	None
+149956982135064047665468315708005460168	('/usr/bin/lesspipe', '/usr/bin/lesspipe')	None
+96788262216765928818919497823065500370	('/usr/bin/lesspipe', '/usr/bin/lesspipe', 'FF')	None
+137173537307454917870553547282394441862	('/usr/bin/basename', '/usr/bin/lesspipe')	None
+287936924605224669784103031097177380122	('/usr/bin/basename', '/usr/bin/lesspipe', 'FF')	None
+27362880417027840602704810564981430982	('/usr/bin/dirname', '/usr/bin/lesspipe')	None
+148324062849874191547183223261157288902	('/usr/bin/dirname', '/usr/bin/lesspipe', 'FF')	None
+258578190591468891566960231918921233433	('/usr/bin/dircolors', '-b')	None
+163014152779881447656966591785514626518	('/usr/bin/dircolors', '-b', 'FF')	None
+167719749431104842668194897154606578840	('/usr/lib/accountsservice/accounts-daemon', '', 'FF')	None
+297647820019394187629708462506656007250	('/usr/lib/accountsservice/accounts-daemon', '')	None
+118067468755897240869866754085001196879	('/usr/lib/policykit-1/polkitd', '--no-debug', 'FF')	None
+269761650270537830726055195069310830988	('/usr/lib/policykit-1/polkitd', '--no-debug')	None
+150075369993081046217825351015881559201	('/bin/nano', 'exploit-market.py')	None
+82512475625480444526740914780675224151	('/bin/nano', 'exploit-market.py', 'FF')	None
+65246613644398190199619172377630504743	('/usr/bin/python3', 'exploit-market.py')	None
+303499772955589582106142321847396874260	('/usr/bin/python3', 'exploit-market.py', 'FF')	None
+13979075294044575450426538304024461881	('/usr/bin/python3', 'exploit-market.py')	None
+168663869603963474202804033054874054325	('/usr/bin/python3', 'exploit-market.py', 'FF')	None
+245888264251100231772446862959172983336	('/sbin/ldconfig', '/sbin/ldconfig -p')	None
+109506660595538728275906013519390490619	('/sbin/ldconfig', '/sbin/ldconfig -p', 'FF')	None
+100045553214939723506718183687461696716	('/sbin/ldconfig.real', '-p')	None
+316770615830033900298274606099105319593	('/sbin/ldconfig.real', '-p', 'FF')	None
+149651606578016614402963589184970436920	('/bin/sh', '-c uname -p 2> /dev/null')	{'mitre:T1106', 'mitre:T1574'}
+139211673179929043306558910041294373402	('/bin/sh', '-c uname -p 2> /dev/null', 'FF')	None
+309635949870898958439645770229495637035	('/bin/sh', '-c uname -p 2> /dev/null')	None
+3433332649682502378374103210767677071	('/bin/uname', '-p')	None
+163612355205353468126816598614265208480	('/bin/uname', '-p', 'FF')	None
+273503150801440073417500973159609246590	('/usr/bin/file', '/usr/bin/python3.6')	None
+122500877658955408358733573010504018023	('/usr/bin/file', '/usr/bin/python3.6', 'FF')	None
+301724537721646353777364849652891798849	('/usr/bin/python3', 'exploit-market.py', 'NF')	None
+88966843536290831287829867986426415841	('/usr/bin/x86_64-linux-gnu-as', '--version /dev/null')	None
+236981938544428415234158743850123352443	('/usr/bin/x86_64-linux-gnu-as', '--version /dev/null', 'FF')	None
+92940019051786521813195875485941460291	('/usr/bin/cpp', '-C -nostdinc -undef -P -I/usr/local/lib/python3.6/dist-packages/pwnlib/data/includes /dev/stdin')	None
+187880833455161585126874498679734515909	('/usr/bin/cpp', '-C -nostdinc -undef -P -I/usr/local/lib/python3.6/dist-packages/pwnlib/data/includes /dev/stdin', 'FF')	None
+45105474242462371004389570577617643044	('/usr/bin/cpp', '-C -nostdinc -undef -P -I/usr/local/lib/python3.6/dist-packages/pwnlib/data/includes /dev/stdin')	None
+103527415439014655140277692417259251472	('/usr/lib/gcc/x86_64-linux-gnu/7/cc1', '-E -quiet -nostdinc -C -I /usr/local/lib/python3.6/dist-packages/pwnlib/data/includes -P -imultiarch x86_64-linux-gnu /dev/stdin -mtune=generic -march=x86-64 -undef -fstack-protector-strong -Wformat -Wformat-security')	None
+261789748643022391813116378978276724676	('/usr/lib/gcc/x86_64-linux-gnu/7/cc1', '-E -quiet -nostdinc -C -I /usr/local/lib/python3.6/dist-packages/pwnlib/data/includes -P -imultiarch x86_64-linux-gnu /dev/stdin -mtune=generic -march=x86-64 -undef -fstack-protector-strong -Wformat -Wformat-security', 'FF')	None
+69583595165696936191544766942143787684	('/usr/bin/x86_64-linux-gnu-as', '-64 -o /tmp/pwn-asm-gdbsl772/step2 /tmp/pwn-asm-gdbsl772/step1')	None
+231414850990504073560915095093797801501	('/usr/bin/x86_64-linux-gnu-as', '-64 -o /tmp/pwn-asm-gdbsl772/step2 /tmp/pwn-asm-gdbsl772/step1', 'FF')	None
+64935702089457043589304749171178780624	('/usr/bin/x86_64-linux-gnu-readelf', '-r /tmp/pwn-asm-gdbsl772/step2')	None
+139930654805219703940695462220893776033	('/usr/bin/x86_64-linux-gnu-readelf', '-r /tmp/pwn-asm-gdbsl772/step2', 'FF')	None
+98042777608143040980368602396168363659	('/usr/bin/x86_64-linux-gnu-objcopy', '-j .shellcode -Obinary /tmp/pwn-asm-gdbsl772/step3 /tmp/pwn-asm-gdbsl772/step4')	None
+178092915331528207338802037100940515785	('/usr/bin/x86_64-linux-gnu-objcopy', '-j .shellcode -Obinary /tmp/pwn-asm-gdbsl772/step3 /tmp/pwn-asm-gdbsl772/step4', 'FF')	None
+286881962504048837176739819576312814026	('/usr/bin/python3', 'exploit-market.py', 'NF')	None
+200766740694419863402856807762899901763	('/lib/systemd/systemd-logind', '', 'FF')	{'mitre:T1059'}
+162080216875236340427850132498319249012	('/lib/systemd/systemd-logind', '')	None
+76120867213803524383498286210744626842	('/lib/systemd/systemd-timesyncd', '', 'FF')	None
+311245530955340239460782411969205611624	('/lib/systemd/systemd-timesyncd', '')	None
+43682476363686411314617674624969395532	('/lib/systemd/systemd-udevd', '', 'FF')	None
+118302433445152229673665413752597590740	('/lib/systemd/systemd-udevd', '')	None
+266572669418346864841336136945587822435	('/lib/systemd/systemd-resolved', '', 'FF')	None
+6321668754902351713207960749171740970	('/lib/systemd/systemd-resolved', '')	None
+175633084995631617940499098733120881037	('/usr/bin/python3', '')	None
+48434025741990481856341940106890213316	('/usr/bin/python3', '', 'FF')	None
+168287056137457456078822948106775123509	('/usr/bin/python3', '')	None
+208295097092707221483178012844780952779	('/usr/bin/python3', '', 'FF')	None
+158901656344029086229847872149957126730	('/sbin/ldconfig', '/sbin/ldconfig -p')	None
+261053542784835440230345723979355873267	('/sbin/ldconfig', '/sbin/ldconfig -p', 'FF')	None
+251260265149414816187448633387267198013	('/sbin/ldconfig.real', '-p')	None
+270727345805345483530930591783192923523	('/sbin/ldconfig.real', '-p', 'FF')	None
+47410870000908856478644435071082848967	('/bin/sh', '-c uname -p 2> /dev/null')	{'mitre:T1106', 'mitre:T1574'}
+301861590333289893502726365078137105466	('/bin/sh', '-c uname -p 2> /dev/null', 'FF')	None
+93396830109512777768295348047607763396	('/usr/bin/file', '/usr/bin/python3.6')	None
+196043658708766672690200050502614263553	('/usr/bin/file', '/usr/bin/python3.6', 'FF')	None
+147199484360410683170850438617969973067	('/usr/bin/python3', '', 'NF')	None
+213613556078350287312490721572943194948	('/usr/bin/x86_64-linux-gnu-as', '--version /dev/null')	None
+68960556954901599385532827890192507709	('/usr/bin/x86_64-linux-gnu-as', '--version /dev/null', 'FF')	None
+325955859314652713908869519824363473688	('/usr/bin/cpp', '-C -nostdinc -undef -P -I/usr/local/lib/python3.6/dist-packages/pwnlib/data/includes /dev/stdin')	None
+204597367985275424604978345630130181990	('/usr/bin/cpp', '-C -nostdinc -undef -P -I/usr/local/lib/python3.6/dist-packages/pwnlib/data/includes /dev/stdin', 'FF')	None
+239367683522851974443103273649011612165	('/usr/bin/x86_64-linux-gnu-as', '-64 -o /tmp/pwn-asm-bqkdmbe1/step2 /tmp/pwn-asm-bqkdmbe1/step1')	None
+214729832457061755118412575709459216879	('/usr/bin/x86_64-linux-gnu-as', '-64 -o /tmp/pwn-asm-bqkdmbe1/step2 /tmp/pwn-asm-bqkdmbe1/step1', 'FF')	None
+249192757657509034664154391648007762237	('/usr/bin/x86_64-linux-gnu-readelf', '-r /tmp/pwn-asm-bqkdmbe1/step2')	None
+231909544167455759790658006100707597523	('/usr/bin/x86_64-linux-gnu-readelf', '-r /tmp/pwn-asm-bqkdmbe1/step2', 'FF')	None
+150451243027749648389048232041370606844	('/usr/bin/x86_64-linux-gnu-objcopy', '-j .shellcode -Obinary /tmp/pwn-asm-bqkdmbe1/step3 /tmp/pwn-asm-bqkdmbe1/step4')	None
+110720783753784454569871755672553759253	('/usr/bin/x86_64-linux-gnu-objcopy', '-j .shellcode -Obinary /tmp/pwn-asm-bqkdmbe1/step3 /tmp/pwn-asm-bqkdmbe1/step4', 'FF')	None
+264715278577433962523055897305785922802	('/usr/bin/python3', '', 'NF')	None
+80420730690947983354998616754717020609	('/usr/bin/x86_64-linux-gnu-as', '-64 -o /tmp/pwn-asm-1gqcopeb/step2 /tmp/pwn-asm-1gqcopeb/step1')	None
+25909093697653507480121096990035987862	('/usr/bin/x86_64-linux-gnu-as', '-64 -o /tmp/pwn-asm-1gqcopeb/step2 /tmp/pwn-asm-1gqcopeb/step1', 'FF')	None
+83269371115338272197483051542858157630	('/usr/bin/x86_64-linux-gnu-readelf', '-r /tmp/pwn-asm-1gqcopeb/step2')	None
+18763997743002004024551069164119374354	('/usr/bin/x86_64-linux-gnu-readelf', '-r /tmp/pwn-asm-1gqcopeb/step2', 'FF')	None
+68353785729585952251855813782201887482	('/usr/bin/x86_64-linux-gnu-objcopy', '-j .shellcode -Obinary /tmp/pwn-asm-1gqcopeb/step3 /tmp/pwn-asm-1gqcopeb/step4')	None
+337030943976660092860760159203597796005	('/usr/bin/x86_64-linux-gnu-objcopy', '-j .shellcode -Obinary /tmp/pwn-asm-1gqcopeb/step3 /tmp/pwn-asm-1gqcopeb/step4', 'FF')	None
+235048776869496218694552595229146096923	('/usr/bin/x86_64-linux-gnu-as', '-64 -o /tmp/pwn-asm-fciqi0rb/step2 /tmp/pwn-asm-fciqi0rb/step1')	None
+87465538280525697231376716114103728218	('/usr/bin/x86_64-linux-gnu-as', '-64 -o /tmp/pwn-asm-fciqi0rb/step2 /tmp/pwn-asm-fciqi0rb/step1', 'FF')	None
+292460236201381982726230432587142899603	('/usr/bin/x86_64-linux-gnu-readelf', '-r /tmp/pwn-asm-fciqi0rb/step2')	None
+306257999632548716298486084847171900799	('/usr/bin/x86_64-linux-gnu-readelf', '-r /tmp/pwn-asm-fciqi0rb/step2', 'FF')	None
+265018948594044527716671821647002458491	('/usr/bin/x86_64-linux-gnu-objcopy', '-j .shellcode -Obinary /tmp/pwn-asm-fciqi0rb/step3 /tmp/pwn-asm-fciqi0rb/step4')	None
+73286435359782943654311307907532262668	('/usr/bin/x86_64-linux-gnu-objcopy', '-j .shellcode -Obinary /tmp/pwn-asm-fciqi0rb/step3 /tmp/pwn-asm-fciqi0rb/step4', 'FF')	None

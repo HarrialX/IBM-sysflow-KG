@@ -1,0 +1,94 @@
+203046543664069702495774304824401494194	('/usr/sbin/irqbalance', '--foreground', 'FF')	None
+264072776791094588057200014465327940943	('/usr/sbin/irqbalance', '--foreground')	None
+103559622638265444370552051892015819070	('/usr/sbin/sshd', ' ', 'NF')	None
+140849307409856246802727229899406713959	('/usr/sbin/sshd', ' ')	None
+116892270625469826509813603370836920619	('/usr/sbin/sshd', '', 'FF')	None
+181263866337605568382451275163575538551	('/usr/sbin/sshd', '')	None
+101465734557294846990435333734867488487	('/usr/sbin/sshd', ' ', 'FF')	None
+56137923281703366806412482512672911468	('/lib/systemd/systemd-journald', '', 'FF')	None
+163424344929093476444125798498813580862	('/lib/systemd/systemd-journald', '')	None
+141714468030420618795043395101774151869	('/lib/systemd/systemd', '', 'FF')	None
+122393967074279006578614696426244910108	('/lib/systemd/systemd', '')	None
+200766740694419863402856807762899901763	('/lib/systemd/systemd-logind', '', 'FF')	{'mitre:T1059'}
+162080216875236340427850132498319249012	('/lib/systemd/systemd-logind', '')	None
+137871098449217528146887267741514656734	('/usr/bin/dbus-daemon', '--system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only', 'FF')	None
+321267887862702818606616863940352674204	('/usr/bin/dbus-daemon', '--system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only')	None
+141569440973093537648103419280585121237	('/snap/snapd/13170/usr/lib/snapd/snapd', '', 'FF')	None
+190425002445025916559475863475280949826	('/snap/snapd/13170/usr/lib/snapd/snapd', '')	None
+164087104210569753967443967606653436878	('/usr/bin/containerd-shim-runc-v2', '-namespace moby -id 413e77fc27bebf7467d5f587c3b86bb5c466b63dcc9fda220cf235a0a9bf26ce -address /run/containerd/containerd.sock', 'FF')	None
+249150702524573050632846848913583372895	('/usr/bin/containerd-shim-runc-v2', '-namespace moby -id 413e77fc27bebf7467d5f587c3b86bb5c466b63dcc9fda220cf235a0a9bf26ce -address /run/containerd/containerd.sock')	None
+93762949540555119844034065645818967613	('/usr/bin/dockerd', '-H fd:// --containerd=/run/containerd/containerd.sock', 'FF')	None
+288807639575301899814947492087725363578	('/usr/bin/dockerd', '-H fd:// --containerd=/run/containerd/containerd.sock')	None
+164032422607533106840303254473568259920	('/usr/sbin/openvpn', '--daemon ovpn-client --status /run/openvpn/client.status 10 --cd /etc/openvpn --script-security 2 --config /etc/openvpn/client.conf --writepid /run/openvpn/client.pid', 'FF')	None
+40503314233991184311583421659681684940	('/usr/sbin/openvpn', '--daemon ovpn-client --status /run/openvpn/client.status 10 --cd /etc/openvpn --script-security 2 --config /etc/openvpn/client.conf --writepid /run/openvpn/client.pid')	None
+12751352799540237224514627656429439075	('/usr/sbin/openvpn', '--daemon ovpn-client --status /run/openvpn/client.status 10 --cd /etc/openvpn --script-security 2 --config /etc/openvpn/client.conf --writepid /run/openvpn/client.pid', 'NF')	None
+266572669418346864841336136945587822435	('/lib/systemd/systemd-resolved', '', 'FF')	None
+6321668754902351713207960749171740970	('/lib/systemd/systemd-resolved', '')	None
+43682476363686411314617674624969395532	('/lib/systemd/systemd-udevd', '', 'FF')	None
+118302433445152229673665413752597590740	('/lib/systemd/systemd-udevd', '')	None
+238999425714740216738653801660949670427	('/usr/sbin/openvpn', '--daemon ovpn-client --status /run/openvpn/client.status 10 --cd /etc/openvpn --script-security 2 --config /etc/openvpn/client.conf --writepid /run/openvpn/client.pid')	None
+113834065675065730921936861912226283288	('/sbin/ip', 'link set dev tun0 up mtu 1500')	None
+286861380941970427175271768013418192191	('/lib/systemd/systemd-udevd', '')	None
+100989998588486746462002575235658760109	('/lib/systemd/systemd-udevd', '', 'FF')	None
+315043596357812939269125269065338682202	('/lib/systemd/systemd-networkd', '', 'FF')	None
+100190260029730279243848685335914080113	('/lib/systemd/systemd-networkd', '')	None
+192650253348484167558823996483323320110	('/lib/systemd/systemd-networkd', '', 'NF')	None
+33010779030361863653913539206869984897	('/sbin/ip', 'link set dev tun0 up mtu 1500', 'FF')	None
+261557856757875728898939517502641287342	('/lib/udev/bridge-network-interface', '/lib/udev/bridge-network-interface')	None
+288582408389091327338828807691698595811	('/lib/udev/bridge-network-interface', '/lib/udev/bridge-network-interface', 'FF')	None
+175736696013864134042393594818943449103	('/sbin/ip', 'addr add dev tun0 10.9.2.3/16 broadcast 10.9.255.255')	None
+39179870279613931493571365675627231384	('/sbin/ip', 'addr add dev tun0 10.9.2.3/16 broadcast 10.9.255.255', 'FF')	None
+76120867213803524383498286210744626842	('/lib/systemd/systemd-timesyncd', '', 'FF')	None
+311245530955340239460782411969205611624	('/lib/systemd/systemd-timesyncd', '')	None
+292261686910936577420513162047334810495	('/usr/bin/python3.6', '/usr/bin/networkd-dispatcher --run-startup-triggers', 'FF')	None
+179624520659576318004434356946928346531	('/usr/bin/python3.6', '/usr/bin/networkd-dispatcher --run-startup-triggers')	None
+133653905418669003602694079714153214552	('/usr/bin/python3.6', '/usr/bin/networkd-dispatcher --run-startup-triggers')	None
+72826757180171867683845021109033380085	('/usr/bin/python3.6', '/usr/bin/networkd-dispatcher --run-startup-triggers', 'FF')	None
+159985735875153106993087062349456431862	('/lib/udev/bridge-network-interface', '/lib/udev/bridge-network-interface')	None
+202204861661156744412032560900342902866	('/lib/udev/bridge-network-interface', '/lib/udev/bridge-network-interface', 'FF')	None
+292277072153336722436143287338692038949	('/bin/networkctl', 'list --no-pager --no-legend')	None
+251865121524406473519657824497967215641	('/bin/networkctl', 'list --no-pager --no-legend', 'FF')	None
+86451270428265085600528412850796174243	('/lib/open-iscsi/net-interface-handler', '-e /lib/open-iscsi/net-interface-handler start')	None
+30308939165969725461681458671529347358	('/lib/open-iscsi/net-interface-handler', '-e /lib/open-iscsi/net-interface-handler start', 'FF')	None
+177227165526408218498387715380368456214	('/lib/systemd/systemd-sysctl', '--prefix=/net/ipv4/conf/tun0 --prefix=/net/ipv4/neigh/tun0 --prefix=/net/ipv6/conf/tun0 --prefix=/net/ipv6/neigh/tun0')	None
+211259723334425520207699175471057906765	('/lib/systemd/systemd-sysctl', '--prefix=/net/ipv4/conf/tun0 --prefix=/net/ipv4/neigh/tun0 --prefix=/net/ipv6/conf/tun0 --prefix=/net/ipv6/neigh/tun0', 'FF')	None
+332692029323684829943438790640414009747	('/bin/networkctl', 'list --no-pager --no-legend', 'NF')	None
+163545030284076939880367880281715010005	('/lib/systemd/systemd', '--user', 'FF')	None
+308864540733508640336184766967636256991	('/lib/systemd/systemd', '--user')	None
+88192354983033136578833513291282743745	('/lib/systemd/systemd-udevd', '', 'NF')	None
+178394265240153166210759257895900223677	('/lib/systemd/systemd-timesyncd', '', 'NF')	None
+118067468755897240869866754085001196879	('/usr/lib/policykit-1/polkitd', '--no-debug', 'FF')	None
+269761650270537830726055195069310830988	('/usr/lib/policykit-1/polkitd', '--no-debug')	None
+281396081045939441367044609440936272458	('/usr/sbin/rsyslogd', '-n', 'FF')	None
+325315728461863798026426382239100872546	('/usr/sbin/rsyslogd', '-n')	None
+167719749431104842668194897154606578840	('/usr/lib/accountsservice/accounts-daemon', '', 'FF')	None
+297647820019394187629708462506656007250	('/usr/lib/accountsservice/accounts-daemon', '')	None
+105337614666955925036584247068112968500	('/snap/amazon-ssm-agent/4046/amazon-ssm-agent', '')	None
+327867969869831915191934110595062499350	('/snap/amazon-ssm-agent/4046/amazon-ssm-agent', '')	None
+334565776516558573631534134952863647346	('/snap/amazon-ssm-agent/4046/amazon-ssm-agent', '', 'FF')	None
+139124548033336773787321116882599357312	('/bin/ps', '-e -o pid,ppid,state,command')	None
+331266435681907867594682088954840864026	('/bin/ps', '-e -o pid,ppid,state,command', 'FF')	None
+124476059961100249015432726381810310834	('/lib/systemd/systemd', '--user')	None
+57222396566864107027170526120520173597	('/lib/systemd/systemd', '--user', 'FF')	None
+242402172359857090878658813651749965274	('/bin/kill', '-s 58 1415')	None
+295182133435796091159550820984209324533	('/bin/kill', '-s 58 1415', 'FF')	None
+108196737667279296133818716604321168348	('/lib/systemd/systemd', '')	None
+219386352128382132247166184558091788837	('/snap/amazon-ssm-agent/4046/ssm-agent-worker', '', 'FF')	None
+41391823795123643114531800462972537127	('/snap/amazon-ssm-agent/4046/ssm-agent-worker', '')	None
+340040225714650367306108085579499071447	('/usr/sbin/cron', '-f')	None
+215801663253290373735485786177898275706	('/usr/sbin/cron', '-f')	None
+247422900767316504112614888303077139980	('/usr/sbin/cron', '-f', 'FF')	None
+85938147268034552911215178629134296976	('/bin/sh', '-c    cd / && run-parts --report /etc/cron.hourly')	{'mitre:T1106', 'mitre:T1574'}
+11570105167034764044870687000923178389	('/bin/sh', '-c    cd / && run-parts --report /etc/cron.hourly', 'FF')	None
+124316838770915008124959911054808948701	('/bin/sh', '-c    cd / && run-parts --report /etc/cron.hourly')	None
+197153531288087685864009916433308608475	('/bin/run-parts', '--report /etc/cron.hourly')	None
+174980371292589178364133244774576019015	('/bin/run-parts', '--report /etc/cron.hourly', 'FF')	None
+198283519690002244577375228700052680079	('/snap/amazon-ssm-agent/4046/ssm-agent-worker', '', 'NF')	None
+236777347082984229975202690910384811105	('/usr/sbin/sshd', '-D', 'FF')	None
+267942343699436598004123322791080536762	('/usr/sbin/sshd', '-D')	None
+280605575614704174216035038568713977413	('/usr/sbin/sshd', '-D', 'NF')	None
+214449763833412675686719951160289363209	('/usr/sbin/sshd', '-D')	None
+279768885263247803471955410458704570130	('/usr/sbin/sshd', '-D', 'FF')	None
+250776787095591502214870014972926298274	('/usr/sbin/sshd', '-D -R')	None
+204768801975092365905772019818694203087	('/usr/sbin/sshd', '-D -R', 'FF')	None
+321184870575467573927298094282386787149	('/usr/sbin/sshd', '-D -R', 'NF')	None

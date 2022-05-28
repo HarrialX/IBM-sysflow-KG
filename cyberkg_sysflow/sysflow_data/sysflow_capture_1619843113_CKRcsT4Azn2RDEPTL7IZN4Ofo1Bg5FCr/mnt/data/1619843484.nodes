@@ -1,0 +1,71 @@
+13550939606205633301632709425160252497	('/usr/sbin/xinetd', '-syslog local0 -dontfork -f /service.conf')	None
+74125013160617234277571314924008484732	('/usr/sbin/xinetd', '-syslog local0 -dontfork -f /service.conf')	None
+30640953125377010130969935018775872826	('/usr/sbin/xinetd', '-syslog local0 -dontfork -f /service.conf', 'NF')	None
+274248015481623173577195552560466167441	('/usr/sbin/xinetd', '-syslog local0 -dontfork -f /service.conf', 'FF')	None
+313213837391574688856982070254811430526	('/usr/sbin/xinetd', '-syslog local0 -dontfork -f /service.conf', 'NF')	None
+64883230806240888822575097773152554241	('/wrapper', '/wrapper')	None
+289641673579773030678092346137521056787	('/wrapper', '/wrapper', 'FF')	None
+236505045732591779187099711883382432770	('/wrapper', '/wrapper', 'NF')	None
+181804828473323254158869610862137201310	('/wrapper', '/wrapper')	None
+3170002386930035148637470368063606998	('/usr/bin/timeout', '-k1 10 stdbuf -i0 -o0 -e0 /service_dir/service')	None
+332113900575968355288022043683201599095	('/usr/bin/timeout', '-k1 10 stdbuf -i0 -o0 -e0 /service_dir/service', 'FF')	None
+285416983401338903178391101481309673941	('/usr/bin/timeout', '-k1 10 stdbuf -i0 -o0 -e0 /service_dir/service')	None
+271533183329777934248792968130848313796	('/usr/bin/stdbuf', '-i0 -o0 -e0 /service_dir/service')	{'mitre:T1106', 'mitre:T1574'}
+281211214573877668867957716972551654774	('/usr/bin/stdbuf', '-i0 -o0 -e0 /service_dir/service', 'FF')	None
+195626646880550421930270039767781869335	('/service_dir/service', 'sage /service_dir/service')	None
+270145311165495884581373017267002871240	('/service_dir/service', 'sage /service_dir/service', 'FF')	None
+281902782800758232873031925273401905794	('/usr/bin/sage', 'bash /usr/bin/sage /service_dir/service')	None
+293195452284790778800913159491886901615	('/usr/bin/sage', 'bash /usr/bin/sage /service_dir/service', 'FF')	None
+136131570490025290048024356287143221311	('/bin/bash', '/usr/bin/sage /service_dir/service')	{'mitre:T1106', 'mitre:T1574'}
+86205835820479665649824596820270186168	('/bin/bash', '/usr/bin/sage /service_dir/service', 'FF')	{'mitre:T1041', 'mitre:T1059'}
+97853678916825563418936702481680520001	('/bin/bash', '/usr/bin/sage /service_dir/service')	None
+22733471212921401051410789403992423919	('/bin/bash', '/usr/bin/sage /service_dir/service', 'FF')	None
+168144771304016279099846142219660564788	('/usr/bin/arch', '')	None
+205860602376179853977283436418398551082	('/usr/bin/arch', '', 'FF')	None
+87644605973257065127251981073166980736	('/usr/bin/arch', '', 'NF')	None
+149271867584280490854087821770639208725	('/usr/share/sagemath/bin/sage-num-threads.py', 'python /usr/share/sagemath/bin/sage-num-threads.py')	None
+10632169875749828070645507237603184634	('/usr/share/sagemath/bin/sage-num-threads.py', 'python /usr/share/sagemath/bin/sage-num-threads.py', 'FF')	None
+141122573013196933463192430182934831115	('/usr/bin/python', '/usr/share/sagemath/bin/sage-num-threads.py')	None
+246255583274437991885151939079480686892	('/usr/bin/python', '/usr/share/sagemath/bin/sage-num-threads.py', 'FF')	None
+113364440798401444264980903427028807030	('/bin/bash', '/usr/bin/sage /service_dir/service', 'NF')	None
+297338988962922705388717602759776853699	('/usr/share/sagemath/bin/sage-run', 'python /usr/share/sagemath/bin/sage-run /service_dir/service')	None
+54709439324151454942429253915471610531	('/usr/share/sagemath/bin/sage-cleaner', 'python /usr/share/sagemath/bin/sage-cleaner')	None
+241881296345818967858164903812039819371	('/usr/share/sagemath/bin/sage-run', 'python /usr/share/sagemath/bin/sage-run /service_dir/service', 'FF')	None
+50860229452116744307163109400597885283	('/usr/share/sagemath/bin/sage-cleaner', 'python /usr/share/sagemath/bin/sage-cleaner', 'FF')	None
+18345528170123621672038664082411337699	('/usr/bin/python', '/usr/share/sagemath/bin/sage-run /service_dir/service')	None
+291722448255568630219169702292775691434	('/usr/bin/python', '/usr/share/sagemath/bin/sage-cleaner')	None
+316388816065829011918640308519384545852	('/usr/bin/python', '/usr/share/sagemath/bin/sage-run /service_dir/service', 'FF')	None
+180976228210528215922743723617262565729	('/usr/bin/python', '/usr/share/sagemath/bin/sage-cleaner', 'FF')	None
+149086014121243718834756926888946544613	('/usr/share/sagemath/bin/sage-python', 'bash /usr/share/sagemath/bin/sage-python /service_dir/service')	None
+33480420700060188650714204583832599073	('/usr/share/sagemath/bin/sage-python', 'bash /usr/share/sagemath/bin/sage-python /service_dir/service', 'FF')	None
+180226197477048470724858410472034231191	('/bin/bash', '/usr/share/sagemath/bin/sage-python /service_dir/service')	{'mitre:T1106', 'mitre:T1574'}
+26850145516791098424871098615078378780	('/bin/bash', '/usr/share/sagemath/bin/sage-python /service_dir/service', 'FF')	{'mitre:T1041', 'mitre:T1059'}
+165802754770611041162156186877012159758	('/usr/bin/python', '/usr/share/sagemath/bin/sage-cleaner', 'FF')	None
+112741094451190538119977091929605723361	('/bin/bash', '/usr/share/sagemath/bin/sage-python /service_dir/service')	None
+275880835476835273631248404192255571111	('/bin/bash', '/usr/share/sagemath/bin/sage-python /service_dir/service', 'FF')	None
+331844025449667260610531713886438136846	('/usr/bin/sage', 'bash /usr/bin/sage -python /service_dir/service')	None
+251835062025431197450950728523287235745	('/usr/bin/sage', 'bash /usr/bin/sage -python /service_dir/service', 'FF')	None
+261394005379805170124649141233568780451	('/bin/bash', '/usr/bin/sage -python /service_dir/service')	None
+327829837032833400014582980454811432278	('/bin/bash', '/usr/bin/sage -python /service_dir/service', 'FF')	{'mitre:T1041', 'mitre:T1059'}
+40953320507365515210646169595325675910	('/bin/bash', '/usr/bin/sage -python /service_dir/service')	None
+246365041875446286725427873991461258069	('/bin/bash', '/usr/bin/sage -python /service_dir/service', 'FF')	None
+271319576161456572152169492210315672222	('/usr/bin/arch', '')	None
+236349502380679496596101086426778993379	('/usr/bin/arch', '', 'FF')	None
+124420408637898906612812706300788445000	('/usr/bin/arch', '', 'NF')	None
+295322057294719357922436915552520452776	('/usr/share/sagemath/bin/sage-num-threads.py', 'python /usr/share/sagemath/bin/sage-num-threads.py')	None
+167951398663359667029401068895435068501	('/usr/share/sagemath/bin/sage-num-threads.py', 'python /usr/share/sagemath/bin/sage-num-threads.py', 'FF')	None
+307662787737514716263481264310589045967	('/usr/bin/python', '/usr/share/sagemath/bin/sage-num-threads.py')	None
+26119302701963103269980708138712569131	('/usr/bin/python', '/usr/share/sagemath/bin/sage-num-threads.py', 'FF')	None
+289435449343571670137528773680847981914	('/bin/bash', '/usr/bin/sage -python /service_dir/service', 'NF')	None
+303839634864517898473612771060178469621	('/usr/bin/python', '/service_dir/service')	None
+320198526720216827821693974330190856897	('/usr/bin/python', '/service_dir/service', 'FF')	None
+328811644816426270179453940364292624126	('/usr/bin/python', '/service_dir/service')	None
+231842766153341864018979813665119055220	('<NA>', '-c uname -p 2> /dev/null')	None
+304127921249974628160976110375182630988	('<NA>', '-c uname -p 2> /dev/null', 'FF')	None
+268144418873225325824432751749954642165	('<NA>', '-c uname -p 2> /dev/null')	None
+42883935912799265554209511297603739066	('/bin/uname', '-p')	None
+292105742790785959182000268664766000853	('/bin/uname', '-p', 'FF')	None
+69915634677073698158340302194518254150	('/usr/bin/timeout', '-k1 10 stdbuf -i0 -o0 -e0 /service_dir/service', 'NF')	None
+182994918345347294997780560953266143580	('/usr/bin/python', '/usr/share/sagemath/bin/sage-cleaner')	None
+963796530123688743739522263751453452	('/usr/sbin/xinetd', '-syslog local0 -dontfork -f /service.conf', 'FF')	None
+278609247915177040258890889507268889902	('/usr/bin/python', '/service_dir/service', 'NF')	None

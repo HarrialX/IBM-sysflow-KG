@@ -1,0 +1,337 @@
+3671871033016261923928076892604953230	('/usr/sbin/sshd', '', 'NF')	None
+283745491673961166205964330915292717189	('/usr/sbin/sshd', '')	None
+164032422607533106840303254473568259920	('/usr/sbin/openvpn', '--daemon ovpn-client --status /run/openvpn/client.status 10 --cd /etc/openvpn --script-security 2 --config /etc/openvpn/client.conf --writepid /run/openvpn/client.pid', 'FF')	None
+40503314233991184311583421659681684940	('/usr/sbin/openvpn', '--daemon ovpn-client --status /run/openvpn/client.status 10 --cd /etc/openvpn --script-security 2 --config /etc/openvpn/client.conf --writepid /run/openvpn/client.pid')	None
+203046543664069702495774304824401494194	('/usr/sbin/irqbalance', '--foreground', 'FF')	None
+264072776791094588057200014465327940943	('/usr/sbin/irqbalance', '--foreground')	None
+68600960134212091469606456309502835715	('/bin/nano', 'sampleak.c', 'FF')	None
+173777827342687899107839243151408853324	('/bin/nano', 'sampleak.c')	None
+12751352799540237224514627656429439075	('/usr/sbin/openvpn', '--daemon ovpn-client --status /run/openvpn/client.status 10 --cd /etc/openvpn --script-security 2 --config /etc/openvpn/client.conf --writepid /run/openvpn/client.pid', 'NF')	None
+141569440973093537648103419280585121237	('/snap/snapd/13170/usr/lib/snapd/snapd', '', 'FF')	None
+190425002445025916559475863475280949826	('/snap/snapd/13170/usr/lib/snapd/snapd', '')	None
+141714468030420618795043395101774151869	('/lib/systemd/systemd', '', 'FF')	None
+122393967074279006578614696426244910108	('/lib/systemd/systemd', '')	None
+105337614666955925036584247068112968500	('/snap/amazon-ssm-agent/4046/amazon-ssm-agent', '')	None
+327867969869831915191934110595062499350	('/snap/amazon-ssm-agent/4046/amazon-ssm-agent', '')	None
+334565776516558573631534134952863647346	('/snap/amazon-ssm-agent/4046/amazon-ssm-agent', '', 'FF')	None
+139124548033336773787321116882599357312	('/bin/ps', '-e -o pid,ppid,state,command')	None
+331266435681907867594682088954840864026	('/bin/ps', '-e -o pid,ppid,state,command', 'FF')	None
+191098789957741754000121396757416151824	('/usr/bin/containerd-shim-runc-v2', '-namespace moby -id ef8bdf0768779e3c5796d116e43dfd969c8d88878ebd23e59dfa8989984dd3a7 -address /run/containerd/containerd.sock', 'FF')	None
+69362813039555524735405132137654188978	('/usr/bin/containerd-shim-runc-v2', '-namespace moby -id ef8bdf0768779e3c5796d116e43dfd969c8d88878ebd23e59dfa8989984dd3a7 -address /run/containerd/containerd.sock')	None
+93762949540555119844034065645818967613	('/usr/bin/dockerd', '-H fd:// --containerd=/run/containerd/containerd.sock', 'FF')	None
+288807639575301899814947492087725363578	('/usr/bin/dockerd', '-H fd:// --containerd=/run/containerd/containerd.sock')	None
+76120867213803524383498286210744626842	('/lib/systemd/systemd-timesyncd', '', 'FF')	None
+311245530955340239460782411969205611624	('/lib/systemd/systemd-timesyncd', '')	None
+315043596357812939269125269065338682202	('/lib/systemd/systemd-networkd', '', 'FF')	None
+100190260029730279243848685335914080113	('/lib/systemd/systemd-networkd', '')	None
+43682476363686411314617674624969395532	('/lib/systemd/systemd-udevd', '', 'FF')	None
+118302433445152229673665413752597590740	('/lib/systemd/systemd-udevd', '')	None
+266572669418346864841336136945587822435	('/lib/systemd/systemd-resolved', '', 'FF')	None
+6321668754902351713207960749171740970	('/lib/systemd/systemd-resolved', '')	None
+200766740694419863402856807762899901763	('/lib/systemd/systemd-logind', '', 'FF')	{'mitre:T1059'}
+162080216875236340427850132498319249012	('/lib/systemd/systemd-logind', '')	None
+219386352128382132247166184558091788837	('/snap/amazon-ssm-agent/4046/ssm-agent-worker', '', 'FF')	None
+41391823795123643114531800462972537127	('/snap/amazon-ssm-agent/4046/ssm-agent-worker', '')	None
+236777347082984229975202690910384811105	('/usr/sbin/sshd', '-D', 'FF')	None
+267942343699436598004123322791080536762	('/usr/sbin/sshd', '-D')	None
+280605575614704174216035038568713977413	('/usr/sbin/sshd', '-D', 'NF')	None
+214449763833412675686719951160289363209	('/usr/sbin/sshd', '-D')	None
+279768885263247803471955410458704570130	('/usr/sbin/sshd', '-D', 'FF')	None
+250776787095591502214870014972926298274	('/usr/sbin/sshd', '-D -R')	None
+204768801975092365905772019818694203087	('/usr/sbin/sshd', '-D -R', 'FF')	None
+215617902056850867090254569758307794597	('/usr/sbin/sshd', '   ', 'FF')	None
+159871626075177183891088141963757811953	('/usr/sbin/sshd', '   ')	None
+130879875965077524547697239810120063701	('/usr/sbin/sshd', '   ', 'NF')	None
+56137923281703366806412482512672911468	('/lib/systemd/systemd-journald', '', 'FF')	None
+163424344929093476444125798498813580862	('/lib/systemd/systemd-journald', '')	None
+321184870575467573927298094282386787149	('/usr/sbin/sshd', '-D -R', 'NF')	None
+281396081045939441367044609440936272458	('/usr/sbin/rsyslogd', '-n', 'FF')	None
+325315728461863798026426382239100872546	('/usr/sbin/rsyslogd', '-n')	None
+8873456655721871794558128431728957697	('/bin/bash', '')	None
+12426742092179054422281979315602287574	('/bin/bash', '')	None
+192939538751724867925021601111967800340	('/bin/bash', '', 'FF')	None
+161464676451390701288225207911373642045	('/bin/bash', '', 'FF')	None
+44810147536976317790763281449343280867	('/usr/bin/sudo', 'apt install python3 python3-pip python3-dev git libssl-dev libffi-dev build-essential')	{'mitre:T1068'}
+48996770081482097190062838863348415111	('/usr/bin/sudo', 'apt install python3 python3-pip python3-dev git libssl-dev libffi-dev build-essential', 'FF')	{'mitre:T1068'}
+78984735572809927675796214273626451064	('/usr/bin/sudo', 'apt install python3 python3-pip python3-dev git libssl-dev libffi-dev build-essential')	None
+278463062373541229789798521740365534120	('/usr/bin/sudo', 'apt install python3 python3-pip python3-dev git libssl-dev libffi-dev build-essential', 'FF')	None
+177810391983961506000435395265433631899	('/usr/bin/apt', 'install python3 python3-pip python3-dev git libssl-dev libffi-dev build-essential')	{'mitre:T1072'}
+7965702728121248723145200214547772107	('/usr/bin/apt', 'install python3 python3-pip python3-dev git libssl-dev libffi-dev build-essential', 'FF')	None
+317198953691201648555582097885580146674	('/usr/bin/apt', 'install python3 python3-pip python3-dev git libssl-dev libffi-dev build-essential')	None
+313691628735541496166624521030724553287	('/usr/bin/apt', 'install python3 python3-pip python3-dev git libssl-dev libffi-dev build-essential', 'FF')	None
+255831295746864145071195230425446973054	('/usr/bin/dpkg', '--print-foreign-architectures')	{'mitre:T1072'}
+213047805141377721880314417523199069135	('/usr/bin/dpkg', '--print-foreign-architectures', 'FF')	None
+87716355169692794785160196661544976310	('/bin/sh', '-c [ ! -f /usr/bin/snap ] || /usr/bin/snap advise-snap --from-apt 2>/dev/null || true')	{'mitre:T1106', 'mitre:T1574'}
+188622892283691556647355048825315140246	('/bin/sh', '-c [ ! -f /usr/bin/snap ] || /usr/bin/snap advise-snap --from-apt 2>/dev/null || true', 'FF')	None
+91919136830436142532645831153520926371	('/bin/sh', '-c [ ! -f /usr/bin/snap ] || /usr/bin/snap advise-snap --from-apt 2>/dev/null || true')	None
+222586230865598069360261052320537676706	('/usr/bin/snap', 'advise-snap --from-apt')	None
+304387145773123035643167461969201379257	('/usr/bin/snap', 'advise-snap --from-apt', 'FF')	None
+45391683350998251714403070014280161226	('/snap/snapd/current/usr/bin/snap', 'advise-snap --from-apt')	None
+133775766438269269484174009183488305511	('/snap/snapd/current/usr/bin/snap', 'advise-snap --from-apt', 'FF')	None
+11784433798717944507501844488486232379	('<NA>', '-c [ ! -f /usr/lib/ubuntu-advantage/apt-esm-hook ] || /usr/lib/ubuntu-advantage/apt-esm-hook pre-invoke || true')	None
+303401627301770164072935434133355972709	('<NA>', '-c [ ! -f /usr/lib/ubuntu-advantage/apt-esm-hook ] || /usr/lib/ubuntu-advantage/apt-esm-hook pre-invoke || true', 'FF')	None
+156264630100235389872951679000230940417	('<NA>', '-c [ ! -f /usr/lib/ubuntu-advantage/apt-esm-hook ] || /usr/lib/ubuntu-advantage/apt-esm-hook pre-invoke || true')	None
+263104355563098204474964545771474321114	('/usr/lib/ubuntu-advantage/apt-esm-hook', 'pre-invoke')	{'mitre:T1072'}
+77232183145937904515422329361535238242	('/usr/lib/ubuntu-advantage/apt-esm-hook', 'pre-invoke', 'FF')	None
+162450794352614887576292211588164469852	('/bin/sh', '-c /usr/sbin/dpkg-preconfigure --apt || true')	{'mitre:T1106', 'mitre:T1574'}
+24780751260473641698556458224588464688	('/bin/sh', '-c /usr/sbin/dpkg-preconfigure --apt || true', 'FF')	None
+285940298761803325152203819183668749023	('/bin/sh', '-c /usr/sbin/dpkg-preconfigure --apt || true')	None
+38373218760946950942031134650575533830	('/usr/sbin/dpkg-preconfigure', '-w /usr/sbin/dpkg-preconfigure --apt')	None
+127026418779163459387295064491715195132	('/usr/sbin/dpkg-preconfigure', '-w /usr/sbin/dpkg-preconfigure --apt', 'FF')	None
+322113271646865227306470485555760214147	('/usr/sbin/dpkg-preconfigure', '-w /usr/sbin/dpkg-preconfigure --apt')	None
+196697459129125887784325501492051834429	('/usr/sbin/dpkg-preconfigure', '-w /usr/sbin/dpkg-preconfigure --apt', 'FF')	None
+289370104989099848323740180788124520503	('/usr/bin/locale', 'charmap')	None
+202570941562291480420416231474841416303	('/usr/bin/locale', 'charmap', 'FF')	None
+182782230259674125641516990837448090546	('/bin/sh', '-c stty -a 2>/dev/null')	{'mitre:T1106', 'mitre:T1574'}
+3699899167353141018023958080259790095	('/bin/sh', '-c stty -a 2>/dev/null', 'FF')	None
+4150833101421817682386595893626774786	('/bin/sh', '-c stty -a 2>/dev/null')	None
+16057411103609759785888463239086943360	('/bin/stty', '-a')	None
+13270482520783561813576151171663760352	('/bin/stty', '-a', 'FF')	None
+245089220552712112550735324594113284217	('/usr/bin/apt-extracttemplates', '/var/cache/apt/archives/git_1%3a2.17.1-1ubuntu0.9_amd64.deb')	{'mitre:T1072'}
+324529405822181242808067966092943925647	('/usr/bin/apt-extracttemplates', '/var/cache/apt/archives/git_1%3a2.17.1-1ubuntu0.9_amd64.deb', 'FF')	None
+88995399280715797096767690416143542200	('/usr/bin/apt-extracttemplates', '/var/cache/apt/archives/git_1%3a2.17.1-1ubuntu0.9_amd64.deb')	None
+215178739453126106262645902316275657272	('/usr/bin/apt-extracttemplates', '/var/cache/apt/archives/git_1%3a2.17.1-1ubuntu0.9_amd64.deb', 'FF')	None
+206717966224138766401483081194417424505	('/usr/bin/dpkg', '--print-foreign-architectures')	{'mitre:T1072'}
+125976781415678907680306057717111554586	('/usr/bin/dpkg', '--print-foreign-architectures', 'FF')	None
+48286379727458596081991035935019886642	('/usr/bin/dpkg', '--assert-multi-arch')	{'mitre:T1072'}
+65550670025441486785644714961193949059	('/usr/bin/dpkg', '--assert-multi-arch', 'FF')	None
+276375890244025914604699925952105992415	('/usr/bin/dpkg', '--status-fd 44 --no-triggers --unpack --auto-deconfigure /var/cache/apt/archives/git_1%3a2.17.1-1ubuntu0.9_amd64.deb')	None
+131040794438326354997186874330403150299	('/usr/bin/dpkg', '--status-fd 44 --no-triggers --unpack --auto-deconfigure /var/cache/apt/archives/git_1%3a2.17.1-1ubuntu0.9_amd64.deb', 'FF')	None
+214100183388267446093239380509411549329	('/usr/bin/dpkg', '--status-fd 44 --no-triggers --unpack --auto-deconfigure /var/cache/apt/archives/git_1%3a2.17.1-1ubuntu0.9_amd64.deb')	{'mitre:T1072'}
+180592579059997479694560774292546152407	('/usr/bin/dpkg-split', '-Qao /var/lib/dpkg/reassemble.deb /var/cache/apt/archives/git_1%3a2.17.1-1ubuntu0.9_amd64.deb')	{'mitre:T1072'}
+308161455115198349814052073002065261823	('/usr/bin/dpkg-split', '-Qao /var/lib/dpkg/reassemble.deb /var/cache/apt/archives/git_1%3a2.17.1-1ubuntu0.9_amd64.deb', 'FF')	None
+186948288909046732122051701356031179465	('/usr/bin/dpkg-deb', '--control /var/cache/apt/archives/git_1%3a2.17.1-1ubuntu0.9_amd64.deb /var/lib/dpkg/tmp.ci')	None
+211104975638782700644202517377063672911	('/usr/bin/dpkg-deb', '--control /var/cache/apt/archives/git_1%3a2.17.1-1ubuntu0.9_amd64.deb /var/lib/dpkg/tmp.ci', 'FF')	None
+278053722320537968669339763746321578735	('/usr/bin/dpkg-deb', '--control /var/cache/apt/archives/git_1%3a2.17.1-1ubuntu0.9_amd64.deb /var/lib/dpkg/tmp.ci')	{'mitre:T1072'}
+139790262275531822525135697287601599598	('/usr/bin/dpkg-deb', '--control /var/cache/apt/archives/git_1%3a2.17.1-1ubuntu0.9_amd64.deb /var/lib/dpkg/tmp.ci', 'FF')	None
+59067089447051955508087245935258889745	('/bin/tar', '-x -f - --warning=no-timestamp')	None
+17772825996897434483967107095063219455	('/bin/tar', '-x -f - --warning=no-timestamp', 'FF')	None
+43084978385314089104659938273786367450	('/var/lib/dpkg/info/git.prerm', '/var/lib/dpkg/info/git.prerm upgrade 1:2.17.1-1ubuntu0.9')	None
+311168344762597297134396060298786012287	('/var/lib/dpkg/info/git.prerm', '/var/lib/dpkg/info/git.prerm upgrade 1:2.17.1-1ubuntu0.9', 'FF')	None
+112625776286514421809235406108085955455	('/var/lib/dpkg/info/git.prerm', '/var/lib/dpkg/info/git.prerm upgrade 1:2.17.1-1ubuntu0.9')	None
+301823888199444826870284325824143999648	('/usr/bin/dpkg-maintscript-helper', '/usr/bin/dpkg-maintscript-helper dir_to_symlink /usr/share/doc/git/contrib/emacs ../../../git-core/emacs 1:1.7.4~rc1-0.1 -- upgrade 1:2.17.1-1ubuntu0.9')	{'mitre:T1072'}
+192323705782898411596726788396559307356	('/usr/bin/dpkg-maintscript-helper', '/usr/bin/dpkg-maintscript-helper dir_to_symlink /usr/share/doc/git/contrib/emacs ../../../git-core/emacs 1:1.7.4~rc1-0.1 -- upgrade 1:2.17.1-1ubuntu0.9', 'FF')	None
+86531494152698780938147274835089496115	('/usr/bin/dpkg-maintscript-helper', '/usr/bin/dpkg-maintscript-helper dir_to_symlink /usr/share/doc/git/contrib/emacs ../../../git-core/emacs 1:1.7.4~rc1-0.1 -- upgrade 1:2.17.1-1ubuntu0.9')	None
+40929666188825491708636057319498287286	('/usr/bin/dpkg-maintscript-helper', '/usr/bin/dpkg-maintscript-helper dir_to_symlink /usr/share/doc/git/contrib/emacs ../../../git-core/emacs 1:1.7.4~rc1-0.1 -- upgrade 1:2.17.1-1ubuntu0.9', 'FF')	None
+192219539120563316774199601737255670545	('/usr/bin/basename', '/usr/bin/dpkg-maintscript-helper')	None
+112912339730822743070564467126686444732	('/usr/bin/basename', '/usr/bin/dpkg-maintscript-helper', 'FF')	None
+163809339215298863416378541224863896540	('/usr/bin/dpkg', '--validate-version -- 1:1.7.4~rc1-0.1')	{'mitre:T1072'}
+22939006004017968484358474555180826872	('/usr/bin/dpkg', '--validate-version -- 1:1.7.4~rc1-0.1', 'FF')	None
+217195255254922208906293997434273099502	('/usr/bin/dpkg-maintscript-helper', '/usr/bin/dpkg-maintscript-helper dir_to_symlink /usr/share/doc/git/contrib/hooks ../../../git-core/contrib/hooks 1:1.7.7-1 -- upgrade 1:2.17.1-1ubuntu0.9')	{'mitre:T1072'}
+316402388720757730381991272416075804610	('/usr/bin/dpkg-maintscript-helper', '/usr/bin/dpkg-maintscript-helper dir_to_symlink /usr/share/doc/git/contrib/hooks ../../../git-core/contrib/hooks 1:1.7.7-1 -- upgrade 1:2.17.1-1ubuntu0.9', 'FF')	None
+31861268065896933341567380962608935196	('/usr/bin/dpkg-maintscript-helper', '/usr/bin/dpkg-maintscript-helper dir_to_symlink /usr/share/doc/git/contrib/hooks ../../../git-core/contrib/hooks 1:1.7.7-1 -- upgrade 1:2.17.1-1ubuntu0.9')	None
+300156975807341675147332920906886984451	('/usr/bin/dpkg-maintscript-helper', '/usr/bin/dpkg-maintscript-helper dir_to_symlink /usr/share/doc/git/contrib/hooks ../../../git-core/contrib/hooks 1:1.7.7-1 -- upgrade 1:2.17.1-1ubuntu0.9', 'FF')	None
+300126276350930430269554327352999448706	('/usr/bin/basename', '/usr/bin/dpkg-maintscript-helper')	None
+36394855169554194367450315205539514962	('/usr/bin/basename', '/usr/bin/dpkg-maintscript-helper', 'FF')	None
+64492142311003895488701117831746336298	('/usr/bin/dpkg', '--validate-version -- 1:1.7.7-1')	{'mitre:T1072'}
+52985903263452089254273529554193148809	('/usr/bin/dpkg', '--validate-version -- 1:1.7.7-1', 'FF')	None
+285199243599760422987970838892733198685	('/usr/bin/dpkg-maintscript-helper', '/usr/bin/dpkg-maintscript-helper rm_conffile /etc/emacs/site-start.d/50git-core.el 1:1.7.4.1-2~ -- upgrade 1:2.17.1-1ubuntu0.9')	{'mitre:T1072'}
+174318712208621131456622728359147836174	('/usr/bin/dpkg-maintscript-helper', '/usr/bin/dpkg-maintscript-helper rm_conffile /etc/emacs/site-start.d/50git-core.el 1:1.7.4.1-2~ -- upgrade 1:2.17.1-1ubuntu0.9', 'FF')	None
+333356327452998573193652694335817767302	('/usr/bin/dpkg-maintscript-helper', '/usr/bin/dpkg-maintscript-helper rm_conffile /etc/emacs/site-start.d/50git-core.el 1:1.7.4.1-2~ -- upgrade 1:2.17.1-1ubuntu0.9')	None
+310220155573204849856311274338527706351	('/usr/bin/dpkg-maintscript-helper', '/usr/bin/dpkg-maintscript-helper rm_conffile /etc/emacs/site-start.d/50git-core.el 1:1.7.4.1-2~ -- upgrade 1:2.17.1-1ubuntu0.9', 'FF')	None
+269376150525425003950130717599621849867	('/usr/bin/basename', '/usr/bin/dpkg-maintscript-helper')	None
+56438099361051734631617347046727513959	('/usr/bin/basename', '/usr/bin/dpkg-maintscript-helper', 'FF')	None
+133364020909638150052156951844397575224	('/usr/bin/dpkg', '--validate-version -- 1:1.7.4.1-2~')	{'mitre:T1072'}
+115265964575981932398600349278106112080	('/usr/bin/dpkg', '--validate-version -- 1:1.7.4.1-2~', 'FF')	None
+190873163571910637338865384515115304432	('/usr/bin/dpkg-maintscript-helper', '/usr/bin/dpkg-maintscript-helper rm_conffile /etc/bash_completion.d/git 1:1.8.0-1~ -- upgrade 1:2.17.1-1ubuntu0.9')	{'mitre:T1072'}
+282125204555656256176986454133112325985	('/usr/bin/dpkg-maintscript-helper', '/usr/bin/dpkg-maintscript-helper rm_conffile /etc/bash_completion.d/git 1:1.8.0-1~ -- upgrade 1:2.17.1-1ubuntu0.9', 'FF')	None
+101202222104617953264337271328637902930	('/usr/bin/dpkg-maintscript-helper', '/usr/bin/dpkg-maintscript-helper rm_conffile /etc/bash_completion.d/git 1:1.8.0-1~ -- upgrade 1:2.17.1-1ubuntu0.9')	None
+232718667362312389055579753950912458216	('/usr/bin/dpkg-maintscript-helper', '/usr/bin/dpkg-maintscript-helper rm_conffile /etc/bash_completion.d/git 1:1.8.0-1~ -- upgrade 1:2.17.1-1ubuntu0.9', 'FF')	None
+268569494668204911910608730944323027023	('/usr/bin/basename', '/usr/bin/dpkg-maintscript-helper')	None
+290973510037336897393265659391945833183	('/usr/bin/basename', '/usr/bin/dpkg-maintscript-helper', 'FF')	None
+50316615977974332089215920046842478758	('/usr/bin/dpkg', '--validate-version -- 1:1.8.0-1~')	{'mitre:T1072'}
+340170367479394513611945734648988802316	('/usr/bin/dpkg', '--validate-version -- 1:1.8.0-1~', 'FF')	None
+214784506402638602417455251386553874263	('/var/lib/dpkg/tmp.ci/preinst', '/var/lib/dpkg/tmp.ci/preinst upgrade 1:2.17.1-1ubuntu0.8 1:2.17.1-1ubuntu0.9')	{'mitre:T1072'}
+312587478865738054359150736139153281277	('/var/lib/dpkg/tmp.ci/preinst', '/var/lib/dpkg/tmp.ci/preinst upgrade 1:2.17.1-1ubuntu0.8 1:2.17.1-1ubuntu0.9', 'FF')	None
+213469612514296979900732661466546327653	('/var/lib/dpkg/tmp.ci/preinst', '/var/lib/dpkg/tmp.ci/preinst upgrade 1:2.17.1-1ubuntu0.8 1:2.17.1-1ubuntu0.9')	None
+164753375484328701893383778325096622929	('/usr/bin/dpkg-maintscript-helper', '/usr/bin/dpkg-maintscript-helper rm_conffile /etc/bash_completion.d/git 1:1.8.0-1~ -- upgrade 1:2.17.1-1ubuntu0.8 1:2.17.1-1ubuntu0.9')	{'mitre:T1072'}
+244433730598882155700560599144434794024	('/usr/bin/dpkg-maintscript-helper', '/usr/bin/dpkg-maintscript-helper rm_conffile /etc/bash_completion.d/git 1:1.8.0-1~ -- upgrade 1:2.17.1-1ubuntu0.8 1:2.17.1-1ubuntu0.9', 'FF')	None
+86759771624272845147966483759553592325	('/usr/bin/dpkg-maintscript-helper', '/usr/bin/dpkg-maintscript-helper rm_conffile /etc/bash_completion.d/git 1:1.8.0-1~ -- upgrade 1:2.17.1-1ubuntu0.8 1:2.17.1-1ubuntu0.9')	None
+133081060136749906087181350102324151377	('/usr/bin/dpkg-maintscript-helper', '/usr/bin/dpkg-maintscript-helper rm_conffile /etc/bash_completion.d/git 1:1.8.0-1~ -- upgrade 1:2.17.1-1ubuntu0.8 1:2.17.1-1ubuntu0.9', 'FF')	None
+70976198462370286792957552849293437395	('/usr/bin/basename', '/usr/bin/dpkg-maintscript-helper')	None
+19475344026210657711043996411323516467	('/usr/bin/basename', '/usr/bin/dpkg-maintscript-helper', 'FF')	None
+251467233823651683787814106020724214720	('/usr/bin/dpkg', '--validate-version -- 1:1.8.0-1~')	{'mitre:T1072'}
+246997851737306211155696950659941600840	('/usr/bin/dpkg', '--validate-version -- 1:1.8.0-1~', 'FF')	None
+304373871342449362793170016731530885466	('/usr/bin/dpkg', '--compare-versions -- 1:2.17.1-1ubuntu0.8 le-nl 1:1.8.0-1~')	{'mitre:T1072'}
+115808972284167645191139000205876674850	('/usr/bin/dpkg', '--compare-versions -- 1:2.17.1-1ubuntu0.8 le-nl 1:1.8.0-1~', 'FF')	None
+111246439547231858604913640832977533993	('/usr/bin/dpkg-maintscript-helper', '/usr/bin/dpkg-maintscript-helper rm_conffile /etc/emacs/site-start.d/50git-core.el 1:1.7.4.1-2~ -- upgrade 1:2.17.1-1ubuntu0.8 1:2.17.1-1ubuntu0.9')	{'mitre:T1072'}
+202456146209534512653666072390861217170	('/usr/bin/dpkg-maintscript-helper', '/usr/bin/dpkg-maintscript-helper rm_conffile /etc/emacs/site-start.d/50git-core.el 1:1.7.4.1-2~ -- upgrade 1:2.17.1-1ubuntu0.8 1:2.17.1-1ubuntu0.9', 'FF')	None
+87403515769607513020968687356890546033	('/usr/bin/dpkg-maintscript-helper', '/usr/bin/dpkg-maintscript-helper rm_conffile /etc/emacs/site-start.d/50git-core.el 1:1.7.4.1-2~ -- upgrade 1:2.17.1-1ubuntu0.8 1:2.17.1-1ubuntu0.9')	None
+298380026610649497506377151536409567571	('/usr/bin/dpkg-maintscript-helper', '/usr/bin/dpkg-maintscript-helper rm_conffile /etc/emacs/site-start.d/50git-core.el 1:1.7.4.1-2~ -- upgrade 1:2.17.1-1ubuntu0.8 1:2.17.1-1ubuntu0.9', 'FF')	None
+298609861304994987120375201417451653886	('/usr/bin/basename', '/usr/bin/dpkg-maintscript-helper')	None
+178751791012272879894555677413101201967	('/usr/bin/basename', '/usr/bin/dpkg-maintscript-helper', 'FF')	None
+157142554596742127440112056788290362651	('/usr/bin/dpkg', '--validate-version -- 1:1.7.4.1-2~')	{'mitre:T1072'}
+315326219944923659744033626314479606157	('/usr/bin/dpkg', '--validate-version -- 1:1.7.4.1-2~', 'FF')	None
+68605828608087288080780731832594416047	('/usr/bin/dpkg', '--compare-versions -- 1:2.17.1-1ubuntu0.8 le-nl 1:1.7.4.1-2~')	{'mitre:T1072'}
+211306458381058820595713627452388934907	('/usr/bin/dpkg', '--compare-versions -- 1:2.17.1-1ubuntu0.8 le-nl 1:1.7.4.1-2~', 'FF')	None
+103091195734067973689703678641634490980	('/usr/bin/dpkg-maintscript-helper', '/usr/bin/dpkg-maintscript-helper dir_to_symlink /usr/share/doc/git/contrib/hooks ../../../git-core/contrib/hooks 1:1.7.7-1 -- upgrade 1:2.17.1-1ubuntu0.8 1:2.17.1-1ubuntu0.9')	{'mitre:T1072'}
+62528841600718183787201048838458813772	('/usr/bin/dpkg-maintscript-helper', '/usr/bin/dpkg-maintscript-helper dir_to_symlink /usr/share/doc/git/contrib/hooks ../../../git-core/contrib/hooks 1:1.7.7-1 -- upgrade 1:2.17.1-1ubuntu0.8 1:2.17.1-1ubuntu0.9', 'FF')	None
+148952327701395536564132406210516632037	('/usr/bin/dpkg-maintscript-helper', '/usr/bin/dpkg-maintscript-helper dir_to_symlink /usr/share/doc/git/contrib/hooks ../../../git-core/contrib/hooks 1:1.7.7-1 -- upgrade 1:2.17.1-1ubuntu0.8 1:2.17.1-1ubuntu0.9')	None
+104812861418995159372192724098396849418	('/usr/bin/dpkg-maintscript-helper', '/usr/bin/dpkg-maintscript-helper dir_to_symlink /usr/share/doc/git/contrib/hooks ../../../git-core/contrib/hooks 1:1.7.7-1 -- upgrade 1:2.17.1-1ubuntu0.8 1:2.17.1-1ubuntu0.9', 'FF')	None
+287995468334216823995454044795862544006	('/usr/bin/basename', '/usr/bin/dpkg-maintscript-helper')	None
+66812929234681617075608233067095483762	('/usr/bin/basename', '/usr/bin/dpkg-maintscript-helper', 'FF')	None
+78221802898553696515328132010988089051	('/usr/bin/dpkg', '--validate-version -- 1:1.7.7-1')	{'mitre:T1072'}
+255796582322344882615225697263825293989	('/usr/bin/dpkg', '--validate-version -- 1:1.7.7-1', 'FF')	None
+54589346179920109169447175935496135707	('/usr/bin/dpkg-maintscript-helper', '/usr/bin/dpkg-maintscript-helper dir_to_symlink /usr/share/doc/git/contrib/emacs ../../../git-core/emacs 1:1.7.4~rc1-0.1 -- upgrade 1:2.17.1-1ubuntu0.8 1:2.17.1-1ubuntu0.9')	{'mitre:T1072'}
+240551990787740947617413472957164488652	('/usr/bin/dpkg-maintscript-helper', '/usr/bin/dpkg-maintscript-helper dir_to_symlink /usr/share/doc/git/contrib/emacs ../../../git-core/emacs 1:1.7.4~rc1-0.1 -- upgrade 1:2.17.1-1ubuntu0.8 1:2.17.1-1ubuntu0.9', 'FF')	None
+177651517822775469542364544318528472219	('/usr/bin/dpkg-maintscript-helper', '/usr/bin/dpkg-maintscript-helper dir_to_symlink /usr/share/doc/git/contrib/emacs ../../../git-core/emacs 1:1.7.4~rc1-0.1 -- upgrade 1:2.17.1-1ubuntu0.8 1:2.17.1-1ubuntu0.9')	None
+109931020095877233612558313703081996366	('/usr/bin/dpkg-maintscript-helper', '/usr/bin/dpkg-maintscript-helper dir_to_symlink /usr/share/doc/git/contrib/emacs ../../../git-core/emacs 1:1.7.4~rc1-0.1 -- upgrade 1:2.17.1-1ubuntu0.8 1:2.17.1-1ubuntu0.9', 'FF')	None
+106275153420670844236515149726740828989	('/usr/bin/basename', '/usr/bin/dpkg-maintscript-helper')	None
+146235504201073165814332942068650747197	('/usr/bin/basename', '/usr/bin/dpkg-maintscript-helper', 'FF')	None
+184434285805836911529299875378770013903	('/usr/bin/dpkg', '--validate-version -- 1:1.7.4~rc1-0.1')	{'mitre:T1072'}
+129996351885992941105771315854990466878	('/usr/bin/dpkg', '--validate-version -- 1:1.7.4~rc1-0.1', 'FF')	None
+255781692786446038426649660140892773213	('/usr/bin/dpkg', '--compare-versions 1:2.17.1-1ubuntu0.8 lt-nl 1:1.8.4~rc0-1')	{'mitre:T1072'}
+224696524303221853359691828368049485006	('/usr/bin/dpkg', '--compare-versions 1:2.17.1-1ubuntu0.8 lt-nl 1:1.8.4~rc0-1', 'FF')	None
+7095167898069126736973493649720774137	('/usr/bin/dpkg', '--compare-versions 1:2.17.1-1ubuntu0.8 eq 1:1.8.4~rc0-1')	{'mitre:T1072'}
+34195102795076793110881363849466985855	('/usr/bin/dpkg', '--compare-versions 1:2.17.1-1ubuntu0.8 eq 1:1.8.4~rc0-1', 'FF')	None
+323650472264492189328115145452340104705	('/usr/bin/dpkg', '--compare-versions 1:2.17.1-1ubuntu0.8 lt-nl 1:1.7.7-2')	{'mitre:T1072'}
+8955327549818950998885631404772011239	('/usr/bin/dpkg', '--compare-versions 1:2.17.1-1ubuntu0.8 lt-nl 1:1.7.7-2', 'FF')	None
+71611169512309507879400542223757060866	('/usr/bin/dpkg', '--status-fd 44 --no-triggers --unpack --auto-deconfigure /var/cache/apt/archives/git_1%3a2.17.1-1ubuntu0.9_amd64.deb', 'FF')	None
+52916430577574513742569694581756736847	('/usr/bin/dpkg-deb', '--fsys-tarfile /var/cache/apt/archives/git_1%3a2.17.1-1ubuntu0.9_amd64.deb')	{'mitre:T1072'}
+111847139637097869750731275642592996081	('/usr/bin/dpkg-deb', '--fsys-tarfile /var/cache/apt/archives/git_1%3a2.17.1-1ubuntu0.9_amd64.deb', 'FF')	None
+268456432225302127401423853840712597654	('/usr/bin/dpkg-deb', '--fsys-tarfile /var/cache/apt/archives/git_1%3a2.17.1-1ubuntu0.9_amd64.deb')	None
+206169994034175405069511735821976150571	('/usr/bin/dpkg-deb', '--fsys-tarfile /var/cache/apt/archives/git_1%3a2.17.1-1ubuntu0.9_amd64.deb', 'FF')	None
+319066289012104112628918393671638143427	('/var/lib/dpkg/info/git.postrm', '/var/lib/dpkg/info/git.postrm upgrade 1:2.17.1-1ubuntu0.9')	None
+290215308151857565976587017712621750130	('/var/lib/dpkg/info/git.postrm', '/var/lib/dpkg/info/git.postrm upgrade 1:2.17.1-1ubuntu0.9', 'FF')	None
+278978870181256460313045196254499648377	('/var/lib/dpkg/info/git.postrm', '/var/lib/dpkg/info/git.postrm upgrade 1:2.17.1-1ubuntu0.9')	None
+103144420027033487641676772453211726239	('/usr/bin/dpkg-maintscript-helper', '/usr/bin/dpkg-maintscript-helper dir_to_symlink /usr/share/doc/git/contrib/emacs ../../../git-core/emacs 1:1.7.4~rc1-0.1 -- upgrade 1:2.17.1-1ubuntu0.9')	{'mitre:T1072'}
+68940937895433674624654915125371937050	('/usr/bin/dpkg-maintscript-helper', '/usr/bin/dpkg-maintscript-helper dir_to_symlink /usr/share/doc/git/contrib/emacs ../../../git-core/emacs 1:1.7.4~rc1-0.1 -- upgrade 1:2.17.1-1ubuntu0.9', 'FF')	None
+2162802922602942801365909352478418389	('/usr/bin/dpkg-maintscript-helper', '/usr/bin/dpkg-maintscript-helper dir_to_symlink /usr/share/doc/git/contrib/hooks ../../../git-core/contrib/hooks 1:1.7.7-1 -- upgrade 1:2.17.1-1ubuntu0.9')	{'mitre:T1072'}
+254221422697980754213981635538607164776	('/usr/bin/dpkg-maintscript-helper', '/usr/bin/dpkg-maintscript-helper dir_to_symlink /usr/share/doc/git/contrib/hooks ../../../git-core/contrib/hooks 1:1.7.7-1 -- upgrade 1:2.17.1-1ubuntu0.9', 'FF')	None
+248701977428365599929823598118685876761	('/usr/bin/dpkg-maintscript-helper', '/usr/bin/dpkg-maintscript-helper rm_conffile /etc/emacs/site-start.d/50git-core.el 1:1.7.4.1-2~ -- upgrade 1:2.17.1-1ubuntu0.9')	{'mitre:T1072'}
+279004259423149756759489530498057858561	('/usr/bin/dpkg-maintscript-helper', '/usr/bin/dpkg-maintscript-helper rm_conffile /etc/emacs/site-start.d/50git-core.el 1:1.7.4.1-2~ -- upgrade 1:2.17.1-1ubuntu0.9', 'FF')	None
+150299780359129040952978186325315651345	('/usr/bin/dpkg-maintscript-helper', '/usr/bin/dpkg-maintscript-helper rm_conffile /etc/bash_completion.d/git 1:1.8.0-1~ -- upgrade 1:2.17.1-1ubuntu0.9')	{'mitre:T1072'}
+39161085897112321045358718371761807191	('/usr/bin/dpkg-maintscript-helper', '/usr/bin/dpkg-maintscript-helper rm_conffile /etc/bash_completion.d/git 1:1.8.0-1~ -- upgrade 1:2.17.1-1ubuntu0.9', 'FF')	None
+331621727695757416035706654409229211840	('/bin/rm', '-rf -- /var/lib/dpkg/tmp.ci')	{'mitre:T1106', 'mitre:T1574'}
+269803793248669089671853990654368455386	('/bin/rm', '-rf -- /var/lib/dpkg/tmp.ci', 'FF')	None
+303403235771165137850761131954893605554	('<NA>', '-c if { test "$DPKG_HOOK_ACTION" = add-architecture || test "$DPKG_HOOK_ACTION" = remove-architecture; } && test -x /usr/share/pkg-config-dpkghook; then /usr/share/pkg-config-dpkghook update; fi')	None
+104137456707338412419362961178288383753	('<NA>', '-c if { test "$DPKG_HOOK_ACTION" = add-architecture || test "$DPKG_HOOK_ACTION" = remove-architecture; } && test -x /usr/share/pkg-config-dpkghook; then /usr/share/pkg-config-dpkghook update; fi', 'FF')	None
+22591547365348508389014575134903104885	('/usr/bin/dpkg', '--status-fd 44 --configure --pending')	{'mitre:T1072'}
+82108771307670556051513971063519841790	('/usr/bin/dpkg', '--status-fd 44 --configure --pending', 'FF')	None
+139665106098528198837353800958730203602	('/usr/bin/dpkg', '--status-fd 44 --configure --pending')	None
+150202073008044225426724551172253289097	('/var/lib/dpkg/info/git.postinst', '/var/lib/dpkg/info/git.postinst configure 1:2.17.1-1ubuntu0.8')	None
+21555157765943791155108603749753693924	('/var/lib/dpkg/info/git.postinst', '/var/lib/dpkg/info/git.postinst configure 1:2.17.1-1ubuntu0.8', 'FF')	None
+305115860193370669850605395761487872864	('/var/lib/dpkg/info/git.postinst', '/var/lib/dpkg/info/git.postinst configure 1:2.17.1-1ubuntu0.8')	None
+300147619047428744555769268629006641121	('/usr/bin/dpkg-maintscript-helper', '/usr/bin/dpkg-maintscript-helper rm_conffile /etc/bash_completion.d/git 1:1.8.0-1~ -- configure 1:2.17.1-1ubuntu0.8')	{'mitre:T1072'}
+132142397323972422514234459001886346828	('/usr/bin/dpkg-maintscript-helper', '/usr/bin/dpkg-maintscript-helper rm_conffile /etc/bash_completion.d/git 1:1.8.0-1~ -- configure 1:2.17.1-1ubuntu0.8', 'FF')	None
+51854426031074111561732754951888284241	('/usr/bin/dpkg-maintscript-helper', '/usr/bin/dpkg-maintscript-helper rm_conffile /etc/bash_completion.d/git 1:1.8.0-1~ -- configure 1:2.17.1-1ubuntu0.8')	None
+205790883893445564761884696679261488707	('/usr/bin/dpkg-maintscript-helper', '/usr/bin/dpkg-maintscript-helper rm_conffile /etc/bash_completion.d/git 1:1.8.0-1~ -- configure 1:2.17.1-1ubuntu0.8', 'FF')	None
+51412729378667896169622283214625052444	('/usr/bin/basename', '/usr/bin/dpkg-maintscript-helper')	None
+4171839002282032437291928856342206200	('/usr/bin/basename', '/usr/bin/dpkg-maintscript-helper', 'FF')	None
+268970098044097925854789939874008140296	('/usr/bin/dpkg', '--validate-version -- 1:1.8.0-1~')	{'mitre:T1072'}
+195576078460893413127992804127948369990	('/usr/bin/dpkg', '--validate-version -- 1:1.8.0-1~', 'FF')	None
+99479835843569734980041268110693840923	('/usr/bin/dpkg', '--compare-versions -- 1:2.17.1-1ubuntu0.8 le-nl 1:1.8.0-1~')	{'mitre:T1072'}
+172054040668014359768805838733082611479	('/usr/bin/dpkg', '--compare-versions -- 1:2.17.1-1ubuntu0.8 le-nl 1:1.8.0-1~', 'FF')	None
+140326179722214838968415597437916768719	('/usr/bin/dpkg-maintscript-helper', '/usr/bin/dpkg-maintscript-helper rm_conffile /etc/emacs/site-start.d/50git-core.el 1:1.7.4.1-2~ -- configure 1:2.17.1-1ubuntu0.8')	{'mitre:T1072'}
+312217892227525807718168431835002055948	('/usr/bin/dpkg-maintscript-helper', '/usr/bin/dpkg-maintscript-helper rm_conffile /etc/emacs/site-start.d/50git-core.el 1:1.7.4.1-2~ -- configure 1:2.17.1-1ubuntu0.8', 'FF')	None
+263980201894361556841637434664585143158	('/usr/bin/dpkg-maintscript-helper', '/usr/bin/dpkg-maintscript-helper rm_conffile /etc/emacs/site-start.d/50git-core.el 1:1.7.4.1-2~ -- configure 1:2.17.1-1ubuntu0.8')	None
+49548328821940152283098328776350808044	('/usr/bin/dpkg-maintscript-helper', '/usr/bin/dpkg-maintscript-helper rm_conffile /etc/emacs/site-start.d/50git-core.el 1:1.7.4.1-2~ -- configure 1:2.17.1-1ubuntu0.8', 'FF')	None
+332665600816619159804310583728649381145	('/usr/bin/basename', '/usr/bin/dpkg-maintscript-helper')	None
+107778603815914297871112063438524053493	('/usr/bin/basename', '/usr/bin/dpkg-maintscript-helper', 'FF')	None
+89154155923889804835827668207035819259	('/usr/bin/dpkg', '--validate-version -- 1:1.7.4.1-2~')	{'mitre:T1072'}
+83231083576794743821081236553361751976	('/usr/bin/dpkg', '--validate-version -- 1:1.7.4.1-2~', 'FF')	None
+99837980045819796244536958095319076857	('/usr/bin/dpkg', '--compare-versions -- 1:2.17.1-1ubuntu0.8 le-nl 1:1.7.4.1-2~')	{'mitre:T1072'}
+230433512904993387543635632663515709809	('/usr/bin/dpkg', '--compare-versions -- 1:2.17.1-1ubuntu0.8 le-nl 1:1.7.4.1-2~', 'FF')	None
+227438576413741153464618588911071399030	('/usr/bin/dpkg-maintscript-helper', '/usr/bin/dpkg-maintscript-helper dir_to_symlink /usr/share/doc/git/contrib/hooks ../../../git-core/contrib/hooks 1:1.7.7-1 -- configure 1:2.17.1-1ubuntu0.8')	{'mitre:T1072'}
+339893219734560996232681467204952310155	('/usr/bin/dpkg-maintscript-helper', '/usr/bin/dpkg-maintscript-helper dir_to_symlink /usr/share/doc/git/contrib/hooks ../../../git-core/contrib/hooks 1:1.7.7-1 -- configure 1:2.17.1-1ubuntu0.8', 'FF')	None
+32391285848589387460942166113733677872	('/usr/bin/dpkg-maintscript-helper', '/usr/bin/dpkg-maintscript-helper dir_to_symlink /usr/share/doc/git/contrib/hooks ../../../git-core/contrib/hooks 1:1.7.7-1 -- configure 1:2.17.1-1ubuntu0.8')	None
+152225564687762327191138519175468540986	('/usr/bin/dpkg-maintscript-helper', '/usr/bin/dpkg-maintscript-helper dir_to_symlink /usr/share/doc/git/contrib/hooks ../../../git-core/contrib/hooks 1:1.7.7-1 -- configure 1:2.17.1-1ubuntu0.8', 'FF')	None
+5827418586776966570994728307265927769	('/usr/bin/basename', '/usr/bin/dpkg-maintscript-helper')	None
+180975508370781083711060853654049348382	('/usr/bin/basename', '/usr/bin/dpkg-maintscript-helper', 'FF')	None
+131628557473819229601871739728141677888	('/usr/bin/dpkg', '--validate-version -- 1:1.7.7-1')	{'mitre:T1072'}
+320811374217632742042096908249475858010	('/usr/bin/dpkg', '--validate-version -- 1:1.7.7-1', 'FF')	None
+98202490372192219348016456669237224324	('/usr/bin/dpkg-maintscript-helper', '/usr/bin/dpkg-maintscript-helper dir_to_symlink /usr/share/doc/git/contrib/emacs ../../../git-core/emacs 1:1.7.4~rc1-0.1 -- configure 1:2.17.1-1ubuntu0.8')	{'mitre:T1072'}
+127899363462394011136527662218658789364	('/usr/bin/dpkg-maintscript-helper', '/usr/bin/dpkg-maintscript-helper dir_to_symlink /usr/share/doc/git/contrib/emacs ../../../git-core/emacs 1:1.7.4~rc1-0.1 -- configure 1:2.17.1-1ubuntu0.8', 'FF')	None
+46763491053858659542931284545658936248	('/usr/bin/dpkg-maintscript-helper', '/usr/bin/dpkg-maintscript-helper dir_to_symlink /usr/share/doc/git/contrib/emacs ../../../git-core/emacs 1:1.7.4~rc1-0.1 -- configure 1:2.17.1-1ubuntu0.8')	None
+236913871056372118651403676974823543806	('/usr/bin/dpkg-maintscript-helper', '/usr/bin/dpkg-maintscript-helper dir_to_symlink /usr/share/doc/git/contrib/emacs ../../../git-core/emacs 1:1.7.4~rc1-0.1 -- configure 1:2.17.1-1ubuntu0.8', 'FF')	None
+184316048056503749121698403709801470263	('/usr/bin/basename', '/usr/bin/dpkg-maintscript-helper')	None
+290103173087231096714592267594452712186	('/usr/bin/basename', '/usr/bin/dpkg-maintscript-helper', 'FF')	None
+8014317484952920278778967008938947198	('/usr/bin/dpkg', '--validate-version -- 1:1.7.4~rc1-0.1')	{'mitre:T1072'}
+211812810663851242275193793424949601354	('/usr/bin/dpkg', '--validate-version -- 1:1.7.4~rc1-0.1', 'FF')	None
+294922916454233852484602812106947646514	('/usr/bin/dpkg', '--compare-versions 1:2.17.1-1ubuntu0.8 lt 1:1.7.4.1-2~')	{'mitre:T1072'}
+263505067949134981144570453500173864335	('/usr/bin/dpkg', '--compare-versions 1:2.17.1-1ubuntu0.8 lt 1:1.7.4.1-2~', 'FF')	None
+329818859408687317127843455120007641100	('<NA>', '-c if { test "$DPKG_HOOK_ACTION" = add-architecture || test "$DPKG_HOOK_ACTION" = remove-architecture; } && test -x /usr/share/pkg-config-dpkghook; then /usr/share/pkg-config-dpkghook update; fi')	None
+8951388423515914841633512253587140946	('<NA>', '-c if { test "$DPKG_HOOK_ACTION" = add-architecture || test "$DPKG_HOOK_ACTION" = remove-architecture; } && test -x /usr/share/pkg-config-dpkghook; then /usr/share/pkg-config-dpkghook update; fi', 'FF')	None
+60726331596862730403316633580393209595	('<NA>', '-c if [ -d /var/lib/update-notifier ]; then touch /var/lib/update-notifier/dpkg-run-stamp; fi; /usr/lib/update-notifier/update-motd-updates-available 2>/dev/null || true')	None
+124892748186760914079082028603758617553	('<NA>', '-c if [ -d /var/lib/update-notifier ]; then touch /var/lib/update-notifier/dpkg-run-stamp; fi; /usr/lib/update-notifier/update-motd-updates-available 2>/dev/null || true', 'FF')	None
+336850646411611052945348519655025054363	('<NA>', '-c if [ -d /var/lib/update-notifier ]; then touch /var/lib/update-notifier/dpkg-run-stamp; fi; /usr/lib/update-notifier/update-motd-updates-available 2>/dev/null || true')	None
+245484002566495736264425377722325662508	('/usr/bin/touch', '/var/lib/update-notifier/dpkg-run-stamp')	{'mitre:T1106', 'mitre:T1574'}
+181294633279999860940401127253038009512	('/usr/bin/touch', '/var/lib/update-notifier/dpkg-run-stamp', 'FF')	None
+117938413514014574573609831943573876641	('/usr/lib/update-notifier/update-motd-updates-available', '-e /usr/lib/update-notifier/update-motd-updates-available')	None
+133976013328273706911977832783358506983	('/usr/lib/update-notifier/update-motd-updates-available', '-e /usr/lib/update-notifier/update-motd-updates-available', 'FF')	None
+18321052399011243255237267825549148530	('/usr/lib/update-notifier/update-motd-updates-available', '-e /usr/lib/update-notifier/update-motd-updates-available')	None
+124425549483487015495949746321709029261	('/usr/lib/update-notifier/update-motd-updates-available', '-e /usr/lib/update-notifier/update-motd-updates-available', 'FF')	None
+11457623998924190239852581334698372708	('/usr/bin/apt-config', 'shell StateDir Dir::State')	{'mitre:T1072'}
+276621251894058804875649689966115230763	('/usr/bin/apt-config', 'shell StateDir Dir::State', 'FF')	None
+232511640774457137960835031386961635697	('/usr/bin/apt-config', 'shell StateDir Dir::State')	None
+182638542212561308967438813226013267037	('/usr/bin/apt-config', 'shell StateDir Dir::State', 'FF')	None
+17919494995335262024909147690376427716	('/usr/bin/dpkg', '--print-foreign-architectures')	{'mitre:T1072'}
+200462073930024727598237000736281395422	('/usr/bin/dpkg', '--print-foreign-architectures', 'FF')	None
+8050830003292541809935852940253240899	('/usr/bin/apt-config', 'shell ListDir Dir::State::Lists')	{'mitre:T1072'}
+95164129059831633665532558462867030876	('/usr/bin/apt-config', 'shell ListDir Dir::State::Lists', 'FF')	None
+33405312345361481211277425960703324160	('/usr/bin/apt-config', 'shell ListDir Dir::State::Lists')	None
+160728222652434113142501912292644133283	('/usr/bin/apt-config', 'shell ListDir Dir::State::Lists', 'FF')	None
+56373690515284772950046883188623156301	('/usr/bin/dpkg', '--print-foreign-architectures')	{'mitre:T1072'}
+319925052973080697711601516398854867081	('/usr/bin/dpkg', '--print-foreign-architectures', 'FF')	None
+134852779082248231157481070648121556665	('/usr/bin/apt-config', 'shell DpkgStatus Dir::State::status')	{'mitre:T1072'}
+115704162601139558866102017927872748832	('/usr/bin/apt-config', 'shell DpkgStatus Dir::State::status', 'FF')	None
+161915554657163051360548988936302400926	('/usr/bin/apt-config', 'shell DpkgStatus Dir::State::status')	None
+285873811949430932240774836701253153900	('/usr/bin/apt-config', 'shell DpkgStatus Dir::State::status', 'FF')	None
+230608836344947651427521024698236427470	('/usr/bin/dpkg', '--print-foreign-architectures')	{'mitre:T1072'}
+263474749613512845483378492914219633044	('/usr/bin/dpkg', '--print-foreign-architectures', 'FF')	None
+323200566379410334442337029328097883522	('/usr/bin/apt-config', 'shell EtcDir Dir::Etc')	{'mitre:T1072'}
+154450164046422204090023351341247746224	('/usr/bin/apt-config', 'shell EtcDir Dir::Etc', 'FF')	None
+195246474381998830556623260570174893887	('/usr/bin/apt-config', 'shell EtcDir Dir::Etc')	None
+30935799608228958002903472560379539188	('/usr/bin/apt-config', 'shell EtcDir Dir::Etc', 'FF')	None
+44448709844824102120626270389569818341	('/usr/bin/dpkg', '--print-foreign-architectures')	{'mitre:T1072'}
+23016148084935538646799846226623386324	('/usr/bin/dpkg', '--print-foreign-architectures', 'FF')	None
+137128381072990241852294616186964191940	('/usr/bin/apt-config', 'shell SourceList Dir::Etc::sourcelist')	{'mitre:T1072'}
+275234546524137375424406884509154724976	('/usr/bin/apt-config', 'shell SourceList Dir::Etc::sourcelist', 'FF')	None
+304972565643585057276648099720118567452	('/usr/bin/apt-config', 'shell SourceList Dir::Etc::sourcelist')	None
+339816607066936516185759532839864557353	('/usr/bin/apt-config', 'shell SourceList Dir::Etc::sourcelist', 'FF')	None
+241518165708652216199470485683301719662	('/usr/bin/dpkg', '--print-foreign-architectures')	{'mitre:T1072'}
+193314817364290183288694551549257596025	('/usr/bin/dpkg', '--print-foreign-architectures', 'FF')	None
+80312467302224676128098666183056906138	('/usr/bin/find', '/var/lib/apt/lists/ /etc/apt/sources.list //var/lib/dpkg/status -type f -newer /var/lib/update-notifier/updates-available -print -quit')	None
+246115235535542105581367181400487393679	('/usr/bin/find', '/var/lib/apt/lists/ /etc/apt/sources.list //var/lib/dpkg/status -type f -newer /var/lib/update-notifier/updates-available -print -quit', 'FF')	None
+132048722308992557256124313839678337414	('/usr/bin/dirname', '/var/lib/update-notifier/updates-available')	None
+73264278796816288992309386980981054582	('/usr/bin/dirname', '/var/lib/update-notifier/updates-available', 'FF')	None
+4389033104631188940302415908204213240	('/bin/mktemp', '-p /var/lib/update-notifier')	{'mitre:T1106', 'mitre:T1574'}
+33569317934152335177386985837726586611	('/bin/mktemp', '-p /var/lib/update-notifier', 'FF')	None
+177146397834463837250871864108077181474	('/usr/lib/update-notifier/apt-check', '/usr/lib/update-notifier/apt-check --human-readable')	{'mitre:T1072'}
+127762237298288742538470812130609199809	('/usr/lib/update-notifier/apt-check', '/usr/lib/update-notifier/apt-check --human-readable', 'FF')	None
+300618895915981029003389296304238060696	('/usr/lib/update-notifier/apt-check', '/usr/lib/update-notifier/apt-check --human-readable')	None
+81469997776787416853060741332324586875	('/usr/lib/update-notifier/apt-check', '/usr/lib/update-notifier/apt-check --human-readable', 'FF')	None
+193837924013466747624856730450754224409	('/usr/bin/dpkg', '--print-foreign-architectures')	{'mitre:T1072'}
+306845859172209191953544065561524796634	('/usr/bin/dpkg', '--print-foreign-architectures', 'FF')	None
+171384801683923154643413713757684108264	('/bin/mv', '/var/lib/update-notifier/tmp.kUODbJsk4f /var/lib/update-notifier/updates-available')	{'mitre:T1106', 'mitre:T1574'}
+180885140236866104593461908905738588763	('/bin/mv', '/var/lib/update-notifier/tmp.kUODbJsk4f /var/lib/update-notifier/updates-available', 'FF')	None
+34740387268952640857959253970165276494	('/bin/rm', '-f /var/lib/update-notifier/tmp.kUODbJsk4f')	{'mitre:T1106', 'mitre:T1574'}
+163634604319068858086563330998016252318	('/bin/rm', '-f /var/lib/update-notifier/tmp.kUODbJsk4f', 'FF')	None
+260032560286146742560154233521815966517	('<NA>', '-c [ ! -f /usr/lib/ubuntu-advantage/apt-esm-hook ] || /usr/lib/ubuntu-advantage/apt-esm-hook post-invoke-success || true')	None
+18513825028169511690657894146896588265	('<NA>', '-c [ ! -f /usr/lib/ubuntu-advantage/apt-esm-hook ] || /usr/lib/ubuntu-advantage/apt-esm-hook post-invoke-success || true', 'FF')	None
+35379362248997630141759375393448721514	('<NA>', '-c [ ! -f /usr/lib/ubuntu-advantage/apt-esm-hook ] || /usr/lib/ubuntu-advantage/apt-esm-hook post-invoke-success || true')	None
+217321163511075403537787839270691755446	('/usr/lib/ubuntu-advantage/apt-esm-hook', 'post-invoke-success')	{'mitre:T1072'}
+48020249441855112052724850569707024972	('/usr/lib/ubuntu-advantage/apt-esm-hook', 'post-invoke-success', 'FF')	None
+137871098449217528146887267741514656734	('/usr/bin/dbus-daemon', '--system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only', 'FF')	None
+321267887862702818606616863940352674204	('/usr/bin/dbus-daemon', '--system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only')	None
+175633084995631617940499098733120881037	('/usr/bin/python3', '')	None
+48434025741990481856341940106890213316	('/usr/bin/python3', '', 'FF')	None
+168287056137457456078822948106775123509	('/usr/bin/python3', '')	None
+208295097092707221483178012844780952779	('/usr/bin/python3', '', 'FF')	None
+158901656344029086229847872149957126730	('/sbin/ldconfig', '/sbin/ldconfig -p')	None
+261053542784835440230345723979355873267	('/sbin/ldconfig', '/sbin/ldconfig -p', 'FF')	None
+251260265149414816187448633387267198013	('/sbin/ldconfig.real', '-p')	None
+270727345805345483530930591783192923523	('/sbin/ldconfig.real', '-p', 'FF')	None
+47410870000908856478644435071082848967	('/bin/sh', '-c uname -p 2> /dev/null')	{'mitre:T1106', 'mitre:T1574'}
+301861590333289893502726365078137105466	('/bin/sh', '-c uname -p 2> /dev/null', 'FF')	None
+309635949870898958439645770229495637035	('/bin/sh', '-c uname -p 2> /dev/null')	None
+3433332649682502378374103210767677071	('/bin/uname', '-p')	None
+163612355205353468126816598614265208480	('/bin/uname', '-p', 'FF')	None
+118067468755897240869866754085001196879	('/usr/lib/policykit-1/polkitd', '--no-debug', 'FF')	None
+269761650270537830726055195069310830988	('/usr/lib/policykit-1/polkitd', '--no-debug')	None
+93396830109512777768295348047607763396	('/usr/bin/file', '/usr/bin/python3.6')	None
+196043658708766672690200050502614263553	('/usr/bin/file', '/usr/bin/python3.6', 'FF')	None
+213860041493026666682618172890057787585	('/bin/ls', '--color=auto -al')	None
+152431847955501350712461225672094709097	('/bin/ls', '--color=auto -al', 'FF')	{'mitre:T1041', 'mitre:T1087', 'mitre:T1543'}
+199110976335199420148174320561533870967	('/bin/nano', 'sampleak.py')	None
+83919858524928056700119817227448344254	('/bin/nano', 'sampleak.py', 'FF')	None

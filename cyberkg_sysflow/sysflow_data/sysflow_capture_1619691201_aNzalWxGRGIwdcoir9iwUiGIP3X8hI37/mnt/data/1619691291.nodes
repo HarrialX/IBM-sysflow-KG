@@ -1,0 +1,21 @@
+21726767356466853687294071397489412356	('/usr/sbin/xinetd', '-syslog local0 -dontfork -f /service.conf', 'FF')	None
+138797270320994876433470396843018456561	('/usr/sbin/xinetd', '-syslog local0 -dontfork -f /service.conf')	None
+13550939606205633301632709425160252497	('/usr/sbin/xinetd', '-syslog local0 -dontfork -f /service.conf')	None
+73804204377690765276496351729730751939	('/usr/sbin/xinetd', '-syslog local0 -dontfork -f /service.conf', 'NF')	None
+274248015481623173577195552560466167441	('/usr/sbin/xinetd', '-syslog local0 -dontfork -f /service.conf', 'FF')	None
+313213837391574688856982070254811430526	('/usr/sbin/xinetd', '-syslog local0 -dontfork -f /service.conf', 'NF')	None
+64883230806240888822575097773152554241	('/wrapper', '/wrapper')	None
+289641673579773030678092346137521056787	('/wrapper', '/wrapper', 'FF')	None
+236505045732591779187099711883382432770	('/wrapper', '/wrapper', 'NF')	None
+181804828473323254158869610862137201310	('/wrapper', '/wrapper')	None
+157657680883783742045519590889153809292	('/usr/bin/timeout', '-k1 240 stdbuf -i0 -o0 -e0 /chal.py')	None
+307521541704877396680081730340934330986	('/usr/bin/timeout', '-k1 240 stdbuf -i0 -o0 -e0 /chal.py', 'FF')	None
+130045159729257483731871889514792436243	('/usr/bin/timeout', '-k1 240 stdbuf -i0 -o0 -e0 /chal.py')	None
+191861894705102159418960218340619363417	('/usr/bin/stdbuf', '-i0 -o0 -e0 /chal.py')	{'mitre:T1106', 'mitre:T1574'}
+143135822551975487398029259714460013269	('/usr/bin/stdbuf', '-i0 -o0 -e0 /chal.py', 'FF')	None
+214060278954422603155534389504875992061	('/chal.py', 'python3 /chal.py')	None
+108818861357366297122723438382134981062	('/chal.py', 'python3 /chal.py', 'FF')	None
+221649505621883826682435304940585684852	('/usr/local/bin/python3', '/chal.py')	None
+227231474705428598104631682561128959573	('/usr/local/bin/python3', '/chal.py', 'FF')	None
+110821445807696519177979313282203398353	('/usr/local/bin/python3', '/chal.py', 'NF')	None
+187162712231092325848499540595079243982	('/usr/bin/timeout', '-k1 240 stdbuf -i0 -o0 -e0 /chal.py', 'NF')	None

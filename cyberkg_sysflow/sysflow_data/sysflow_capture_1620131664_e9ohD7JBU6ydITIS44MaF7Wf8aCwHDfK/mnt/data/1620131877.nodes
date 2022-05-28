@@ -1,0 +1,64 @@
+251302651787763422035139439826586961223	('/usr/sbin/xinetd', '-syslog local0 -dontfork -f /xinetd.conf', 'NF')	None
+298229456980365358868363735473781781771	('/usr/sbin/xinetd', '-syslog local0 -dontfork -f /xinetd.conf')	None
+89412861367015913928650907313885354128	('/usr/sbin/xinetd', '-syslog local0 -dontfork -f /xinetd.conf')	None
+80919729671543424041423951350745003863	('/usr/sbin/xinetd', '-syslog local0 -dontfork -f /xinetd.conf', 'FF')	None
+1352015649090971010566253216540996270	('/service_wrapper1.sh', '/service_wrapper1.sh')	None
+65235087048025977409770683858769098302	('/service_wrapper1.sh', '/service_wrapper1.sh', 'FF')	None
+228019712945163284921121924869025526009	('/usr/bin/stdbuf', '-i0 -o0 -e0 timeout 600 /bin/bash /service_wrapper2.sh')	{'mitre:T1106', 'mitre:T1574'}
+104869973331303248091175415791775458782	('/usr/bin/stdbuf', '-i0 -o0 -e0 timeout 600 /bin/bash /service_wrapper2.sh', 'FF')	None
+202460423701734545779271479470989816659	('/usr/bin/timeout', '600 /bin/bash /service_wrapper2.sh')	None
+250027795328112910777440789818864913795	('/usr/bin/timeout', '600 /bin/bash /service_wrapper2.sh', 'FF')	None
+84770314326150694371735143980781530309	('/usr/bin/timeout', '600 /bin/bash /service_wrapper2.sh')	None
+170360614954171522131791887193392611479	('/bin/bash', '/service_wrapper2.sh')	{'mitre:T1106', 'mitre:T1574'}
+96775870924061204331012375921285048885	('/bin/bash', '/service_wrapper2.sh', 'FF')	{'mitre:T1041', 'mitre:T1059'}
+216410090190091806487596117059029777212	('/bin/bash', '/service_wrapper2.sh')	None
+295971415713074978097966162060466072156	('/bin/bash', '/service_wrapper2.sh', 'FF')	None
+97033570644718770491556073113216537654	('/get_port_number.sh', './get_port_number.sh 30000 35000 /tmp/serv.ports')	None
+171587846642636759255796945471286258672	('/get_port_number.sh', './get_port_number.sh 30000 35000 /tmp/serv.ports', 'FF')	None
+251000840363265556653995928675255325446	('/get_port_number.sh', './get_port_number.sh 30000 35000 /tmp/serv.ports')	None
+274958908257064666621849672782174922010	('/get_port_number.sh', './get_port_number.sh 30000 35000 /tmp/serv.ports', 'FF')	None
+175642776499723373283958062073270417463	('/usr/bin/flock', '9')	None
+313553211569262944171480726580360023656	('/usr/bin/flock', '9', 'FF')	None
+55128728019937547618428318892125160919	('/usr/bin/seq', '0 5000')	None
+154997338004201061751557841957239155200	('/usr/bin/seq', '0 5000', 'FF')	None
+141190948969067031931599153654576754066	('/usr/bin/touch', '/tmp/serv.ports.30000')	{'mitre:T1106', 'mitre:T1574'}
+163734260782526060686701789243146531494	('/usr/bin/touch', '/tmp/serv.ports.30000', 'FF')	None
+142901849106210741523782829402355617596	('/service_wrapper3.sh', './service_wrapper3.sh')	None
+330884199585041954488517690036816308020	('/service_wrapper3.sh', './service_wrapper3.sh', 'FF')	None
+281321432850338190996201698370098798947	('/usr/bin/stdbuf', '-i0 -o0 -e0 socat - TCP:localhost:30000,retry=5,interval=5,nodelay')	{'mitre:T1106', 'mitre:T1574'}
+248010460337231764669922916637092030646	('/usr/bin/stdbuf', '-i0 -o0 -e0 socat - TCP:localhost:30000,retry=5,interval=5,nodelay', 'FF')	None
+179627978735772822832132881248678310016	('/usr/bin/socat', '- TCP:localhost:30000,retry=5,interval=5,nodelay')	None
+85522383068060022885107613933381257703	('/usr/bin/socat', '- TCP:localhost:30000,retry=5,interval=5,nodelay', 'FF')	None
+130602110369746222086361061748346433859	('/usr/bin/socat', '- TCP:localhost:30000,retry=5,interval=5,nodelay', 'NF')	None
+336265437727997571800174102363213245615	('/service_wrapper3.sh', './service_wrapper3.sh')	None
+230046026214724702637666438361684131951	('/usr/bin/cp', '-r /dev /uml')	{'mitre:T1106', 'mitre:T1574'}
+306857525419084515814728873809509614339	('/usr/bin/cp', '-r /dev /uml', 'FF')	None
+202617751100096626215619970128575326669	('/usr/bin/mkdir', '-p /uml/dev/net')	None
+295204147015821647954821037061828215345	('/usr/bin/mkdir', '-p /uml/dev/net', 'FF')	None
+48455554419371250767198184926609496826	('/usr/bin/mknod', '/uml/dev/net/tun c 10 200')	{'mitre:T1106', 'mitre:T1574'}
+212817901769979834248462562884836516477	('/usr/bin/mknod', '/uml/dev/net/tun c 10 200', 'FF')	None
+328880084277790002476147582647512737099	('/usr/bin/mkdir', '-p /uml/root/.uml')	None
+235403767997474936790410459385574313019	('/usr/bin/mkdir', '-p /uml/root/.uml', 'FF')	None
+150580787336289916289719265499356038682	('/service_wrapper3.sh', './service_wrapper3.sh', 'FF')	None
+192708332318380948015946762201516966709	('/usr/bin/hostname', '-i')	None
+47926603872310560655732034380577424586	('/usr/bin/hostname', '-i', 'FF')	None
+96885475522935806720159226673421092690	('/usr/sbin/chroot', '--userspec=uml /uml /linux rootflags= rootfstype=hostfs rw mem=64M eth0=slirp,,/slirp.sh init=/init.sh')	{'mitre:T1106', 'mitre:T1574'}
+115513342747701325270432923572451009899	('/usr/sbin/chroot', '--userspec=uml /uml /linux rootflags= rootfstype=hostfs rw mem=64M eth0=slirp,,/slirp.sh init=/init.sh', 'FF')	{'mitre:T1543', 'mitre:T1041', 'mitre:T1087'}
+282104634419703008495697158547173800112	('/linux', 'rootflags= rootfstype=hostfs rw mem=64M eth0=slirp,,/slirp.sh init=/init.sh')	None
+146864617111250336058412376526451925242	('/linux', 'rootflags= rootfstype=hostfs rw mem=64M eth0=slirp,,/slirp.sh init=/init.sh', 'FF')	None
+262978753871751556413430020745407327844	('/linux', 'rootflags= rootfstype=hostfs rw mem=64M eth0=slirp,,/slirp.sh init=/init.sh')	None
+230221332576596143535110206418020807483	('/linux', 'rootflags= rootfstype=hostfs rw mem=64M eth0=slirp,,/slirp.sh init=/init.sh', 'FF')	None
+202933074877020660613859528781078012995	('/slirp.sh', '/slirp.sh')	None
+269010051531066646078511645123066968144	('/slirp.sh', '/slirp.sh', 'FF')	None
+222600167803468610094760297383035053055	('/usr/bin/slirp-fullbolt', 'host addr 172.17.0.3 redir 30000 1999 redir 2000 2000')	None
+109117020063871269342999688661605514582	('/usr/bin/slirp-fullbolt', 'host addr 172.17.0.3 redir 30000 1999 redir 2000 2000', 'FF')	None
+296004364050991806608470214074467854431	('/usr/bin/slirp-fullbolt', 'host addr 172.17.0.3 redir 30000 1999 redir 2000 2000', 'NF')	None
+188255282270960756595291620004955268921	('/usr/bin/ps', '-o pgid= 15')	None
+127160465918782284110567100389531790448	('/usr/bin/grep', '-o [0-9]*')	None
+219024382899290654002876690794497304039	('/usr/bin/ps', '-o pgid= 15', 'FF')	None
+211099493270489692859660423380897237217	('/usr/bin/grep', '-o [0-9]*', 'FF')	None
+244867917977375006792315192842062133395	('/usr/bin/rm', '-f /tmp/serv.ports.30000')	{'mitre:T1106', 'mitre:T1574'}
+301453722527812959018150478487070309076	('/usr/bin/rm', '-f /tmp/serv.ports.30000', 'FF')	None
+63976079098937665000160234391912814683	('/usr/sbin/xinetd', '-syslog local0 -dontfork -f /xinetd.conf', 'FF')	None
+9685125998308086820504145127178106554	('/usr/bin/cat', '/tmp/port.count')	None
+337574239117128471210627970262828391239	('/usr/bin/cat', '/tmp/port.count', 'FF')	None

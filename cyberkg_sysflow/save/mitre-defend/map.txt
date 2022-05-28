@@ -1,0 +1,43 @@
+ATT&CK ID	ATT&CK Mitigation	Related D3FEND Techniques
+M1013	Application Developer Guidance
+M1015	Active Directory Configuration  D3-ANCI Authentication Cache Invalidation   D3-DTP Domain Trust Policy  D3-UAP User Account Permissions
+M1016	Vulnerability Scanning
+M1017	User Training
+M1018	User Account Management	    D3-LFP Local File Permissions   D3-MAC Mandatory Access Control D3-SCP System Configuration Permissions
+M1019	Threat Intelligence Program	
+M1020	SSL/TLS Inspection  D3-NTA Network Traffic Analysis
+M1021	Restrict Web-Based Content	    D3-DNSAL DNS Allowlisting   D3-DNSDL DNS Denylisting    D3-FA File Analysis D3-ITF Inbound Traffic Filtering    D3-NTA Network Traffic Analysis D3-OTF Outbound Traffic Filtering   D3-UA URL Analysis
+M1022	Restrict File and Directory Permissions	    D3-LFP Local File Permissions
+M1024	Restrict Registry Permission	    D3-SCP System Configuration Permissions
+M1025	Privileged Process Integrity	    D3-BA Bootloader Authentication D3-DLIC Driver Load Integrity Checking  D3-MAC Mandatory Access Control D3-PSEP Process Segment Execution Prevention
+M1026	Privileged Account Management	    D3-DAM Domain Account Monitoring    D3-LAM Local Account Monitoring D3-SPP Strong Password Policy
+M1027	Password Policies	    D3-OTP One-time Password    D3-SPP Strong Password Policy   
+M1028	Operating System Configuration	    D3-PH Platform Hardening
+M1029	Remote Data Storage		
+M1030	Network Segmentation	    D3-BDI Broadcast Domain Isolation   D3-ET Encrypted Tunnels D3-ISVA Inbound Session Volume Analysis D3-ITF Inbound Traffic Filtering
+M1031	Network Intrusion Prevention	    D3-ITF Inbound Traffic Filtering    D3-NTA Network Traffic Analysis D3-OTF Outbound Traffic Filtering
+M1032	Multi-factor Authentication	    D3-MFA Multi-factor Authentication
+M1033	Limit Software Installation	    D3-EAL Executable Allowlisting  D3-EDL Executable Denylisting
+M1034	Limit Hardware Installation	    D3-IOPR IO Port Restriction
+M1035	Limit Access to Resource Over Network	    D3-NI Network Isolation
+M1036	Account Use Policies	    D3-AL Account Locking   D3-ANCI Authentication Cache Invalidation   D3-ANET Authentication Event Thresholding 
+M1037	Filter Network Traffic	    D3-NI Network Isolation
+M1038	Execution Prevention	    D3-DLIC Driver Load Integrity Checking  D3-EAL Executable Allowlisting  D3-EDL Executable Denylisting   D3-PSEP Process Segment Execution Prevention
+M1039	Environment Variable Permissions	    D3-ACH Application Configuration Hardening  D3-SFA System File Analysis
+M1040	Behavior Prevention on Endpoint	    D3-ANET Authentication Event Thresholding   D3-AZET Authorization Event Thresholding    D3-JFAPA Job Function Access Pattern Analysis   D3-RAPA Resource Access Pattern Analysis    D3-SDA Session Duration Analysis    D3-UDTA User Data Transfer Analysis D3-UGLPA User Geolocation Logon Pattern Analysis    D3-WSAA Web Session Activity Analysis
+M1041	Encrypt Sensitive Information	    D3-DENCR Disk Encryption    D3-ET Encrypted Tunnels D3-FE File Encryption   D3-MENCR Message Encryption
+M1042	Disable or Remove Feature or Program	    D3-ACH Application Configuration Hardening  D3-EDL Executable Denylisting   D3-MAC Mandatory Access Control
+M1043	Credential Access Protection	    D3-HBPI Hardware-based Process Isolation
+M1044	Restrict Library Loading	    D3-SCF System Call Filtering  
+M1045	Code Signing	    D3-DLIC Driver Load Integrity Checking  D3-EAL Executable Allowlisting  D3-SBV Service Binary Verification
+M1046	Boot Integrity	    D3-BA Bootloader Authentication D3-TBI TPM Boot Integrity
+M1047	Audit	    D3-DAM Domain Account Monitoring    D3-LAM Local Account Monitoring D3-SFA System File Analysis
+M1048	Application Isolation and Sandboxing	    D3-DA Dynamic Analysis  D3-HBPI Hardware-based Process Isolation    D3-MAC Mandatory Access Control D3-SCF System Call Filtering
+M1049	Antivirus/Antimalware	    D3-FCR File Content Rules   D3-FH File Hashing  D3-PA Process Analysis
+M1050	Exploit Protection	    D3-ITF Inbound Traffic Filtering    D3-SSC Shadow Stack Comparisons D3-AH Application Hardening D3-EHPV Exception Handler Pointer Validation
+M1051	Update Software	    D3-SU Software Update
+M1052	User Account Control	    D3-MAC Mandatory Access Control
+M1053	Data Backup
+M1054	Software Configuration	    D3-ACH Application Configuration Hardening  D3-CP Certificate Pinning
+M1055	Do Not Mitigate		
+M1056	Pre-compromise	    D3-DE Decoy Environment D3-DO Decoy Object

@@ -1,0 +1,119 @@
+78335038092206149960223087242558709719	('/home/chall/service/ro/sampleak', '', 'FF')	None
+91234893604562509462960894750376091772	('/home/chall/service/ro/sampleak', '')	None
+76631077805184177554843501642766399670	('/insider/frida/examples/sampleak/spawn.py', '-u /insider/frida/examples/sampleak/spawn.py /insider/frida/examples/sampleak /insider/frida/examples/sampleak/patch.conf /home/chall/service/ro/sampleak', 'FF')	None
+312352610474748937583194659110631680088	('/insider/frida/examples/sampleak/spawn.py', '-u /insider/frida/examples/sampleak/spawn.py /insider/frida/examples/sampleak /insider/frida/examples/sampleak/patch.conf /home/chall/service/ro/sampleak')	None
+164032422607533106840303254473568259920	('/usr/sbin/openvpn', '--daemon ovpn-client --status /run/openvpn/client.status 10 --cd /etc/openvpn --script-security 2 --config /etc/openvpn/client.conf --writepid /run/openvpn/client.pid', 'FF')	None
+40503314233991184311583421659681684940	('/usr/sbin/openvpn', '--daemon ovpn-client --status /run/openvpn/client.status 10 --cd /etc/openvpn --script-security 2 --config /etc/openvpn/client.conf --writepid /run/openvpn/client.pid')	None
+203046543664069702495774304824401494194	('/usr/sbin/irqbalance', '--foreground', 'FF')	None
+264072776791094588057200014465327940943	('/usr/sbin/irqbalance', '--foreground')	None
+12751352799540237224514627656429439075	('/usr/sbin/openvpn', '--daemon ovpn-client --status /run/openvpn/client.status 10 --cd /etc/openvpn --script-security 2 --config /etc/openvpn/client.conf --writepid /run/openvpn/client.pid', 'NF')	None
+309093865322170593108551673457192514555	('/home/chall/service/ro/sampleak', '')	None
+226856723937730094550663100048816162612	('<NA>', '-c cp -r /home/chall/service/append/* /home/chall/service/honeypot/home/chall/service/append')	None
+264114472265747200792751015483040920158	('/insider/frida/examples/sampleak/spawn.py', '-u /insider/frida/examples/sampleak/spawn.py /insider/frida/examples/sampleak /insider/frida/examples/sampleak/patch.conf /home/chall/service/ro/sampleak')	None
+297681613468539640197127095972837121410	('<NA>', '-c cp -r /home/chall/service/append/* /home/chall/service/honeypot/home/chall/service/append', 'FF')	None
+278741013413209588741858060512772968872	('<NA>', "-c echo 'spawn: Calling surrogate function...' >> /insider/frida/examples/sampleak/spawn_logs")	None
+325893039116438441381166809270441466660	('/usr/bin/bindfs', '/opt/ictf/services/sampleak/append /opt/ictf/services/sampleak/append -o rw,force-user=root,perms=u=rwD:g=r:dg=rwx:o=D,dev,suid', 'FF')	None
+236300978385469731492699080309099802434	('/usr/bin/bindfs', '/opt/ictf/services/sampleak/append /opt/ictf/services/sampleak/append -o rw,force-user=root,perms=u=rwD:g=r:dg=rwx:o=D,dev,suid')	None
+129322122080568212553669591251548697794	('<NA>', "-c echo 'spawn: Calling surrogate function...' >> /insider/frida/examples/sampleak/spawn_logs", 'FF')	None
+283445045031780239428914211095172474712	('<NA>', '-c cp -r /home/chall/service/append/* /home/chall/service/honeypot/home/chall/service/append')	None
+167763950471702636130899250913908186736	('/bin/cp', '-r /home/chall/service/append/* /home/chall/service/honeypot/home/chall/service/append')	{'mitre:T1106', 'mitre:T1574'}
+22303286600251799868138527794962884728	('/bin/cp', '-r /home/chall/service/append/* /home/chall/service/honeypot/home/chall/service/append', 'FF')	None
+163777255202843927950647529070370250220	('<NA>', "-c echo 'spawn: Process 195 exited' >> /insider/frida/examples/sampleak/spawn_logs")	None
+283676977178518121688542630559711204303	('<NA>', "-c echo 'spawn: Process 195 exited' >> /insider/frida/examples/sampleak/spawn_logs", 'FF')	None
+141714468030420618795043395101774151869	('/lib/systemd/systemd', '', 'FF')	None
+122393967074279006578614696426244910108	('/lib/systemd/systemd', '')	None
+318517422072517929921979938702879438423	('/usr/bin/socat', 'tcp-l:6666,reuseaddr,fork exec:/insider/frida/examples/sampleak/spawn.py /insider/frida/examples/sampleak /insider/frida/examples/sampleak/patch.conf /home/chall/service/ro/sampleak', 'FF')	None
+298966785309089124315504801138454458802	('/usr/bin/socat', 'tcp-l:6666,reuseaddr,fork exec:/insider/frida/examples/sampleak/spawn.py /insider/frida/examples/sampleak /insider/frida/examples/sampleak/patch.conf /home/chall/service/ro/sampleak')	None
+224889404935650359390224843912036332690	('/usr/bin/socat', 'tcp-l:6666,reuseaddr,fork exec:/insider/frida/examples/sampleak/spawn.py /insider/frida/examples/sampleak /insider/frida/examples/sampleak/patch.conf /home/chall/service/ro/sampleak', 'FF')	None
+296213111243194862277853771916952878966	('/usr/bin/socat', 'tcp-l:6666,reuseaddr,fork exec:/insider/frida/examples/sampleak/spawn.py /insider/frida/examples/sampleak /insider/frida/examples/sampleak/patch.conf /home/chall/service/ro/sampleak')	None
+141569440973093537648103419280585121237	('/snap/snapd/13170/usr/lib/snapd/snapd', '', 'FF')	None
+190425002445025916559475863475280949826	('/snap/snapd/13170/usr/lib/snapd/snapd', '')	None
+105337614666955925036584247068112968500	('/snap/amazon-ssm-agent/4046/amazon-ssm-agent', '')	None
+327867969869831915191934110595062499350	('/snap/amazon-ssm-agent/4046/amazon-ssm-agent', '')	None
+334565776516558573631534134952863647346	('/snap/amazon-ssm-agent/4046/amazon-ssm-agent', '', 'FF')	None
+139124548033336773787321116882599357312	('/bin/ps', '-e -o pid,ppid,state,command')	None
+331266435681907867594682088954840864026	('/bin/ps', '-e -o pid,ppid,state,command', 'FF')	None
+271456051715915845133264310060808377285	('/usr/bin/containerd-shim-runc-v2', '-namespace moby -id 82fb9e1854685121f16815eab9ac5768a4ec1904eb87d55aa82ad56efac22b25 -address /run/containerd/containerd.sock', 'FF')	None
+20261674453876601057546544405123375943	('/usr/bin/containerd-shim-runc-v2', '-namespace moby -id 82fb9e1854685121f16815eab9ac5768a4ec1904eb87d55aa82ad56efac22b25 -address /run/containerd/containerd.sock')	None
+93762949540555119844034065645818967613	('/usr/bin/dockerd', '-H fd:// --containerd=/run/containerd/containerd.sock', 'FF')	None
+288807639575301899814947492087725363578	('/usr/bin/dockerd', '-H fd:// --containerd=/run/containerd/containerd.sock')	None
+251207518174745942794420870531455170079	('/usr/bin/containerd-shim-runc-v2', '-namespace moby -id 91c18746eb01879b67bc3e3ef27e0bd06f81d1646ce053d5a9b03cefb8d71403 -address /run/containerd/containerd.sock', 'FF')	None
+135404618601697580989286264791385057393	('/usr/bin/containerd-shim-runc-v2', '-namespace moby -id 91c18746eb01879b67bc3e3ef27e0bd06f81d1646ce053d5a9b03cefb8d71403 -address /run/containerd/containerd.sock')	None
+194432887247740805908617213050053635534	('/usr/bin/dockerd', '-H fd:// --containerd=/run/containerd/containerd.sock', 'NF')	None
+334060028374772271765315305498081531846	('/usr/sbin/rsyslogd', '-n', 'NF')	None
+70154357818110053507344983268607326554	('/usr/sbin/rsyslogd', '-n')	None
+112148243841291861424394772419423213054	('/usr/sbin/rsyslogd', '-n', 'FF')	None
+219386352128382132247166184558091788837	('/snap/amazon-ssm-agent/4046/ssm-agent-worker', '', 'FF')	None
+41391823795123643114531800462972537127	('/snap/amazon-ssm-agent/4046/ssm-agent-worker', '')	None
+315043596357812939269125269065338682202	('/lib/systemd/systemd-networkd', '', 'FF')	None
+100190260029730279243848685335914080113	('/lib/systemd/systemd-networkd', '')	None
+200766740694419863402856807762899901763	('/lib/systemd/systemd-logind', '', 'FF')	{'mitre:T1059'}
+162080216875236340427850132498319249012	('/lib/systemd/systemd-logind', '')	None
+43682476363686411314617674624969395532	('/lib/systemd/systemd-udevd', '', 'FF')	None
+118302433445152229673665413752597590740	('/lib/systemd/systemd-udevd', '')	None
+236034723434184498897104757890314182546	('/usr/bin/socat', 'tcp-l:6666,reuseaddr,fork exec:/insider/frida/examples/sampleak/spawn.py /insider/frida/examples/sampleak /insider/frida/examples/sampleak/patch.conf /home/chall/service/ro/sampleak', 'NF')	None
+218324077071159385506348176187056795148	('<NA>', "-c echo 'spawn: Read configuration from '/insider/frida/examples/sampleak/patch.conf'; logging to '/insider/frida/examples/sampleak/spawn_logs'' >> /insider/frida/examples/sampleak/spawn_logs")	None
+151722561899216467357665830196783459311	('<NA>', "-c echo 'spawn: Read configuration from '/insider/frida/examples/sampleak/patch.conf'; logging to '/insider/frida/examples/sampleak/spawn_logs'' >> /insider/frida/examples/sampleak/spawn_logs", 'FF')	None
+72811779162573915870192948571539332239	('<NA>', "-c echo 'spawn: Spawning new process (parent PID=227):\n\tcmd: /home/chall/service/ro/sampleak' >> /insider/frida/examples/sampleak/spawn_logs")	None
+310349032357579719684977989942184713114	('<NA>', "-c echo 'spawn: Spawning new process (parent PID=227):\n\tcmd: /home/chall/service/ro/sampleak' >> /insider/frida/examples/sampleak/spawn_logs", 'FF')	None
+265506301497296060836352962399016141927	('/insider/frida/examples/sampleak/spawn.py', '-u /insider/frida/examples/sampleak/spawn.py /insider/frida/examples/sampleak /insider/frida/examples/sampleak/patch.conf /home/chall/service/ro/sampleak', 'NF')	None
+83272843822829915782185987959784606696	('<NA>', "-c echo 'spawn: Spawned process pid: 233' >> /insider/frida/examples/sampleak/spawn_logs")	None
+50714018586299234312599867538780117296	('<NA>', "-c echo 'spawn: Spawned process pid: 233' >> /insider/frida/examples/sampleak/spawn_logs", 'FF')	None
+84836290215759133249763906447563071273	('<NA>', "-c echo 'spawn: New session created Session(pid=233)' >> /insider/frida/examples/sampleak/spawn_logs")	None
+97096849461923505968734811863605952464	('<NA>', "-c echo 'spawn: New session created Session(pid=233)' >> /insider/frida/examples/sampleak/spawn_logs", 'FF')	None
+218533420151136010527974377812990319250	('<NA>', "-c echo 'spawn: Processing ELF and reading symbols:\n\t[{'path': '/insider/frida/examples/sampleak/sampleak', 'pic': False}]' >> /insider/frida/examples/sampleak/spawn_logs")	None
+336920180158237973865137357126149572599	('<NA>', "-c echo 'spawn: Processing ELF and reading symbols:\n\t[{'path': '/insider/frida/examples/sampleak/sampleak', 'pic': False}]' >> /insider/frida/examples/sampleak/spawn_logs", 'FF')	None
+105087878349132483197759682537679330967	('<NA>', "-c echo 'spawn: Injecting libraries...' >> /insider/frida/examples/sampleak/spawn_logs")	None
+68114057247882118531024098763063522940	('<NA>', "-c echo 'spawn: Injecting libraries...' >> /insider/frida/examples/sampleak/spawn_logs", 'FF')	None
+122145728379126269296100696353105247959	('<NA>', "-c echo 'spawn: *** injected libjit, id=2' >> /insider/frida/examples/sampleak/spawn_logs")	None
+330499324258917729493666683560528736245	('<NA>', "-c echo 'spawn: *** injected libjit, id=2' >> /insider/frida/examples/sampleak/spawn_logs", 'FF')	None
+163674621461201437483793113420024983949	('<NA>', "-c echo 'spawn: Creating agent script...' >> /insider/frida/examples/sampleak/spawn_logs")	None
+87575887896658451542533082172272060449	('<NA>', "-c echo 'spawn: Creating agent script...' >> /insider/frida/examples/sampleak/spawn_logs", 'FF')	None
+128358316975705386378135014924726171871	('<NA>', "-c echo 'spawn: Locating based address for shared libraries...' >> /insider/frida/examples/sampleak/spawn_logs")	None
+246049902961811299615228619467160803822	('<NA>', "-c echo 'spawn: Locating based address for shared libraries...' >> /insider/frida/examples/sampleak/spawn_logs", 'FF')	None
+200791078870500251960843396026078660895	('<NA>', "-c echo 'spawn: Finding relocated addresses of shared libraries symbols...' >> /insider/frida/examples/sampleak/spawn_logs")	None
+74965276437393341724070016116269117423	('<NA>', "-c echo 'spawn: Finding relocated addresses of shared libraries symbols...' >> /insider/frida/examples/sampleak/spawn_logs", 'FF')	None
+12547062393175734454843744870650323826	('<NA>', "-c echo 'spawn: Mapping libjit API...' >> /insider/frida/examples/sampleak/spawn_logs")	None
+11576655176891150077507041389671224983	('<NA>', "-c echo 'spawn: Mapping libjit API...' >> /insider/frida/examples/sampleak/spawn_logs", 'FF')	None
+232799198082466205605036376560854336495	('<NA>', "-c echo 'spawn: Allocating memory for patch bitcode and symbol map...' >> /insider/frida/examples/sampleak/spawn_logs")	None
+166563930645793871809794099593660633251	('<NA>', "-c echo 'spawn: Allocating memory for patch bitcode and symbol map...' >> /insider/frida/examples/sampleak/spawn_logs", 'FF')	None
+226054133193623183149901575752875788042	('<NA>', "-c echo 'spawn: JIT-compiling patch bitcode...' >> /insider/frida/examples/sampleak/spawn_logs")	None
+116943578498785269076102859884052751867	('<NA>', "-c echo 'spawn: JIT-compiling patch bitcode...' >> /insider/frida/examples/sampleak/spawn_logs", 'FF')	None
+203010541928935617757062724743367530770	('<NA>', "-c echo 'spawn: Pointer for JIT-compiled function _p_is_easy_password: 0x7f6a37eb3000' >> /insider/frida/examples/sampleak/spawn_logs")	None
+318979439387548965989402229076314817191	('<NA>', "-c echo 'spawn: Pointer for JIT-compiled function _p_is_easy_password: 0x7f6a37eb3000' >> /insider/frida/examples/sampleak/spawn_logs", 'FF')	None
+219791052631495451369295709626887178169	('<NA>', "-c echo 'spawn: Pointer for target function is_easy_password: 0x400cc7' >> /insider/frida/examples/sampleak/spawn_logs")	None
+115168483777955896349271185477505824664	('<NA>', "-c echo 'spawn: Pointer for target function is_easy_password: 0x400cc7' >> /insider/frida/examples/sampleak/spawn_logs", 'FF')	None
+333388547935396646937561447427543718091	('<NA>', "-c echo 'spawn: Trampoline set for target function is_easy_password' >> /insider/frida/examples/sampleak/spawn_logs")	None
+272414929809711628419746508552133824455	('<NA>', "-c echo 'spawn: Trampoline set for target function is_easy_password' >> /insider/frida/examples/sampleak/spawn_logs", 'FF')	None
+93931121273192080367731560781112629899	('<NA>', "-c echo 'spawn: *** uninjected id=2' >> /insider/frida/examples/sampleak/spawn_logs")	None
+200015081282787808343592423771593945970	('<NA>', "-c echo 'spawn: *** uninjected id=2' >> /insider/frida/examples/sampleak/spawn_logs", 'FF')	None
+88460564007055603472011076290949895181	('<NA>', "-c echo 'spawn: Process 233 exited' >> /insider/frida/examples/sampleak/spawn_logs")	None
+182451315636531063651021268284389119170	('<NA>', "-c echo 'spawn: Process 233 exited' >> /insider/frida/examples/sampleak/spawn_logs", 'FF')	None
+76120867213803524383498286210744626842	('/lib/systemd/systemd-timesyncd', '', 'FF')	None
+311245530955340239460782411969205611624	('/lib/systemd/systemd-timesyncd', '')	None
+266572669418346864841336136945587822435	('/lib/systemd/systemd-resolved', '', 'FF')	None
+6321668754902351713207960749171740970	('/lib/systemd/systemd-resolved', '')	None
+267203640376766509343453197282590341618	('<NA>', "-c echo 'spawn: Spawning new process (parent PID=264):\n\tcmd: /home/chall/service/ro/sampleak' >> /insider/frida/examples/sampleak/spawn_logs")	None
+250990703228021460722968572069469127623	('<NA>', "-c echo 'spawn: Spawning new process (parent PID=264):\n\tcmd: /home/chall/service/ro/sampleak' >> /insider/frida/examples/sampleak/spawn_logs", 'FF')	None
+228940998097064671858756335759047864304	('<NA>', "-c echo 'spawn: Spawned process pid: 270' >> /insider/frida/examples/sampleak/spawn_logs")	None
+241878273398638260862212357468560679484	('<NA>', "-c echo 'spawn: Spawned process pid: 270' >> /insider/frida/examples/sampleak/spawn_logs", 'FF')	None
+312853592349669828327375788831781573065	('<NA>', "-c echo 'spawn: New session created Session(pid=270)' >> /insider/frida/examples/sampleak/spawn_logs")	None
+297204957741192873310638108202093526786	('<NA>', "-c echo 'spawn: New session created Session(pid=270)' >> /insider/frida/examples/sampleak/spawn_logs", 'FF')	None
+86855119302051145543412763319349521088	('<NA>', "-c echo 'spawn: Pointer for JIT-compiled function _p_is_easy_password: 0x7fc6a4e67000' >> /insider/frida/examples/sampleak/spawn_logs")	None
+314328735052130538356018620027202737002	('<NA>', "-c echo 'spawn: Pointer for JIT-compiled function _p_is_easy_password: 0x7fc6a4e67000' >> /insider/frida/examples/sampleak/spawn_logs", 'FF')	None
+169339221106437704136876359648672544301	('<NA>', "-c echo 'spawn: Process 270 exited' >> /insider/frida/examples/sampleak/spawn_logs")	None
+79762392837746033175786985449441103592	('<NA>', "-c echo 'spawn: Process 270 exited' >> /insider/frida/examples/sampleak/spawn_logs", 'FF')	None
+19465439770180023346678753224082883584	('<NA>', "-c echo 'spawn: Spawning new process (parent PID=301):\n\tcmd: /home/chall/service/ro/sampleak' >> /insider/frida/examples/sampleak/spawn_logs")	None
+215043750551548426984736820827546189627	('<NA>', "-c echo 'spawn: Spawning new process (parent PID=301):\n\tcmd: /home/chall/service/ro/sampleak' >> /insider/frida/examples/sampleak/spawn_logs", 'FF')	None
+12855862475160792951796130460782093863	('<NA>', "-c echo 'spawn: Spawned process pid: 307' >> /insider/frida/examples/sampleak/spawn_logs")	None
+57537261167406307382053219234850028019	('<NA>', "-c echo 'spawn: Spawned process pid: 307' >> /insider/frida/examples/sampleak/spawn_logs", 'FF')	None
+306425584891015661690649370261451387379	('<NA>', "-c echo 'spawn: New session created Session(pid=307)' >> /insider/frida/examples/sampleak/spawn_logs")	None
+63858724348695526199044495154591026741	('<NA>', "-c echo 'spawn: New session created Session(pid=307)' >> /insider/frida/examples/sampleak/spawn_logs", 'FF')	None
+9945623635998795314915948785977409642	('<NA>', "-c echo 'spawn: Pointer for JIT-compiled function _p_is_easy_password: 0x7f2b2bb55000' >> /insider/frida/examples/sampleak/spawn_logs")	None
+168985187821123555858519752308401205511	('<NA>', "-c echo 'spawn: Pointer for JIT-compiled function _p_is_easy_password: 0x7f2b2bb55000' >> /insider/frida/examples/sampleak/spawn_logs", 'FF')	None
+51860408096008220089863079684304440237	('<NA>', "-c echo 'spawn: Process 307 exited' >> /insider/frida/examples/sampleak/spawn_logs")	None
+209657451888548391368625770925205876502	('<NA>', "-c echo 'spawn: Process 307 exited' >> /insider/frida/examples/sampleak/spawn_logs", 'FF')	None
+1676120110777872325056348526545571366	('<NA>', "-c echo 'spawn: Spawning new process (parent PID=338):\n\tcmd: /home/chall/service/ro/sampleak' >> /insider/frida/examples/sampleak/spawn_logs")	None
+41910599193565237439235421157855038029	('<NA>', "-c echo 'spawn: Spawning new process (parent PID=338):\n\tcmd: /home/chall/service/ro/sampleak' >> /insider/frida/examples/sampleak/spawn_logs", 'FF')	None
+318745338981606958684398806510532852564	('<NA>', "-c echo 'spawn: Spawned process pid: 344' >> /insider/frida/examples/sampleak/spawn_logs")	None
+234943298092442670659100959047437673382	('<NA>', "-c echo 'spawn: Spawned process pid: 344' >> /insider/frida/examples/sampleak/spawn_logs", 'FF')	None

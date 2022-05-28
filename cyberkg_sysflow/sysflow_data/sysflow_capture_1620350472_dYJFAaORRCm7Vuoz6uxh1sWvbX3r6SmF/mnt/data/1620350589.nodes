@@ -1,0 +1,29 @@
+73775512107380181757862039513510673060	('/tmp/tmp.XmCdRphciL/manchester', '-f ./os -t 300', 'FF')	None
+219258180224821232070460781455489062058	('/tmp/tmp.XmCdRphciL/manchester', '-f ./os -t 300')	None
+323739920511206987250824391493749993164	('/tmp/tmp.XmCdRphciL/manchester', '-f ./os -t 300', 'FF')	None
+25571225448663242413225761385528308765	('/tmp/tmp.XmCdRphciL/manchester', '-f ./os -t 300')	None
+170832124850255486453753118697545518830	('/tmp/tmp.C4kc5fM9DU/manchester', '-f ./os -t 300', 'FF')	None
+198524068202176206031341778605764293288	('/tmp/tmp.C4kc5fM9DU/manchester', '-f ./os -t 300')	None
+79063094529857604275769037485914840551	('/tmp/tmp.h7naESp74N/manchester', '-f ./os -t 300', 'FF')	None
+102186908057957567813505010097222714420	('/tmp/tmp.h7naESp74N/manchester', '-f ./os -t 300')	None
+122549997126003062277101080115495099844	('/tmp/tmp.DDj9Fyeris/manchester', '-f ./os -t 300', 'FF')	None
+310898041699701832831854494754020905775	('/tmp/tmp.DDj9Fyeris/manchester', '-f ./os -t 300')	None
+288537760465561173565350566615787906323	('/tmp/tmp.h7naESp74N/manchester', '-f ./os -t 300', 'NF')	None
+119593393366552184662248130508968536587	('/tmp/tmp.h7naESp74N/manchester', '-f ./os -t 300')	None
+54746794870699569356509784141547947367	('/schitzo', '300 /tmp/tmp.h7naESp74N/manchester -f ./os -t 300')	None
+181804828473323254158869610862137201310	('/wrapper', '/wrapper')	None
+248344850019974939037975972512707743735	('/wrapper', '/wrapper')	None
+196121971742626958772461323011691846075	('/bin/rm', '-rf /tmp/tmp.h7naESp74N')	{'mitre:T1106', 'mitre:T1574'}
+171441329861120345926174965139252959854	('/bin/rm', '-rf /tmp/tmp.h7naESp74N', 'FF')	None
+283087307279874126085917093604719851704	('/bin/rm', '-rf /tmp/tmp.h7naESp74N', 'NF')	None
+72761325958143985147429958997615475934	('/tmp/tmp.C4kc5fM9DU/manchester', '-f ./os -t 300')	None
+230148781757360079341451717380703249884	('/schitzo', '300 /tmp/tmp.C4kc5fM9DU/manchester -f ./os -t 300')	None
+180926777892612103502678468610542135706	('/bin/rm', '-rf /tmp/tmp.C4kc5fM9DU')	{'mitre:T1106', 'mitre:T1574'}
+23789586451398563463195235873621047010	('/bin/rm', '-rf /tmp/tmp.C4kc5fM9DU', 'FF')	None
+190961815902673464547695451438867042106	('/tmp/tmp.DDj9Fyeris/manchester', '-f ./os -t 300')	None
+261918272964330515472503889583224871321	('/schitzo', '300 /tmp/tmp.DDj9Fyeris/manchester -f ./os -t 300')	None
+304728670311067129371432000755708395677	('/bin/rm', '-rf /tmp/tmp.DDj9Fyeris')	{'mitre:T1106', 'mitre:T1574'}
+101133812479914444200913567559301473833	('/bin/rm', '-rf /tmp/tmp.DDj9Fyeris', 'FF')	None
+241327697865315423419795414777578949694	('/schitzo', '300 /tmp/tmp.XmCdRphciL/manchester -f ./os -t 300')	None
+272787192670979454807990849493213589759	('/bin/rm', '-rf /tmp/tmp.XmCdRphciL')	{'mitre:T1106', 'mitre:T1574'}
+255135092496149660643844972939167179748	('/bin/rm', '-rf /tmp/tmp.XmCdRphciL', 'FF')	None

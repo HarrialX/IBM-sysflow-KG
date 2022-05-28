@@ -1,0 +1,7 @@
+296418942522841521689405708264977946098	('/usr/bin/redis-server', '/etc/redis/redis.conf', 'FF')	None
+72244137944269234015258025815244609444	('/usr/bin/redis-server', '/etc/redis/redis.conf')	None
+216773867491087574936927677392787163325	('/usr/bin/redis-server', '      ', 'FF')	None
+44543105255747410090474238407890823700	('/usr/bin/redis-server', '      ')	None
+127653290158324094449852984435305347888	('/usr/local/bin/uvicorn', '/usr/local/bin/uvicorn api:app --host 0.0.0.0 --port 4017', 'FF')	None
+95935454131516442106449408762732031522	('/usr/local/bin/uvicorn', '/usr/local/bin/uvicorn api:app --host 0.0.0.0 --port 4017')	None
+309295814234582798111688536551893482106	('/usr/local/bin/uvicorn', '/usr/local/bin/uvicorn api:app --host 0.0.0.0 --port 4017', 'NF')	None

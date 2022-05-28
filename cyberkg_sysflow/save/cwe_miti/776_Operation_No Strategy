@@ -1,0 +1,1 @@
+If possible, prohibit the use of DTDs or use an XML parser that limits the expansion of recursive DTD entities.

@@ -1,0 +1,304 @@
+222158728017696721663346153727592184889	('/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/node', '/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/bootstrap-fork --type=ptyHost', 'FF')	None
+277653781754968995423090682796407822372	('/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/node', '/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/bootstrap-fork --type=ptyHost')	None
+245539605275059595710766067768501346685	('/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/node', '/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/bootstrap-fork --type=extensionHost --uriTransformerPath=/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/server/uriTransformer.js', 'FF')	None
+298045819285875192291049670461339395847	('/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/node', '/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/bootstrap-fork --type=extensionHost --uriTransformerPath=/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/server/uriTransformer.js')	None
+203046543664069702495774304824401494194	('/usr/sbin/irqbalance', '--foreground', 'FF')	None
+264072776791094588057200014465327940943	('/usr/sbin/irqbalance', '--foreground')	None
+164032422607533106840303254473568259920	('/usr/sbin/openvpn', '--daemon ovpn-client --status /run/openvpn/client.status 10 --cd /etc/openvpn --script-security 2 --config /etc/openvpn/client.conf --writepid /run/openvpn/client.pid', 'FF')	None
+40503314233991184311583421659681684940	('/usr/sbin/openvpn', '--daemon ovpn-client --status /run/openvpn/client.status 10 --cd /etc/openvpn --script-security 2 --config /etc/openvpn/client.conf --writepid /run/openvpn/client.pid')	None
+334565776516558573631534134952863647346	('/snap/amazon-ssm-agent/4046/amazon-ssm-agent', '', 'FF')	None
+327867969869831915191934110595062499350	('/snap/amazon-ssm-agent/4046/amazon-ssm-agent', '')	None
+219386352128382132247166184558091788837	('/snap/amazon-ssm-agent/4046/ssm-agent-worker', '', 'FF')	None
+41391823795123643114531800462972537127	('/snap/amazon-ssm-agent/4046/ssm-agent-worker', '')	None
+169926672028291552580473225232828373204	('/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/node', '/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/server/main.js --start-server --host=127.0.0.1 --enable-remote-auto-shutdown --port=0 --connection-secret /home/hacker/.vscode-server/.6cba118ac49a1b88332f312a8f67186f7f3c1643.token', 'FF')	None
+194288007235376906963392693866432275871	('/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/node', '/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/server/main.js --start-server --host=127.0.0.1 --enable-remote-auto-shutdown --port=0 --connection-secret /home/hacker/.vscode-server/.6cba118ac49a1b88332f312a8f67186f7f3c1643.token')	None
+56137923281703366806412482512672911468	('/lib/systemd/systemd-journald', '', 'FF')	None
+163424344929093476444125798498813580862	('/lib/systemd/systemd-journald', '')	None
+281396081045939441367044609440936272458	('/usr/sbin/rsyslogd', '-n', 'FF')	None
+325315728461863798026426382239100872546	('/usr/sbin/rsyslogd', '-n')	None
+202005745661822371896922458333579787385	('/bin/bash', '', 'FF')	None
+253836999393041885872770917193222185981	('/bin/bash', '')	None
+12751352799540237224514627656429439075	('/usr/sbin/openvpn', '--daemon ovpn-client --status /run/openvpn/client.status 10 --cd /etc/openvpn --script-security 2 --config /etc/openvpn/client.conf --writepid /run/openvpn/client.pid', 'NF')	None
+87651552382069646829488501805773508950	('/snap/snapd/13640/usr/lib/snapd/snapd', '', 'FF')	None
+162998247982791726801726442496766200837	('/snap/snapd/13640/usr/lib/snapd/snapd', '')	None
+141714468030420618795043395101774151869	('/lib/systemd/systemd', '', 'FF')	None
+122393967074279006578614696426244910108	('/lib/systemd/systemd', '')	None
+76120867213803524383498286210744626842	('/lib/systemd/systemd-timesyncd', '', 'FF')	None
+311245530955340239460782411969205611624	('/lib/systemd/systemd-timesyncd', '')	None
+315043596357812939269125269065338682202	('/lib/systemd/systemd-networkd', '', 'FF')	None
+100190260029730279243848685335914080113	('/lib/systemd/systemd-networkd', '')	None
+3671871033016261923928076892604953230	('/usr/sbin/sshd', '', 'NF')	None
+283745491673961166205964330915292717189	('/usr/sbin/sshd', '')	None
+307995266761985665548078122841009267040	('/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/node', '/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/server/main.js --start-server --host=127.0.0.1 --enable-remote-auto-shutdown --port=0 --connection-secret /home/hacker/.vscode-server/.6cba118ac49a1b88332f312a8f67186f7f3c1643.token', 'NF')	None
+239411685160119344234202792900750822741	('/usr/bin/containerd-shim-runc-v2', '-namespace moby -id d07182c16ebbc1e2cfa4b4cd51d71b3e27aed012effac45c5c91e4698a3de893 -address /run/containerd/containerd.sock', 'FF')	None
+240528805234897570585619987794054759006	('/usr/bin/containerd-shim-runc-v2', '-namespace moby -id d07182c16ebbc1e2cfa4b4cd51d71b3e27aed012effac45c5c91e4698a3de893 -address /run/containerd/containerd.sock')	None
+93762949540555119844034065645818967613	('/usr/bin/dockerd', '-H fd:// --containerd=/run/containerd/containerd.sock', 'FF')	None
+288807639575301899814947492087725363578	('/usr/bin/dockerd', '-H fd:// --containerd=/run/containerd/containerd.sock')	None
+8873456655721871794558128431728957697	('/bin/bash', '')	None
+192939538751724867925021601111967800340	('/bin/bash', '', 'FF')	None
+240942368712688488537100483416070938522	('/usr/bin/sudo', '/bin/sh -c echo "core" > /proc/sys/kernel/core_pattern')	{'mitre:T1068'}
+326202151542786646719183056134560816131	('/usr/bin/sudo', '/bin/sh -c echo "core" > /proc/sys/kernel/core_pattern', 'FF')	{'mitre:T1068'}
+283015690149064691089008611476959084434	('/usr/bin/sudo', '/bin/sh -c echo "core" > /proc/sys/kernel/core_pattern')	None
+307356373751350607211716272453037880588	('/usr/bin/sudo', '/bin/sh -c echo "core" > /proc/sys/kernel/core_pattern', 'FF')	None
+53362133161660915581125146129436933441	('/bin/sh', '-c echo "core" > /proc/sys/kernel/core_pattern')	{'mitre:T1106', 'mitre:T1574'}
+105714492503246761398495678459179094241	('/bin/sh', '-c echo "core" > /proc/sys/kernel/core_pattern', 'FF')	None
+15111894306614273799965039484569152870	('/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/node', '/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/bootstrap-fork --type=ptyHost')	None
+256145741337103260942185657951735189529	('/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/node', '/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/bootstrap-fork --type=ptyHost', 'FF')	None
+175603372643164335525083510550471386872	('/bin/sh', '-c which ps')	{'mitre:T1106', 'mitre:T1574'}
+147548801269181594571990931479526355409	('/bin/sh', '-c which ps', 'FF')	None
+232592088307199332734583106002372845856	('/bin/sh', '-c which ps')	None
+106535386036603676452893253232052679095	('/usr/bin/which', '/usr/bin/which ps')	None
+291651575636645163245335925737851293621	('/usr/bin/which', '/usr/bin/which ps', 'FF')	None
+137627646704748249139422857797640620558	('/bin/sh', '-c /bin/ps -ax -o pid=,ppid=,pcpu=,pmem=,command=')	{'mitre:T1106', 'mitre:T1574'}
+77267404936360688782219439522335388942	('/bin/sh', '-c /bin/ps -ax -o pid=,ppid=,pcpu=,pmem=,command=', 'FF')	None
+121969528772486158529021643103694251199	('/bin/sh', '-c /bin/ps -ax -o pid=,ppid=,pcpu=,pmem=,command=')	None
+65877888219770169111240578612717995840	('/bin/ps', '-ax -o pid=,ppid=,pcpu=,pmem=,command=')	None
+10664661673367594530133948384366182357	('/bin/ps', '-ax -o pid=,ppid=,pcpu=,pmem=,command=', 'FF')	None
+146806393456338856401181589036784397978	('/bin/sh', '-c "/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/base/node/cpuUsage.sh" 5754')	{'mitre:T1106', 'mitre:T1574'}
+48322386102788123128281377923102457243	('/bin/sh', '-c "/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/base/node/cpuUsage.sh" 5754', 'FF')	None
+274985425472150437370599340960889154053	('/bin/sh', '-c "/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/base/node/cpuUsage.sh" 5754')	None
+17184423201099593741175321389020073222	('/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/base/node/cpuUsage.sh', '/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/base/node/cpuUsage.sh 5754')	None
+227481681636011706108289844516870583103	('/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/base/node/cpuUsage.sh', '/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/base/node/cpuUsage.sh 5754', 'FF')	None
+236450130996317766307598761585755504963	('/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/base/node/cpuUsage.sh', '/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/base/node/cpuUsage.sh 5754')	None
+16210989548167223083526408567028235685	('/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/base/node/cpuUsage.sh', '/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/base/node/cpuUsage.sh 5754', 'FF')	None
+18517315599785967091964525405694791571	('/bin/sed', '-n s/^cpu\\s//p /proc/stat')	None
+124761290369957630195941397900312805532	('/bin/sed', '-n s/^cpu\\s//p /proc/stat', 'FF')	None
+58400272010117762684836856836923853395	('/bin/cat', '/proc/5754/stat')	None
+224881631854789060914241320789461778632	('/bin/cat', '/proc/5754/stat', 'FF')	None
+106205820943627035655234926314175156515	('/bin/sleep', '1')	None
+332910155685699861489937924258597457988	('/bin/sleep', '1', 'FF')	None
+293602163633661270723422601896858421997	('/usr/bin/python3', 'ex.py')	None
+190189985002540059285742600153359781178	('/usr/bin/python3', 'ex.py', 'FF')	None
+36186043521372951403832237359348583601	('/usr/bin/python3', 'ex.py')	None
+111751369371483559506266174233201970555	('/usr/bin/python3', 'ex.py', 'FF')	None
+197251197091489988060200701089705864944	('/usr/bin/file', '/usr/bin/python3.6')	None
+85291045258982835601366640757389970361	('/usr/bin/file', '/usr/bin/python3.6', 'FF')	None
+292322133721483124547721099644343712735	('/home/hacker/sampleak', '')	None
+106627268218542101076258658240649429576	('/home/hacker/sampleak', '', 'FF')	None
+161876540469817019661330613589176341496	('/bin/sh', '-c uname -p 2> /dev/null')	{'mitre:T1106', 'mitre:T1574'}
+88422433491285484200312540607819341806	('/bin/sh', '-c uname -p 2> /dev/null', 'FF')	None
+309635949870898958439645770229495637035	('/bin/sh', '-c uname -p 2> /dev/null')	None
+3433332649682502378374103210767677071	('/bin/uname', '-p')	None
+163612355205353468126816598614265208480	('/bin/uname', '-p', 'FF')	None
+51893930443448598675322505704176808859	('/bin/sh', '-c "/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/base/node/cpuUsage.sh" 5754 8115 8118')	{'mitre:T1106', 'mitre:T1574'}
+178681846057315651460545563400507615971	('/bin/sh', '-c "/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/base/node/cpuUsage.sh" 5754 8115 8118', 'FF')	None
+269491979409386065622787856471462198305	('/bin/sh', '-c "/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/base/node/cpuUsage.sh" 5754 8115 8118')	None
+22474142017818093874864268854542051861	('/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/base/node/cpuUsage.sh', '/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/base/node/cpuUsage.sh 5754 8115 8118')	None
+249124383967005815623222211450305345051	('/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/base/node/cpuUsage.sh', '/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/base/node/cpuUsage.sh 5754 8115 8118', 'FF')	None
+232577633564035250595194690399761838020	('/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/base/node/cpuUsage.sh', '/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/base/node/cpuUsage.sh 5754 8115 8118')	None
+74732957801140964862222825877759837700	('/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/base/node/cpuUsage.sh', '/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/base/node/cpuUsage.sh 5754 8115 8118', 'FF')	None
+286130728222014609202821116561901821363	('/bin/sed', '-n s/^cpu\\s//p /proc/stat')	None
+223358206748345914641092322809889639617	('/bin/sed', '-n s/^cpu\\s//p /proc/stat', 'FF')	None
+312461151948156361628878455365095098749	('/bin/cat', '/proc/5754/stat')	None
+181217412828192924589741091113980053940	('/bin/cat', '/proc/5754/stat', 'FF')	None
+319320919970886122407808790934502184105	('/bin/cat', '/proc/8115/stat')	None
+148874897840577954412536473363222021402	('/bin/cat', '/proc/8115/stat', 'FF')	None
+276439995717029490900545704392144303327	('/bin/cat', '/proc/8118/stat')	None
+292700254210773181566539890782295977150	('/bin/cat', '/proc/8118/stat', 'FF')	None
+227573509119527500901330410691119963703	('/bin/sleep', '1')	None
+303168897031112070893287612377021396406	('/bin/sleep', '1', 'FF')	None
+224540606568911377251171397125682447057	('/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/node', '/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/bootstrap-fork --type=watcherService', 'FF')	None
+235240194854731768187194855266078645621	('/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/node', '/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/bootstrap-fork --type=watcherService')	None
+75669446460249273529610890599980844752	('/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/node', '/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/bootstrap-fork --type=extensionHost --uriTransformerPath=/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/server/uriTransformer.js')	None
+228399291734385204416320418452950119873	('/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/node', '/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/bootstrap-fork --type=extensionHost --uriTransformerPath=/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/server/uriTransformer.js', 'FF')	None
+140377439475445876876205394326952714109	('/usr/bin/git', 'rev-parse --show-toplevel')	None
+150907266658823387419128470385671580493	('/usr/bin/git', 'rev-parse --show-toplevel', 'FF')	None
+105337614666955925036584247068112968500	('/snap/amazon-ssm-agent/4046/amazon-ssm-agent', '')	None
+139124548033336773787321116882599357312	('/bin/ps', '-e -o pid,ppid,state,command')	None
+331266435681907867594682088954840864026	('/bin/ps', '-e -o pid,ppid,state,command', 'FF')	None
+51736320699288731913875949282696768234	('/bin/sleep', '180', 'FF')	None
+277101906773038373075474526575929535499	('/bin/sleep', '180')	None
+12426742092179054422281979315602287574	('/bin/bash', '')	None
+253649947038070891544287800771655090285	('/bin/sh', '-c "/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/base/node/cpuUsage.sh" 5754 8173 8176')	{'mitre:T1106', 'mitre:T1574'}
+182430736899214780648532530147666527126	('/bin/sh', '-c "/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/base/node/cpuUsage.sh" 5754 8173 8176', 'FF')	None
+79343532767578084732916586420714860203	('/bin/sh', '-c "/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/base/node/cpuUsage.sh" 5754 8173 8176')	None
+163670049520146537407602328714440887679	('/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/base/node/cpuUsage.sh', '/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/base/node/cpuUsage.sh 5754 8173 8176')	None
+127004312604042867269285894403102101293	('/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/base/node/cpuUsage.sh', '/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/base/node/cpuUsage.sh 5754 8173 8176', 'FF')	None
+91006067701446869000826859756008077778	('/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/base/node/cpuUsage.sh', '/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/base/node/cpuUsage.sh 5754 8173 8176')	None
+243525895157166487108140894234918561909	('/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/base/node/cpuUsage.sh', '/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/base/node/cpuUsage.sh 5754 8173 8176', 'FF')	None
+297647105219303870857755630225307607282	('/bin/sed', '-n s/^cpu\\s//p /proc/stat')	None
+168784215575996203015042743434670196980	('/bin/sed', '-n s/^cpu\\s//p /proc/stat', 'FF')	None
+139839626095339782975012013289455852658	('/bin/cat', '/proc/5754/stat')	None
+161735610269949823197399751088847925145	('/bin/cat', '/proc/5754/stat', 'FF')	None
+315556500084207098513466119628183367972	('/bin/cat', '/proc/8173/stat')	None
+164574917378570819487617046850749677085	('/bin/cat', '/proc/8173/stat', 'FF')	None
+180016844055262078629025625701721146746	('/bin/cat', '/proc/8176/stat')	None
+76415382177072039764075620726346526332	('/bin/cat', '/proc/8176/stat', 'FF')	None
+242647651303014291744409527523862804177	('/bin/sleep', '1')	None
+204923472733384370449084117779282495540	('/bin/sleep', '1', 'FF')	None
+200766740694419863402856807762899901763	('/lib/systemd/systemd-logind', '', 'FF')	{'mitre:T1059'}
+162080216875236340427850132498319249012	('/lib/systemd/systemd-logind', '')	None
+43682476363686411314617674624969395532	('/lib/systemd/systemd-udevd', '', 'FF')	None
+118302433445152229673665413752597590740	('/lib/systemd/systemd-udevd', '')	None
+266572669418346864841336136945587822435	('/lib/systemd/systemd-resolved', '', 'FF')	None
+6321668754902351713207960749171740970	('/lib/systemd/systemd-resolved', '')	None
+242136920340240736549120956627151290912	('/bin/sh', '-c "/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/base/node/cpuUsage.sh" 5754 8209 8212')	{'mitre:T1106', 'mitre:T1574'}
+69686104463655562234964851066960772441	('/bin/sh', '-c "/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/base/node/cpuUsage.sh" 5754 8209 8212', 'FF')	None
+96767755373044191905017371387814505336	('/bin/sh', '-c "/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/base/node/cpuUsage.sh" 5754 8209 8212')	None
+223949878942199742849469003104203275793	('/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/base/node/cpuUsage.sh', '/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/base/node/cpuUsage.sh 5754 8209 8212')	None
+223252018354488069675287121751548662644	('/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/base/node/cpuUsage.sh', '/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/base/node/cpuUsage.sh 5754 8209 8212', 'FF')	None
+278055582368255534867098314074538043972	('/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/base/node/cpuUsage.sh', '/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/base/node/cpuUsage.sh 5754 8209 8212')	None
+306034048087615492992277835068436997899	('/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/base/node/cpuUsage.sh', '/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/base/node/cpuUsage.sh 5754 8209 8212', 'FF')	None
+82887599791579648905525546332174633738	('/bin/sed', '-n s/^cpu\\s//p /proc/stat')	None
+233210068126624273347754628417452451907	('/bin/sed', '-n s/^cpu\\s//p /proc/stat', 'FF')	None
+69696126681416024082329578636345674405	('/bin/cat', '/proc/5754/stat')	None
+201582786226069329177950320472308091324	('/bin/cat', '/proc/5754/stat', 'FF')	None
+140389701744074108187191023056140496590	('/bin/cat', '/proc/8209/stat')	None
+263622780974309928334016962923023229034	('/bin/cat', '/proc/8209/stat', 'FF')	None
+301233399216077190561279480883061099886	('/bin/cat', '/proc/8212/stat')	None
+22871719865428912130661784820807996691	('/bin/cat', '/proc/8212/stat', 'FF')	None
+187380966077536587150584166248585482357	('/bin/sleep', '1')	None
+306505343989726600095248062826904340093	('/bin/sleep', '1', 'FF')	None
+161464676451390701288225207911373642045	('/bin/bash', '', 'FF')	None
+45164747890417099624325607203352247727	('/usr/sbin/sshd', '', 'FF')	None
+156113951718270832741040231924834324460	('/bin/sh', '-c "/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/base/node/cpuUsage.sh" 5754 8249 8252')	{'mitre:T1106', 'mitre:T1574'}
+94178148496842939722288052829568695314	('/bin/sh', '-c "/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/base/node/cpuUsage.sh" 5754 8249 8252', 'FF')	None
+243964893752504617404948973506319289671	('/bin/sh', '-c "/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/base/node/cpuUsage.sh" 5754 8249 8252')	None
+210348210472489491329179527381115134329	('/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/base/node/cpuUsage.sh', '/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/base/node/cpuUsage.sh 5754 8249 8252')	None
+326502579487292344682277684615752612767	('/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/base/node/cpuUsage.sh', '/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/base/node/cpuUsage.sh 5754 8249 8252', 'FF')	None
+185895621967535668733970623225093275747	('/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/base/node/cpuUsage.sh', '/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/base/node/cpuUsage.sh 5754 8249 8252')	None
+144799555587046902857574079213259911549	('/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/base/node/cpuUsage.sh', '/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/base/node/cpuUsage.sh 5754 8249 8252', 'FF')	None
+228744848398187647157241470973615287372	('/bin/sed', '-n s/^cpu\\s//p /proc/stat')	None
+103441646909749409306181118566305226993	('/bin/sed', '-n s/^cpu\\s//p /proc/stat', 'FF')	None
+312292209157659993614458723229052665832	('/bin/cat', '/proc/5754/stat')	None
+83248620440946729563707062598124440188	('/bin/cat', '/proc/5754/stat', 'FF')	None
+265130631056890635483451623109100557116	('/bin/cat', '/proc/8249/stat')	None
+243760931682272282605447853657809516894	('/bin/cat', '/proc/8249/stat', 'FF')	None
+300459575244298946341888099687302350860	('/bin/cat', '/proc/8252/stat')	None
+246294583927959211241957166075135373965	('/bin/cat', '/proc/8252/stat', 'FF')	None
+289706567434877884040529083945524664059	('/bin/sleep', '1')	None
+135160358554391084983996376179250754375	('/bin/sleep', '1', 'FF')	None
+78307700321994997623979099648862092463	('/bin/sh', '-c "/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/base/node/cpuUsage.sh" 5754 8285 8288')	{'mitre:T1106', 'mitre:T1574'}
+111881559757355000740859151419114148125	('/bin/sh', '-c "/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/base/node/cpuUsage.sh" 5754 8285 8288', 'FF')	None
+145534084936316623175171517113120685103	('/bin/sh', '-c "/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/base/node/cpuUsage.sh" 5754 8285 8288')	None
+304016174870044996377202305798190730600	('/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/base/node/cpuUsage.sh', '/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/base/node/cpuUsage.sh 5754 8285 8288')	None
+219531106497084268678365921111241657244	('/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/base/node/cpuUsage.sh', '/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/base/node/cpuUsage.sh 5754 8285 8288', 'FF')	None
+61013983338984064767851306059249682076	('/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/base/node/cpuUsage.sh', '/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/base/node/cpuUsage.sh 5754 8285 8288')	None
+337177113126096023925348569683835696102	('/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/base/node/cpuUsage.sh', '/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/base/node/cpuUsage.sh 5754 8285 8288', 'FF')	None
+93997940406729251271383962136557991212	('/bin/sed', '-n s/^cpu\\s//p /proc/stat')	None
+272993664670053268824734490956521118359	('/bin/sed', '-n s/^cpu\\s//p /proc/stat', 'FF')	None
+110397465979568696921299344136229168378	('/bin/cat', '/proc/5754/stat')	None
+300876060440459277748132524128850720193	('/bin/cat', '/proc/5754/stat', 'FF')	None
+39526640330961086860636580540926842445	('/bin/cat', '/proc/8285/stat')	None
+16566812615124628062899688420735292600	('/bin/cat', '/proc/8285/stat', 'FF')	None
+7619337579140542298210344800652128066	('/bin/cat', '/proc/8288/stat')	None
+118960760330093799377914771853440016346	('/bin/cat', '/proc/8288/stat', 'FF')	None
+202760314266008828538823354792857917240	('/bin/sleep', '1')	None
+183902830694742845500438068197148324984	('/bin/sleep', '1', 'FF')	None
+205035994003915709864676208281152203602	('/bin/sh', '-c "/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/base/node/cpuUsage.sh" 5754 8324 8327')	{'mitre:T1106', 'mitre:T1574'}
+159043262082968626298850565823102300543	('/bin/sh', '-c "/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/base/node/cpuUsage.sh" 5754 8324 8327', 'FF')	None
+108576774378110792331643092507101509536	('/bin/sh', '-c "/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/base/node/cpuUsage.sh" 5754 8324 8327')	None
+329210956167995018440136034153442976424	('/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/base/node/cpuUsage.sh', '/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/base/node/cpuUsage.sh 5754 8324 8327')	None
+161480762823295319862776975068228992959	('/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/base/node/cpuUsage.sh', '/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/base/node/cpuUsage.sh 5754 8324 8327', 'FF')	None
+311948957352169754770721582417887742162	('/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/base/node/cpuUsage.sh', '/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/base/node/cpuUsage.sh 5754 8324 8327')	None
+234934929585343126985184212006312900895	('/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/base/node/cpuUsage.sh', '/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/base/node/cpuUsage.sh 5754 8324 8327', 'FF')	None
+331320305131240330701441575278872244949	('/bin/sed', '-n s/^cpu\\s//p /proc/stat')	None
+78704594422200640731115232683424224825	('/bin/sed', '-n s/^cpu\\s//p /proc/stat', 'FF')	None
+256115752736992972614173321531100303739	('/bin/cat', '/proc/5754/stat')	None
+266133242100206180716023520654944401628	('/bin/cat', '/proc/5754/stat', 'FF')	None
+68500490115134802149794048866116792723	('/bin/cat', '/proc/8324/stat')	None
+327523612730804489660106504276086269047	('/bin/cat', '/proc/8324/stat', 'FF')	None
+74215562675247226804306094075521425772	('/bin/cat', '/proc/8327/stat')	None
+160124312453107534242670962986262590723	('/bin/cat', '/proc/8327/stat', 'FF')	None
+34406707259695703431558498620320521115	('/bin/sleep', '1')	None
+335799797396041925834072815854059800750	('/bin/sleep', '1', 'FF')	None
+254256028188519338110441922581450683584	('/bin/sh', '-c "/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/base/node/cpuUsage.sh" 5754 8360 8363')	{'mitre:T1106', 'mitre:T1574'}
+275165582719699626236489220788873286958	('/bin/sh', '-c "/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/base/node/cpuUsage.sh" 5754 8360 8363', 'FF')	None
+188430230893425322375319572765279632371	('/bin/sh', '-c "/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/base/node/cpuUsage.sh" 5754 8360 8363')	None
+195532273847779145551380501706277746508	('/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/base/node/cpuUsage.sh', '/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/base/node/cpuUsage.sh 5754 8360 8363')	None
+147922904292572346971468175908798181969	('/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/base/node/cpuUsage.sh', '/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/base/node/cpuUsage.sh 5754 8360 8363', 'FF')	None
+128470535999556543891189041792778439797	('/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/base/node/cpuUsage.sh', '/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/base/node/cpuUsage.sh 5754 8360 8363')	None
+32191501420463842342422963390564530407	('/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/base/node/cpuUsage.sh', '/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/base/node/cpuUsage.sh 5754 8360 8363', 'FF')	None
+219467883503357463822464478664584429649	('/bin/sed', '-n s/^cpu\\s//p /proc/stat')	None
+73441843813236060908299825050008765462	('/bin/sed', '-n s/^cpu\\s//p /proc/stat', 'FF')	None
+30000796754714865289933620536020021750	('/bin/cat', '/proc/5754/stat')	None
+135135600644658281492508316913125122357	('/bin/cat', '/proc/5754/stat', 'FF')	None
+210852847987236794059054635393315292028	('/bin/cat', '/proc/8360/stat')	None
+236461103771056209530823454519683694634	('/bin/cat', '/proc/8360/stat', 'FF')	None
+152314672996898852156151778378251959719	('/bin/cat', '/proc/8363/stat')	None
+96638961793552704543752953876404535660	('/bin/cat', '/proc/8363/stat', 'FF')	None
+151835660758546125966126123224163386682	('/bin/sleep', '1')	None
+18277660018206897672541724240541556608	('/bin/sleep', '1', 'FF')	None
+142806044012342854243296102002459509705	('/bin/sh', '-c "/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/base/node/cpuUsage.sh" 5754 8408 8411')	{'mitre:T1106', 'mitre:T1574'}
+334637856412337126188859423482458913876	('/bin/sh', '-c "/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/base/node/cpuUsage.sh" 5754 8408 8411', 'FF')	None
+40893066741888614700060585873442210152	('/bin/sh', '-c "/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/base/node/cpuUsage.sh" 5754 8408 8411')	None
+93300146181321833541860269125415899297	('/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/base/node/cpuUsage.sh', '/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/base/node/cpuUsage.sh 5754 8408 8411')	None
+38817267125466609445289786590885900048	('/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/base/node/cpuUsage.sh', '/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/base/node/cpuUsage.sh 5754 8408 8411', 'FF')	None
+98626064918715604798406679108347956751	('/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/base/node/cpuUsage.sh', '/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/base/node/cpuUsage.sh 5754 8408 8411')	None
+65726857805877389812833778191977728842	('/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/base/node/cpuUsage.sh', '/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/base/node/cpuUsage.sh 5754 8408 8411', 'FF')	None
+137760925192104652198001571318076832405	('/bin/sed', '-n s/^cpu\\s//p /proc/stat')	None
+184950940056459105995847600126790916834	('/bin/sed', '-n s/^cpu\\s//p /proc/stat', 'FF')	None
+227690209737510011130366581708152352865	('/bin/cat', '/proc/5754/stat')	None
+124895954656160638425972118088664295034	('/bin/cat', '/proc/5754/stat', 'FF')	None
+165963314153447928761284338248500561714	('/bin/cat', '/proc/8408/stat')	None
+320821043730980441440983941638041735187	('/bin/cat', '/proc/8408/stat', 'FF')	None
+125826826028065995203466944231125407514	('/bin/cat', '/proc/8411/stat')	None
+235486167745673958629859512302506885455	('/bin/cat', '/proc/8411/stat', 'FF')	None
+140397714987274420888310950132872421056	('/bin/sleep', '1')	None
+176270147676439531945276309313011915558	('/bin/sleep', '1', 'FF')	None
+232910390272867474414439122675413093020	('/usr/bin/x86_64-linux-gnu-as', '--version /dev/null')	None
+236553407060201627681948990883946175692	('/usr/bin/x86_64-linux-gnu-as', '--version /dev/null', 'FF')	None
+181777444241971725796095081995577281924	('/usr/bin/cpp', '-C -nostdinc -undef -P -I/usr/local/lib/python3.6/dist-packages/pwnlib/data/includes /dev/stdin')	None
+76330953119635408942937389849660794558	('/usr/bin/cpp', '-C -nostdinc -undef -P -I/usr/local/lib/python3.6/dist-packages/pwnlib/data/includes /dev/stdin', 'FF')	None
+45105474242462371004389570577617643044	('/usr/bin/cpp', '-C -nostdinc -undef -P -I/usr/local/lib/python3.6/dist-packages/pwnlib/data/includes /dev/stdin')	None
+103527415439014655140277692417259251472	('/usr/lib/gcc/x86_64-linux-gnu/7/cc1', '-E -quiet -nostdinc -C -I /usr/local/lib/python3.6/dist-packages/pwnlib/data/includes -P -imultiarch x86_64-linux-gnu /dev/stdin -mtune=generic -march=x86-64 -undef -fstack-protector-strong -Wformat -Wformat-security')	None
+261789748643022391813116378978276724676	('/usr/lib/gcc/x86_64-linux-gnu/7/cc1', '-E -quiet -nostdinc -C -I /usr/local/lib/python3.6/dist-packages/pwnlib/data/includes -P -imultiarch x86_64-linux-gnu /dev/stdin -mtune=generic -march=x86-64 -undef -fstack-protector-strong -Wformat -Wformat-security', 'FF')	None
+251359865133938551281257794292334541379	('/bin/sh', '-c "/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/base/node/cpuUsage.sh" 5754 8408 8411 8433 8434')	{'mitre:T1106', 'mitre:T1574'}
+201436684812366787171000354925610678892	('/bin/sh', '-c "/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/base/node/cpuUsage.sh" 5754 8408 8411 8433 8434', 'FF')	None
+93137593113922245869573794957912071346	('/bin/sh', '-c "/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/base/node/cpuUsage.sh" 5754 8408 8411 8433 8434')	None
+122639659127178028485480026479419814543	('/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/base/node/cpuUsage.sh', '/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/base/node/cpuUsage.sh 5754 8408 8411 8433 8434')	None
+218884168284568949041892248824408097285	('/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/base/node/cpuUsage.sh', '/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/base/node/cpuUsage.sh 5754 8408 8411 8433 8434', 'FF')	None
+132972943826364710679573699410494447924	('/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/base/node/cpuUsage.sh', '/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/base/node/cpuUsage.sh 5754 8408 8411 8433 8434')	None
+18844352270149242858847460245919659548	('/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/base/node/cpuUsage.sh', '/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/base/node/cpuUsage.sh 5754 8408 8411 8433 8434', 'FF')	None
+161777335942785504386188291102827903771	('/bin/sed', '-n s/^cpu\\s//p /proc/stat')	None
+91348011439588852844454022981821713516	('/bin/sed', '-n s/^cpu\\s//p /proc/stat', 'FF')	None
+45406057325697355999043079676776519447	('/bin/cat', '/proc/5754/stat')	None
+189593657505948568975631504212068176700	('/bin/cat', '/proc/5754/stat', 'FF')	None
+232110167194338096185603396918679949530	('/bin/cat', '/proc/8408/stat')	None
+103517026357624687246435556283091702480	('/bin/cat', '/proc/8408/stat', 'FF')	None
+21894688855396987548509249686969731982	('/bin/cat', '/proc/8411/stat')	None
+169695364563159889430508175725568129196	('/bin/cat', '/proc/8411/stat', 'FF')	None
+74662211328013941548856812380307444889	('/bin/cat', '/proc/8433/stat')	None
+125192844953675133929212287208479730460	('/bin/cat', '/proc/8433/stat', 'FF')	None
+210246148239534564974341273177099431241	('/bin/cat', '/proc/8434/stat')	None
+65680756714754747060661005330064103902	('/bin/cat', '/proc/8434/stat', 'FF')	None
+228471465227836628542789578607972821075	('/bin/sleep', '1')	None
+49020290407533630095138907214535306533	('/bin/sleep', '1', 'FF')	None
+268260621074473443722367067764527499868	('/usr/bin/x86_64-linux-gnu-as', '-64 -o /tmp/pwn-asm-p6dhswit/step2 /tmp/pwn-asm-p6dhswit/step1')	None
+97157444292086761158793519196613938989	('/usr/bin/x86_64-linux-gnu-as', '-64 -o /tmp/pwn-asm-p6dhswit/step2 /tmp/pwn-asm-p6dhswit/step1', 'FF')	None
+267945645603959018236846630661158733004	('/usr/bin/x86_64-linux-gnu-readelf', '-r /tmp/pwn-asm-p6dhswit/step2')	None
+70464000332225027930737521091364414017	('/usr/bin/x86_64-linux-gnu-readelf', '-r /tmp/pwn-asm-p6dhswit/step2', 'FF')	None
+335045724028160327871769247942172352331	('/usr/bin/x86_64-linux-gnu-objcopy', '-j .shellcode -Obinary /tmp/pwn-asm-p6dhswit/step3 /tmp/pwn-asm-p6dhswit/step4')	None
+180420126175631455340186752625696962775	('/usr/bin/x86_64-linux-gnu-objcopy', '-j .shellcode -Obinary /tmp/pwn-asm-p6dhswit/step3 /tmp/pwn-asm-p6dhswit/step4', 'FF')	None
+178394265240153166210759257895900223677	('/lib/systemd/systemd-timesyncd', '', 'NF')	None
+236777347082984229975202690910384811105	('/usr/sbin/sshd', '-D', 'FF')	None
+267942343699436598004123322791080536762	('/usr/sbin/sshd', '-D')	None
+280605575614704174216035038568713977413	('/usr/sbin/sshd', '-D', 'NF')	None
+214449763833412675686719951160289363209	('/usr/sbin/sshd', '-D')	None
+279768885263247803471955410458704570130	('/usr/sbin/sshd', '-D', 'FF')	None
+250776787095591502214870014972926298274	('/usr/sbin/sshd', '-D -R')	None
+204768801975092365905772019818694203087	('/usr/sbin/sshd', '-D -R', 'FF')	None
+321184870575467573927298094282386787149	('/usr/sbin/sshd', '-D -R', 'NF')	None
+210410929304096591680972965782743196777	('/bin/sh', '-c "/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/base/node/cpuUsage.sh" 5754 8477 8480')	{'mitre:T1106', 'mitre:T1574'}
+84793423780079328640387657684377196534	('/bin/sh', '-c "/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/base/node/cpuUsage.sh" 5754 8477 8480', 'FF')	None
+311292435952245432965940255747402238038	('/bin/sh', '-c "/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/base/node/cpuUsage.sh" 5754 8477 8480')	None
+332346245332647874404119363431557898733	('/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/base/node/cpuUsage.sh', '/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/base/node/cpuUsage.sh 5754 8477 8480')	None
+324172628436942273529626010769079800551	('/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/base/node/cpuUsage.sh', '/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/base/node/cpuUsage.sh 5754 8477 8480', 'FF')	None
+8788196553180055795853650045458935500	('/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/base/node/cpuUsage.sh', '/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/base/node/cpuUsage.sh 5754 8477 8480')	None
+12060758170569592142307792596062084278	('/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/base/node/cpuUsage.sh', '/home/hacker/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/base/node/cpuUsage.sh 5754 8477 8480', 'FF')	None
+190279510423546236579817330088705878086	('/bin/sed', '-n s/^cpu\\s//p /proc/stat')	None
+68218459366480480941204857470684497764	('/bin/sed', '-n s/^cpu\\s//p /proc/stat', 'FF')	None
+246916375346448144505573504737751637112	('/bin/cat', '/proc/5754/stat')	None
+184846335248573606377640068428122409341	('/bin/cat', '/proc/5754/stat', 'FF')	None
+154340246793142372294009934163002546070	('/bin/cat', '/proc/8477/stat')	None
+279174595333736490978092910483531044131	('/bin/cat', '/proc/8477/stat', 'FF')	None
+38160338601429147795925587545520616559	('/bin/cat', '/proc/8480/stat')	None
+314252062422360773181127273620151347197	('/bin/cat', '/proc/8480/stat', 'FF')	None
+244524586944764118444214050456415417119	('/bin/sleep', '1')	None
+22957244710520201030386039839790510611	('/bin/sleep', '1', 'FF')	None
+327543924805008020117211831988418498517	('/usr/bin/x86_64-linux-gnu-as', '-64 -o /tmp/pwn-asm-ndya7ceq/step2 /tmp/pwn-asm-ndya7ceq/step1')	None
+118925736055370566094678109140253824588	('/usr/bin/x86_64-linux-gnu-as', '-64 -o /tmp/pwn-asm-ndya7ceq/step2 /tmp/pwn-asm-ndya7ceq/step1', 'FF')	None
+223908977082293785241881671649365822437	('/usr/bin/x86_64-linux-gnu-readelf', '-r /tmp/pwn-asm-ndya7ceq/step2')	None
+50575434849464927782128404561668870655	('/usr/bin/x86_64-linux-gnu-readelf', '-r /tmp/pwn-asm-ndya7ceq/step2', 'FF')	None
+86453359854140282021991239332365368860	('/usr/bin/x86_64-linux-gnu-objcopy', '-j .shellcode -Obinary /tmp/pwn-asm-ndya7ceq/step3 /tmp/pwn-asm-ndya7ceq/step4')	None
+228215798078704371093400409871332604460	('/usr/bin/x86_64-linux-gnu-objcopy', '-j .shellcode -Obinary /tmp/pwn-asm-ndya7ceq/step3 /tmp/pwn-asm-ndya7ceq/step4', 'FF')	None

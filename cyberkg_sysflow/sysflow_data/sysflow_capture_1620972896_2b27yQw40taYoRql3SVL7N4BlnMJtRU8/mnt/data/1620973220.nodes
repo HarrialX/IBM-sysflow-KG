@@ -1,0 +1,12 @@
+87722878245519325556685498229414751548	('/home/dummies/tmp/dir_4661007/trivia', '', 'FF')	None
+30924918031761478081086038216011261780	('/home/dummies/tmp/dir_4661007/trivia', '')	None
+19508889947011126449168314344316586033	('/usr/bin/python3', '/service', 'NF')	None
+327436542306339685508270915740147013673	('/usr/bin/python3', '/service')	None
+263687215810319477253918516112499018236	('/home/dummies/tmp/dir_4661007/trivia', '', 'NF')	None
+83471494521982878197574087232238083766	('/usr/bin/python3', '/service', 'FF')	None
+290274223509204639846072939222411946750	('/usr/bin/timeout', '-k1 240 stdbuf -i0 -o0 -e0 /service', 'NF')	None
+199958350667925935604330471471639326020	('/usr/bin/timeout', '-k1 240 stdbuf -i0 -o0 -e0 /service')	None
+167863026781299050438689083702487285693	('/usr/bin/timeout', '-k1 240 stdbuf -i0 -o0 -e0 /service', 'FF')	None
+248344850019974939037975972512707743735	('/wrapper', '/wrapper')	None
+209730386178055516529911922083838399396	('/usr/sbin/xinetd', '-filelog /dev/stderr -dontfork -f /service.conf', 'FF')	None
+108280675101008907068382881775516713573	('/usr/sbin/xinetd', '-filelog /dev/stderr -dontfork -f /service.conf')	None

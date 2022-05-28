@@ -1,0 +1,23 @@
+116356633829194726059331594569076066591	('/usr/sbin/xinetd', '-filelog - -dontfork -f /etc/xinetd.d/ooobash.conf', 'NF')	None
+148500486659959682696502857173092262428	('/usr/sbin/xinetd', '-filelog - -dontfork -f /etc/xinetd.d/ooobash.conf')	None
+291271720636876522950537057387745451588	('/usr/sbin/xinetd', '-filelog - -dontfork -f /etc/xinetd.d/ooobash.conf')	None
+261976949325960685771444483150559823725	('/usr/sbin/xinetd', '-filelog - -dontfork -f /etc/xinetd.d/ooobash.conf', 'FF')	None
+25861330570106383123844194527521379374	('/opt/wrapper', '/opt/wrapper')	None
+267143608951410046587342847609576554171	('/opt/wrapper', '/opt/wrapper', 'FF')	None
+327994812410922233426591280566079220801	('/opt/wrapper', '/opt/wrapper')	None
+109684858811708500054267489866710947863	('/usr/bin/stdbuf', '-i0 -o0 -e0 /opt/schitzo 10 /bin/bash -i')	{'mitre:T1106', 'mitre:T1574'}
+258989907665899525132266672276752992346	('/usr/bin/stdbuf', '-i0 -o0 -e0 /opt/schitzo 10 /bin/bash -i', 'FF')	None
+113005233360512556449157783290625551350	('/opt/schitzo', '10 /bin/bash -i')	None
+296421345175357006595495106030854048588	('/opt/schitzo', '10 /bin/bash -i', 'FF')	None
+175864032106370757878642328465423379889	('/opt/schitzo', '10 /bin/bash -i')	None
+71235463508433329407881901411253784049	('/bin/bash', '-i')	{'mitre:T1106', 'mitre:T1574'}
+209530609937918584421780849215403936855	('/bin/bash', '-i', 'FF')	{'mitre:T1041', 'mitre:T1059'}
+65243482053445474611121896095383211907	('/bin/bash', '-i')	None
+268715424940780262600136863809754192638	('/bin/bash', '-i', 'FF')	None
+161592122833828828821875044436960134583	('/bin/bash', '-L -i')	None
+150417343698472093653724539908297517165	('/bin/bash', '-L -i', 'FF')	{'mitre:T1041', 'mitre:T1059'}
+114343516645290398237976052363964358912	('/bin/bash', '-L -i')	None
+146792375582606298271135214167806121598	('/bin/bash', '-L -i', 'FF')	None
+133713024937027119090529878020185943790	('/bin/bash', '-L -i', 'NF')	{'mitre:T1041', 'mitre:T1059'}
+110465502041831693429750304764853475852	('/bin/cat', '')	None
+175714194277676404033283533983885952542	('/bin/cat', '', 'FF')	None

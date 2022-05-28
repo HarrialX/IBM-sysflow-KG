@@ -1,0 +1,23 @@
+262978753871751556413430020745407327844	('/linux', 'rootflags= rootfstype=hostfs rw mem=64M eth0=slirp,,/slirp.sh init=/init.sh')	None
+282104634419703008495697158547173800112	('/linux', 'rootflags= rootfstype=hostfs rw mem=64M eth0=slirp,,/slirp.sh init=/init.sh')	None
+230221332576596143535110206418020807483	('/linux', 'rootflags= rootfstype=hostfs rw mem=64M eth0=slirp,,/slirp.sh init=/init.sh', 'FF')	None
+146864617111250336058412376526451925242	('/linux', 'rootflags= rootfstype=hostfs rw mem=64M eth0=slirp,,/slirp.sh init=/init.sh', 'FF')	None
+130602110369746222086361061748346433859	('/usr/bin/socat', '- TCP:localhost:30000,retry=5,interval=5,nodelay', 'NF')	None
+179627978735772822832132881248678310016	('/usr/bin/socat', '- TCP:localhost:30000,retry=5,interval=5,nodelay')	None
+85522383068060022885107613933381257703	('/usr/bin/socat', '- TCP:localhost:30000,retry=5,interval=5,nodelay', 'FF')	None
+96775870924061204331012375921285048885	('/bin/bash', '/service_wrapper2.sh', 'FF')	None
+170360614954171522131791887193392611479	('/bin/bash', '/service_wrapper2.sh')	None
+216410090190091806487596117059029777212	('/bin/bash', '/service_wrapper2.sh')	None
+295971415713074978097966162060466072156	('/bin/bash', '/service_wrapper2.sh', 'FF')	None
+333844544563123069473992366850452341955	('/usr/bin/ps', '-o pgid= 77')	None
+127160465918782284110567100389531790448	('/usr/bin/grep', '-o [0-9]*')	None
+116944782397743061746066454445881665907	('/usr/bin/ps', '-o pgid= 77', 'FF')	None
+211099493270489692859660423380897237217	('/usr/bin/grep', '-o [0-9]*', 'FF')	None
+244867917977375006792315192842062133395	('/usr/bin/rm', '-f /tmp/serv.ports.30000')	{'mitre:T1106', 'mitre:T1574'}
+301453722527812959018150478487070309076	('/usr/bin/rm', '-f /tmp/serv.ports.30000', 'FF')	None
+250027795328112910777440789818864913795	('/usr/bin/timeout', '600 /bin/bash /service_wrapper2.sh', 'FF')	None
+202460423701734545779271479470989816659	('/usr/bin/timeout', '600 /bin/bash /service_wrapper2.sh')	None
+109117020063871269342999688661605514582	('/usr/bin/slirp-fullbolt', 'host addr 172.17.0.3 redir 30000 1999 redir 2000 2000', 'FF')	None
+222600167803468610094760297383035053055	('/usr/bin/slirp-fullbolt', 'host addr 172.17.0.3 redir 30000 1999 redir 2000 2000')	None
+63976079098937665000160234391912814683	('/usr/sbin/xinetd', '-syslog local0 -dontfork -f /xinetd.conf', 'FF')	None
+298229456980365358868363735473781781771	('/usr/sbin/xinetd', '-syslog local0 -dontfork -f /xinetd.conf')	None

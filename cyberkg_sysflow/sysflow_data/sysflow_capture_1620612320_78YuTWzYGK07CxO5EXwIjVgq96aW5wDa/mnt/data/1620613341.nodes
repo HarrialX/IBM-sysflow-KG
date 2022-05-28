@@ -1,0 +1,43 @@
+212613514516228522457708602619781564972	('/usr/sbin/xinetd', '-filelog /dev/stderr -dontfork -f /service.conf')	None
+244881872719512145155493748849728536389	('/usr/sbin/xinetd', '-filelog /dev/stderr -dontfork -f /service.conf')	None
+210926748273519576805696092253657130100	('/usr/sbin/xinetd', '-filelog /dev/stderr -dontfork -f /service.conf', 'NF')	None
+233885143682393732519264065553165435770	('/usr/sbin/xinetd', '-filelog /dev/stderr -dontfork -f /service.conf', 'FF')	None
+197526251962908694733296066282194846383	('/usr/sbin/xinetd', '-filelog /dev/stderr -dontfork -f /service.conf', 'NF')	None
+248344850019974939037975972512707743735	('/wrapper', '/wrapper')	None
+160223988526374206997411003906483908932	('/wrapper', '/wrapper', 'FF')	None
+5663542808624606108233241134324508780	('/wrapper', '/wrapper', 'NF')	None
+181804828473323254158869610862137201310	('/wrapper', '/wrapper')	None
+199958350667925935604330471471639326020	('/usr/bin/timeout', '-k1 240 stdbuf -i0 -o0 -e0 /service')	None
+167863026781299050438689083702487285693	('/usr/bin/timeout', '-k1 240 stdbuf -i0 -o0 -e0 /service', 'FF')	None
+148962587108588072534945384484486115419	('/usr/bin/timeout', '-k1 240 stdbuf -i0 -o0 -e0 /service')	None
+257334853354350364784345239857980969404	('/usr/bin/stdbuf', '-i0 -o0 -e0 /service')	{'mitre:T1106', 'mitre:T1574'}
+300528443527215990176945176814636104165	('/usr/bin/stdbuf', '-i0 -o0 -e0 /service', 'FF')	None
+300517057213543906972350397840911465838	('/service', 'python3 /service')	None
+57982728455473739790858567689557297292	('/service', 'python3 /service', 'FF')	None
+327436542306339685508270915740147013673	('/usr/bin/python3', '/service')	None
+83471494521982878197574087232238083766	('/usr/bin/python3', '/service', 'FF')	None
+19508889947011126449168314344316586033	('/usr/bin/python3', '/service', 'NF')	None
+254280042116013704120202839835261785289	('/usr/bin/python3', '/service')	None
+152250225645583574230396427858477606523	('/usr/bin/python3', '/service', 'FF')	None
+306269008367888217150911519489999652874	('/home/dummies/tmp/dir_1399878/trivia', '')	None
+135951608961543720327002260330784566408	('/home/dummies/tmp/dir_1399878/trivia', '', 'FF')	None
+169615632427216855348127832210244464325	('/home/dummies/tmp/dir_1399878/trivia', '', 'NF')	None
+79188531043858646197665126837264874369	('/bin/sh', '-c gdb -c core trivia')	{'mitre:T1106', 'mitre:T1574'}
+87129138418710165235097478845061737953	('/bin/sh', '-c gdb -c core trivia', 'FF')	None
+243470288177250407320787259473110127690	('/bin/sh', '-c gdb -c core trivia')	None
+261962687290655544307784944919327086859	('/usr/bin/gdb', '-c core trivia')	None
+198128782076651396151803901258971616924	('/usr/bin/gdb', '-c core trivia', 'FF')	None
+332686067954580135298181021941688793196	('/usr/bin/gdb', '-c core trivia', 'NF')	None
+147008467870937961792098239357557600578	('/usr/bin/gdb', '-c core trivia')	None
+197955162920812952364052336926059148212	('/usr/bin/gdb', '-c core trivia', 'FF')	None
+155861695035854874638746495281247990639	('/usr/bin/iconv', '-l')	None
+117669720675836863698624801569523946952	('/usr/bin/iconv', '-l', 'FF')	None
+290274223509204639846072939222411946750	('/usr/bin/timeout', '-k1 240 stdbuf -i0 -o0 -e0 /service', 'NF')	None
+330140994437054628664763333044559292340	('/home/dummies/tmp/dir_4656735/trivia', '')	None
+228796005237577862432870639498411204490	('/home/dummies/tmp/dir_4656735/trivia', '', 'FF')	None
+104478693791229331612710406013022075642	('/usr/sbin/xinetd', '-filelog /dev/stderr -dontfork -f /service.conf', 'FF')	None
+233891192404323996946900998764695584271	('/home/dummies/tmp/dir_4656735/trivia', '', 'NF')	None
+223848142230887282909016244521020269238	('/home/dummies/tmp/dir_1379716/trivia', '')	None
+129726339608937424439963763290702274666	('/home/dummies/tmp/dir_1379716/trivia', '', 'FF')	None
+15956538898152031943324449748145479798	('/home/dummies/tmp/dir_5845662/trivia', '')	None
+89800825590948855460126015577585186708	('/home/dummies/tmp/dir_5845662/trivia', '', 'FF')	None

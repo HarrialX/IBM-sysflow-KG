@@ -1,0 +1,60 @@
+212613514516228522457708602619781564972	('/usr/sbin/xinetd', '-filelog /dev/stderr -dontfork -f /service.conf')	None
+126219658093839647673809867149748595432	('/usr/sbin/xinetd', '-filelog /dev/stderr -dontfork -f /service.conf')	None
+29231668391371732354988163190969036247	('/usr/sbin/xinetd', '-filelog /dev/stderr -dontfork -f /service.conf', 'NF')	None
+233885143682393732519264065553165435770	('/usr/sbin/xinetd', '-filelog /dev/stderr -dontfork -f /service.conf', 'FF')	None
+197526251962908694733296066282194846383	('/usr/sbin/xinetd', '-filelog /dev/stderr -dontfork -f /service.conf', 'NF')	None
+248344850019974939037975972512707743735	('/wrapper', '/wrapper')	None
+160223988526374206997411003906483908932	('/wrapper', '/wrapper', 'FF')	None
+5663542808624606108233241134324508780	('/wrapper', '/wrapper', 'NF')	None
+181804828473323254158869610862137201310	('/wrapper', '/wrapper')	None
+251254964797457592736958413952848669277	('/wrapper', '/wrapper', 'FF')	None
+279421721803984503284142380772449383632	('/bin/mktemp', '-d')	{'mitre:T1106', 'mitre:T1574'}
+304439821532347619731535117441921798270	('/bin/mktemp', '-d', 'FF')	None
+258763374400515313082628245783161398533	('/bin/mktemp', '-d', 'NF')	None
+43142428295942442330381539504488071726	('/bin/chmod', 'o+rx /tmp/tmp.C4kc5fM9DU')	{'mitre:T1106', 'mitre:T1574'}
+33757976458514485533847824808437441215	('/bin/chmod', 'o+rx /tmp/tmp.C4kc5fM9DU', 'FF')	None
+66647934934483030465288900409416307944	('/bin/chmod', 'o+rx /tmp/tmp.h7naESp74N')	{'mitre:T1106', 'mitre:T1574'}
+268314471414690188147153786235254617629	('/bin/chmod', 'o+rx /tmp/tmp.h7naESp74N', 'FF')	None
+198753500150608013250991246436184137013	('/bin/cp', '-p /service/flag /service/manchester /service/os /service/p /service/quit /service/sh /service/vm /tmp/tmp.C4kc5fM9DU')	{'mitre:T1106', 'mitre:T1574'}
+61480537080410169712530504938233531419	('/bin/cp', '-p /service/flag /service/manchester /service/os /service/p /service/quit /service/sh /service/vm /tmp/tmp.C4kc5fM9DU', 'FF')	None
+129863662775524778076374198134182471930	('/bin/chmod', 'o+rx /tmp/tmp.h7naESp74N', 'NF')	None
+325899891113236020839725015261387243775	('/bin/cp', '-p /service/flag /service/manchester /service/os /service/p /service/quit /service/sh /service/vm /tmp/tmp.h7naESp74N')	{'mitre:T1106', 'mitre:T1574'}
+302195585386221853938729654531375029997	('/bin/cp', '-p /service/flag /service/manchester /service/os /service/p /service/quit /service/sh /service/vm /tmp/tmp.h7naESp74N', 'FF')	None
+83183330994327713617050583579138631045	('/bin/cp', '-p /service/flag /service/manchester /service/os /service/p /service/quit /service/sh /service/vm /tmp/tmp.h7naESp74N', 'NF')	None
+54746794870699569356509784141547947367	('/schitzo', '300 /tmp/tmp.h7naESp74N/manchester -f ./os -t 300')	None
+283042598950380065566453725568497269145	('/schitzo', '300 /tmp/tmp.h7naESp74N/manchester -f ./os -t 300', 'FF')	None
+230148781757360079341451717380703249884	('/schitzo', '300 /tmp/tmp.C4kc5fM9DU/manchester -f ./os -t 300')	None
+313782986053565726999078834643616620100	('/schitzo', '300 /tmp/tmp.C4kc5fM9DU/manchester -f ./os -t 300', 'FF')	None
+65611111575510460367079732077532365526	('/schitzo', '300 /tmp/tmp.h7naESp74N/manchester -f ./os -t 300')	None
+216727438989202524205049706490818731060	('/schitzo', '300 /tmp/tmp.C4kc5fM9DU/manchester -f ./os -t 300')	None
+72761325958143985147429958997615475934	('/tmp/tmp.C4kc5fM9DU/manchester', '-f ./os -t 300')	None
+180219131866985616821159865560997989706	('/tmp/tmp.C4kc5fM9DU/manchester', '-f ./os -t 300', 'FF')	None
+119593393366552184662248130508968536587	('/tmp/tmp.h7naESp74N/manchester', '-f ./os -t 300')	None
+206196957784917426855877917633522957010	('/tmp/tmp.h7naESp74N/manchester', '-f ./os -t 300', 'FF')	None
+198524068202176206031341778605764293288	('/tmp/tmp.C4kc5fM9DU/manchester', '-f ./os -t 300')	None
+102186908057957567813505010097222714420	('/tmp/tmp.h7naESp74N/manchester', '-f ./os -t 300')	None
+170832124850255486453753118697545518830	('/tmp/tmp.C4kc5fM9DU/manchester', '-f ./os -t 300', 'FF')	None
+79063094529857604275769037485914840551	('/tmp/tmp.h7naESp74N/manchester', '-f ./os -t 300', 'FF')	None
+217442395414730317183187048248727127657	('/bin/chmod', 'o+rx /tmp/tmp.DDj9Fyeris')	{'mitre:T1106', 'mitre:T1574'}
+63427519141124253924434221317909772867	('/bin/chmod', 'o+rx /tmp/tmp.DDj9Fyeris', 'FF')	None
+164763362636703839238146291452452464095	('/bin/cp', '-p /service/flag /service/manchester /service/os /service/p /service/quit /service/sh /service/vm /tmp/tmp.DDj9Fyeris')	{'mitre:T1106', 'mitre:T1574'}
+252681620771418589773343153524602770348	('/bin/cp', '-p /service/flag /service/manchester /service/os /service/p /service/quit /service/sh /service/vm /tmp/tmp.DDj9Fyeris', 'FF')	None
+261918272964330515472503889583224871321	('/schitzo', '300 /tmp/tmp.DDj9Fyeris/manchester -f ./os -t 300')	None
+68141792329281174207619628712456013169	('/schitzo', '300 /tmp/tmp.DDj9Fyeris/manchester -f ./os -t 300', 'FF')	None
+242392003379602056713773075503061630212	('/schitzo', '300 /tmp/tmp.DDj9Fyeris/manchester -f ./os -t 300')	None
+190961815902673464547695451438867042106	('/tmp/tmp.DDj9Fyeris/manchester', '-f ./os -t 300')	None
+36062933316982150556875028887617181374	('/tmp/tmp.DDj9Fyeris/manchester', '-f ./os -t 300', 'FF')	None
+310898041699701832831854494754020905775	('/tmp/tmp.DDj9Fyeris/manchester', '-f ./os -t 300')	None
+122549997126003062277101080115495099844	('/tmp/tmp.DDj9Fyeris/manchester', '-f ./os -t 300', 'FF')	None
+101755844381388235282815669525415436112	('/bin/chmod', 'o+rx /tmp/tmp.XmCdRphciL')	{'mitre:T1106', 'mitre:T1574'}
+12016673167391914138625597548288891919	('/bin/chmod', 'o+rx /tmp/tmp.XmCdRphciL', 'FF')	None
+30273765235256873583533021166510498756	('/bin/cp', '-p /service/flag /service/manchester /service/os /service/p /service/quit /service/sh /service/vm /tmp/tmp.XmCdRphciL')	{'mitre:T1106', 'mitre:T1574'}
+266561154919094756873416689972760789027	('/bin/cp', '-p /service/flag /service/manchester /service/os /service/p /service/quit /service/sh /service/vm /tmp/tmp.XmCdRphciL', 'FF')	None
+241327697865315423419795414777578949694	('/schitzo', '300 /tmp/tmp.XmCdRphciL/manchester -f ./os -t 300')	None
+161194297250672320628949180704530698070	('/schitzo', '300 /tmp/tmp.XmCdRphciL/manchester -f ./os -t 300', 'FF')	None
+78816154425760278307781759859752627958	('/schitzo', '300 /tmp/tmp.XmCdRphciL/manchester -f ./os -t 300')	None
+219258180224821232070460781455489062058	('/tmp/tmp.XmCdRphciL/manchester', '-f ./os -t 300')	None
+73775512107380181757862039513510673060	('/tmp/tmp.XmCdRphciL/manchester', '-f ./os -t 300', 'FF')	None
+25571225448663242413225761385528308765	('/tmp/tmp.XmCdRphciL/manchester', '-f ./os -t 300')	None
+323739920511206987250824391493749993164	('/tmp/tmp.XmCdRphciL/manchester', '-f ./os -t 300', 'FF')	None
+288537760465561173565350566615787906323	('/tmp/tmp.h7naESp74N/manchester', '-f ./os -t 300', 'NF')	None

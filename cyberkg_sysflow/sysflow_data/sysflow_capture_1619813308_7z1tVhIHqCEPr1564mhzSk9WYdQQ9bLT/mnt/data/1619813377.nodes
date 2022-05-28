@@ -1,0 +1,19 @@
+94084168279108874798190591312936684217	('/usr/sbin/xinetd', '-filelog - -dontfork -f /service.conf')	None
+24426270975937462165838177608154905367	('/usr/sbin/xinetd', '-filelog - -dontfork -f /service.conf')	None
+136955563543366725100273566036901152177	('/usr/sbin/xinetd', '-filelog - -dontfork -f /service.conf', 'NF')	None
+244901607866055308639121095394776948147	('/usr/sbin/xinetd', '-filelog - -dontfork -f /service.conf', 'FF')	None
+241696257670201143347128488418371440658	('/usr/sbin/xinetd', '-filelog - -dontfork -f /service.conf', 'NF')	None
+122344225894295294728440414473108682116	('/wrapper', '/wrapper')	None
+299209742949827292234427797418837836286	('/wrapper', '/wrapper', 'FF')	None
+322875374443617022165337460832029514910	('/wrapper', '/wrapper', 'NF')	None
+181804828473323254158869610862137201310	('/wrapper', '/wrapper')	None
+326329643954763635003203035219240961072	('/usr/bin/timeout', '--foreground -k 300 240 stdbuf -i0 -o0 -e0 /speedrun-002')	None
+201206946565779178909165936055573829199	('/usr/bin/timeout', '--foreground -k 300 240 stdbuf -i0 -o0 -e0 /speedrun-002', 'FF')	None
+259848044971690992755440573618354057731	('/usr/bin/timeout', '--foreground -k 300 240 stdbuf -i0 -o0 -e0 /speedrun-002')	None
+244682165417805014152420238510148321744	('/usr/bin/stdbuf', '-i0 -o0 -e0 /speedrun-002')	{'mitre:T1106', 'mitre:T1574'}
+127529194964566848580647364975104658180	('/usr/bin/stdbuf', '-i0 -o0 -e0 /speedrun-002', 'FF')	None
+55247360789656137058448625219664094018	('/speedrun-002', '')	None
+306114380155770632624139287215449872021	('/speedrun-002', '', 'FF')	None
+199689088096997144046150649862555389025	('/speedrun-002', '', 'NF')	None
+129431744944621302653269129370235595334	('/usr/bin/timeout', '--foreground -k 300 240 stdbuf -i0 -o0 -e0 /speedrun-002', 'NF')	None
+171442708395465717850751963696958017751	('/usr/sbin/xinetd', '-filelog - -dontfork -f /service.conf', 'FF')	None

@@ -1,0 +1,126 @@
+284068475584635222614829272122941083444	('/home/chall/service/ro/exploit-market', '', 'FF')	None
+216646369386279550379646372373437731947	('/home/chall/service/ro/exploit-market', '')	None
+203046543664069702495774304824401494194	('/usr/sbin/irqbalance', '--foreground', 'FF')	None
+264072776791094588057200014465327940943	('/usr/sbin/irqbalance', '--foreground')	None
+164032422607533106840303254473568259920	('/usr/sbin/openvpn', '--daemon ovpn-client --status /run/openvpn/client.status 10 --cd /etc/openvpn --script-security 2 --config /etc/openvpn/client.conf --writepid /run/openvpn/client.pid', 'FF')	None
+40503314233991184311583421659681684940	('/usr/sbin/openvpn', '--daemon ovpn-client --status /run/openvpn/client.status 10 --cd /etc/openvpn --script-security 2 --config /etc/openvpn/client.conf --writepid /run/openvpn/client.pid')	None
+175567374979357565232172317306929196769	('/usr/bin/socat', 'tcp-l:6666,reuseaddr,fork exec:/insider/frida/examples/exploit-market/spawn.py /insider/frida/examples/exploit-market /insider/frida/examples/exploit-market/patch.conf /home/chall/service/ro/exploit-market', 'FF')	None
+41055389933688291146745205067502246685	('/usr/bin/socat', 'tcp-l:6666,reuseaddr,fork exec:/insider/frida/examples/exploit-market/spawn.py /insider/frida/examples/exploit-market /insider/frida/examples/exploit-market/patch.conf /home/chall/service/ro/exploit-market')	None
+281396081045939441367044609440936272458	('/usr/sbin/rsyslogd', '-n', 'FF')	None
+325315728461863798026426382239100872546	('/usr/sbin/rsyslogd', '-n')	None
+56137923281703366806412482512672911468	('/lib/systemd/systemd-journald', '', 'FF')	None
+163424344929093476444125798498813580862	('/lib/systemd/systemd-journald', '')	None
+334565776516558573631534134952863647346	('/snap/amazon-ssm-agent/4046/amazon-ssm-agent', '', 'FF')	None
+327867969869831915191934110595062499350	('/snap/amazon-ssm-agent/4046/amazon-ssm-agent', '')	None
+219386352128382132247166184558091788837	('/snap/amazon-ssm-agent/4046/ssm-agent-worker', '', 'FF')	None
+41391823795123643114531800462972537127	('/snap/amazon-ssm-agent/4046/ssm-agent-worker', '')	None
+12751352799540237224514627656429439075	('/usr/sbin/openvpn', '--daemon ovpn-client --status /run/openvpn/client.status 10 --cd /etc/openvpn --script-security 2 --config /etc/openvpn/client.conf --writepid /run/openvpn/client.pid', 'NF')	None
+333969973514313752081256624384011473895	('/usr/bin/containerd-shim-runc-v2', '-namespace moby -id 3d455772ee5198b7a0d359a08286bd206159341557f48a0bcd4b8f86fd3f0a99 -address /run/containerd/containerd.sock', 'FF')	None
+61735391840481519980091960631222673502	('/usr/bin/containerd-shim-runc-v2', '-namespace moby -id 3d455772ee5198b7a0d359a08286bd206159341557f48a0bcd4b8f86fd3f0a99 -address /run/containerd/containerd.sock')	None
+93762949540555119844034065645818967613	('/usr/bin/dockerd', '-H fd:// --containerd=/run/containerd/containerd.sock', 'FF')	None
+288807639575301899814947492087725363578	('/usr/bin/dockerd', '-H fd:// --containerd=/run/containerd/containerd.sock')	None
+87651552382069646829488501805773508950	('/snap/snapd/13640/usr/lib/snapd/snapd', '', 'FF')	None
+162998247982791726801726442496766200837	('/snap/snapd/13640/usr/lib/snapd/snapd', '')	None
+141714468030420618795043395101774151869	('/lib/systemd/systemd', '', 'FF')	None
+122393967074279006578614696426244910108	('/lib/systemd/systemd', '')	None
+43682476363686411314617674624969395532	('/lib/systemd/systemd-udevd', '', 'FF')	None
+118302433445152229673665413752597590740	('/lib/systemd/systemd-udevd', '')	None
+127131128009801941818146331948967629210	('/usr/bin/socat', 'tcp-l:6666,reuseaddr,fork exec:/insider/frida/examples/exploit-market/spawn.py /insider/frida/examples/exploit-market /insider/frida/examples/exploit-market/patch.conf /home/chall/service/ro/exploit-market', 'NF')	None
+128008089623921601029664863953309626894	('/usr/bin/socat', 'tcp-l:6666,reuseaddr,fork exec:/insider/frida/examples/exploit-market/spawn.py /insider/frida/examples/exploit-market /insider/frida/examples/exploit-market/patch.conf /home/chall/service/ro/exploit-market')	None
+169577428659248472998806759348210348638	('/usr/bin/socat', 'tcp-l:6666,reuseaddr,fork exec:/insider/frida/examples/exploit-market/spawn.py /insider/frida/examples/exploit-market /insider/frida/examples/exploit-market/patch.conf /home/chall/service/ro/exploit-market', 'FF')	None
+93369215720316849909120829142812688401	('/insider/frida/examples/exploit-market/spawn.py', '-u /insider/frida/examples/exploit-market/spawn.py /insider/frida/examples/exploit-market /insider/frida/examples/exploit-market/patch.conf /home/chall/service/ro/exploit-market')	None
+237952800644357370598459362898386929864	('/insider/frida/examples/exploit-market/spawn.py', '-u /insider/frida/examples/exploit-market/spawn.py /insider/frida/examples/exploit-market /insider/frida/examples/exploit-market/patch.conf /home/chall/service/ro/exploit-market', 'FF')	None
+105337614666955925036584247068112968500	('/snap/amazon-ssm-agent/4046/amazon-ssm-agent', '')	None
+139124548033336773787321116882599357312	('/bin/ps', '-e -o pid,ppid,state,command')	None
+331266435681907867594682088954840864026	('/bin/ps', '-e -o pid,ppid,state,command', 'FF')	None
+246206547567668089972384663936263779159	('/insider/frida/examples/exploit-market/spawn.py', '-u /insider/frida/examples/exploit-market/spawn.py /insider/frida/examples/exploit-market /insider/frida/examples/exploit-market/patch.conf /home/chall/service/ro/exploit-market')	None
+115862336377149955856448519728904070117	('<NA>', "-c echo 'spawn: Read configuration from '/insider/frida/examples/exploit-market/patch.conf'; logging to '/insider/frida/examples/exploit-market/spawn_logs'' >> /insider/frida/examples/exploit-market/spawn_logs")	None
+107701462906077613517245659114216260903	('<NA>', "-c echo 'spawn: Read configuration from '/insider/frida/examples/exploit-market/patch.conf'; logging to '/insider/frida/examples/exploit-market/spawn_logs'' >> /insider/frida/examples/exploit-market/spawn_logs", 'FF')	None
+58313625727945324320114033612489366684	('<NA>', "-c echo 'spawn: Spawning new process (parent PID=429):\n\tcmd: /home/chall/service/ro/exploit-market' >> /insider/frida/examples/exploit-market/spawn_logs")	None
+251207666068270405532475152016081600823	('<NA>', "-c echo 'spawn: Spawning new process (parent PID=429):\n\tcmd: /home/chall/service/ro/exploit-market' >> /insider/frida/examples/exploit-market/spawn_logs", 'FF')	None
+206264234854186681286103994681688566016	('/insider/frida/examples/exploit-market/spawn.py', '-u /insider/frida/examples/exploit-market/spawn.py /insider/frida/examples/exploit-market /insider/frida/examples/exploit-market/patch.conf /home/chall/service/ro/exploit-market', 'NF')	None
+259542711328782105208194344088786960212	('/home/chall/service/ro/exploit-market', '')	None
+79457276634992767636286497098413573548	('/home/chall/service/ro/exploit-market', '', 'FF')	None
+117395089177868709861278078637560781890	('<NA>', "-c echo 'spawn: Spawned process pid: 435' >> /insider/frida/examples/exploit-market/spawn_logs")	None
+255004987342299944511594604124909607424	('<NA>', "-c echo 'spawn: Spawned process pid: 435' >> /insider/frida/examples/exploit-market/spawn_logs", 'FF')	None
+199003489321037247742026721030841430955	('<NA>', "-c echo 'spawn: New session created Session(pid=435)' >> /insider/frida/examples/exploit-market/spawn_logs")	None
+244275976154834875761144320106587691595	('<NA>', "-c echo 'spawn: New session created Session(pid=435)' >> /insider/frida/examples/exploit-market/spawn_logs", 'FF')	None
+65967192331725946661873280594718396565	('<NA>', "-c echo 'spawn: Processing ELF and reading symbols:\n\t[{'path': '/insider/frida/examples/exploit-market/exploit-market', 'pic': False}]' >> /insider/frida/examples/exploit-market/spawn_logs")	None
+135777790124526076526556032499167934822	('<NA>', "-c echo 'spawn: Processing ELF and reading symbols:\n\t[{'path': '/insider/frida/examples/exploit-market/exploit-market', 'pic': False}]' >> /insider/frida/examples/exploit-market/spawn_logs", 'FF')	None
+288918610173767565083328486657800094077	('<NA>', "-c echo 'spawn: Injecting libraries...' >> /insider/frida/examples/exploit-market/spawn_logs")	None
+215243481216964015431736151921463632992	('<NA>', "-c echo 'spawn: Injecting libraries...' >> /insider/frida/examples/exploit-market/spawn_logs", 'FF')	None
+26550909377131152090165813562641328806	('<NA>', "-c echo 'spawn: *** injected libjit, id=2' >> /insider/frida/examples/exploit-market/spawn_logs")	None
+67007561417808357306090354252907005648	('<NA>', "-c echo 'spawn: *** injected libjit, id=2' >> /insider/frida/examples/exploit-market/spawn_logs", 'FF')	None
+244158396491974041153805150529761972024	('<NA>', "-c echo 'spawn: Creating agent script...' >> /insider/frida/examples/exploit-market/spawn_logs")	None
+274957174500114540041123496868358738921	('<NA>', "-c echo 'spawn: Creating agent script...' >> /insider/frida/examples/exploit-market/spawn_logs", 'FF')	None
+337921404104213489792141991270872206485	('<NA>', "-c echo 'spawn: *** uninjected id=2' >> /insider/frida/examples/exploit-market/spawn_logs")	None
+258368804287118774404924693672006928700	('<NA>', "-c echo 'spawn: *** uninjected id=2' >> /insider/frida/examples/exploit-market/spawn_logs", 'FF')	None
+90879976242885570904861332745546624218	('<NA>', "-c echo 'spawn: Locating based address for shared libraries...' >> /insider/frida/examples/exploit-market/spawn_logs")	None
+257126300781889941491570150362771210970	('<NA>', "-c echo 'spawn: Locating based address for shared libraries...' >> /insider/frida/examples/exploit-market/spawn_logs", 'FF')	None
+199799111378531274905332489273402653675	('<NA>', "-c echo 'spawn: Finding relocated addresses of shared libraries symbols...' >> /insider/frida/examples/exploit-market/spawn_logs")	None
+154157013462744092480548148852271441000	('<NA>', "-c echo 'spawn: Finding relocated addresses of shared libraries symbols...' >> /insider/frida/examples/exploit-market/spawn_logs", 'FF')	None
+308302807546118586871661224780232433722	('<NA>', "-c echo 'spawn: Mapping libjit API...' >> /insider/frida/examples/exploit-market/spawn_logs")	None
+122216597576756994307239955888498355326	('<NA>', "-c echo 'spawn: Mapping libjit API...' >> /insider/frida/examples/exploit-market/spawn_logs", 'FF')	None
+66292594562545099452720246337597075058	('<NA>', "-c echo 'spawn: Allocating memory for patch bitcode and symbol map...' >> /insider/frida/examples/exploit-market/spawn_logs")	None
+312159130337069699976056474470650627408	('<NA>', "-c echo 'spawn: Allocating memory for patch bitcode and symbol map...' >> /insider/frida/examples/exploit-market/spawn_logs", 'FF')	None
+302289409870738344787405671329669798453	('<NA>', "-c echo 'spawn: JIT-compiling patch bitcode...' >> /insider/frida/examples/exploit-market/spawn_logs")	None
+253220069330487670775890224023014816494	('<NA>', "-c echo 'spawn: JIT-compiling patch bitcode...' >> /insider/frida/examples/exploit-market/spawn_logs", 'FF')	None
+253740414935527507944371302474948079820	('<NA>', "-c echo 'spawn: Pointer for JIT-compiled function _p_is_bad: 0x7fc784db5000' >> /insider/frida/examples/exploit-market/spawn_logs")	None
+135376408620093001190422759937175828148	('<NA>', "-c echo 'spawn: Pointer for JIT-compiled function _p_is_bad: 0x7fc784db5000' >> /insider/frida/examples/exploit-market/spawn_logs", 'FF')	None
+142068515725184933336130055101080334982	('<NA>', "-c echo 'spawn: Pointer for target function is_bad: 0x4007a7' >> /insider/frida/examples/exploit-market/spawn_logs")	None
+281220554026026941305529050308532794700	('<NA>', "-c echo 'spawn: Pointer for target function is_bad: 0x4007a7' >> /insider/frida/examples/exploit-market/spawn_logs", 'FF')	None
+88446512932269223995427760159555321174	('<NA>', "-c echo 'spawn: Trampoline set for target function is_bad' >> /insider/frida/examples/exploit-market/spawn_logs")	None
+238809951125724887127511760889549531875	('<NA>', "-c echo 'spawn: Trampoline set for target function is_bad' >> /insider/frida/examples/exploit-market/spawn_logs", 'FF')	None
+133766571194366268787649431067238233578	('/usr/bin/python3.6', '/usr/share/apport/apport 435 11 18446744073709551615 1 6083 !home!chall!service!ro!exploit-market', 'FF')	None
+88617937306155175747789757281045441236	('/usr/bin/python3.6', '/usr/share/apport/apport 435 11 18446744073709551615 1 6083 !home!chall!service!ro!exploit-market')	None
+32382616971835134497634229986983728265	('<NA>', "-c echo 'spawn: Caught unhandled exception: <class 'ChildProcessError'> ([Errno 10] No child processes)' >> /insider/frida/examples/exploit-market/spawn_logs")	None
+280581382137551784909860361807106417485	('<NA>', "-c echo 'spawn: Caught unhandled exception: <class 'ChildProcessError'> ([Errno 10] No child processes)' >> /insider/frida/examples/exploit-market/spawn_logs", 'FF')	None
+266572669418346864841336136945587822435	('/lib/systemd/systemd-resolved', '', 'FF')	None
+6321668754902351713207960749171740970	('/lib/systemd/systemd-resolved', '')	None
+315043596357812939269125269065338682202	('/lib/systemd/systemd-networkd', '', 'FF')	None
+100190260029730279243848685335914080113	('/lib/systemd/systemd-networkd', '')	None
+76120867213803524383498286210744626842	('/lib/systemd/systemd-timesyncd', '', 'FF')	None
+311245530955340239460782411969205611624	('/lib/systemd/systemd-timesyncd', '')	None
+200766740694419863402856807762899901763	('/lib/systemd/systemd-logind', '', 'FF')	{'mitre:T1059'}
+162080216875236340427850132498319249012	('/lib/systemd/systemd-logind', '')	None
+245118096720447579546357637821343921902	('/usr/bin/containerd-shim-runc-v2', '-namespace moby -id 10250c3aeebd7bd2eb574c75bc3b6328a5f752f8982791fa515ba4bbb12135d9 -address /run/containerd/containerd.sock', 'FF')	None
+304213970672997726330847862265232350044	('/usr/bin/containerd-shim-runc-v2', '-namespace moby -id 10250c3aeebd7bd2eb574c75bc3b6328a5f752f8982791fa515ba4bbb12135d9 -address /run/containerd/containerd.sock')	None
+194432887247740805908617213050053635534	('/usr/bin/dockerd', '-H fd:// --containerd=/run/containerd/containerd.sock', 'NF')	None
+143531359036813820510769969404393106074	('/usr/sbin/rsyslogd', '-n', 'NF')	None
+46570265361440726326020311897111742722	('/usr/sbin/rsyslogd', '-n')	None
+327379278187248992940511138170228020945	('/usr/sbin/rsyslogd', '-n', 'FF')	None
+149298944381784166014375583958219174582	('<NA>', "-c echo 'spawn: Spawning new process (parent PID=462):\n\tcmd: /home/chall/service/ro/exploit-market' >> /insider/frida/examples/exploit-market/spawn_logs")	None
+159215685382751302734865389385442038208	('<NA>', "-c echo 'spawn: Spawning new process (parent PID=462):\n\tcmd: /home/chall/service/ro/exploit-market' >> /insider/frida/examples/exploit-market/spawn_logs", 'FF')	None
+92781934986517009813096915844258286845	('<NA>', "-c echo 'spawn: Spawned process pid: 468' >> /insider/frida/examples/exploit-market/spawn_logs")	None
+222103772944967165513409956348083622465	('<NA>', "-c echo 'spawn: Spawned process pid: 468' >> /insider/frida/examples/exploit-market/spawn_logs", 'FF')	None
+338148515215780890039265919927099874483	('<NA>', "-c echo 'spawn: New session created Session(pid=468)' >> /insider/frida/examples/exploit-market/spawn_logs")	None
+166625111758336140460348607391234017051	('<NA>', "-c echo 'spawn: New session created Session(pid=468)' >> /insider/frida/examples/exploit-market/spawn_logs", 'FF')	None
+174247985665076628111198879920408446554	('<NA>', "-c echo 'spawn: Pointer for JIT-compiled function _p_is_bad: 0x7f1c1659c000' >> /insider/frida/examples/exploit-market/spawn_logs")	None
+140501703145519413967106990609447538459	('<NA>', "-c echo 'spawn: Pointer for JIT-compiled function _p_is_bad: 0x7f1c1659c000' >> /insider/frida/examples/exploit-market/spawn_logs", 'FF')	None
+173986811854860255254420624462593650000	('<NA>', "-c echo 'spawn: Calling surrogate function...' >> /insider/frida/examples/exploit-market/spawn_logs")	None
+280242174557251477122960906760927417528	('<NA>', "-c echo 'spawn: Calling surrogate function...' >> /insider/frida/examples/exploit-market/spawn_logs", 'FF')	None
+336786750506129746430208421487800598882	('/bin/sh', '')	{'mitre:T1106', 'mitre:T1574'}
+102863998432289591544118699011985427028	('/bin/sh', '', 'FF')	None
+204807932276949177105215147163817457998	('/bin/sh', '')	None
+152417820272447973215538788566534837190	('/bin/ls', '')	None
+96901629763286000546077058801726130735	('/bin/ls', '', 'FF')	None
+209139264316911146364798323072874600980	('/bin/rm', 'test')	{'mitre:T1106', 'mitre:T1574'}
+111879676095812742275107635967750235948	('/bin/rm', 'test', 'FF')	None
+135935692217673468858825008372513834586	('/bin/mkdir', 'test')	None
+276846382890860120220272741666338431071	('/bin/mkdir', 'test', 'FF')	None
+98248865498434146415339880543721039321	('/bin/chmod', '777 test')	{'mitre:T1106', 'mitre:T1574'}
+172939882056849270736240310177603780476	('/bin/chmod', '777 test', 'FF')	None
+197755125766973459351406998409424194904	('/usr/bin/clear', '')	None
+288475170321652842823422114918714482875	('/usr/bin/clear', '', 'FF')	None
+81811986262401131837278651675586908706	('<NA>', "-c echo 'spawn: Process 468 exited' >> /insider/frida/examples/exploit-market/spawn_logs")	None
+281543920019282005886614454920717948593	('<NA>', "-c echo 'spawn: Process 468 exited' >> /insider/frida/examples/exploit-market/spawn_logs", 'FF')	None
+171031749883528248820421259197282934826	('<NA>', "-c echo 'spawn: Spawning new process (parent PID=502):\n\tcmd: /home/chall/service/ro/exploit-market' >> /insider/frida/examples/exploit-market/spawn_logs")	None
+266937186799508022443245700189429741650	('<NA>', "-c echo 'spawn: Spawning new process (parent PID=502):\n\tcmd: /home/chall/service/ro/exploit-market' >> /insider/frida/examples/exploit-market/spawn_logs", 'FF')	None
+34341348624044706108345312382728006182	('<NA>', "-c echo 'spawn: Spawned process pid: 508' >> /insider/frida/examples/exploit-market/spawn_logs")	None
+274442343897503161523469200753060220010	('<NA>', "-c echo 'spawn: Spawned process pid: 508' >> /insider/frida/examples/exploit-market/spawn_logs", 'FF')	None
+90107846096434497081285092126935311499	('<NA>', "-c echo 'spawn: New session created Session(pid=508)' >> /insider/frida/examples/exploit-market/spawn_logs")	None
+207172859161507510810327467687741918463	('<NA>', "-c echo 'spawn: New session created Session(pid=508)' >> /insider/frida/examples/exploit-market/spawn_logs", 'FF')	None
+49416078009273784807467745009136034753	('<NA>', "-c echo 'spawn: Pointer for JIT-compiled function _p_is_bad: 0x7fcead47b000' >> /insider/frida/examples/exploit-market/spawn_logs")	None
+147859063711044839336895737423559485202	('<NA>', "-c echo 'spawn: Pointer for JIT-compiled function _p_is_bad: 0x7fcead47b000' >> /insider/frida/examples/exploit-market/spawn_logs", 'FF')	None
+108608216974900236638542772837137557546	('/usr/bin/python3.6', '/usr/share/apport/apport 508 11 18446744073709551615 1 6161 !home!chall!service!ro!exploit-market', 'FF')	None
+168136680394305786443742021342323895235	('/usr/bin/python3.6', '/usr/share/apport/apport 508 11 18446744073709551615 1 6161 !home!chall!service!ro!exploit-market')	None

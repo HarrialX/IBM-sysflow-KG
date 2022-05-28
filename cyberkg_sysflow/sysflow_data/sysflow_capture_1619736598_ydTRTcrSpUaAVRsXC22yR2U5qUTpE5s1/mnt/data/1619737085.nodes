@@ -1,0 +1,2 @@
+36825362346452066385488300683986723874	('/usr/sbin/xinetd', '-filelog - -dontfork -f /know_your_mem.conf', 'FF')	None
+170609596376196390804132643594924428688	('/usr/sbin/xinetd', '-filelog - -dontfork -f /know_your_mem.conf')	None

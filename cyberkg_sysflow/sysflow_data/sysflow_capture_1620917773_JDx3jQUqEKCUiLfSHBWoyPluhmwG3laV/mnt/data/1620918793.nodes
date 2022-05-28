@@ -1,0 +1,6 @@
+263917622232600238186351559280632291458	('/usr/bin/python3', '/rick/backend.py doit')	None
+107596011671832140156777389126183501626	('/usr/bin/timeout', '-k1 120 stdbuf -i0 -o0 -e0 /rick/backend.py doit', 'FF')	None
+322253798999537112829320776485710811711	('/usr/bin/timeout', '-k1 120 stdbuf -i0 -o0 -e0 /rick/backend.py doit')	None
+212238013819957586699116567132325173410	('/opt/wrapper', '/opt/wrapper')	None
+322297861777159498070486453112614403075	('/usr/sbin/xinetd', '-syslog local0 -dontfork -f /etc/xinetd.d/rick.conf', 'FF')	None
+295313912126576234118945627575913814680	('/usr/sbin/xinetd', '-syslog local0 -dontfork -f /etc/xinetd.d/rick.conf')	None

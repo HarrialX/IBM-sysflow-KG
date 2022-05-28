@@ -1,0 +1,17 @@
+113005233360512556449157783290625551350	('/opt/schitzo', '10 /bin/bash -i')	None
+25861330570106383123844194527521379374	('/opt/wrapper', '/opt/wrapper')	None
+71235463508433329407881901411253784049	('/bin/bash', '-i')	{'mitre:T1106', 'mitre:T1574'}
+291271720636876522950537057387745451588	('/usr/sbin/xinetd', '-filelog - -dontfork -f /etc/xinetd.d/ooobash.conf')	None
+148500486659959682696502857173092262428	('/usr/sbin/xinetd', '-filelog - -dontfork -f /etc/xinetd.d/ooobash.conf')	None
+116356633829194726059331594569076066591	('/usr/sbin/xinetd', '-filelog - -dontfork -f /etc/xinetd.d/ooobash.conf', 'NF')	None
+261976949325960685771444483150559823725	('/usr/sbin/xinetd', '-filelog - -dontfork -f /etc/xinetd.d/ooobash.conf', 'FF')	None
+34519427567414510063812515470300328144	('/usr/sbin/xinetd', '-filelog - -dontfork -f /etc/xinetd.d/ooobash.conf', 'NF')	None
+267143608951410046587342847609576554171	('/opt/wrapper', '/opt/wrapper', 'FF')	None
+327994812410922233426591280566079220801	('/opt/wrapper', '/opt/wrapper')	None
+109684858811708500054267489866710947863	('/usr/bin/stdbuf', '-i0 -o0 -e0 /opt/schitzo 10 /bin/bash -i')	{'mitre:T1106', 'mitre:T1574'}
+258989907665899525132266672276752992346	('/usr/bin/stdbuf', '-i0 -o0 -e0 /opt/schitzo 10 /bin/bash -i', 'FF')	None
+296421345175357006595495106030854048588	('/opt/schitzo', '10 /bin/bash -i', 'FF')	None
+175864032106370757878642328465423379889	('/opt/schitzo', '10 /bin/bash -i')	None
+209530609937918584421780849215403936855	('/bin/bash', '-i', 'FF')	{'mitre:T1041', 'mitre:T1059'}
+33993162942305586526644256807443192430	('/bin/bash', '-i', 'NF')	None
+315764447383332035868784054297394371066	('/usr/sbin/xinetd', '-filelog - -dontfork -f /etc/xinetd.d/ooobash.conf', 'FF')	None

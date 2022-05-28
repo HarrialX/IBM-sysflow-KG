@@ -1,0 +1,22 @@
+312920191722222045748872508758211028604	('/usr/sbin/xinetd', '-syslog local0 -dontfork -f /etc/xinetd.d/introool.conf', 'NF')	None
+219245392288376105081727749340155033994	('/usr/sbin/xinetd', '-syslog local0 -dontfork -f /etc/xinetd.d/introool.conf')	None
+257166562280063769409492345121718924839	('/usr/sbin/xinetd', '-syslog local0 -dontfork -f /etc/xinetd.d/introool.conf')	None
+205776868566067125802148011086502504613	('/usr/sbin/xinetd', '-syslog local0 -dontfork -f /etc/xinetd.d/introool.conf', 'FF')	None
+132993797209198410175398231466755512437	('/opt/wrapper', '/opt/wrapper')	None
+241523863274286390829423273521528116499	('/opt/wrapper', '/opt/wrapper', 'FF')	None
+327994812410922233426591280566079220801	('/opt/wrapper', '/opt/wrapper')	None
+134585622406778968498548224909346153803	('/opt/wrapper', '/opt/wrapper', 'FF')	None
+38439502934792495551782178342936596841	('/bin/mktemp', '-d')	{'mitre:T1106', 'mitre:T1574'}
+143086359656725121141596819622766818655	('/bin/mktemp', '-d', 'FF')	None
+206237173361906404125920561437246108758	('/usr/bin/timeout', '-k1 15 stdbuf -i0 -o0 -e0 /introool/x.py doit --dir /tmp/tmp.oYKlxpOTag')	None
+309951544736989394913927002604818749499	('/usr/bin/timeout', '-k1 15 stdbuf -i0 -o0 -e0 /introool/x.py doit --dir /tmp/tmp.oYKlxpOTag', 'FF')	None
+36409742011956018424610350356536519195	('/usr/bin/timeout', '-k1 15 stdbuf -i0 -o0 -e0 /introool/x.py doit --dir /tmp/tmp.oYKlxpOTag')	None
+2052813626729776699115865717906652601	('/usr/bin/stdbuf', '-i0 -o0 -e0 /introool/x.py doit --dir /tmp/tmp.oYKlxpOTag')	{'mitre:T1106', 'mitre:T1574'}
+194205064768672485090049309305248618135	('/usr/bin/stdbuf', '-i0 -o0 -e0 /introool/x.py doit --dir /tmp/tmp.oYKlxpOTag', 'FF')	None
+149293005780447521914099820984211569004	('/introool/x.py', 'python3 /introool/x.py doit --dir /tmp/tmp.oYKlxpOTag')	None
+316312218899671719843604102728406788698	('/introool/x.py', 'python3 /introool/x.py doit --dir /tmp/tmp.oYKlxpOTag', 'FF')	None
+217834566838246724002175162338706259418	('/usr/bin/python3', '/introool/x.py doit --dir /tmp/tmp.oYKlxpOTag')	None
+65488510870529968025892301286829229733	('/usr/bin/python3', '/introool/x.py doit --dir /tmp/tmp.oYKlxpOTag', 'FF')	None
+108336434629103510785996153973892746274	('/bin/rm', '-rf /tmp/tmp.oYKlxpOTag')	{'mitre:T1106', 'mitre:T1574'}
+267824500746600453328786179699319009792	('/bin/rm', '-rf /tmp/tmp.oYKlxpOTag', 'FF')	None
+122022295421456896013330666874304658914	('/usr/sbin/xinetd', '-syslog local0 -dontfork -f /etc/xinetd.d/introool.conf', 'FF')	None

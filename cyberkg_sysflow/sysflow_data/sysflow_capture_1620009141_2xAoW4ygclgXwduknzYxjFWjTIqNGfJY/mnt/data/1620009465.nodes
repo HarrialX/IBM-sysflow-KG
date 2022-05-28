@@ -1,0 +1,10 @@
+308572601164415527096160904921621553789	('/uml/linux', 'rootflags= rootfstype=hostfs rw mem=64M eth0=slirp,,/slirp.sh init=/init.sh', 'FF')	None
+282666512442858036041566171856280079746	('/uml/linux', 'rootflags= rootfstype=hostfs rw mem=64M eth0=slirp,,/slirp.sh init=/init.sh')	None
+296957458311218112768110599279280250295	('/uml/usr/bin/slirp-fullbolt', 'host addr 172.17.0.3 redir 30000 1999 redir 2000 2000', 'FF')	None
+230799822606739920701687107708474666148	('/uml/usr/bin/slirp-fullbolt', 'host addr 172.17.0.3 redir 30000 1999 redir 2000 2000')	None
+23916163415725017353312670903769586057	('/uml/usr/bin/slirp-fullbolt', 'host addr 172.17.0.3 redir 30000 1999 redir 2000 2000', 'NF')	None
+133445788781090909164426690354041133357	('/usr/bin/socat', '- TCP:localhost:30000,retry=5,interval=5,nodelay', 'FF')	None
+31493936545904289446756091930787879997	('/usr/bin/socat', '- TCP:localhost:30000,retry=5,interval=5,nodelay')	None
+9733838688211301223559595976126989070	('/usr/bin/socat', '- TCP:localhost:30000,retry=5,interval=5,nodelay', 'NF')	None
+15636119995934481944086484973052226019	('/uml/linux', 'rootflags= rootfstype=hostfs rw mem=64M eth0=slirp,,/slirp.sh init=/init.sh', 'FF')	None
+115787939500596537049253343712526259003	('/uml/linux', 'rootflags= rootfstype=hostfs rw mem=64M eth0=slirp,,/slirp.sh init=/init.sh')	None

@@ -1,0 +1,24 @@
+199284788943845620824454346619501864143	('/service', '', 'NF')	None
+78621596806901206476729155446794034099	('/service', '')	None
+291732875396968869633740959351188612232	('/service', '', 'FF')	None
+186239688825054531237044478232906666007	('/usr/bin/timeout', '-k1 240 stdbuf -i0 -o0 -e0 /service')	None
+321972239926902626934459530685695356614	('/usr/bin/dash', '/wrapper', 'FF')	None
+201578700685340095534107003296268633887	('/usr/bin/dash', '/wrapper')	None
+89637195229540922259237175001790315319	('/usr/sbin/xinetd', '-filelog /dev/stderr -dontfork -f /service.conf', 'NF')	None
+165607620418772764426330560313180230707	('/usr/sbin/xinetd', '-filelog /dev/stderr -dontfork -f /service.conf')	None
+212613514516228522457708602619781564972	('/usr/sbin/xinetd', '-filelog /dev/stderr -dontfork -f /service.conf')	None
+233885143682393732519264065553165435770	('/usr/sbin/xinetd', '-filelog /dev/stderr -dontfork -f /service.conf', 'FF')	None
+248344850019974939037975972512707743735	('/wrapper', '/wrapper')	None
+160223988526374206997411003906483908932	('/wrapper', '/wrapper', 'FF')	None
+181804828473323254158869610862137201310	('/wrapper', '/wrapper')	None
+199958350667925935604330471471639326020	('/usr/bin/timeout', '-k1 240 stdbuf -i0 -o0 -e0 /service')	None
+167863026781299050438689083702487285693	('/usr/bin/timeout', '-k1 240 stdbuf -i0 -o0 -e0 /service', 'FF')	None
+148962587108588072534945384484486115419	('/usr/bin/timeout', '-k1 240 stdbuf -i0 -o0 -e0 /service')	None
+257334853354350364784345239857980969404	('/usr/bin/stdbuf', '-i0 -o0 -e0 /service')	{'mitre:T1106', 'mitre:T1574'}
+300528443527215990176945176814636104165	('/usr/bin/stdbuf', '-i0 -o0 -e0 /service', 'FF')	None
+118261162670598378534683890456764571895	('/service', '')	None
+192068577114945889668887098457190628003	('/bin/sh', '-c toilet --metal pOOOw buddy')	{'mitre:T1106', 'mitre:T1574'}
+54705330628749907171129008540861721148	('/bin/sh', '-c toilet --metal pOOOw buddy', 'FF')	None
+185798443624417403490638658035529270597	('/bin/sh', '-c toilet --metal pOOOw buddy')	None
+45680157081691593707457832739122121092	('/usr/bin/toilet', '--metal pOOOw buddy')	None
+206446139461451284159367974629949792052	('/usr/bin/toilet', '--metal pOOOw buddy', 'FF')	None

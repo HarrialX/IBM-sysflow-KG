@@ -1,0 +1,5 @@
+113005233360512556449157783290625551350	('/opt/schitzo', '10 /bin/bash -i')	None
+25861330570106383123844194527521379374	('/opt/wrapper', '/opt/wrapper')	None
+71235463508433329407881901411253784049	('/bin/bash', '-i')	None
+315764447383332035868784054297394371066	('/usr/sbin/xinetd', '-filelog - -dontfork -f /etc/xinetd.d/ooobash.conf', 'FF')	None
+148500486659959682696502857173092262428	('/usr/sbin/xinetd', '-filelog - -dontfork -f /etc/xinetd.d/ooobash.conf')	None

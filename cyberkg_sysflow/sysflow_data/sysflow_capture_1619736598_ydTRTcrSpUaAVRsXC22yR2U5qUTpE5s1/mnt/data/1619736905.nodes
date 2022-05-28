@@ -1,0 +1,6 @@
+202414231774565160695019076001290722263	('/usr/sbin/xinetd', '-filelog - -dontfork -f /know_your_mem.conf', 'NF')	None
+230622824462486393050674432216182403619	('/usr/sbin/xinetd', '-filelog - -dontfork -f /know_your_mem.conf')	None
+27768450104824895763242306723079493340	('/usr/sbin/xinetd', '-filelog - -dontfork -f /know_your_mem.conf')	None
+117125878120653310561272551250843148231	('/usr/sbin/xinetd', '-filelog - -dontfork -f /know_your_mem.conf', 'FF')	None
+49605713726368089344537642807286528427	('/know_your_mem', '')	None
+86646846413361551671194099498148987832	('/know_your_mem', '', 'FF')	None

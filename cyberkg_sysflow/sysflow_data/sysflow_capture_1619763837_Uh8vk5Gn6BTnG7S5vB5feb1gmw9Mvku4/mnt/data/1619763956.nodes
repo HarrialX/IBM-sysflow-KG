@@ -1,0 +1,44 @@
+161707018222879228599768286778210875699	('/usr/sbin/xinetd', '-syslog local0 -dontfork -f /etc/xinetd.d/introool.conf', 'FF')	None
+307373800637898500221525151677823150207	('/usr/sbin/xinetd', '-syslog local0 -dontfork -f /etc/xinetd.d/introool.conf')	None
+324577014479400407382272982600635653277	('/usr/sbin/xinetd', '-syslog local0 -dontfork -f /etc/xinetd.d/introool.conf', 'NF')	None
+257166562280063769409492345121718924839	('/usr/sbin/xinetd', '-syslog local0 -dontfork -f /etc/xinetd.d/introool.conf')	None
+205776868566067125802148011086502504613	('/usr/sbin/xinetd', '-syslog local0 -dontfork -f /etc/xinetd.d/introool.conf', 'FF')	None
+132993797209198410175398231466755512437	('/opt/wrapper', '/opt/wrapper')	None
+241523863274286390829423273521528116499	('/opt/wrapper', '/opt/wrapper', 'FF')	None
+327994812410922233426591280566079220801	('/opt/wrapper', '/opt/wrapper')	None
+134585622406778968498548224909346153803	('/opt/wrapper', '/opt/wrapper', 'FF')	None
+38439502934792495551782178342936596841	('/bin/mktemp', '-d')	{'mitre:T1106', 'mitre:T1574'}
+143086359656725121141596819622766818655	('/bin/mktemp', '-d', 'FF')	None
+106737542721477895868703202016925903803	('/usr/bin/timeout', '-k1 15 stdbuf -i0 -o0 -e0 /introool/x.py doit --dir /tmp/tmp.riytUWwtLg')	None
+218201887530150219603404741050958165839	('/usr/bin/timeout', '-k1 15 stdbuf -i0 -o0 -e0 /introool/x.py doit --dir /tmp/tmp.riytUWwtLg', 'FF')	None
+1819102311395612708099563393000186388	('/usr/bin/timeout', '-k1 15 stdbuf -i0 -o0 -e0 /introool/x.py doit --dir /tmp/tmp.riytUWwtLg')	None
+140583471845460801977711859914510830058	('/usr/bin/stdbuf', '-i0 -o0 -e0 /introool/x.py doit --dir /tmp/tmp.riytUWwtLg')	{'mitre:T1106', 'mitre:T1574'}
+217910803265903647089268740487029364217	('/usr/bin/stdbuf', '-i0 -o0 -e0 /introool/x.py doit --dir /tmp/tmp.riytUWwtLg', 'FF')	None
+14542265409063110363537400170397461104	('/introool/x.py', 'python3 /introool/x.py doit --dir /tmp/tmp.riytUWwtLg')	None
+143902362464876078844801666279635419970	('/introool/x.py', 'python3 /introool/x.py doit --dir /tmp/tmp.riytUWwtLg', 'FF')	None
+243318275761922319997796049898105863894	('/usr/bin/python3', '/introool/x.py doit --dir /tmp/tmp.riytUWwtLg')	None
+131730544547803132475797607347860439190	('/usr/bin/python3', '/introool/x.py doit --dir /tmp/tmp.riytUWwtLg', 'FF')	None
+307937477884115686495354058831100503036	('/bin/rm', '-rf /tmp/tmp.riytUWwtLg')	{'mitre:T1106', 'mitre:T1574'}
+272899652674800179753400097593982772105	('/bin/rm', '-rf /tmp/tmp.riytUWwtLg', 'FF')	None
+118068125568951470265301522012050576993	('/usr/bin/timeout', '-k1 15 stdbuf -i0 -o0 -e0 /introool/x.py doit --dir /tmp/tmp.ReIRDqMs3s')	None
+189466022058479092665035221426043003287	('/usr/bin/timeout', '-k1 15 stdbuf -i0 -o0 -e0 /introool/x.py doit --dir /tmp/tmp.ReIRDqMs3s', 'FF')	None
+275862622999247247187889536095478890744	('/usr/bin/timeout', '-k1 15 stdbuf -i0 -o0 -e0 /introool/x.py doit --dir /tmp/tmp.ReIRDqMs3s')	None
+189702821270029379699410668846637247759	('/usr/bin/stdbuf', '-i0 -o0 -e0 /introool/x.py doit --dir /tmp/tmp.ReIRDqMs3s')	{'mitre:T1106', 'mitre:T1574'}
+192332399123045495455114295557123188820	('/usr/bin/stdbuf', '-i0 -o0 -e0 /introool/x.py doit --dir /tmp/tmp.ReIRDqMs3s', 'FF')	None
+140339731881022349321129568747384180102	('/introool/x.py', 'python3 /introool/x.py doit --dir /tmp/tmp.ReIRDqMs3s')	None
+306786753494578143713286667778098658827	('/introool/x.py', 'python3 /introool/x.py doit --dir /tmp/tmp.ReIRDqMs3s', 'FF')	None
+275712137407170394208008436457870575470	('/usr/bin/python3', '/introool/x.py doit --dir /tmp/tmp.ReIRDqMs3s')	None
+38364943644196937924296416149600107094	('/usr/bin/python3', '/introool/x.py doit --dir /tmp/tmp.ReIRDqMs3s', 'FF')	None
+74617036158844413273114158146995989379	('/bin/rm', '-rf /tmp/tmp.ReIRDqMs3s')	{'mitre:T1106', 'mitre:T1574'}
+173681203860668456903948518463329635271	('/bin/rm', '-rf /tmp/tmp.ReIRDqMs3s', 'FF')	None
+288926899871089653957674309942764642674	('/usr/bin/timeout', '-k1 15 stdbuf -i0 -o0 -e0 /introool/x.py doit --dir /tmp/tmp.fx17NzuPBv')	None
+223162238498340786187044787773814128132	('/usr/bin/timeout', '-k1 15 stdbuf -i0 -o0 -e0 /introool/x.py doit --dir /tmp/tmp.fx17NzuPBv', 'FF')	None
+147586164632441162931052080353214703698	('/usr/bin/timeout', '-k1 15 stdbuf -i0 -o0 -e0 /introool/x.py doit --dir /tmp/tmp.fx17NzuPBv')	None
+10299521236330755927381097261394656361	('/usr/bin/stdbuf', '-i0 -o0 -e0 /introool/x.py doit --dir /tmp/tmp.fx17NzuPBv')	{'mitre:T1106', 'mitre:T1574'}
+281122254161565146738203911731290707925	('/usr/bin/stdbuf', '-i0 -o0 -e0 /introool/x.py doit --dir /tmp/tmp.fx17NzuPBv', 'FF')	None
+284391144698477700672428461948072532828	('/introool/x.py', 'python3 /introool/x.py doit --dir /tmp/tmp.fx17NzuPBv')	None
+156053196439175302128923511547399813194	('/introool/x.py', 'python3 /introool/x.py doit --dir /tmp/tmp.fx17NzuPBv', 'FF')	None
+38831209021427906199521728473899276823	('/usr/bin/python3', '/introool/x.py doit --dir /tmp/tmp.fx17NzuPBv')	None
+275323869200074792023628996675699883152	('/usr/bin/python3', '/introool/x.py doit --dir /tmp/tmp.fx17NzuPBv', 'FF')	None
+139001879765440695239952171969093135720	('/bin/rm', '-rf /tmp/tmp.fx17NzuPBv')	{'mitre:T1106', 'mitre:T1574'}
+316079630621306962820549114841426970020	('/bin/rm', '-rf /tmp/tmp.fx17NzuPBv', 'FF')	None

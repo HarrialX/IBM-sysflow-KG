@@ -1,0 +1,230 @@
+203046543664069702495774304824401494194	('/usr/sbin/irqbalance', '--foreground', 'FF')	None
+264072776791094588057200014465327940943	('/usr/sbin/irqbalance', '--foreground')	None
+164032422607533106840303254473568259920	('/usr/sbin/openvpn', '--daemon ovpn-client --status /run/openvpn/client.status 10 --cd /etc/openvpn --script-security 2 --config /etc/openvpn/client.conf --writepid /run/openvpn/client.pid', 'FF')	None
+40503314233991184311583421659681684940	('/usr/sbin/openvpn', '--daemon ovpn-client --status /run/openvpn/client.status 10 --cd /etc/openvpn --script-security 2 --config /etc/openvpn/client.conf --writepid /run/openvpn/client.pid')	None
+12751352799540237224514627656429439075	('/usr/sbin/openvpn', '--daemon ovpn-client --status /run/openvpn/client.status 10 --cd /etc/openvpn --script-security 2 --config /etc/openvpn/client.conf --writepid /run/openvpn/client.pid', 'NF')	None
+105337614666955925036584247068112968500	('/snap/amazon-ssm-agent/4046/amazon-ssm-agent', '')	None
+327867969869831915191934110595062499350	('/snap/amazon-ssm-agent/4046/amazon-ssm-agent', '')	None
+334565776516558573631534134952863647346	('/snap/amazon-ssm-agent/4046/amazon-ssm-agent', '', 'FF')	None
+139124548033336773787321116882599357312	('/bin/ps', '-e -o pid,ppid,state,command')	None
+331266435681907867594682088954840864026	('/bin/ps', '-e -o pid,ppid,state,command', 'FF')	None
+231176172021269142654020886344472871434	('/usr/bin/containerd-shim-runc-v2', '-namespace moby -id 4e2a5b82f456a2a8e7203d9481c25ec91bb7382f9009e371775792dbcc36c32c -address /run/containerd/containerd.sock', 'FF')	None
+248877310713388949151823270147363033122	('/usr/bin/containerd-shim-runc-v2', '-namespace moby -id 4e2a5b82f456a2a8e7203d9481c25ec91bb7382f9009e371775792dbcc36c32c -address /run/containerd/containerd.sock')	None
+93762949540555119844034065645818967613	('/usr/bin/dockerd', '-H fd:// --containerd=/run/containerd/containerd.sock', 'FF')	None
+288807639575301899814947492087725363578	('/usr/bin/dockerd', '-H fd:// --containerd=/run/containerd/containerd.sock')	None
+141569440973093537648103419280585121237	('/snap/snapd/13170/usr/lib/snapd/snapd', '', 'FF')	None
+190425002445025916559475863475280949826	('/snap/snapd/13170/usr/lib/snapd/snapd', '')	None
+141714468030420618795043395101774151869	('/lib/systemd/systemd', '', 'FF')	None
+122393967074279006578614696426244910108	('/lib/systemd/systemd', '')	None
+236777347082984229975202690910384811105	('/usr/sbin/sshd', '-D', 'FF')	None
+267942343699436598004123322791080536762	('/usr/sbin/sshd', '-D')	None
+280605575614704174216035038568713977413	('/usr/sbin/sshd', '-D', 'NF')	None
+214449763833412675686719951160289363209	('/usr/sbin/sshd', '-D')	None
+279768885263247803471955410458704570130	('/usr/sbin/sshd', '-D', 'FF')	None
+250776787095591502214870014972926298274	('/usr/sbin/sshd', '-D -R')	None
+204768801975092365905772019818694203087	('/usr/sbin/sshd', '-D -R', 'FF')	None
+215617902056850867090254569758307794597	('/usr/sbin/sshd', '   ', 'FF')	None
+159871626075177183891088141963757811953	('/usr/sbin/sshd', '   ')	None
+56137923281703366806412482512672911468	('/lib/systemd/systemd-journald', '', 'FF')	None
+163424344929093476444125798498813580862	('/lib/systemd/systemd-journald', '')	None
+130879875965077524547697239810120063701	('/usr/sbin/sshd', '   ', 'NF')	None
+200766740694419863402856807762899901763	('/lib/systemd/systemd-logind', '', 'FF')	{'mitre:T1087', 'mitre:T1059'}
+162080216875236340427850132498319249012	('/lib/systemd/systemd-logind', '')	None
+154012968327346300593332845969883190465	('/lib/systemd/systemd', '')	None
+310922599503049994590450838058483816010	('/lib/systemd/systemd', '', 'FF')	{'mitre:T1087'}
+308864540733508640336184766967636256991	('/lib/systemd/systemd', '--user')	None
+163545030284076939880367880281715010005	('/lib/systemd/systemd', '--user', 'FF')	None
+124476059961100249015432726381810310834	('/lib/systemd/systemd', '--user')	None
+57222396566864107027170526120520173597	('/lib/systemd/systemd', '--user', 'FF')	None
+26622606001595959862724699621971755452	('/usr/lib/systemd/user-environment-generators/30-systemd-environment-d-generator', '')	None
+203338960428886674236841036187249020300	('/usr/lib/systemd/user-environment-generators/30-systemd-environment-d-generator', '', 'FF')	None
+218952794926519116503656796714238651136	('/usr/lib/systemd/user-environment-generators/90gpg-agent', '/usr/lib/systemd/user-environment-generators/90gpg-agent')	None
+197104066265964528581940088349653658996	('/usr/lib/systemd/user-environment-generators/90gpg-agent', '/usr/lib/systemd/user-environment-generators/90gpg-agent', 'FF')	None
+187532231996311299002293245403575484543	('/usr/lib/systemd/user-environment-generators/90gpg-agent', '/usr/lib/systemd/user-environment-generators/90gpg-agent')	None
+195567948553146312962549779334018377830	('/usr/lib/systemd/user-environment-generators/90gpg-agent', '/usr/lib/systemd/user-environment-generators/90gpg-agent', 'FF')	None
+141486351644029641870736679300833519864	('/usr/bin/gpgconf', '--list-dirs agent-socket')	None
+16618548774009924991827047846488507468	('/usr/bin/gpgconf', '--list-dirs agent-socket', 'FF')	None
+179201533908270084490846157101896767200	('/usr/bin/gpgconf', '--list-options gpg-agent')	None
+301823010596879423775562611704598786095	('/usr/bin/gpgconf', '--list-options gpg-agent', 'FF')	None
+144621351898003634002356399452261184425	('/usr/bin/gpgconf', '--list-options gpg-agent')	None
+27586965615712712164767449423473916258	('/usr/bin/gpgconf', '--list-options gpg-agent', 'FF')	None
+309808534612689844271896593045709789251	('/usr/bin/gpg-agent', '--gpgconf-list')	None
+337103667868473004804997562385887429775	('/usr/bin/awk', '-F: /^enable-ssh-support:/{ print $10 }')	{'mitre:T1106', 'mitre:T1574'}
+194352370704793861406752593120253170706	('/usr/bin/gpg-agent', '--gpgconf-list', 'FF')	None
+134758712887994087629104165600765306536	('/usr/bin/awk', '-F: /^enable-ssh-support:/{ print $10 }', 'FF')	None
+307624972938797747720798045998961538350	('/lib/systemd/systemd', '--user', 'NF')	None
+137871098449217528146887267741514656734	('/usr/bin/dbus-daemon', '--system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only', 'FF')	None
+321267887862702818606616863940352674204	('/usr/bin/dbus-daemon', '--system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only')	None
+335978744208145253167307664580421667417	('<NA>', '-c /usr/bin/env -i PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin run-parts --lsbsysinit /etc/update-motd.d > /run/motd.dynamic.new')	None
+47028186315369782264874194231496084032	('<NA>', '-c /usr/bin/env -i PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin run-parts --lsbsysinit /etc/update-motd.d > /run/motd.dynamic.new', 'FF')	None
+338929070735252040230337482599048879715	('<NA>', '-c /usr/bin/env -i PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin run-parts --lsbsysinit /etc/update-motd.d > /run/motd.dynamic.new')	None
+70045845640932161992068060573783264412	('/usr/bin/env', '-i PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin run-parts --lsbsysinit /etc/update-motd.d')	{'mitre:T1106', 'mitre:T1574'}
+338008699161514596510640490607545704369	('/usr/bin/env', '-i PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin run-parts --lsbsysinit /etc/update-motd.d', 'FF')	None
+196610549562014170677693466622864995383	('/bin/run-parts', '--lsbsysinit /etc/update-motd.d')	None
+209943082902670314962477643442728900604	('/bin/run-parts', '--lsbsysinit /etc/update-motd.d', 'FF')	None
+40588606554634150991177340196467387419	('/bin/run-parts', '--lsbsysinit /etc/update-motd.d')	None
+313018023161773544225558328744671485755	('/etc/update-motd.d/00-header', '/etc/update-motd.d/00-header')	None
+289294620842138151603697641351611811199	('/etc/update-motd.d/00-header', '/etc/update-motd.d/00-header', 'FF')	None
+265660696870383039464785174500604571006	('/etc/update-motd.d/00-header', '/etc/update-motd.d/00-header')	None
+269010803915981180411661042802842333367	('/etc/update-motd.d/00-header', '/etc/update-motd.d/00-header', 'FF')	None
+250466213732147646792733744431709366904	('/bin/uname', '-o')	None
+109942331631855419874482551630623603519	('/bin/uname', '-o', 'FF')	None
+174467454216884700096910599909705150690	('/bin/uname', '-r')	None
+32670788140182632953901596361954145088	('/bin/uname', '-r', 'FF')	None
+266972334331698050736925316394192084756	('/bin/uname', '-m')	None
+123767368147408883558643450248988518361	('/bin/uname', '-m', 'FF')	None
+99257777790636707238034018828022977475	('/etc/update-motd.d/10-help-text', '/etc/update-motd.d/10-help-text')	None
+298221304503038774500523382929677419105	('/etc/update-motd.d/10-help-text', '/etc/update-motd.d/10-help-text', 'FF')	None
+45391956405429553290464590971683249876	('/etc/update-motd.d/50-landscape-sysinfo', '/etc/update-motd.d/50-landscape-sysinfo')	None
+262999159215979890406756817537252737698	('/etc/update-motd.d/50-landscape-sysinfo', '/etc/update-motd.d/50-landscape-sysinfo', 'FF')	None
+149184695763415677380046454056916341922	('/etc/update-motd.d/50-landscape-sysinfo', '/etc/update-motd.d/50-landscape-sysinfo')	None
+33997172764127504019897894990620510118	('/etc/update-motd.d/50-landscape-sysinfo', '/etc/update-motd.d/50-landscape-sysinfo', 'FF')	None
+152819525602886655428652287181507392786	('/bin/grep', '-c ^processor /proc/cpuinfo')	None
+147412235352008731036823830781275687313	('/bin/grep', '-c ^processor /proc/cpuinfo', 'FF')	None
+131711429927627313938509006824808431597	('/usr/bin/bc', '')	None
+211231492616923393937035815064645732352	('/usr/bin/bc', '', 'FF')	None
+292203098130054585869027074249814821775	('/usr/bin/cut', '-f1 -d   /proc/loadavg')	None
+247243037735601808285986347045618389877	('/usr/bin/cut', '-f1 -d   /proc/loadavg', 'FF')	None
+48615322676922363668856693964169518123	('/bin/date', '')	None
+10294142183491506208622837335942591972	('/bin/date', '', 'FF')	None
+17434643758122585909024092584445943933	('/usr/bin/landscape-sysinfo', '/usr/bin/landscape-sysinfo')	None
+230889904347133652012090558913243474589	('/usr/bin/landscape-sysinfo', '/usr/bin/landscape-sysinfo', 'FF')	None
+144456392388250864394723696645915471524	('/usr/bin/landscape-sysinfo', '/usr/bin/landscape-sysinfo')	None
+259262258844356946738772432426570466425	('/usr/bin/landscape-sysinfo', '/usr/bin/landscape-sysinfo', 'FF')	None
+37653547418608445369711338813008564663	('/sbin/ldconfig', '/sbin/ldconfig -p')	None
+216443058430669633170621690024953445963	('/sbin/ldconfig', '/sbin/ldconfig -p', 'FF')	None
+104476974690381294447055849142315656914	('/sbin/ldconfig.real', '-p')	None
+42212763783327631381889071291121444135	('/sbin/ldconfig.real', '-p', 'FF')	None
+310917003351603401041593220904775232538	('/usr/bin/landscape-sysinfo', '/usr/bin/landscape-sysinfo', 'NF')	None
+118742409627733898484910766557652612770	('/usr/bin/who', '-q')	{'mitre:T1106', 'mitre:T1574'}
+283441281867718943517729684636222976146	('/usr/bin/who', '-q', 'FF')	None
+303369028119661967696628210545147382543	('/etc/update-motd.d/50-motd-news', '/etc/update-motd.d/50-motd-news')	None
+181344378167895988356849248548685045040	('/etc/update-motd.d/50-motd-news', '/etc/update-motd.d/50-motd-news', 'FF')	None
+283095568978767627519477326589475862475	('/etc/update-motd.d/50-motd-news', '/etc/update-motd.d/50-motd-news')	None
+164331928458302389509876390540959218635	('/etc/update-motd.d/50-motd-news', '/etc/update-motd.d/50-motd-news', 'FF')	None
+249897414641746751897068906752199948485	('/bin/cat', '/var/cache/motd-news')	None
+104177233743890835041924492558113752386	('/bin/cat', '/var/cache/motd-news', 'FF')	None
+163310405885770913461613032663358910994	('/usr/bin/head', '-n 10')	None
+338029061688269873399214346332217970752	('/usr/bin/head', '-n 10', 'FF')	None
+332731645920980212416678460972993090638	('/usr/bin/tr', '-d \\000-\\011\\013\\014\\016-\\037')	None
+182373189499540946571671879369657728795	('/usr/bin/tr', '-d \\000-\\011\\013\\014\\016-\\037', 'FF')	None
+69062615191151880311212367273168624500	('/usr/bin/cut', '-c -80')	None
+104685548241180121868445976562331642826	('/usr/bin/cut', '-c -80', 'FF')	None
+214278446617382196111433034989095083882	('/etc/update-motd.d/88-esm-announce', '/etc/update-motd.d/88-esm-announce')	None
+38995960755219942101156149897132161357	('/etc/update-motd.d/88-esm-announce', '/etc/update-motd.d/88-esm-announce', 'FF')	None
+259666340773895848924338802294910261883	('/etc/update-motd.d/90-updates-available', '/etc/update-motd.d/90-updates-available')	None
+312987902889580555560595834409631862407	('/etc/update-motd.d/90-updates-available', '/etc/update-motd.d/90-updates-available', 'FF')	None
+289277730861657992997580381002379792239	('/etc/update-motd.d/90-updates-available', '/etc/update-motd.d/90-updates-available')	None
+226373869784436100766381734106859998439	('/bin/cat', '/var/lib/update-notifier/updates-available')	None
+62723372257432501716636258845223498041	('/bin/cat', '/var/lib/update-notifier/updates-available', 'FF')	None
+332932564117160224050280470886840199850	('/etc/update-motd.d/91-contract-ua-esm-status', '/etc/update-motd.d/91-contract-ua-esm-status')	None
+176500654191841163978692965823221412243	('/etc/update-motd.d/91-contract-ua-esm-status', '/etc/update-motd.d/91-contract-ua-esm-status', 'FF')	None
+178636877251223932463000855219573821578	('/etc/update-motd.d/91-release-upgrade', '/etc/update-motd.d/91-release-upgrade')	None
+323279753509873033432336802008246908587	('/etc/update-motd.d/91-release-upgrade', '/etc/update-motd.d/91-release-upgrade', 'FF')	None
+190171695546590093311946834158631823894	('/etc/update-motd.d/91-release-upgrade', '/etc/update-motd.d/91-release-upgrade')	None
+284351303250600643590473427026321689071	('/etc/update-motd.d/91-release-upgrade', '/etc/update-motd.d/91-release-upgrade', 'FF')	None
+270742482166075865133419558744470938447	('/usr/bin/lsb_release', '-Es /usr/bin/lsb_release -sd')	None
+225450600648879264152232717905255006448	('/usr/bin/cut', '-d  -f4')	None
+282231914683928628314834337853757621543	('/usr/bin/lsb_release', '-Es /usr/bin/lsb_release -sd', 'FF')	None
+241167494047929839844793877619614328467	('/usr/bin/cut', '-d  -f4', 'FF')	None
+307195020417736568166551724664966652136	('/usr/lib/ubuntu-release-upgrader/release-upgrade-motd', '-e /usr/lib/ubuntu-release-upgrader/release-upgrade-motd')	None
+146896377115119890344393962112609726576	('/usr/lib/ubuntu-release-upgrader/release-upgrade-motd', '-e /usr/lib/ubuntu-release-upgrader/release-upgrade-motd', 'FF')	None
+204768436216438006959059950498855474630	('/usr/lib/ubuntu-release-upgrader/release-upgrade-motd', '-e /usr/lib/ubuntu-release-upgrader/release-upgrade-motd')	None
+163083470149254544869588550811431481851	('/usr/lib/ubuntu-release-upgrader/release-upgrade-motd', '-e /usr/lib/ubuntu-release-upgrader/release-upgrade-motd', 'FF')	None
+194869401057653268080997334734475741101	('/bin/date', '+%s')	None
+213545666943007660600148375213676799237	('/bin/date', '+%s', 'FF')	None
+4161396055714232049343196473754723440	('/usr/bin/stat', '-c %Y /var/lib/ubuntu-release-upgrader/release-upgrade-available')	None
+219726175741654224641662680851369717215	('/usr/bin/stat', '-c %Y /var/lib/ubuntu-release-upgrader/release-upgrade-available', 'FF')	None
+307764119420843684569937399726787648802	('/usr/bin/expr', '1632713060 + 86400')	None
+259560115138358685751630158471770228425	('/usr/bin/expr', '1632713060 + 86400', 'FF')	None
+264032454690926631271774187367460221280	('/bin/cat', '/var/lib/ubuntu-release-upgrader/release-upgrade-available')	None
+157728386175015329478274586999334440596	('/bin/cat', '/var/lib/ubuntu-release-upgrader/release-upgrade-available', 'FF')	None
+164301444069780502339407652944860146134	('/etc/update-motd.d/92-unattended-upgrades', '/etc/update-motd.d/92-unattended-upgrades')	{'mitre:T1072'}
+72098943007891143274342454617435081101	('/etc/update-motd.d/92-unattended-upgrades', '/etc/update-motd.d/92-unattended-upgrades', 'FF')	None
+107857525254272055324749812843077663596	('/usr/share/unattended-upgrades/update-motd-unattended-upgrades', '/usr/share/unattended-upgrades/update-motd-unattended-upgrades')	{'mitre:T1072'}
+314904046903641473426189561790229902155	('/usr/share/unattended-upgrades/update-motd-unattended-upgrades', '/usr/share/unattended-upgrades/update-motd-unattended-upgrades', 'FF')	None
+300193750364096958445552012767670886935	('/etc/update-motd.d/95-hwe-eol', '/etc/update-motd.d/95-hwe-eol')	None
+231395679961678093191714618149384884606	('/etc/update-motd.d/95-hwe-eol', '/etc/update-motd.d/95-hwe-eol', 'FF')	None
+143786294441255234609117449569374015129	('/usr/lib/update-notifier/update-motd-hwe-eol', '-e /usr/lib/update-notifier/update-motd-hwe-eol')	None
+330713622405781465722281567418511014212	('/usr/lib/update-notifier/update-motd-hwe-eol', '-e /usr/lib/update-notifier/update-motd-hwe-eol', 'FF')	None
+295654328209802782444222825695647184673	('/usr/lib/update-notifier/update-motd-hwe-eol', '-e /usr/lib/update-notifier/update-motd-hwe-eol')	None
+18749882269250535741216650773714245079	('/usr/lib/update-notifier/update-motd-hwe-eol', '-e /usr/lib/update-notifier/update-motd-hwe-eol', 'FF')	None
+335807360711882677361515317797439506599	('/usr/bin/apt-config', 'shell StateDir Dir::State')	{'mitre:T1072'}
+185881679095728120880891605834097986199	('/usr/bin/apt-config', 'shell StateDir Dir::State', 'FF')	None
+232511640774457137960835031386961635697	('/usr/bin/apt-config', 'shell StateDir Dir::State')	None
+182638542212561308967438813226013267037	('/usr/bin/apt-config', 'shell StateDir Dir::State', 'FF')	None
+17919494995335262024909147690376427716	('/usr/bin/dpkg', '--print-foreign-architectures')	{'mitre:T1072'}
+200462073930024727598237000736281395422	('/usr/bin/dpkg', '--print-foreign-architectures', 'FF')	None
+117076913883012516349917395784284981444	('/usr/bin/apt-config', 'shell ListDir Dir::State::Lists')	{'mitre:T1072'}
+44512186009138234124846281643752148192	('/usr/bin/apt-config', 'shell ListDir Dir::State::Lists', 'FF')	None
+33405312345361481211277425960703324160	('/usr/bin/apt-config', 'shell ListDir Dir::State::Lists')	None
+160728222652434113142501912292644133283	('/usr/bin/apt-config', 'shell ListDir Dir::State::Lists', 'FF')	None
+56373690515284772950046883188623156301	('/usr/bin/dpkg', '--print-foreign-architectures')	{'mitre:T1072'}
+319925052973080697711601516398854867081	('/usr/bin/dpkg', '--print-foreign-architectures', 'FF')	None
+286897746525943370317493326291757373036	('/usr/bin/apt-config', 'shell DpkgStatus Dir::State::status')	{'mitre:T1072'}
+67550729311375100768381885135104016192	('/usr/bin/apt-config', 'shell DpkgStatus Dir::State::status', 'FF')	None
+161915554657163051360548988936302400926	('/usr/bin/apt-config', 'shell DpkgStatus Dir::State::status')	None
+285873811949430932240774836701253153900	('/usr/bin/apt-config', 'shell DpkgStatus Dir::State::status', 'FF')	None
+230608836344947651427521024698236427470	('/usr/bin/dpkg', '--print-foreign-architectures')	{'mitre:T1072'}
+263474749613512845483378492914219633044	('/usr/bin/dpkg', '--print-foreign-architectures', 'FF')	None
+191270900880553694607750816513738055786	('/usr/bin/apt-config', 'shell EtcDir Dir::Etc')	{'mitre:T1072'}
+8325648585637223183247994559660430546	('/usr/bin/apt-config', 'shell EtcDir Dir::Etc', 'FF')	None
+195246474381998830556623260570174893887	('/usr/bin/apt-config', 'shell EtcDir Dir::Etc')	None
+30935799608228958002903472560379539188	('/usr/bin/apt-config', 'shell EtcDir Dir::Etc', 'FF')	None
+44448709844824102120626270389569818341	('/usr/bin/dpkg', '--print-foreign-architectures')	{'mitre:T1072'}
+23016148084935538646799846226623386324	('/usr/bin/dpkg', '--print-foreign-architectures', 'FF')	None
+46094443533965131063037561637039643422	('/usr/bin/apt-config', 'shell SourceList Dir::Etc::sourcelist')	{'mitre:T1072'}
+319730575060195854762857172213966820226	('/usr/bin/apt-config', 'shell SourceList Dir::Etc::sourcelist', 'FF')	None
+304972565643585057276648099720118567452	('/usr/bin/apt-config', 'shell SourceList Dir::Etc::sourcelist')	None
+339816607066936516185759532839864557353	('/usr/bin/apt-config', 'shell SourceList Dir::Etc::sourcelist', 'FF')	None
+241518165708652216199470485683301719662	('/usr/bin/dpkg', '--print-foreign-architectures')	{'mitre:T1072'}
+193314817364290183288694551549257596025	('/usr/bin/dpkg', '--print-foreign-architectures', 'FF')	None
+146624725091989240258337535405504652081	('/usr/bin/find', '/var/lib/apt/lists/ /etc/apt/sources.list //var/lib/dpkg/status -type f -newer /var/lib/update-notifier/hwe-eol -print -quit')	None
+277573864779596548334028290398858638260	('/usr/bin/find', '/var/lib/apt/lists/ /etc/apt/sources.list //var/lib/dpkg/status -type f -newer /var/lib/update-notifier/hwe-eol -print -quit', 'FF')	None
+304498692941025084226011157907508179020	('/usr/bin/dirname', '/var/lib/update-notifier/hwe-eol')	None
+162602222943445830225608784883142054889	('/usr/bin/dirname', '/var/lib/update-notifier/hwe-eol', 'FF')	None
+277586514603196394430735094381659020298	('/bin/mktemp', '-p /var/lib/update-notifier')	{'mitre:T1106', 'mitre:T1574'}
+156236091910199181967050510172044836658	('/bin/mktemp', '-p /var/lib/update-notifier', 'FF')	None
+24371050577388356102110905912484209026	('/bin/cat', '/var/lib/update-notifier/hwe-eol')	None
+109915134889321929183276167337238846946	('/bin/cat', '/var/lib/update-notifier/hwe-eol', 'FF')	None
+258663785797200843742549494606526554542	('/bin/rm', '-f /var/lib/update-notifier/tmp.xRmOjCSlME')	{'mitre:T1106', 'mitre:T1574'}
+282367463969554465844504037964026143666	('/bin/rm', '-f /var/lib/update-notifier/tmp.xRmOjCSlME', 'FF')	None
+302894661059297346478711856582052750402	('/etc/update-motd.d/97-overlayroot', '/etc/update-motd.d/97-overlayroot')	None
+73434005417064191717278949274039264556	('/etc/update-motd.d/97-overlayroot', '/etc/update-motd.d/97-overlayroot', 'FF')	None
+80428168421976063414643493415566104916	('/etc/update-motd.d/97-overlayroot', '/etc/update-motd.d/97-overlayroot')	None
+67463652646624335927573143339700253591	('/etc/update-motd.d/97-overlayroot', '/etc/update-motd.d/97-overlayroot', 'FF')	None
+180341527150686100370274661028978892053	('/bin/egrep', '/bin/egrep overlayroot|/media/root-ro|/media/root-rw /proc/mounts')	None
+171707529666888375327434146511605151256	('/bin/egrep', '/bin/egrep overlayroot|/media/root-ro|/media/root-rw /proc/mounts', 'FF')	None
+15306417255840042988816400092513965671	('/usr/bin/sort', '-r')	None
+237115970690052556403061002557085759784	('/usr/bin/sort', '-r', 'FF')	None
+28641192780989997440976570317575808936	('/bin/grep', '-E overlayroot|/media/root-ro|/media/root-rw /proc/mounts')	None
+228146654644247408087029590878583030124	('/bin/grep', '-E overlayroot|/media/root-ro|/media/root-rw /proc/mounts', 'FF')	None
+69827452581664638879677989308119242360	('/etc/update-motd.d/98-fsck-at-reboot', '/etc/update-motd.d/98-fsck-at-reboot')	None
+32835594478920996197430958045788342943	('/etc/update-motd.d/98-fsck-at-reboot', '/etc/update-motd.d/98-fsck-at-reboot', 'FF')	None
+258450264793801297446918512119828411402	('/usr/lib/update-notifier/update-motd-fsck-at-reboot', '/usr/lib/update-notifier/update-motd-fsck-at-reboot')	None
+227729637982530358348949031693970892467	('/usr/lib/update-notifier/update-motd-fsck-at-reboot', '/usr/lib/update-notifier/update-motd-fsck-at-reboot', 'FF')	None
+237181588101142206232501438116700909925	('/usr/lib/update-notifier/update-motd-fsck-at-reboot', '/usr/lib/update-notifier/update-motd-fsck-at-reboot')	None
+113464827125420884157729822887170439331	('/usr/lib/update-notifier/update-motd-fsck-at-reboot', '/usr/lib/update-notifier/update-motd-fsck-at-reboot', 'FF')	None
+36214505562905659073383484926974653900	('/usr/bin/stat', '-c %Y /var/lib/update-notifier/fsck-at-reboot')	None
+311447244405851835660670740372654544683	('/usr/bin/stat', '-c %Y /var/lib/update-notifier/fsck-at-reboot', 'FF')	None
+60503038018610925117098878416551394542	('/usr/bin/awk', '{print $1} /proc/uptime')	{'mitre:T1106', 'mitre:T1574'}
+267326197494640028393084584902316277849	('/usr/bin/awk', '{print $1} /proc/uptime', 'FF')	None
+135286862041687779365031353108846869413	('/bin/date', '-d now - 22999.99 seconds +%s')	None
+323039259503747404959444078647677908804	('/bin/date', '-d now - 22999.99 seconds +%s', 'FF')	None
+117338009568098346516614201063416420285	('/bin/date', '+%s')	None
+197165096286417389000301740984355292984	('/bin/date', '+%s', 'FF')	None
+42868567179758201006200099897864972201	('/bin/cat', '/var/lib/update-notifier/fsck-at-reboot')	None
+317367517902753265199158678768019412900	('/bin/cat', '/var/lib/update-notifier/fsck-at-reboot', 'FF')	None
+132719853139942622183995028521173345849	('/etc/update-motd.d/98-reboot-required', '/etc/update-motd.d/98-reboot-required')	None
+288653001151899091094481547270014576303	('/etc/update-motd.d/98-reboot-required', '/etc/update-motd.d/98-reboot-required', 'FF')	None
+308020561546547646747476298830242259107	('/usr/lib/update-notifier/update-motd-reboot-required', '-e /usr/lib/update-notifier/update-motd-reboot-required')	None
+318911734504764173147774148416450693685	('/usr/lib/update-notifier/update-motd-reboot-required', '-e /usr/lib/update-notifier/update-motd-reboot-required', 'FF')	None
+45164747890417099624325607203352247727	('/usr/sbin/sshd', '', 'FF')	None
+283745491673961166205964330915292717189	('/usr/sbin/sshd', '')	None
+101465734557294846990435333734867488487	('/usr/sbin/sshd', ' ', 'FF')	None
+140849307409856246802727229899406713959	('/usr/sbin/sshd', ' ')	None
+103559622638265444370552051892015819070	('/usr/sbin/sshd', ' ', 'NF')	None
+90762230402613540178353602881616278219	('/bin/bash', '-c scp -r -f /mnt/data')	{'mitre:T1106', 'mitre:T1574'}
+266132220896309313973669808347933984263	('/bin/bash', '-c scp -r -f /mnt/data', 'FF')	None
+35913635099360002139509913112972297526	('/usr/bin/scp', '-r -f /mnt/data')	{'mitre:T1020'}
+144698197305624462755647790393455926944	('/usr/bin/scp', '-r -f /mnt/data', 'FF')	None

@@ -1,0 +1,47 @@
+284068475584635222614829272122941083444	('/home/chall/service/ro/exploit-market', '', 'FF')	None
+216646369386279550379646372373437731947	('/home/chall/service/ro/exploit-market', '')	None
+203046543664069702495774304824401494194	('/usr/sbin/irqbalance', '--foreground', 'FF')	None
+264072776791094588057200014465327940943	('/usr/sbin/irqbalance', '--foreground')	None
+164032422607533106840303254473568259920	('/usr/sbin/openvpn', '--daemon ovpn-client --status /run/openvpn/client.status 10 --cd /etc/openvpn --script-security 2 --config /etc/openvpn/client.conf --writepid /run/openvpn/client.pid', 'FF')	None
+40503314233991184311583421659681684940	('/usr/sbin/openvpn', '--daemon ovpn-client --status /run/openvpn/client.status 10 --cd /etc/openvpn --script-security 2 --config /etc/openvpn/client.conf --writepid /run/openvpn/client.pid')	None
+12751352799540237224514627656429439075	('/usr/sbin/openvpn', '--daemon ovpn-client --status /run/openvpn/client.status 10 --cd /etc/openvpn --script-security 2 --config /etc/openvpn/client.conf --writepid /run/openvpn/client.pid', 'NF')	None
+105337614666955925036584247068112968500	('/snap/amazon-ssm-agent/4046/amazon-ssm-agent', '')	None
+327867969869831915191934110595062499350	('/snap/amazon-ssm-agent/4046/amazon-ssm-agent', '')	None
+334565776516558573631534134952863647346	('/snap/amazon-ssm-agent/4046/amazon-ssm-agent', '', 'FF')	None
+139124548033336773787321116882599357312	('/bin/ps', '-e -o pid,ppid,state,command')	None
+331266435681907867594682088954840864026	('/bin/ps', '-e -o pid,ppid,state,command', 'FF')	None
+333969973514313752081256624384011473895	('/usr/bin/containerd-shim-runc-v2', '-namespace moby -id 3d455772ee5198b7a0d359a08286bd206159341557f48a0bcd4b8f86fd3f0a99 -address /run/containerd/containerd.sock', 'FF')	None
+61735391840481519980091960631222673502	('/usr/bin/containerd-shim-runc-v2', '-namespace moby -id 3d455772ee5198b7a0d359a08286bd206159341557f48a0bcd4b8f86fd3f0a99 -address /run/containerd/containerd.sock')	None
+93762949540555119844034065645818967613	('/usr/bin/dockerd', '-H fd:// --containerd=/run/containerd/containerd.sock', 'FF')	None
+288807639575301899814947492087725363578	('/usr/bin/dockerd', '-H fd:// --containerd=/run/containerd/containerd.sock')	None
+87651552382069646829488501805773508950	('/snap/snapd/13640/usr/lib/snapd/snapd', '', 'FF')	None
+162998247982791726801726442496766200837	('/snap/snapd/13640/usr/lib/snapd/snapd', '')	None
+141714468030420618795043395101774151869	('/lib/systemd/systemd', '', 'FF')	None
+122393967074279006578614696426244910108	('/lib/systemd/systemd', '')	None
+266572669418346864841336136945587822435	('/lib/systemd/systemd-resolved', '', 'FF')	None
+6321668754902351713207960749171740970	('/lib/systemd/systemd-resolved', '')	None
+76120867213803524383498286210744626842	('/lib/systemd/systemd-timesyncd', '', 'FF')	None
+311245530955340239460782411969205611624	('/lib/systemd/systemd-timesyncd', '')	None
+43682476363686411314617674624969395532	('/lib/systemd/systemd-udevd', '', 'FF')	None
+118302433445152229673665413752597590740	('/lib/systemd/systemd-udevd', '')	None
+200766740694419863402856807762899901763	('/lib/systemd/systemd-logind', '', 'FF')	{'mitre:T1059'}
+162080216875236340427850132498319249012	('/lib/systemd/systemd-logind', '')	None
+219386352128382132247166184558091788837	('/snap/amazon-ssm-agent/4046/ssm-agent-worker', '', 'FF')	None
+41391823795123643114531800462972537127	('/snap/amazon-ssm-agent/4046/ssm-agent-worker', '')	None
+315043596357812939269125269065338682202	('/lib/systemd/systemd-networkd', '', 'FF')	None
+100190260029730279243848685335914080113	('/lib/systemd/systemd-networkd', '')	None
+340040225714650367306108085579499071447	('/usr/sbin/cron', '-f')	None
+215801663253290373735485786177898275706	('/usr/sbin/cron', '-f')	None
+247422900767316504112614888303077139980	('/usr/sbin/cron', '-f', 'FF')	None
+286861380941970427175271768013418192191	('/lib/systemd/systemd-udevd', '')	None
+100989998588486746462002575235658760109	('/lib/systemd/systemd-udevd', '', 'FF')	None
+56137923281703366806412482512672911468	('/lib/systemd/systemd-journald', '', 'FF')	None
+163424344929093476444125798498813580862	('/lib/systemd/systemd-journald', '')	None
+85938147268034552911215178629134296976	('/bin/sh', '-c    cd / && run-parts --report /etc/cron.hourly')	{'mitre:T1106', 'mitre:T1574'}
+11570105167034764044870687000923178389	('/bin/sh', '-c    cd / && run-parts --report /etc/cron.hourly', 'FF')	None
+124316838770915008124959911054808948701	('/bin/sh', '-c    cd / && run-parts --report /etc/cron.hourly')	None
+197153531288087685864009916433308608475	('/bin/run-parts', '--report /etc/cron.hourly')	None
+174980371292589178364133244774576019015	('/bin/run-parts', '--report /etc/cron.hourly', 'FF')	None
+281396081045939441367044609440936272458	('/usr/sbin/rsyslogd', '-n', 'FF')	None
+325315728461863798026426382239100872546	('/usr/sbin/rsyslogd', '-n')	None
+198283519690002244577375228700052680079	('/snap/amazon-ssm-agent/4046/ssm-agent-worker', '', 'NF')	None

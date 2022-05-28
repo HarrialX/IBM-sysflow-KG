@@ -1,0 +1,25 @@
+212613514516228522457708602619781564972	('/usr/sbin/xinetd', '-filelog /dev/stderr -dontfork -f /service.conf')	None
+321209338794409454852825904184144521706	('/usr/sbin/xinetd', '-filelog /dev/stderr -dontfork -f /service.conf')	None
+284012656992136419352598661472008965892	('/usr/sbin/xinetd', '-filelog /dev/stderr -dontfork -f /service.conf', 'NF')	None
+233885143682393732519264065553165435770	('/usr/sbin/xinetd', '-filelog /dev/stderr -dontfork -f /service.conf', 'FF')	None
+197526251962908694733296066282194846383	('/usr/sbin/xinetd', '-filelog /dev/stderr -dontfork -f /service.conf', 'NF')	None
+248344850019974939037975972512707743735	('/wrapper', '/wrapper')	None
+160223988526374206997411003906483908932	('/wrapper', '/wrapper', 'FF')	None
+5663542808624606108233241134324508780	('/wrapper', '/wrapper', 'NF')	None
+181804828473323254158869610862137201310	('/wrapper', '/wrapper')	None
+74444479330036828077409316209124470722	('/usr/bin/timeout', '-k1 120 stdbuf -i0 -o0 -e0 python3.7 -u /server.py')	None
+7125381663406023712190477607379660698	('/usr/bin/timeout', '-k1 120 stdbuf -i0 -o0 -e0 python3.7 -u /server.py', 'FF')	None
+267005431834717264266877960830489546167	('/usr/bin/timeout', '-k1 120 stdbuf -i0 -o0 -e0 python3.7 -u /server.py')	None
+213119766496430188443298578836383816738	('/usr/bin/stdbuf', '-i0 -o0 -e0 python3.7 -u /server.py')	{'mitre:T1106', 'mitre:T1574'}
+74724170024755240921658822803605665114	('/usr/bin/stdbuf', '-i0 -o0 -e0 python3.7 -u /server.py', 'FF')	None
+204570398241545019328449736355724689328	('/usr/bin/python3.7', '-u /server.py')	None
+86135209554855380948872136256257358226	('/usr/bin/python3.7', '-u /server.py', 'FF')	None
+154551368541171988183783674420816263625	('/usr/bin/python3.7', '-u /server.py', 'NF')	None
+272755594746957639542309184089977613	('/usr/bin/python3.7', '-u /server.py')	None
+199042474450872597330306251935882307673	('/usr/bin/python3.7', '-u /server.py', 'FF')	None
+289701993046524852002008557599018329761	('/sbin/ldconfig', '/sbin/ldconfig -p')	None
+310836766419415464211356438537433969684	('/sbin/ldconfig', '/sbin/ldconfig -p', 'FF')	None
+250576430242695296862066324635469307930	('/sbin/ldconfig.real', '-p')	None
+118722536332915506043184580110053663079	('/sbin/ldconfig.real', '-p', 'FF')	None
+8956547585953280502582422344207132502	('/usr/sbin/xinetd', '-filelog /dev/stderr -dontfork -f /service.conf', 'FF')	None
+309623028061777160172643535214656903558	('/usr/bin/timeout', '-k1 120 stdbuf -i0 -o0 -e0 python3.7 -u /server.py', 'NF')	None

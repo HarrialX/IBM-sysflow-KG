@@ -1,0 +1,12 @@
+186101125993278870412696501492051201541	('/usr/sbin/xinetd', '-filelog /dev/stderr -dontfork -f /service.conf', 'NF')	None
+173213149148774526513478041561705576728	('/usr/sbin/xinetd', '-filelog /dev/stderr -dontfork -f /service.conf')	None
+212613514516228522457708602619781564972	('/usr/sbin/xinetd', '-filelog /dev/stderr -dontfork -f /service.conf')	None
+233885143682393732519264065553165435770	('/usr/sbin/xinetd', '-filelog /dev/stderr -dontfork -f /service.conf', 'FF')	None
+248344850019974939037975972512707743735	('/wrapper', '/wrapper')	None
+160223988526374206997411003906483908932	('/wrapper', '/wrapper', 'FF')	None
+181804828473323254158869610862137201310	('/wrapper', '/wrapper')	None
+217778712496343908445749653808136922226	('/usr/bin/timeout', '-k1 240 /mooosl')	None
+34634649526197542417674238732251052522	('/usr/bin/timeout', '-k1 240 /mooosl', 'FF')	None
+203060460282229811547217785285444217085	('/usr/bin/timeout', '-k1 240 /mooosl')	None
+223434965881942472970426388193798449268	('/mooosl', '')	None
+195184305335678134060788128993228249422	('/usr/sbin/xinetd', '-filelog /dev/stderr -dontfork -f /service.conf', 'FF')	None
