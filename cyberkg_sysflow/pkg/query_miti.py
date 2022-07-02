@@ -42,14 +42,16 @@ def query_mitigation(TTP: str, group: list = ['cwe', 'mitre-attack', 'mitre-defe
                     cwe_miti_curtech.append(msg)
                     cwe_miti_msg_to_cwe[msg].add(cwe)
                     
+    cwe_miti_curtech_catstr = ''
     if 'cwe' in group:
         print('NOTE: Mitigation for Operation-stage only\n')
         for msg in cwe_miti_curtech:
             print(' '.join(list(cwe_miti_msg_to_cwe[msg])), '\t', msg)
+            cwe_miti_curtech_catstr += ' ' + msg
         # cwe_miti_curtech = '\n'.join(cwe_miti_curtech)
         # cwe_miti_curtech
 
-    mitre_miti = json.load(open('/home/zxx5113/IBM/data/cyberkg_IBM/save/mitre-attack/mitigations.json', 'r'))
+    mitre_miti = json.load(open('/home/zxx5113/IBM/cyberkg_sysflow/save/mitre-attack/mitigations.json', 'r'))
 
     miti_codes, miti_names, miti_descs = [], [], []
     for code, data in mitre_miti.items():
@@ -57,7 +59,7 @@ def query_mitigation(TTP: str, group: list = ['cwe', 'mitre-attack', 'mitre-defe
         miti_names.append(data['name'])
         miti_descs.append(data['desc'])
         
-    cossim = cwe_mitre_miti_cossim(cwe_miti_curtech, miti_descs)
+    cossim = cwe_mitre_miti_cossim(cwe_miti_curtech_catstr, miti_descs)
     sort_idx = np.argsort(cossim)[::-1]
 
     if 'mitre-attack' in group:
@@ -66,8 +68,8 @@ def query_mitigation(TTP: str, group: list = ['cwe', 'mitre-attack', 'mitre-defe
             if cossim[idx] >= MITI_SCORE_THRESHOLD:
                 print(miti_codes[idx], cossim[idx], miti_names[idx])
             
-    miti2def = json.load(open('/home/zxx5113/IBM/data/cyberkg_IBM/save/mitre-defend/miti2def.json', 'r'))
-    mitre_def = json.load(open('/home/zxx5113/IBM/data/cyberkg_IBM/save/mitre-defend/defence.json', 'r'))
+    miti2def = json.load(open('/home/zxx5113/IBM/cyberkg_sysflow/save/mitre-defend/miti2def.json', 'r'))
+    mitre_def = json.load(open('/home/zxx5113/IBM/cyberkg_sysflow/save/mitre-defend/defence.json', 'r'))
     def2score = defaultdict(float)
     def2miti = defaultdict(set)
 

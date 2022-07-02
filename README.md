@@ -36,3 +36,7 @@ We organize the structure of our files as follows:
       
 
 ## Use the API
+
+We provide a [mitigation querying API](https://github.com/HarrialX/IBM-sysflow-KG/blob/main/API/query%20mitigation.ipynb).
+
+To play with it, simply specify the **TTP** code and which type of mitigation you want to get. Simply seeing the jupyter notebook for running details.

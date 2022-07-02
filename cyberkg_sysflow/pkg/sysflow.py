@@ -79,11 +79,17 @@ file.close()
 
 #-------- load generated cisco cyberkg --------#
 
-kg_path = '/home/zxx5113/IBM/data/cyberkg_IBM/cyberkg_sysflow'
+kg_path = '/home/zxx5113/IBM/data/cyberkg'
 
 entset = pickle.load(open(os.path.join(kg_path, 'entset.pkl'), 'rb'))
-factset = pickle.load(open(os.path.join(kg_path, 'factset.pkl'), 'rb'))
-sysflow_graphs = pickle.load(open(os.path.join(kg_path, 'sysflow_graphs.pkl'), 'rb'))
+id2rel =  pickle.load(open(os.path.join(kg_path, 'id2rel.pkl'), 'rb'))
+id2ent =  pickle.load(open(os.path.join(kg_path, 'id2ent.pkl'), 'rb'))
+id_factset = pickle.load(open(os.path.join(kg_path, 'id_factset.pkl'), 'rb'))
+
+factset = defaultdict(set)
+for rid, facts in id_factset.items():
+    for h, r, t in facts:
+        factset[id2rel[r]].add((id2ent[h], id2rel[r], id2ent[t]))
 
 # print('number of sysflow graphs: %d\n' % len(sysflow_graphs.keys()))
 # print('sysflow id\t TTPs')
@@ -159,10 +165,7 @@ for tech, scores in tqdm(tech_scores.items()):
 #------------- some functions -------------#
 
 def link_BRON(gid: int = None, ttp: int or list = None):
-    if gid:
-        gid = str(gid)
-        ttps = sysflow_graphs[gid]['ttpnodes']
-    elif isinstance(ttp, list):
+    if isinstance(ttp, list):
         ttps = ttp
     elif isinstance(ttp, int):
         ttps = [ttp]
@@ -217,20 +220,20 @@ def ttp_cve_link(
     else:
         tech_cve_sim = tech_scores
 
-    if gid:
-        gid = str(gid)
-        data = sysflow_graphs[gid]
-        sum_scores = None
-        for tech in data['ttpnodes']:
-            if not sum_scores:
-                sum_scores = copy.deepcopy(tech_cve_sim[tech])
-            else:
-                sum_scores = [sum_scores[i] + s for i, s in enumerate(tech_cve_sim[tech])]
-        sum_scores = np.array(sum_scores) / len(data['ttpnodes'])
-        if verbose:
-            print('Techniques: ', data['ttpnodes'])
+    # if gid:
+    #     gid = str(gid)
+    #     data = sysflow_graphs[gid]
+    #     sum_scores = None
+    #     for tech in data['ttpnodes']:
+    #         if not sum_scores:
+    #             sum_scores = copy.deepcopy(tech_cve_sim[tech])
+    #         else:
+    #             sum_scores = [sum_scores[i] + s for i, s in enumerate(tech_cve_sim[tech])]
+    #     sum_scores = np.array(sum_scores) / len(data['ttpnodes'])
+    #     if verbose:
+    #         print('Techniques: ', data['ttpnodes'])
         
-    elif isinstance(tech, str): 
+    if isinstance(tech, str): 
         sum_scores = copy.deepcopy(tech_cve_sim[tech])
         if verbose:
             print('Technique: ', tech)     
