@@ -14,7 +14,7 @@ CVE_THRESHOLD = 100
 N_CWE = 20
 MITI_SCORE_THRESHOLD = 0.1
 
-def query_mitigation(TTP: str, group: list = ['cwe', 'mitre-attack', 'mitre-defend']):
+def query_mitigation(TTP: str, group: list = ['cwe', 'mitre-attack', 'mitre-defend'], source: str = 'text-sim'):
     thre_cves, thre_scores = sf.ttp_cve_link(n_cve = CVE_THRESHOLD, tech = TTP, multiview=False, verbose=False)
     cwe_sort, score_sort = sf.cwe_cve_link(thre_cves, thre_scores) # sorted
     # for i in range(len(cwe_sort)):
