@@ -1,0 +1,38 @@
+----- Entity detailed info -----
+cve-id: 156025
+weakness: 276
+vendor: 22191
+product: 43904
+version: 158427
+campaign: 13
+mitigation: 373190
+attack-pattern: 360
+technique: 100
+tactic: 11
+Total entities: 754497
+
+----- Facts detailed info -----
+CWE:includes:CVE: 120577
+VD:has:PD: 47483
+CVE:affects:VD: 157783
+CVE:affects:PD: 239299
+PD:has:VER: 158427
+CVE:affects:VER: 906492
+CVE:has:propose:CAMP: 156585
+CVE:is:related:to:CVE: 46392
+MITI:mitigates:CVE: 628933
+AP:is:related:to:CWE: 772
+TECH:leverages:AP: 112
+TA:includes:TECH: 124
+reverse:CWE:includes:CVE: 120577
+reverse:VD:has:PD: 47483
+reverse:CVE:affects:VD: 157783
+reverse:CVE:affects:PD: 239299
+reverse:PD:has:VER: 158427
+reverse:CVE:affects:VER: 906492
+reverse:CVE:has:propose:CAMP: 156585
+reverse:MITI:mitigates:CVE: 628933
+reverse:AP:is:related:to:CWE: 772
+reverse:TECH:leverages:AP: 112
+reverse:TA:includes:TECH: 124
+Total facts: 4879566

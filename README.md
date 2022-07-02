@@ -6,6 +6,9 @@ This repository contains packages and running demo using sysflow + CyberKG. The 
 We organize the structure of our files as follows:
 ```latex
 .
+└──  API/
+│   └──  query mitigation.ipynb  # an API for querying different groups of mitigations
+│
 └──  cyberkg_sysflow/
     ├──  pkg/                    # packages called by notebook demo
     │   ├──  cwe_miti.py         # CWE-mitigation related codes, used to synthesize mitigation phases
@@ -32,3 +35,4 @@ We organize the structure of our files as follows:
     └──  ttp_prediction.py                         # predict TTPs by GCN, using sysflow graphs
       
 
+## Use the API

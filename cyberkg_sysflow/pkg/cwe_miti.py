@@ -9,7 +9,7 @@ cwe_detail = json.load(open('/data/zhaohan/adv-reasoning/data/cyberkg-raw/cwe/cw
 cwe_phase_st_dict = defaultdict(lambda: defaultdict(lambda: defaultdict(list)))
 
 # generate cwe miti text
-save_dir = './save/cwe_miti/'
+save_dir = '/home/zxx5113/IBM/cyberkg_sysflow/save/cwe_miti/'
 os.makedirs(save_dir, exist_ok=True)
 
 def sum_miti(save: bool = True):

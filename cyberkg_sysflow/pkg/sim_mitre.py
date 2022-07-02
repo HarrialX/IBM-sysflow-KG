@@ -3,7 +3,7 @@ from lib2to3.pgen2 import token
 from nltk.corpus import stopwords
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
-from sim_cve_tech import tokenize
+from cyberkg_sysflow.pkg.sim_cve_tech import tokenize
 
 
 def cwe_mitre_miti_cossim(cwe_miti_desc: str, mitre_miti_desc: list[str]):
