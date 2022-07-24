@@ -1,12 +1,12 @@
-# tf-idf similarity between MITRE ATTACK mitigation and CWE mitigation
-from lib2to3.pgen2 import token
 from nltk.corpus import stopwords
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
-from cyberkg_sysflow.pkg.sim_cve_tech import tokenize
+from pkg.sim_cve_tech import tokenize
 
 
 def cwe_mitre_miti_cossim(cwe_miti_desc: str, mitre_miti_desc: list[str]):
+    '''tf-idf similarity between MITRE ATTACK mitigation and CWE mitigation
+    '''
     cwe_miti_desc_tk = tokenize(cwe_miti_desc)
     mitre_miti_desc_tk = [tokenize(s) for s in mitre_miti_desc]
     
@@ -20,6 +20,8 @@ def cwe_mitre_miti_cossim(cwe_miti_desc: str, mitre_miti_desc: list[str]):
 
 
 def cwe_mitre_def_cossim(cwe_def_desc: str, mitre_def_desc: list[str]):
+    '''tf-idf similarity between MITRE D3FEND mitigation and CWE mitigation
+    '''
     cwe_def_desc_tk = tokenize(cwe_def_desc)
     mitre_def_desc_tk = [tokenize(s) for s in mitre_def_desc]
     

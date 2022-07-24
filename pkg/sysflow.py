@@ -1,8 +1,7 @@
-# find path from sysflow evidence to CVE/miti
+# find path from sysflow to CVE/miti
 
 from email.policy import default
-import os, sys
-sys.path.append(os.path.abspath('../..'))
+import os
 
 import csv
 import copy
@@ -62,7 +61,7 @@ rev_rel_prefix = 'reverse:'
 
 #------ load computed cosine similarity ------#
 
-file = open("/data/zhaohan/adv-reasoning/data/cyberkg-raw/mitre-attack/tech-cve-cossim.csv")
+file = open(os.path.join(os.getcwd(), "../data/mitre-attack/tech-cve-cossim.csv"))
 csvreader = csv.reader(file)
 
 # first row
@@ -79,7 +78,7 @@ file.close()
 
 #-------- load generated cisco cyberkg --------#
 
-kg_path = '/home/zxx5113/IBM/data/cyberkg'
+kg_path = os.path.join(os.getcwd(), '../data/cyberkg')
 
 entset = pickle.load(open(os.path.join(kg_path, 'entset.pkl'), 'rb'))
 id2rel =  pickle.load(open(os.path.join(kg_path, 'id2rel.pkl'), 'rb'))
@@ -122,7 +121,7 @@ for tech, capecs in tech2capec.items():
 
 # ----------- multi view part ------------#
 
-file = open("/data/zhaohan/adv-reasoning/data/cyberkg-raw/mitre-attack/cve-tech-cossim.csv")
+file = open(os.path.join(os.getcwd(), "../data/mitre-attack/cve-tech-cossim.csv"))
 csvreader = csv.reader(file)
 
 # first row

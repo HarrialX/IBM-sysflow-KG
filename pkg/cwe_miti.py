@@ -1,18 +1,26 @@
+# This file contains all functions related to CWE mitigation
+
 import os, json
 from tqdm import tqdm
 from collections import defaultdict
 
 
-cwe_detail = json.load(open('/data/zhaohan/adv-reasoning/data/cyberkg-raw/cwe/cwe_detail.json', 'r'))
+cwe_detail = json.load(open(os.path.join(os.getcwd(), '../data/cwe/cwe_detail.json'), 'r'))
+
 # print(cwe_detail['79']['mitigation']['Architecture and Design'])
 
 cwe_phase_st_dict = defaultdict(lambda: defaultdict(lambda: defaultdict(list)))
 
 # generate cwe miti text
-save_dir = '/home/zxx5113/IBM/cyberkg_sysflow/save/cwe_miti/'
+save_dir = os.path.join(os.getcwd(), '../save/cwe_miti/')
 os.makedirs(save_dir, exist_ok=True)
 
 def sum_miti(save: bool = True):
+    '''Extract CWE mitigation (strategies) under specific phase ('Operation' by default)
+       
+       Input:
+            save: whether saving the extracted mitigation documents
+    '''
     for cwe in cwe_detail:
         for phase, miti_txt in cwe_detail[cwe]['mitigation'].items():
             if phase not in ['Operation']:

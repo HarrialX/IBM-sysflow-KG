@@ -1,4 +1,4 @@
-# use tf-idf to compute cve-tech text similarity
+import os
 import nltk
 import string
 from tqdm import tqdm
@@ -21,7 +21,10 @@ def tokenize(text):
 
 
 def tech_cve_cossim(tech_codes, cve_codes, tech_descs_tk, cve_descs_tk):
-    writer = csv.writer(open('/data/zhaohan/adv-reasoning/data/cyberkg-raw/mitre-attack/tech-cve-cossim.csv', 'w'))
+    '''calculate text similarity for each TTP to all CVE
+    '''
+
+    writer = csv.writer(open(os.path.join(os.getcwd(), '../data/mitre-attack/tech-cve-cossim.csv'), 'w'))
     writer.writerow(['TECH/CVE']+cve_codes)
     
     for i, tech_code in tqdm(enumerate(tech_codes)):
@@ -33,7 +36,10 @@ def tech_cve_cossim(tech_codes, cve_codes, tech_descs_tk, cve_descs_tk):
         writer.writerow([tech_code]+[round(n, 4) for n in cos])
         
 def cve_tech_cossim(tech_codes, cve_codes, tech_descs_tk, cve_descs_tk):
-    writer = csv.writer(open('/data/zhaohan/adv-reasoning/data/cyberkg-raw/mitre-attack/cve-tech-cossim.csv', 'w'))
+    '''calculate text similarity for each CVE to all TTP
+    '''
+
+    writer = csv.writer(open(os.path.join(os.getcwd(), '../data/mitre-attack/cve-tech-cossim.csv'), 'w'))
     writer.writerow(['CVE/TECH']+tech_codes)
     
     for i, cve in tqdm(enumerate(cve_codes)):
@@ -44,23 +50,25 @@ def cve_tech_cossim(tech_codes, cve_codes, tech_descs_tk, cve_descs_tk):
         cos = cosine_similarity(X[0], X[1:])[0].tolist()  # (1, N)[0] -> (N,)
         writer.writerow([cve]+[round(n, 4) for n in cos])
 
-if __name__ == '__main__':
-    tech_codes = []
-    tech_descs = []
-    tech_dict = json.load(open('/data/zhaohan/adv-reasoning/data/cyberkg-raw/mitre-attack/techniques.json', 'r'))
-    for code, info in tech_dict.items():
-        tech_codes.append(code)
-        tech_descs.append(info['desc'])
+# NOTE: we already have calculated CSV files, don't run this file again
 
-    cve_desc = pickle.load(open('/home/zxx5113/adv-reasoning/data/cyberkg_IBM/cyberkg_sysflow/cve_desc.pkl', 'rb'))
-    cve_codes = sorted(list(cve_desc.keys()))
-    cve_descs = [cve_desc[cve] for cve in cve_codes]
+# if __name__ == '__main__':
+#     tech_codes = []
+#     tech_descs = []
+#     tech_dict = json.load(open(os.path.join(os.getcwd(), '../data/mitre-attack/techniques.json'), 'r'))
+#     for code, info in tech_dict.items():
+#         tech_codes.append(code)
+#         tech_descs.append(info['desc'])
 
-    # tokenized documents
-    cve_descs_tk  = [tokenize(s) for s in cve_descs]
-    tech_descs_tk = [tokenize(s) for s in tech_descs]
+#     cve_desc = pickle.load(open(os.path.join(os.getcwd(), '../data/cyberkg/cve_desc.pkl'), 'rb'))  # NOTE: delete cve_desc.pkl so far
+#     cve_codes = sorted(list(cve_desc.keys())) 
+#     cve_descs = [cve_desc[cve] for cve in cve_codes]
 
-    tech_cve_cossim(tech_codes, cve_codes, tech_descs_tk, cve_descs_tk)
-    cve_tech_cossim(tech_codes, cve_codes, tech_descs_tk, cve_descs_tk)
+#     # tokenized documents
+#     cve_descs_tk  = [tokenize(s) for s in cve_descs]
+#     tech_descs_tk = [tokenize(s) for s in tech_descs]
+
+#     tech_cve_cossim(tech_codes, cve_codes, tech_descs_tk, cve_descs_tk)
+#     cve_tech_cossim(tech_codes, cve_codes, tech_descs_tk, cve_descs_tk)
 
 # need to backup run

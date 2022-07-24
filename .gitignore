@@ -4,3 +4,5 @@ logs-debug/
 *__pycache__*
 *.ipynb_checkpoints
 
+*cve-tech-cossim.csv
+*tech-cve-cossim.csv
