@@ -44,4 +44,8 @@ We organize the structure of our files as follows:
 
 We provide a [mitigation querying API](https://github.com/HarrialX/IBM-sysflow-KG/blob/main/API/query%20mitigation.ipynb).
 
-To play with it, simply specify the **TTP** code and which type of mitigation you want to get. Simply seeing the jupyter notebook for running details.
+To play with it:
+(1) download required csv files from [here](https://drive.google.com/drive/folders/1RuPeBZ_2W6nFxpIovW_Qdi7Ixd_xP8jn?usp=sharing) and put those files into `<project_root>/data/mitre-attack' 
+(2) simply specify the **TTP** code and which type of mitigation you want to get. Simply seeing the jupyter notebook for running details.
+
+This API will save queries mitigations while printing messages about querying results.
