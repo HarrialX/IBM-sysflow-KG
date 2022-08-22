@@ -74,6 +74,13 @@ def query_mitigation(TTP: str, group: list = ['cwe', 'mitre-attack', 'mitre-defe
                     }
                 }
     '''
+    # returns
+    cwe_mitigation_details = defaultdict(lambda: defaultdict(list))
+    mitre_mitigation_details_web = defaultdict(lambda: defaultdict(str))
+    mitre_mitigation_details_kg = defaultdict(lambda: defaultdict(str))
+    mitre_defend_details_web = defaultdict(lambda: defaultdict(str))
+    mitre_defend_details_kg = defaultdict(lambda: defaultdict(str))
+
     save_path = os.path.join(save_dir, TTP)
     os.makedirs(save_path, exist_ok=True)
 
@@ -114,7 +121,6 @@ def query_mitigation(TTP: str, group: list = ['cwe', 'mitre-attack', 'mitre-defe
         print('CWE mitigation (Operation-stage only):\n')
         print('CWE | Mitigation by Strategy')
 
-    cwe_mitigation_details = defaultdict(lambda: defaultdict(list))
     for msg in cwe_miti_curtech:
         if 'cwe' in group:
             print(' '.join(list(cwe_miti_msg_to_cwe[msg])), msg)
@@ -150,8 +156,6 @@ def query_mitigation(TTP: str, group: list = ['cwe', 'mitre-attack', 'mitre-defe
             print('\nMITRE-ATT&CK Mitigation (ground-truth, by official web reports)\n')
             print('Miti | Name')
 
-            mitre_mitigation_details_web = defaultdict(lambda: defaultdict(str))
-
             for _miti_code in ttp_info[TTP]['miti']:
                 print(_miti_code,  mitre_miti[_miti_code]['name'])
                 mitre_mitigation_details_web[_miti_code]['name'] = mitre_miti[_miti_code]['name']
@@ -166,8 +170,6 @@ def query_mitigation(TTP: str, group: list = ['cwe', 'mitre-attack', 'mitre-defe
             print('-'*100)
             print('\nMITRE-ATT&CK Mitigation (by document similarity between CWE Mitigation & ATT&CK Mitigation)\n')
             print('Miti | Score | Name')
-
-            mitre_mitigation_details_kg = defaultdict(lambda: defaultdict(str))
 
             for idx in sort_idx:
                 if cossim[idx] >= MITI_SCORE_THRESHOLD:
@@ -204,8 +206,6 @@ def query_mitigation(TTP: str, group: list = ['cwe', 'mitre-attack', 'mitre-defe
             print('\nMITRE-D3FEND Mitigation (ground-truth, by official web reports related to Att&ck Mitigation)\n')
             print('Def | Source Att&ck Miti | Def Name')
 
-            mitre_defend_details_web = defaultdict(lambda: defaultdict(str))
-
             for _miti_code in ttp_info[TTP]['miti']:
                 if _miti_code in miti2def:
                     for _def_code in miti2def[_miti_code]:
@@ -224,8 +224,6 @@ def query_mitigation(TTP: str, group: list = ['cwe', 'mitre-attack', 'mitre-defe
             print('\nMITRE-D3FEND Mitigation (by document similarity between CWE Mitigation & D3FEND Mitigation)\n')
             print('Def | Score | Source Att&ck Miti | Def Name')
 
-            mitre_defend_details_kg = defaultdict(lambda: defaultdict(str))
-
             for _def_code, def_score in sorted(def2score.items(), key=lambda item: item[1], reverse=True):
                 print(_def_code, round(def_score, 4), list(def2miti[_def_code]), mitre_def[_def_code]['name'])
 
@@ -238,3 +236,6 @@ def query_mitigation(TTP: str, group: list = ['cwe', 'mitre-attack', 'mitre-defe
             with open(os.path.join(save_path, 'mitre_defend_kg.json'), 'w') as _f:
                 json.dump(mitre_defend_details_kg, _f)
                 print('\nMITRE D3FEND (from KG) saved at %s\n' % _f.name)
+
+    return cwe_mitigation_details, mitre_mitigation_details_web, mitre_mitigation_details_kg, \
+        mitre_defend_details_web, mitre_defend_details_kg
