@@ -9,6 +9,9 @@ import numpy as np
 from tqdm import tqdm
 import networkx as nx
 from collections import defaultdict
+
+import nltk
+nltk.download('punkt')
 from nltk.corpus import stopwords
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity

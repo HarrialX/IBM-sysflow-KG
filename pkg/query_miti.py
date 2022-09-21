@@ -127,12 +127,13 @@ def query_mitigation(TTP: str, group: list = ['cwe', 'mitre-attack', 'mitre-defe
             for _cwe in cwe_miti_msg_to_cwe[msg]:
                 cwe_mitigation_details[cwe]['Operation'].append(msg)
 
+        cwe_miti_curtech_catstr += ' ' + msg
+
     if 'cwe' in group:
         with open(os.path.join(save_path, 'cwe_mitigation.json'), 'w') as _f:
             json.dump(cwe_mitigation_details, _f)
             print('\nCWE Mitigation saved at %s\n' % _f.name)
             
-        cwe_miti_curtech_catstr += ' ' + msg
         # cwe_miti_curtech = '\n'.join(cwe_miti_curtech)
         # cwe_miti_curtech
 
@@ -239,3 +240,16 @@ def query_mitigation(TTP: str, group: list = ['cwe', 'mitre-attack', 'mitre-defe
 
     return cwe_mitigation_details, mitre_mitigation_details_web, mitre_mitigation_details_kg, \
         mitre_defend_details_web, mitre_defend_details_kg
+
+
+
+# results = query_mitigation(TTP='T1134', 
+#                  group=['cwe', 'mitre-attack', 'mitre-defend'], 
+#                  source=['kg', 'web'], 
+#                  save_dir = '/home/zxx5113/IBM/save/mitigations')  # More details are saved at same the directory with this API
+
+# cwe_mitigation_details = results[0]
+# mitre_mitigation_details_web = results[1]
+# mitre_mitigation_details_kg = results[2]
+# mitre_defend_details_web = results[3]
+# mitre_defend_details_kg = results[4]
