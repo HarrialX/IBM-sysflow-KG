@@ -2,6 +2,7 @@ import os, sys
 sys.path.append(os.path.abspath('..'))
 import csv
 import json
+import pickle
 import argparse
 import numpy as np
 from tqdm import tqdm
@@ -9,6 +10,20 @@ from collections import defaultdict
 from pkg.sim_mitre import cwe_mitre_miti_cossim
 import pkg.sysflow as sf
 import pkg.cwe_miti as cm
+
+
+def preprocess_pd_name(pd):
+    return ''.join(pd.lower().split(' '))
+
+def cdd_cve_by_kw(cate, keyword, entset, kw_cve_dict):
+    keep_cve = set()
+    for e in entset[cate]:
+        if cate == 'product':
+            e = preprocess_pd_name(e)
+        if keyword in e:
+            keep_cve |= kw_cve_dict[e]
+
+    return keep_cve
 
 def cwe_by_bron(techs: list):
     capecs = set()
@@ -48,7 +63,7 @@ miti2def = json.load(open(os.path.join(os.getcwd(), '../save/mitre-defend/miti2d
 mitre_def = json.load(open(os.path.join(os.getcwd(), '../save/mitre-defend/defence.json'), 'r'))
 
 
-def query_mitigation(args, TTP: str):
+def query_mitigation(args, TTP: str, cdd_cve: set = None):
     
     ''' this function is derived from <project root>/pkg/query_miti.py but focus on statistics
 
@@ -65,7 +80,7 @@ def query_mitigation(args, TTP: str):
     # if len(bron_cwe)==0:
     #     continue
 
-    thre_cves, thre_scores = sf.ttp_cve_link(n_cve = args.n_cve, tech = TTP, multiview=False, verbose=False)
+    thre_cves, thre_scores = sf.ttp_cve_link(n_cve = args.n_cve, tech = TTP, cdd_cve=cdd_cve, verbose=False)
     cwe_sort, score_sort = sf.cwe_cve_link(thre_cves, thre_scores) # sorted
     
     link_cwe = {}
@@ -176,18 +191,21 @@ def query_mitigation(args, TTP: str):
 def parse_args(args=None):
     parser = argparse.ArgumentParser()
     parser.add_argument('--n_cve', default=500, type=int)
-    parser.add_argument('--topk_rst', default=5, type=int)
+    parser.add_argument('--topk_rst', default=20, type=int)
     parser.add_argument('--group', nargs='+', default=['cwe', 'mitre-attack', 'mitre-defend'], type=str)
-    parser.add_argument('--save_dir', default='/home/zxx5113/IBM/save/mitigations', type=str)
+    parser.add_argument('--save_dir', default='/home/zxx5113/IBM/save/mitigations/system-specific', type=str)
+    parser.add_argument('--system_cate', default='product', type=str)
+    parser.add_argument('--kg_path', default='/home/zxx5113/IBM/data/cyberkg', type=str)
     return parser.parse_args(args)
 
-def main(args):
+def main(args, cdd_cve = None):
     
-    cwe_precision, cwe_recall = [], []
-    miti_precision, miti_recall = [], []
-    def_precision, def_recall = [], []
+    cwe_precision, cwe_recall, cwe_mrr, cwe_hit = [], [], [], []
+    miti_precision, miti_recall, miti_mrr, miti_hit = [], [], [], []
+    def_precision, def_recall, def_mrr, def_hit = [], [], [], []
+
     for ttp in tqdm(sf.tech_scores, desc='calculating all TTPS', disable=True):
-        results = query_mitigation(args, TTP=ttp)  
+        results = query_mitigation(args, TTP=ttp, cdd_cve=cdd_cve)  
         if len(results[0]) > 0:
             cwe_precision.append(results[0][0])
             cwe_recall.append(results[0][1])
@@ -199,18 +217,42 @@ def main(args):
         if len(results[2]) > 0:
             def_precision.append(results[2][0])
             def_recall.append(results[2][1])
-    return np.mean(cwe_precision), np.mean(cwe_recall), np.mean(miti_precision), np.mean(miti_recall), np.mean(def_precision), np.mean(def_recall)
+    return round(np.mean(cwe_precision), 4), round(np.mean(cwe_recall), 4), round(np.mean(miti_precision), 4), round(np.mean(miti_recall), 4), round(np.mean(def_precision), 4), round(np.mean(def_recall), 4)
     # print(np.mean(cwe_precision), np.mean(cwe_recall))
     # print(np.mean(miti_precision), np.mean(miti_recall))
     # print(np.mean(def_precision), np.mean(def_recall))
 
 
+    
 args = parse_args()
-os.makedirs(args.save_dir, exist_ok=True)
-writer = csv.writer(open(os.path.join(args.save_dir, 'top%d.csv' % args.topk_rst), 'w'))
-for n_cve in tqdm([50, 100, 200, 300, 500, 1000, 2000]):
-    args.n_cve = n_cve
-    rst = main(args)
-    writer.writerow([n_cve] + list(rst))
+entset = pickle.load(open(os.path.join(args.kg_path, 'entset.pkl'), 'rb'))
+assert args.system_cate in entset, 'please specify the cate in entset.keys()'
+kw_cve_dict = defaultdict(set)
 
+for h, r, t in sf.factset[sf.rev_rel_prefix + sf.rel_dict['cve-id:'+args.system_cate]]:
+    # cate to cve
+    assert h in entset[args.system_cate] and t in entset['cve-id']
+    kw_cve_dict[preprocess_pd_name(h)].add(t)
 
+ttp_products = set()
+for _, v in ttp_info.items():
+    ttp_products |= set(v['platforms'])
+print(ttp_products)
+
+for org_pd in tqdm(ttp_products):  # entset[args.system_cate]
+    pd = preprocess_pd_name(org_pd)
+    print('Org name %s, preprocessed name %s' % (org_pd, pd))
+    cdd_cve = cdd_cve_by_kw(args.system_cate, pd, entset, kw_cve_dict)
+    if len(cdd_cve) < 200:
+        continue
+        
+    save_path = os.path.join(args.save_dir, str(org_pd))
+    os.makedirs(save_path, exist_ok=True)
+    writer = csv.writer(open(os.path.join(save_path, 'top%d.csv' % args.topk_rst), 'w'))
+    for n_cve in [50, 100, 200, 300]:
+        args.n_cve = n_cve
+        rst = main(args, cdd_cve)
+        writer.writerow([n_cve] + list(rst))
+        rst = main(args, None)
+        writer.writerow([n_cve] + list(rst))
+        

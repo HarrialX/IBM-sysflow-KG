@@ -118,7 +118,6 @@ for tech, capecs in tech2capec.items():
         if len(capec2cwe[capec])>0:
             tech2cwe[tech] |= capec2cwe[capec]
 
-
 # ----------- multi view part ------------#
 
 file = open(os.path.join(os.getcwd(), "../data/mitre-attack/cve-tech-cossim.csv"))
@@ -189,6 +188,7 @@ def link_BRON(gid: int = None, ttp: int or list = None):
 
 
 def cdd_cve_by_kw(cate, keyword):
+    # this func is inefficient for many keywords, extract the kw_cve_dict out of this func
     assert cate in entset, 'please specify the cate in entset.keys()'
     kw_cve_dict = defaultdict(set)
 
@@ -210,7 +210,6 @@ def ttp_cve_link(
     n_cve: int = None, 
     tech: str or list = None, 
     multiview = False, 
-    filtering = False,
     cdd_cve = None,
     verbose = False):
     
@@ -254,7 +253,7 @@ def ttp_cve_link(
     top_cves = [cve_codes[i] for i in top_ind]
     top_scores = [round(sum_scores[i], 4) for i in top_ind]
     
-    if filtering:
+    if cdd_cve is not None:
         ft_cve_list, ft_score_list = [], []
         for i, cve in enumerate(top_cves):
             if cve in cdd_cve:
